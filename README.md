@@ -14,7 +14,7 @@ websites/
   gift/dist/       # 故事二可直接部署的静态网站
   football/dist/   # 原故事可直接部署的静态网站
 materials/
-  original/gift/   # 选定的原始插图及配音导出
+  original/gift/   # 选定的插图原文件与索引
   original/football/
   final/gift/      # 最终交付素材
   final/football/
@@ -45,4 +45,8 @@ GitHub 是可迁移源码与素材的主库。Sites 官方源码流程目前不�
 
 ## 素材范围
 
-仅保留选定原始插图、配音导出、最终素材与网站必需资源。原片录屏、声音参考、模型权重、推理环境和中间试做仅存本地，不进入公共仓库。网站已有 AI 内容说明应保留；角色、音乐和原作资料的权利仍属于各权利人，仓库记录与素材说明不构成授权证明。
+仅保留选定原始插图、配音导出、最终素材与网站必需资源。原片录屏、声音参考、模型权重和推理环境仅存本地；中间试做与临时产物已清理，不进入公共仓库。网站已有 AI 内容说明应保留；角色、音乐和原作资料的权利仍属于各权利人，仓库记录与素材说明不构成授权证明。
+
+仓库的 [Deployments](https://github.com/Jady891213/video-bluey_peppa/deployments) 已登记两套线上网站。环境名为 `Sites-gift` 与 `Sites-football`，点击环境地址可打开当前线上故事；这属于发布结果登记，后续改动仍需单独通过 Sites 官方流程发布。
+
+登记使用 [GitHub Deployments](https://docs.github.com/en/rest/deployments/deployments) 与 [Deployment Statuses](https://docs.github.com/en/rest/deployments/statuses)；这些记录用于标记已经完成的发布，不执行上传素材或重新部署。

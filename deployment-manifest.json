@@ -375,6 +375,13 @@
         },
         "count": 358,
         "bytes": 235439449
+      },
+      "github_deployment": {
+        "id": 6999966220,
+        "environment": "Sites-football",
+        "snapshot_commit": "683d706dc83326902f93da5b8c81f57b4fea4d60",
+        "status": "success",
+        "environment_url": "https://football-storybook-junjun.wenjun-zhou686779.chatgpt.site/"
       }
     },
     {
@@ -570,7 +577,14 @@
         "count": 178,
         "bytes": 104730810
       },
-      "version_id": "appgprj_6aca6c28cb0881919aef4f48ec53c4b7~appgver_d9f90e9cffd481918e5a5a9d1f3c803a"
+      "version_id": "appgprj_6aca6c28cb0881919aef4f48ec53c4b7~appgver_d9f90e9cffd481918e5a5a9d1f3c803a",
+      "github_deployment": {
+        "id": 6999969689,
+        "environment": "Sites-gift",
+        "snapshot_commit": "683d706dc83326902f93da5b8c81f57b4fea4d60",
+        "status": "success",
+        "environment_url": "https://gift-storybook-junjun.wenjun-zhou686779.chatgpt.site/"
+      }
     }
   ],
   "verified_at": "2026-10-12T02:31:35.905833+08:00"
