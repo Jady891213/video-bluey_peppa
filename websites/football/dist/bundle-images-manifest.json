@@ -1,0 +1,474 @@
+{
+  "filename": "junjun-75-images-83-positions-indextts25-selected-r4-20261010.zip",
+  "files": [
+    {
+      "path": "03_75幅绘本生成图片/83画面位置到75图片映射.csv",
+      "url": "downloads/materials-v13/images/03_75幅绘本生成图片/83画面位置到75图片映射.csv",
+      "bytes": 21594,
+      "sha256": "bea9e92326110ffd6e2cfdc0ab1f9bd67e1527a32aadf27c7bb82272a15e9e5d"
+    },
+    {
+      "path": "03_75幅绘本生成图片/83画面位置到75图片映射.json",
+      "url": "downloads/materials-v13/images/03_75幅绘本生成图片/83画面位置到75图片映射.json",
+      "bytes": 49434,
+      "sha256": "0977f72a79eba1c3f426534e25a589df57f3dec71bd6e8de98f0b849e490722e"
+    },
+    {
+      "path": "03_75幅绘本生成图片/README.md",
+      "url": "downloads/materials-v13/images/03_75幅绘本生成图片/README.md",
+      "bytes": 581,
+      "sha256": "5bf09d863d1d8f418d0c162cd32ab9a601e88b37c61761a553cec75a9e8b15c0"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F01-E.png",
+      "url": "assets/storyboards/car-r1/F01-E.png",
+      "bytes": 1824513,
+      "sha256": "686d5b6f27fc542ce7f87776979abc76ca8c9f1d1c6ea3d7af61784291948f70"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F01-M1.png",
+      "url": "assets/storyboards/car-r1/F01-M1.png",
+      "bytes": 1840095,
+      "sha256": "a7513163b6324e29287c17c4e67f096c7f35428805369ce9d60f9044d6f0a99a"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F01-M2.png",
+      "url": "assets/storyboards/car-r1/F01-M2.png",
+      "bytes": 1794927,
+      "sha256": "b443d53270779ad8e90f3976257409f6a7dee6ed23a887c61c59d722e3b9aea7"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F01-S.png",
+      "url": "assets/storyboards/car-r1/F01-S.png",
+      "bytes": 1712768,
+      "sha256": "077aea534037bb30c953e47e9d35b9e57e47f19687f7a6d771d691703b6c6a7b"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F02-E.png",
+      "url": "assets/storyboards/v9/F02-E.png",
+      "bytes": 1891009,
+      "sha256": "508dd01d44c00d6182f3b1636037ad6def9ff60458f59204ba1ba5cf96076e43"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F02-M1.png",
+      "url": "assets/storyboards/v9/F02-M1.png",
+      "bytes": 1817193,
+      "sha256": "6beb945286d1e7dc60d7b5ca17d12111cafeae0fbf2254d0828f874cbdf32f3f"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F02-M2.png",
+      "url": "assets/storyboards/v9/F02-M2.png",
+      "bytes": 1855175,
+      "sha256": "5ad2b36557f5899a02323352789bf6822b87e9c724b75200dc9787036f48d728"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F02-S.png",
+      "url": "assets/storyboards/v9/F02-S.png",
+      "bytes": 1802979,
+      "sha256": "c9654d6c465e059c139a200a0050714fcff9e6334ab2c0313df61408573ad194"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F03-E.png",
+      "url": "assets/storyboards/v9/F03-E.png",
+      "bytes": 1695727,
+      "sha256": "fb03dd3c8ef787a97c03bf366ca1c16425d1b32fba428814a5960dae9c2aee41"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F03-M1.png",
+      "url": "assets/storyboards/v9/F03-M1.png",
+      "bytes": 1738681,
+      "sha256": "cd7e1ce5ca8c0961c47066cf73a9c9c24c9a123a7501fbc14f4d846124d4fbb1"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F03-M2.png",
+      "url": "assets/storyboards/v9/F03-M2.png",
+      "bytes": 1661854,
+      "sha256": "5f546f38555417d1a62d67fdd565c2a322e5028f26f0c749769918c57141c31f"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F03-S.png",
+      "url": "assets/storyboards/v9/F03-S.png",
+      "bytes": 1680398,
+      "sha256": "08c7bde0a83f47ef85e4a04b44a59e113880d25846b6e899549b9f3c0f5e605b"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F04-E.png",
+      "url": "assets/storyboards/v9/F04-E.png",
+      "bytes": 1615624,
+      "sha256": "54f8023681aaf0ad3a1b1143f7bc5e24afd0a8a538bfe9c1a473ea3205185356"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F04-M1.png",
+      "url": "assets/storyboards/v9/F04-M1.png",
+      "bytes": 1607736,
+      "sha256": "ba1b38673848f9ec280be9db0dbb56fb7b2e148e52ec1bcd671e8c04dcecd8f0"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F04-S.png",
+      "url": "assets/storyboards/v9/F10-S.png",
+      "bytes": 1626436,
+      "sha256": "780f11a36bfef5da49af6e62171e8329f8a9f16bb20c4712ece7793a938616cb"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F05-E.png",
+      "url": "assets/storyboards/v9/F05-E.png",
+      "bytes": 1422498,
+      "sha256": "174ba7c21981a6be0dbc8c105e79d645761c5ff8dbd4a6914e89a9ad474c0865"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F05-M1.png",
+      "url": "assets/storyboards/v9/F05-M1.png",
+      "bytes": 1379963,
+      "sha256": "682c71af234de6ea028dee1fd63a12e3f412050f10d3dd82b8c9f63acc2c5f35"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F05-S.png",
+      "url": "assets/storyboards/v9/F05-S.png",
+      "bytes": 1371549,
+      "sha256": "1fb965bc5491c808e8c58ce30bc0671d73e3b96d68816d1ea2565c66e66e3b6c"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F06-M1.png",
+      "url": "assets/storyboards/v9/F06-E.png",
+      "bytes": 1433252,
+      "sha256": "a1d42ba268d2783e5f90efa0005c1ecd0162196601410b2c9f05bf69ab5a39b9"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F06-S.png",
+      "url": "assets/storyboards/v9/F06-S.png",
+      "bytes": 1472187,
+      "sha256": "4aaa1442794268c4467c6264513169b271590226fdd0003502b021e6208a6fc7"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F07-E.png",
+      "url": "assets/storyboards/v9/F07-E.png",
+      "bytes": 1445268,
+      "sha256": "9c51353c709e9e76819fa86c9dc8d6cb45a25edefa862b39aaa101945d3529f7"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F07-M1.png",
+      "url": "assets/storyboards/v9/F07-M1.png",
+      "bytes": 1442577,
+      "sha256": "e642b1357a29b75ce9b8072e133eb70049faf775fa14dceb48c93a4b4aec25ae"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F07-S.png",
+      "url": "assets/storyboards/v9/F07-S.png",
+      "bytes": 1407117,
+      "sha256": "40b8fff2446b9eae84ae0f469fbf08325da463af3dac70bf3c820539a460add7"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F08-E.png",
+      "url": "assets/storyboards/v9/F08-E.png",
+      "bytes": 1477609,
+      "sha256": "9f035eb2cc66b6e8de4daa9bbab6e395bdf209a9dde9d2a708e10f16d289bfe7"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F08-M1.png",
+      "url": "assets/storyboards/v9/F08-M1.png",
+      "bytes": 1467640,
+      "sha256": "48e0e0f78757321e447e18633a062aec3f77e62a1706fa090e0fa1b7474d120c"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F08-S.png",
+      "url": "assets/storyboards/v9/F08-S.png",
+      "bytes": 1388021,
+      "sha256": "f95c703e7878a19bd9350c9ffc59a3238e73f92068e8184da1f256f033161515"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F09-M1.png",
+      "url": "assets/storyboards/v9/F09-M1.png",
+      "bytes": 1486231,
+      "sha256": "15bcd9af673303b8c5bbd2cd402fcd4f477ae3869c2a1cff71e072560f0b7276"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F09-M2.png",
+      "url": "assets/storyboards/v9/F17-S.png",
+      "bytes": 1480123,
+      "sha256": "4c44d77bb8e8633efb2faf592132895940ff023cadf58b9d495090b40852ebe3"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F09-S.png",
+      "url": "assets/storyboards/v9/F09-S.png",
+      "bytes": 1517072,
+      "sha256": "6296227d0cc73950799aea33d0107861f8fce12b91e8e7d49a4390002f241ba1"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F10-E.png",
+      "url": "assets/storyboards/v9/F10-E.png",
+      "bytes": 1697205,
+      "sha256": "f8f558f50475ee9d74515c50b71ed88c7392b5608758f5f74c897cec6418fc4c"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F10-M1.png",
+      "url": "assets/storyboards/v9/F10-M1.png",
+      "bytes": 1657171,
+      "sha256": "230d6f78bf394c913d36fb8aadec4626fff3e50d093fbabf6175acc863aca19f"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F11-E.png",
+      "url": "assets/storyboards/v9/F11-E.png",
+      "bytes": 1722600,
+      "sha256": "a7c3c3141b092853ab1488756647df6776611147a0f5aa8cf9315bb3ff16960a"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F11-M1.png",
+      "url": "assets/storyboards/v9/F11-M1.png",
+      "bytes": 1730678,
+      "sha256": "1c04188e86c5bbaaa430d905208fa608bbdc1e8e904e8fce8d0701ff5753c044"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F11-M2.png",
+      "url": "assets/storyboards/v9/F11-M2.png",
+      "bytes": 1685421,
+      "sha256": "4c2c95ea81e27136719a1cc1eea2a66d40eb10ae43f7718d3ea26b5a30d939c5"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F11-S.png",
+      "url": "assets/storyboards/v9/F11-S.png",
+      "bytes": 1606653,
+      "sha256": "277a74ca767143b30f7102de949062cb9177e4734e630521dfa13416870d255f"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F12-E.png",
+      "url": "assets/storyboards/v9/F12-E.png",
+      "bytes": 1749063,
+      "sha256": "05fb1f8df554a0d382a06172d2884d85ce3136789ad4ca8500c9fd4a39f67955"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F12-M1.png",
+      "url": "assets/storyboards/v9/F12-M1.png",
+      "bytes": 1752264,
+      "sha256": "95c6c806167473f33927c6347bb9bf72e1f7404d3ce31e8eefad59472c2f6b42"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F12-M2.png",
+      "url": "assets/storyboards/v9/F12-M2.png",
+      "bytes": 1750577,
+      "sha256": "237edf55d6ab650773fc7136a11c54f135003763baf4404e07cd509cad66b4ef"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F12-S.png",
+      "url": "assets/storyboards/v9/F12-S.png",
+      "bytes": 1765515,
+      "sha256": "87851a35c0be9a13798de78fe4e0e94d518f3693cc455c295fa20fbfa40b3eaf"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F13-E.png",
+      "url": "assets/storyboards/v9/F13-E.png",
+      "bytes": 1411440,
+      "sha256": "8ae3bc267e5bc09c6b01b868a52b1171613ba994daa31adf76eb855b6037d128"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F13-M1.png",
+      "url": "assets/storyboards/v9/F13-M1.png",
+      "bytes": 1421995,
+      "sha256": "edbe7b59e19b0d3741895e6b949fc213e6cced386d48fc4ed0d52990504266db"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F13-S.png",
+      "url": "assets/storyboards/v9/F13-S.png",
+      "bytes": 1222330,
+      "sha256": "9d4c5bfbddc19b58310caeadaed24506afb23f2656bcd7da851603eae2d4c3f9"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F14-E.png",
+      "url": "assets/storyboards/v9/F15-S.png",
+      "bytes": 1702717,
+      "sha256": "ee9afc0095981f98d6fd36d72f5c84e7bc5ac973e1d6a6d7ab0c5c8e097d3064"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F14-M1.png",
+      "url": "assets/storyboards/v9/F14-M1.png",
+      "bytes": 1713021,
+      "sha256": "37cd9954ef3723e2267c8ab66e079acbdd123367e48bb93f7b0160c57975742b"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F14-M2.png",
+      "url": "assets/storyboards/v9/F14-M2.png",
+      "bytes": 1717856,
+      "sha256": "0be88e45733200fc882a81354d92e6244506b62b79264fa4b90b738e6b95a93a"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F14-S.png",
+      "url": "assets/storyboards/v9/F14-S.png",
+      "bytes": 1705244,
+      "sha256": "27a140ea925e0bf746b517322db1357819c4f60e025e67b5fab74194d2ee8a6a"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F15-E.png",
+      "url": "assets/storyboards/v9/F16-S.png",
+      "bytes": 1704067,
+      "sha256": "236e3381f7a18b86ac1c73b9f217016f4317373ead5248247cb0656edf2869b0"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F15-M1.png",
+      "url": "assets/storyboards/v9/F15-M1.png",
+      "bytes": 1718718,
+      "sha256": "3146324b6dc33f2589d58c4da543ab2016790766e6601893a33d7b103a1b777b"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F15-M2.png",
+      "url": "assets/storyboards/v9/F15-M2.png",
+      "bytes": 1717428,
+      "sha256": "86b66d8d60166eb0fff2b3cfc3d157f4bc1c959f107fcc6a93c5cda85973e030"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F16-E.png",
+      "url": "assets/storyboards/car-r1/F16-E.png",
+      "bytes": 1865111,
+      "sha256": "675d75395ea842260f52c8b7e17968514f8730fbca19c4072a412b252a70666a"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F16-M1.png",
+      "url": "assets/storyboards/v9/F16-M1.png",
+      "bytes": 1755015,
+      "sha256": "2c235763e2c31f6880a45b1e46b19affe2131eef7ddd094f6d21317400996136"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F17-E.png",
+      "url": "assets/storyboards/v9/F17-E.png",
+      "bytes": 1484606,
+      "sha256": "bd0f9245c63d4f382a6eb7e9009538afd6c1bdc688470c13ad28994c79f9e47f"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F17-M1.png",
+      "url": "assets/storyboards/v9/F17-M1.png",
+      "bytes": 1497228,
+      "sha256": "641c84b25a95f7444a57c929f07724e031f55e34d24321ae449d29df5c6b6acc"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F18-S.png",
+      "url": "assets/storyboards/v9/F18-E.png",
+      "bytes": 1377981,
+      "sha256": "b844edf81464053cc353fb3c58aec15a05522573c08a4ca5da3ecc9ba9951163"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F19-E.png",
+      "url": "assets/storyboards/v9/F19-E.png",
+      "bytes": 1433792,
+      "sha256": "f68bdd0f97a494a49a4d998c050fd34efc14dc632c3e9b78e7e9d330c6ade25e"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F19-M1.png",
+      "url": "assets/storyboards/v9/F19-M1.png",
+      "bytes": 1425596,
+      "sha256": "6de25fae8c5ef82edce9935de404c16e963b0380355f7543f6ea40dd86c62dd7"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F19-M2.png",
+      "url": "assets/storyboards/v9/F19-M2.png",
+      "bytes": 1464347,
+      "sha256": "d1c3440a15b99deb397ff99cdf2cad6cc974ef7657eba3ce93586d4e4ab4b123"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F19-S.png",
+      "url": "assets/storyboards/v9/F19-S.png",
+      "bytes": 1386730,
+      "sha256": "fc83f256a9b02f63c31918516ad80967181ca8b1c2e67bf60ca3d5e570cc3350"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F20-E.png",
+      "url": "assets/storyboards/v9/F20-E.png",
+      "bytes": 1813670,
+      "sha256": "d09052f6fba116a3838289908dfd385d4c5a65b4b687604f7a323cf4a8a1fe27"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F20-M1.png",
+      "url": "assets/storyboards/v9/F20-M1.png",
+      "bytes": 1851727,
+      "sha256": "b626bebf6877e097480ef447718357b434f7ca85f578aa45f71c499e48a86fcc"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F20-S.png",
+      "url": "assets/storyboards/v9/F20-S.png",
+      "bytes": 1829192,
+      "sha256": "0b35f3964a39c1601fb49420f19b539f39c596aa6749bf802c0193ac470440c8"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F21-E.png",
+      "url": "assets/storyboards/v9/F21-E.png",
+      "bytes": 1896038,
+      "sha256": "c683eba214a504d3d163f0e112041dc17abf128b575d7561fcceb69629b8a3e1"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F21-M1.png",
+      "url": "assets/storyboards/v9/F21-M1.png",
+      "bytes": 1857845,
+      "sha256": "ef7a772398ec604854a7c14971ee01e5aa52fd15c540463addb897acd5ebbaeb"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F21-S.png",
+      "url": "assets/storyboards/v9/F21-S.png",
+      "bytes": 1858239,
+      "sha256": "cf7ab357c9810f31229de4515f0d39e3fa657be4429801c53e51e28bda644533"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F22-E.png",
+      "url": "assets/storyboards/v9/F22-E.png",
+      "bytes": 1865859,
+      "sha256": "fede54d5525c468c980357ee590e52efaeea6d8d737cc8a80bc82e39cb25859b"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F22-M1.png",
+      "url": "assets/storyboards/v9/F22-M1.png",
+      "bytes": 1885681,
+      "sha256": "3fd0e32edaa7ef24109d10f6bd03ccb81c490eed4010d7674f616e5a82fafc61"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F22-M2.png",
+      "url": "assets/storyboards/v9/F22-M2.png",
+      "bytes": 1821053,
+      "sha256": "879b55e183b80c9874c2e5d3b6a92079de1236e6728b864c0ad82ee8ea31533b"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F22-S.png",
+      "url": "assets/storyboards/v9/F22-S.png",
+      "bytes": 1858772,
+      "sha256": "283efc3094dcec41b04a03cbc23a01b17475fbd3fb82c78be28f31947cf77aaa"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F23-E.png",
+      "url": "assets/storyboards/v9/F23-E.png",
+      "bytes": 1866268,
+      "sha256": "7a44c4cb1ed0cf4300cf6285673190052ce5e9fe0e054f27be65f28a25c78264"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F23-M1.png",
+      "url": "assets/storyboards/v9/F23-M1.png",
+      "bytes": 1888962,
+      "sha256": "cc4fd016fc70c71dd037979c928bf51b1469267220401ac822f3da61335f4816"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F23-S.png",
+      "url": "assets/storyboards/v9/F23-S.png",
+      "bytes": 1862894,
+      "sha256": "431f7618ca97f2545d0abf1a85577159a08d36ff760e23c64aa2bbf0d8ddb038"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F24-E.png",
+      "url": "assets/storyboards/v9/F24-E.png",
+      "bytes": 1880668,
+      "sha256": "0b1c2c9ba41487854a212c258767e80be1de678a69ab4b29aec31c4de1a65dff"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F24-M1.png",
+      "url": "assets/storyboards/v9/F24-M1.png",
+      "bytes": 1887547,
+      "sha256": "bbc4d9f81197f63fbb7d681bc32a37b8f800c555d745771330747fd0657aa2e5"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F24-M2.png",
+      "url": "assets/storyboards/v9/F24-M2.png",
+      "bytes": 1881941,
+      "sha256": "772048d7e3de501af7e95c0ee4f854ded258242d22f2f38fef4e2c6b6b1cc0df"
+    },
+    {
+      "path": "03_75幅绘本生成图片/图片/F24-S.png",
+      "url": "assets/storyboards/v9/F24-S.png",
+      "bytes": 1901376,
+      "sha256": "c5ac3d0da564cbf60a17005bf0eca552e4142f8ce526f9a59acce076d1b0d29c"
+    }
+  ],
+  "basis": "75PNG保持；83位置映射附当前已选配音版实测时码；baseline字段仅历史"
+}

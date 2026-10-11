@@ -1,0 +1,2793 @@
+{
+  "schema_version": "1.0",
+  "title": "准备礼物",
+  "story_id": "gift-story-2",
+  "revision": "2026-10-12-九处批注修正与移植仓库",
+  "status": "正式静态绘本与AI配音工作样稿；按九处批注修正供用户细听",
+  "source": {
+    "site_project_id": "appgprj_6ac7ce2172a48191b35ca6155d77f673",
+    "baseline_site_version": 21,
+    "baseline_commit": "1d10e37523ecc75dc8f8ee7f074fde53c2ce9abf",
+    "latest_user_override": "按旧足球电子书模式，至少相同数量级插图；全脚本先配音一版统一确认。此请求覆盖交接稿中本故事暂不配音的阶段限制。",
+    "current_site_project_id": "appgprj_6aca6c28cb0881919aef4f48ec53c4b7"
+  },
+  "counts": {
+    "page_positions": 84,
+    "unique_illustrations": 75,
+    "existing_unique_illustrations": 19,
+    "new_unique_illustrations": 56,
+    "held_positions": 9,
+    "voiced_lines": 108,
+    "acts": 5,
+    "revised_unique_illustrations": 34
+  },
+  "production_assumptions": [
+    {
+      "id": "bench-search",
+      "adopted_for_this_pass": true,
+      "individually_user_confirmed": false,
+      "note": "第四幕暂采用长椅下找球候选，制作完整一版供用户统一确认。"
+    },
+    {
+      "id": "equal-score",
+      "adopted_for_this_pass": true,
+      "individually_user_confirmed": false,
+      "note": "最后君君一脚进球，1:2扳平2:2，属于本次整版暂采用。"
+    },
+    {
+      "id": "packaging-clearance",
+      "note": "12+4+2=18仅为屏幕候选概念，刚好相等不代表有包装余量。台词自然提醒实际量盒留隙，不修改给定候选数字、不宣布工程实物已核验；真实打印前必须验证插接、软垫压缩与盒盖余量。"
+    },
+    {
+      "id": "story-form",
+      "note": "本轮交付电子书图文和整版配音，84画面位置并非已完成动画，不用整图平移缩放冒充真实转头/递物/跑步/触球。下一阶段动画使用独立动作参考帧。"
+    },
+    "本轮增加模特游戏与爸爸快递车，原有打印操作由动作带过；不增加第三次实际打印。",
+    "2026-10-11最新反馈：结尾由已认可的佩奇男旁白朗读经典大家都喜欢踢球段；故事二网站改为公网访问。",
+    "先播放约24秒家庭日常，再由布鲁伊报出本集名字，呈现中英文礼物标题卡，随后接回第一幕。"
+  ],
+  "characters": {
+    "旁白": {
+      "voice_role": "PeppaNarrator_03",
+      "note": "所有旁白统一沿用足球版小猪佩奇男旁白。"
+    },
+    "布鲁伊": {
+      "voice_role": "Bluey_lively_revision2"
+    },
+    "宾果": {
+      "voice_role": "Bingo_bright_revision2",
+      "note": "按用户反馈重新补采明亮主动的语气，旧委屈Y不再覆盖整部故事。"
+    },
+    "班迪特": {
+      "voice_role": "Bandit_natural_revision2",
+      "note": "自然连贯的爸爸声音，陪孩子玩礼物小店；不逐字停顿，不套用旧道歉E。"
+    },
+    "奇莉": {
+      "voice_role": "Chilli_daily_revision2"
+    },
+    "佩奇": {
+      "voice_role": "Peppa_daily_play_revision2"
+    },
+    "乔治": {
+      "voice_role": "George_new_hearing_aid_stage",
+      "note": "采用妹妹Evie已出生、乔治已佩戴助听器的较新阶段；国语原片参考为国内第十二季，角色对白仍须保留幼儿年龄感。"
+    },
+    "猪爸爸": {
+      "voice_role": "DaddyPig_current_B"
+    },
+    "猪妈妈": {
+      "voice_role": "MummyPig_daily_revision2"
+    }
+  },
+  "global_visual_rules": [
+    "新旧故事独立，不修改足球故事。",
+    "第一幕与标题不剧透佩奇；第二幕第一次揭晓佩奇；第三幕首次直接邀请君君。",
+    "只两轮实际打印：微型布鲁伊、小佩奇礼物；时间省略明确且冷却之后成人取件。",
+    "画纸固定四孩子+足球+单只绿色恐龙，场边始终是同一张画。",
+    "黄色矮圆台成品必须与第三幕选定预览一致；软垫在盒底。",
+    "新图使用新hash资源名；制作原PNG不加入Sites部署，公开包保持256MiB展开上限。",
+    "互动为正常播放留白，家长可暂停，不设置答题卡、连续算术、滑杆、模型旋转或自动回答识别。",
+    "对白自然短句，舞台说明、制作规则、尺寸候选备注与人物名不作为配音正文。"
+  ],
+  "audio_rules": {
+    "narrator": "PeppaNarrator_03",
+    "line_order": "按pages顺序，再按dialogue数组顺序",
+    "do_not_read": [
+      "页面标题",
+      "幕标题",
+      "人物名",
+      "图片提示词",
+      "舞台说明",
+      "制作备注",
+      "候选尺寸备忘"
+    ],
+    "timing": "每条音频生成后按真实采样数重算时轴；页面总时长由声音时长、行后停顿和互动停顿求得，不套旧故事时码。",
+    "duration_estimate_only": "预计约5—7分钟，最终以真实配音和停顿实测为准。"
+  },
+  "pages": [
+    {
+      "page_id": "G003",
+      "page_number": 1,
+      "scene_id": "G02",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "爸爸回来啦！",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-003",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-003.png",
+        "existing_key": null,
+        "generation_started_by_parent": true,
+        "generation_job_key": "arrival-front-driver",
+        "prompt": "班迪特从橙色SUV前驾驶位下车，车后备箱仍关闭，高长打印机箱尚未取出；布鲁伊和宾果仍在家门廊迎接，不从中门下车。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。橙SUV、前驾驶位、高长箱与原参考图保持连续。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L002",
+          "speaker": "布鲁伊",
+          "text": "爸爸回来啦！",
+          "emotion": "明亮开心地招呼，带想冲去迎接的劲头，不尖叫",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G004",
+      "page_number": 2,
+      "scene_id": "G02",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "孩子迎接大箱子",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-004",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-004.png",
+        "existing_key": "arrival-0",
+        "generation_started_by_parent": false,
+        "generation_job_key": null,
+        "prompt": "班迪特已从前驾驶位下车，取出高长打印机纸箱；布鲁伊和宾果在旁边迎接 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。橙SUV、前驾驶位、高长箱与原参考图保持连续。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L003",
+          "speaker": "布鲁伊",
+          "text": "爸爸，这么大的箱子里是什么呀？",
+          "emotion": "好奇地迎接爸爸，第一次看见箱子里的机器，明亮自然",
+          "pause_after_s": 0.18,
+          "voice_mood": "curious"
+        },
+        {
+          "line_id": "GIFT-L004",
+          "speaker": "班迪特",
+          "text": "打印机！能做出小礼物的机器。",
+          "emotion": "兴奋地介绍刚搬回家的新东西，整句流畅，不讲解技术",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G005",
+      "page_number": 3,
+      "scene_id": "G02",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "礼物小店的老板",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-005",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-005.png",
+        "existing_key": "arrival-1",
+        "generation_started_by_parent": false,
+        "generation_job_key": null,
+        "prompt": "班迪特抱着同一只高长纸箱向家走，布鲁伊和宾果跟上 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。橙SUV、前驾驶位、高长箱与原参考图保持连续。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L005",
+          "speaker": "宾果",
+          "text": "那我们开个礼物小店，我当老板！",
+          "emotion": "听见能做礼物后马上想出开店游戏，明亮主动",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        },
+        {
+          "line_id": "GIFT-L006",
+          "speaker": "班迪特",
+          "text": "老板，先让我把箱子放下吧！",
+          "emotion": "抱箱子的轻微费劲和玩笑，整句连贯，不装笨",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G006",
+      "page_number": 4,
+      "scene_id": "G03",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "礼物小店开张",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-006",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-006.png",
+        "existing_key": null,
+        "prompt": "安装过程带过；同一房间的打印机稳放桌面，包装已收好。班迪特轻拍桌沿，孩子凑近看外壳。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L007",
+          "speaker": "班迪特",
+          "text": "礼物小店开张啦！",
+          "emotion": "跟着孩子玩，像宣布开门营业一样轻快自然",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        },
+        {
+          "line_id": "GIFT-L008",
+          "speaker": "布鲁伊",
+          "text": "第一件礼物，我们先来试试！",
+          "emotion": "想马上动手的兴奋，语气有行动力",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G007",
+      "page_number": 5,
+      "scene_id": "G04",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "机器的蓝色面条",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-007",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-007.png",
+        "existing_key": null,
+        "prompt": "班迪特拿出蓝色料卷，宾果观察线头，孩子的手不伸向机器内部。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L009",
+          "speaker": "宾果",
+          "text": "这是它的面条吗？",
+          "emotion": "认真中冒出好玩的想法，声音清亮，不怯生生",
+          "pause_after_s": 0.18,
+          "voice_mood": "curious"
+        },
+        {
+          "line_id": "GIFT-L010",
+          "speaker": "班迪特",
+          "text": "打印机的蓝色面条来了！",
+          "emotion": "接住孩子的比喻逗她笑，一口气自然说完",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G008",
+      "page_number": 6,
+      "scene_id": "G04",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "爸爸来帮忙",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-008",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-008.png",
+        "existing_key": null,
+        "prompt": "成人处理线头、导料与槽位，布鲁伊和宾果在安全距离旁看；模型列表只出现布鲁伊。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [],
+      "silent_min_duration_s": 0.8,
+      "interaction": null
+    },
+    {
+      "page_id": "G001",
+      "page_number": 7,
+      "scene_id": "G01",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "准备礼物",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-001",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-001.png",
+        "existing_key": "cover",
+        "prompt": "天蓝底，带珊瑚红蝴蝶结、蓝色衬纸与空白标签的黄色礼盒；圆润白色英文PREPARING GIFTS和中文准备礼物。没有人物或联动暗示。",
+        "continuity": []
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L001",
+          "speaker": "布鲁伊",
+          "text": "这一集布鲁伊的名字叫，准备礼物。",
+          "emotion": "明亮自然地报出本集名字，准备礼物四字清楚，轻快但不尖叫",
+          "pause_after_s": 0.25,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G002",
+      "page_number": 8,
+      "scene_id": "G01",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "标题停留",
+      "illustration": {
+        "mode": "hold",
+        "held_from": "G001",
+        "unique_illustration_id": "GIFT-ILL-001",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-001.png",
+        "prompt": null,
+        "visual_note": "布鲁伊报完本集标题后短停留，再接回家庭日常。"
+      },
+      "dialogue": [],
+      "silent_min_duration_s": 1.2,
+      "interaction": null
+    },
+    {
+      "page_id": "G009",
+      "page_number": 9,
+      "scene_id": "G04",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "送宾果一个布鲁伊",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-009",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-009.png",
+        "existing_key": null,
+        "prompt": "屏幕近景显示单个布鲁伊模型，选择卡不含佩奇或其它联动人物；爸爸手指停在选择按钮旁。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L012",
+          "speaker": "班迪特",
+          "text": "老板想先做什么礼物？",
+          "emotion": "认真配合假装开店，随口询问，不讲课",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        },
+        {
+          "line_id": "GIFT-L013",
+          "speaker": "布鲁伊",
+          "text": "做个我，送给宾果！",
+          "emotion": "很快做出决定，开心又亲近妹妹",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G010",
+      "page_number": 10,
+      "scene_id": "G04",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "请模特站好",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-010",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-010.png",
+        "existing_key": "loading-0",
+        "prompt": "布鲁伊在桌旁挺胸摆神气的模特姿势，宾果笑着指导姐姐，班迪特像摄影师一样陪她们玩；屏幕上仍只是布鲁伊模型预览。 无对白文字气泡，无水印。保持同一家人的角色比例、服饰、家具与前后场景连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ],
+        "visual_note": "布鲁伊在桌旁挺胸摆神气的模特姿势，宾果笑着指导姐姐，班迪特像摄影师一样陪她们玩；屏幕上仍只是布鲁伊模型预览。"
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L014",
+          "speaker": "班迪特",
+          "text": "模特请站好！",
+          "emotion": "配合孩子做小礼物的摄影师口吻，轻快连贯，带笑",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        },
+        {
+          "line_id": "GIFT-L111",
+          "speaker": "宾果",
+          "text": "姐姐，再神气一点！",
+          "emotion": "给姐姐支招，明亮开心有主意",
+          "voice_mood": "happy",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G011",
+      "page_number": 11,
+      "scene_id": "G05",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "神气的小耳朵",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-011",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-011.png",
+        "existing_key": null,
+        "prompt": "仅屏幕近景，布鲁伊数字模型以逐层截面显示，尺寸标签在角落很小；爸爸指向耳朵轮廓，兴奋地漏看实际尺寸。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L015",
+          "speaker": "班迪特",
+          "text": "瞧这两只神气的小耳朵！",
+          "emotion": "兴奋欣赏屏幕模型而漏看角落尺寸，轻松整句",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G012",
+      "page_number": 12,
+      "scene_id": "G05",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "两个布鲁伊",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-012",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-012.png",
+        "existing_key": "loading-1",
+        "prompt": "沿用顶盖关闭的第一轮预览启动图，孩子不碰机器内部；爸爸确认预览后启动。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L016",
+          "speaker": "布鲁伊",
+          "text": "等它出来，你就有两个我啦！",
+          "emotion": "对妹妹说悄悄得意的笑话，活泼有弹性",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G013",
+      "page_number": 13,
+      "scene_id": "G05",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "小礼物慢慢做好",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-013",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-013.png",
+        "existing_key": null,
+        "prompt": "打印舱近景，蓝色微小布鲁伊在板上只成形到一半，成人和孩子都不伸手进去。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [],
+      "silent_min_duration_s": 0.8,
+      "interaction": null
+    },
+    {
+      "page_id": "G014",
+      "page_number": 14,
+      "scene_id": "G05",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "礼物小店的快递车",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-014",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-014.png",
+        "existing_key": null,
+        "prompt": "等待小礼物时，爸爸趴在客厅地毯上扮快递车，布鲁伊在他背上笑，宾果在旁边指向沙发；打印机只在远处工作，孩子远离机器。 无对白文字气泡，无水印。保持同一家人的角色比例、服饰、家具与前后场景连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ],
+        "visual_note": "等待小礼物时，爸爸趴在客厅地毯上扮快递车，布鲁伊在他背上笑，宾果在旁边指向沙发；打印机只在远处工作，孩子远离机器。"
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L109",
+          "speaker": "宾果",
+          "text": "快递员，去沙发那边！",
+          "emotion": "扮老板给爸爸指路，开心清楚而不是尖叫",
+          "voice_mood": "happy",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L110",
+          "speaker": "班迪特",
+          "text": "哎呀，老板又改地址啦！",
+          "emotion": "边陪孩子玩边故作惊讶抱怨，随口连贯，不一字一顿",
+          "voice_mood": "happy",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L018",
+          "speaker": "旁白",
+          "text": "过了好一会儿，小礼物做好了。",
+          "emotion": "简短自然地带过时间，不介绍工序",
+          "pause_after_s": 0.25
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G015",
+      "page_number": 15,
+      "scene_id": "G05",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "玩着玩着，礼物好了",
+      "illustration": {
+        "mode": "hold",
+        "held_from": "G014",
+        "unique_illustration_id": "GIFT-ILL-014",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-014.png",
+        "prompt": null,
+        "visual_note": "快递游戏之后短暂留白，时间过去，小模型也完成并冷却。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [],
+      "silent_min_duration_s": 1.5,
+      "interaction": null
+    },
+    {
+      "page_id": "G016",
+      "page_number": 16,
+      "scene_id": "G06",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "请老板验收",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-016",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-016.png",
+        "existing_key": null,
+        "prompt": "班迪特检查完成状态，打开盖后先确认已冷却，再由成人取下打印板；孩子等在旁边。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L019",
+          "speaker": "班迪特",
+          "text": "已经凉好了，请老板验收！",
+          "emotion": "确认冷却后继续陪孩子玩，顺口邀请",
+          "pause_after_s": 0.18,
+          "voice_mood": "neutral"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G017",
+      "page_number": 17,
+      "scene_id": "G06",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "掌心里的小布鲁伊",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-017",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-017.png",
+        "existing_key": "miniature-0",
+        "prompt": "沿用爸爸掌心里的微型布鲁伊；模型只有指甲大小，两个孩子先惊讶后凑近。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L020",
+          "speaker": "宾果",
+          "text": "布鲁伊，你变成小蓝莓啦！",
+          "emotion": "发现小模型像蓝莓一样小，笑着逗姐姐；声音明亮有劲",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G018",
+      "page_number": 18,
+      "scene_id": "G06",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "旅行装布鲁伊",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-018",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-018.png",
+        "existing_key": "miniature-1",
+        "prompt": "沿用爸爸举到脸边的同一小模型；两个孩子笑起来。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L108",
+          "speaker": "布鲁伊",
+          "text": "我可不是蓝莓！",
+          "emotion": "假装不服气地抗议，语尾有笑意，活泼而不是生气哭腔",
+          "pause_after_s": 0.12,
+          "voice_mood": "happy"
+        },
+        {
+          "line_id": "GIFT-L021",
+          "speaker": "班迪特",
+          "text": "这是旅行装布鲁伊！",
+          "emotion": "看见小成品后机灵接话，自然幽默，整句流动",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        },
+        {
+          "line_id": "GIFT-L022",
+          "speaker": "布鲁伊",
+          "text": "那我就能陪你到处玩啦！",
+          "emotion": "接住爸爸的笑话对妹妹说，开心又真诚",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G019",
+      "page_number": 19,
+      "scene_id": "G07",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "再准备一份惊喜",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-019",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-019.png",
+        "existing_key": null,
+        "prompt": "奇莉在厨房旁准备水与水果，爸爸将微型布鲁伊放回家中托盘，布鲁伊手里只有空白标签，绝不出现佩奇图像或名字。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L023",
+          "speaker": "奇莉",
+          "text": "下午还要见朋友呢，礼物小店忙得过来吗？",
+          "emotion": "妈妈随口加入孩子的游戏，亲切带笑",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L024",
+          "speaker": "布鲁伊",
+          "text": "当然！我还要准备一份惊喜。",
+          "emotion": "很有主意地接着计划，轻快有期待",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        },
+        {
+          "line_id": "GIFT-L025",
+          "speaker": "班迪特",
+          "text": "收到，我们再接一单！",
+          "emotion": "自然响应孩子而非安排任务，轻松带笑",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G020",
+      "page_number": 20,
+      "scene_id": "G07",
+      "act": 1,
+      "chapter": "第一幕 · 旅行装布鲁伊",
+      "title": "让朋友也笑起来",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-020",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-020.png",
+        "existing_key": null,
+        "prompt": "空白小标签的近景，布鲁伊蓝色小手把它放到桌面；下一页以同形白纸接场，不出现佩奇或观众互动。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "本幕不出现佩奇名字、图像、模型或视频通话；不邀请君君。高长箱、黑色打印机、蓝色微型布鲁伊与原参考图保持一致。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L026",
+          "speaker": "旁白",
+          "text": "这次，她想让朋友也笑起来。",
+          "emotion": "轻轻收住第一幕，重心是送礼的心意",
+          "pause_after_s": 0.25
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G021",
+      "page_number": 21,
+      "scene_id": "G08",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "另一张白纸",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-021",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-021.png",
+        "existing_key": null,
+        "prompt": "佩奇家厨房桌上摊开白纸，蜡笔与画夹整齐摆着；佩奇拿起蜡笔，乔治端来小盒。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L027",
+          "speaker": "旁白",
+          "text": "原来，佩奇也在准备一个小惊喜。",
+          "emotion": "轻快揭晓",
+          "pause_after_s": 0.25
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G022",
+      "page_number": 22,
+      "scene_id": "G08",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "画下四个朋友",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-022",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-022.png",
+        "existing_key": "drawing-0",
+        "prompt": "沿用四孩子画图，画纸只有布鲁伊、宾果、佩奇、乔治，正在画足球。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L028",
+          "speaker": "佩奇",
+          "text": "我要画我们四个，一起踢足球！",
+          "emotion": "有主意地安排自己的礼物，明快自然",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G023",
+      "page_number": 23,
+      "scene_id": "G08",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "乔治也想画",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-023",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-023.png",
+        "existing_key": null,
+        "prompt": "乔治在桌边把绿蜡笔举给佩奇看，画纸维持上一页已有线条，尚未新增父母。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L029",
+          "speaker": "乔治",
+          "text": "我也来画，我要绿色的！",
+          "emotion": "能说完整短句的年幼孩子，主动加入，不拼接喊词",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L030",
+          "speaker": "佩奇",
+          "text": "给你这支绿的。",
+          "emotion": "亲切",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G024",
+      "page_number": 24,
+      "scene_id": "G08",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "送给布鲁伊的画",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-024",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-024.png",
+        "existing_key": null,
+        "prompt": "猪妈妈端水果经过桌旁，低头看已有四孩子轮廓，佩奇抬头说明礼物；家中布景沿用佩奇扁平动画风格。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L031",
+          "speaker": "猪妈妈",
+          "text": "你把朋友们都画进来了呀。",
+          "emotion": "温和赞许",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L032",
+          "speaker": "佩奇",
+          "text": "这张画要送给布鲁伊。",
+          "emotion": "开心认真",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G025",
+      "page_number": 25,
+      "scene_id": "G09",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "添上足球",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-025",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-025.png",
+        "existing_key": null,
+        "prompt": "画纸俯视近景，佩奇的红色袖口与笔尖正画一个足球；四个孩子的位置锁定，旁边留出绿色恐龙位置。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L033",
+          "speaker": "佩奇",
+          "text": "我们一起踢球！",
+          "emotion": "开心",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G026",
+      "page_number": 26,
+      "scene_id": "G09",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "恐龙也要来",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-026",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-026.png",
+        "existing_key": "drawing-1",
+        "prompt": "沿用乔治为同一张四孩子画添绿色恐龙的图，佩奇停笔看他。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L034",
+          "speaker": "乔治",
+          "text": "还要把恐龙画上！",
+          "emotion": "坚持自己的小主意，清楚而有兴致",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L035",
+          "speaker": "佩奇",
+          "text": "好吧，不过它不能吃足球！",
+          "emotion": "调皮轻快",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G027",
+      "page_number": 27,
+      "scene_id": "G09",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "恐龙站在草地上",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-027",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-027.png",
+        "existing_key": null,
+        "prompt": "乔治指着画里的绿色恐龙，佩奇给它脚下补一小块平涂草地；画纸仍只有四孩子、足球、单只绿色恐龙。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L036",
+          "speaker": "乔治",
+          "text": "它也想跟我们踢球！",
+          "emotion": "把玩具当朋友的认真劲，连贯而童真",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L037",
+          "speaker": "佩奇",
+          "text": "那让它在旁边给大家加油吧。",
+          "emotion": "姐姐顺着弟弟的想法，轻快自然",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G028",
+      "page_number": 28,
+      "scene_id": "G10",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "猪爸爸准备守门",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-028",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-028.png",
+        "existing_key": null,
+        "prompt": "猪爸爸弯腰看画后张开双手摆一个守门姿势，球袋和球在旁边，乔治模仿同一姿势。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L038",
+          "speaker": "猪爸爸",
+          "text": "那我来带足球，你们带小礼物。",
+          "emotion": "亲切自信",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L039",
+          "speaker": "佩奇",
+          "text": "爸爸，你也要跟我们一起踢！",
+          "emotion": "开心邀请",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G029",
+      "page_number": 29,
+      "scene_id": "G10",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "肚子也帮忙抱球",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-029",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-029.png",
+        "existing_key": null,
+        "prompt": "猪爸爸把足球轻轻搁在圆肚子前用双手托住，球没有弹走；佩奇笑着指，笑话只发生在家里不增加支线。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L040",
+          "speaker": "佩奇",
+          "text": "爸爸，是你在抱球，还是肚子在抱球？",
+          "emotion": "调皮发问",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L041",
+          "speaker": "猪爸爸",
+          "text": "我们一起抱！",
+          "emotion": "轻松幽默",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G030",
+      "page_number": 30,
+      "scene_id": "G10",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "画夹保护礼物",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-030",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-030.png",
+        "existing_key": null,
+        "prompt": "猪妈妈把画夹放到佩奇面前，猪爸爸将球装进同一只袋；桌上画纸四孩子、球、恐龙都保持一致。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L042",
+          "speaker": "猪妈妈",
+          "text": "水和水果装好了。画放进画夹，就不会弄皱。",
+          "emotion": "温和叮嘱",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G031",
+      "page_number": 31,
+      "scene_id": "G10",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "带好恐龙和球袋",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-031",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-031.png",
+        "existing_key": null,
+        "prompt": "佩奇轻轻合上画夹，乔治抱自己的绿色恐龙玩具，猪爸爸把足球袋提到门边；猪妈妈留在家。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L043",
+          "speaker": "猪爸爸",
+          "text": "球和礼物，都带好了。",
+          "emotion": "轻快",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L044",
+          "speaker": "乔治",
+          "text": "我要带恐龙一起去！",
+          "emotion": "说清自己的打算，开心但不是两字喊叫",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G032",
+      "page_number": 32,
+      "scene_id": "G11",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "画里的四个孩子",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-032",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-032.png",
+        "existing_key": "drawing-closeup-0",
+        "prompt": "沿用画纸近景：固定四孩子、足球和绿色恐龙，没有父母。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L045",
+          "speaker": "佩奇",
+          "text": "我们四个都在球旁边！",
+          "emotion": "展示大家一起玩的画面，得意开心",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G033",
+      "page_number": 33,
+      "scene_id": "G11",
+      "act": 2,
+      "chapter": "第二幕 · 佩奇的小惊喜",
+      "title": "给画留一会儿",
+      "illustration": {
+        "mode": "hold",
+        "held_from": "G032",
+        "unique_illustration_id": "GIFT-ILL-032",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-032.png",
+        "prompt": null,
+        "visual_note": "保持上一幅，给观众自然看完整画，不要求指认或答题；以画夹合上的声音衔接下一幕开礼盒。",
+        "continuity": [
+          "画纸只含四孩子：布鲁伊、宾果、佩奇、乔治，外加一个足球和单只绿色恐龙；不增加父母。佩奇角色保持官方侧脸、细手脚与扁平比例。"
+        ]
+      },
+      "dialogue": [],
+      "silent_min_duration_s": 1.3,
+      "interaction": null
+    },
+    {
+      "page_id": "G034",
+      "page_number": 34,
+      "scene_id": "G12",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "给佩奇一个惊喜",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-034",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-034.webp",
+        "existing_key": "size-0",
+        "prompt": "沿用礼盒、尺子、软垫与屏幕模型的预览图；桌面没有实体佩奇摆件。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L046",
+          "speaker": "布鲁伊",
+          "text": "我要送佩奇一个小小的佩奇！",
+          "emotion": "想到朋友打开礼物的样子，活泼期待",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        },
+        {
+          "line_id": "GIFT-L047",
+          "speaker": "宾果",
+          "text": "开盒子的那一下，肯定最好玩！",
+          "emotion": "迫不及待和姐姐分享想象，明亮有劲",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G035",
+      "page_number": 35,
+      "scene_id": "G12",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "礼物要住进盒子",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-035",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-035.png",
+        "existing_key": null,
+        "prompt": "屏幕近景展示同一个12厘米候选小佩奇，旁边为三个未选底座缩略模型；手指选择小佩奇，不出现实体成品。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L048",
+          "speaker": "班迪特",
+          "text": "好主意，可别把礼物挤坏了。",
+          "emotion": "边看空盒边轻轻打趣，自然连贯",
+          "pause_after_s": 0.18,
+          "voice_mood": "neutral"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G036",
+      "page_number": 36,
+      "scene_id": "G12",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "铺一个软垫",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-036",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-036.png",
+        "existing_key": null,
+        "prompt": "布鲁伊打开真实空盒，宾果把软垫和尺子移到旁边；内盒干净无成品，盒盖与盒身颜色锁定。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L049",
+          "speaker": "宾果",
+          "text": "我要给它铺个软垫！",
+          "emotion": "主动承担准备礼物的一部分，干脆开心",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G037",
+      "page_number": 37,
+      "scene_id": "G13",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "软软的小座位",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-037",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-037.png",
+        "existing_key": null,
+        "prompt": "真实空礼盒底部放一块软垫，画面近景显示其在底部而不是顶部；旁边屏幕仍是未打印的数字模型。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L050",
+          "speaker": "班迪特",
+          "text": "给小佩奇留个软软的座位。",
+          "emotion": "赞同孩子照顾礼物的心意，温暖顺口",
+          "pause_after_s": 0.18,
+          "voice_mood": "neutral"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G038",
+      "page_number": 38,
+      "scene_id": "G13",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "选一个小舞台",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-038",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-038.webp",
+        "existing_key": "size-closeup-0",
+        "prompt": "沿用正式屏幕近景：小佩奇本体不变，黄圆台4、珊瑚六边台6、紫星台8，盒内18与底部软垫2均标候选方案。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L051",
+          "speaker": "布鲁伊",
+          "text": "我想给她一个神气的小舞台！",
+          "emotion": "为朋友挑礼物的兴奋，富有想象",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        },
+        {
+          "line_id": "GIFT-L052",
+          "speaker": "班迪特",
+          "text": "小佩奇还是这么高，换个底座试试。",
+          "emotion": "边看屏幕边商量，连贯口语，避免关键词逐个蹦",
+          "pause_after_s": 0.18,
+          "voice_mood": "neutral"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G039",
+      "page_number": 39,
+      "scene_id": "G14",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "君君帮我们看一看",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-039",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-039.webp",
+        "existing_key": "size-1",
+        "prompt": "沿用布鲁伊首次转向观众的正式图：同机位同物件，礼物仍只在屏幕预览里。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L053",
+          "speaker": "布鲁伊",
+          "text": "君君，帮我们看看，哪个底座放得下，也能留好软垫的位置？",
+          "emotion": "第一次转向观众求帮忙，自然亲近，不像出题",
+          "pause_after_s": 0.18,
+          "voice_mood": "curious"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G040",
+      "page_number": 40,
+      "scene_id": "G14",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "留几秒看预览",
+      "illustration": {
+        "mode": "hold",
+        "held_from": "G039",
+        "unique_illustration_id": "GIFT-ILL-039",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-039.webp",
+        "prompt": null,
+        "visual_note": "保持上一幅，正常播放等待回答，不倒计时、不假装识别、不要求拖拽；家长可暂停。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [],
+      "silent_min_duration_s": 4,
+      "interaction": {
+        "type": "normal_playback_answer_pause",
+        "wait_s": 4,
+        "prompt_line_id": "GIFT-L053",
+        "parent_can_pause": true,
+        "no_answer_detection": true
+      }
+    },
+    {
+      "page_id": "G041",
+      "page_number": 41,
+      "scene_id": "G15",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "换成矮黄色圆台",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-041",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-041.png",
+        "existing_key": null,
+        "prompt": "独立屏幕近景，12厘米同一个小佩奇选中矮黄色圆台，其他两台退到旁边；盒内18与底部软垫2参考线维持。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L054",
+          "speaker": "班迪特",
+          "text": "黄色这个怎么样？",
+          "emotion": "和孩子平等商量，短句仍要流畅",
+          "pause_after_s": 0.18,
+          "voice_mood": "neutral"
+        },
+        {
+          "line_id": "GIFT-L055",
+          "speaker": "宾果",
+          "text": "黄色的最矮！",
+          "emotion": "发现线索后抢着指出，明亮干脆",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G042",
+      "page_number": 42,
+      "scene_id": "G15",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "还要留一点空隙",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-042",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-042.png",
+        "existing_key": null,
+        "prompt": "屏幕近景上黄方案12＋4＋2＝18，与盒口参考线相齐；其它方案20、22高出参考线。数字仅显示为候选概念预览，不画问答卡、不称实物核验。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L056",
+          "speaker": "布鲁伊",
+          "text": "太好了，不用再做旅行装佩奇！",
+          "emotion": "接上第一幕的小笑话，开心自然",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        },
+        {
+          "line_id": "GIFT-L057",
+          "speaker": "宾果",
+          "text": "那盒盖还盖得上吗？",
+          "emotion": "认真看出问题，清亮有主意，不软弱撒娇",
+          "pause_after_s": 0.18,
+          "voice_mood": "curious"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G043",
+      "page_number": 43,
+      "scene_id": "G15",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "爸爸再量一量",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-043",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-043.png",
+        "existing_key": null,
+        "prompt": "班迪特用尺子核对真实空礼盒内侧与底部软垫，布鲁伊看着；不改变候选数字，不标注新实测数值，不预先出现成品。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L058",
+          "speaker": "班迪特",
+          "text": "我再量量真盒子，还得给盒盖留点空隙。",
+          "emotion": "接受孩子提醒后自然补查，整句连贯，不训话",
+          "pause_after_s": 0.18,
+          "voice_mood": "neutral"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G044",
+      "page_number": 44,
+      "scene_id": "G16",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "这回可不能只看耳朵",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-044",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-044.png",
+        "existing_key": null,
+        "prompt": "屏幕近景，小佩奇加黄色圆台的已选方案进入切片逐层预览，角色模型与底座形状一致；不要出现新的第三轮打印对象。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L059",
+          "speaker": "班迪特",
+          "text": "这次可不能只顾着看耳朵了！",
+          "emotion": "自嘲刚才太兴奋，聪明轻松，不装笨",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G045",
+      "page_number": 45,
+      "scene_id": "G16",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "小礼物准备开工",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-045",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-045.png",
+        "existing_key": null,
+        "prompt": "班迪特按设备真实流程准备粉色与黄色材料，孩子观察屏幕，内部操作只有成人；不声称单色材料可自动多色。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [],
+      "silent_min_duration_s": 0.8,
+      "interaction": null
+    },
+    {
+      "page_id": "G046",
+      "page_number": 46,
+      "scene_id": "G16",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "礼物小店开工喽",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-046",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-046.png",
+        "existing_key": null,
+        "prompt": "同一黑色打印机顶盖关闭；爸爸手在外部控制面板，孩子安全站在一旁；屏幕只展示小佩奇礼物方案。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L061",
+          "speaker": "班迪特",
+          "text": "礼物小店开工喽！",
+          "emotion": "爸爸陪孩子一起期待，整句流动，不机械宣告",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G047",
+      "page_number": 47,
+      "scene_id": "G16",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "等她打开盒子的那一下",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-047",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-047.png",
+        "existing_key": null,
+        "prompt": "第二轮打印开始，舱内逐层形成小佩奇与矮黄色圆底座；此时只部分成形，桌面没有预先做好的礼物。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L062",
+          "speaker": "布鲁伊",
+          "text": "我都等不及看她打开盒子了！",
+          "emotion": "想象送礼时刻，轻快雀跃但不尖叫",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G048",
+      "page_number": 48,
+      "scene_id": "G17",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "老板们吃午饭",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-048",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-048.png",
+        "existing_key": null,
+        "prompt": "奇莉在餐桌边招手，班迪特和孩子离开工作桌，机器留在稳定桌面继续第二轮；微型布鲁伊放家中托盘。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L063",
+          "speaker": "奇莉",
+          "text": "礼物先慢慢做，老板们来吃饭啦！",
+          "emotion": "妈妈带笑招呼，顺着孩子的游戏",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G049",
+      "page_number": 49,
+      "scene_id": "G17",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "午饭后再来看",
+      "illustration": {
+        "mode": "hold",
+        "held_from": "G048",
+        "unique_illustration_id": "GIFT-ILL-048",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-048.png",
+        "prompt": null,
+        "visual_note": "保持上一幅，通过配音与停留完成明确的时间省略，不误表示现实几秒完成打印；不增加重复制作。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L065",
+          "speaker": "旁白",
+          "text": "午饭后，小佩奇也做好了。",
+          "emotion": "简洁带过第二次打印的时间",
+          "pause_after_s": 0.25
+        }
+      ],
+      "silent_min_duration_s": 1,
+      "interaction": null
+    },
+    {
+      "page_id": "G050",
+      "page_number": 50,
+      "scene_id": "G18",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "迎接小客人",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-050",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-050.png",
+        "existing_key": null,
+        "prompt": "机器显示完成，舱内完整小佩奇黄色圆台；班迪特等冷却后再检查，孩子在外。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L066",
+          "speaker": "班迪特",
+          "text": "凉好了，来迎接你们的小客人吧！",
+          "emotion": "确认冷却后温暖邀请，自然口语",
+          "pause_after_s": 0.18,
+          "voice_mood": "neutral"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G051",
+      "page_number": 51,
+      "scene_id": "G18",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "小佩奇的小舞台",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-051",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-051.png",
+        "existing_key": null,
+        "prompt": "班迪特取板并把同一个粉色小佩奇、矮黄色圆底座稳妥放到软布上；孩子不碰热端，布鲁伊双手等着。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L067",
+          "speaker": "宾果",
+          "text": "小佩奇，你的舞台好漂亮！",
+          "emotion": "大方地对小模型说话，清亮开心，不轻飘",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G052",
+      "page_number": 52,
+      "scene_id": "G18",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "坐稳啦，小佩奇",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-052",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-052.png",
+        "existing_key": null,
+        "prompt": "布鲁伊把底部软垫铺平，在班迪特协助下把同一个小佩奇放在软垫上；模型黄色圆台与预览一致。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L068",
+          "speaker": "布鲁伊",
+          "text": "小佩奇坐稳啦，我们要去见大佩奇了！",
+          "emotion": "装礼物时还在想象游戏，开心又小心",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G053",
+      "page_number": 53,
+      "scene_id": "G18",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "先保密",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-053",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-053.png",
+        "existing_key": null,
+        "prompt": "已装好礼物，盒盖自然合上不挤压模型；画面不标尺寸证明、不宣称12+4+2等于18的真实包装已经合格。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L069",
+          "speaker": "布鲁伊",
+          "text": "先保密，见到她才打开！",
+          "emotion": "压住一点兴奋守住惊喜，清楚不气声",
+          "pause_after_s": 0.18,
+          "voice_mood": "curious"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G054",
+      "page_number": 54,
+      "scene_id": "G19",
+      "act": 3,
+      "chapter": "第三幕 · 准备一份合适的礼物",
+      "title": "出发送礼物",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-054",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-054.png",
+        "existing_key": null,
+        "prompt": "奇莉在门内递水包，班迪特提包，布鲁伊抱同一礼盒，宾果跟上；微型布鲁伊留家里，妈妈不去球场。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "小佩奇候选本体12厘米保持不变，底座黄圆台4/珊瑚六边台6/紫星台8；盒内净高18与底部软垫2为候选概念方案。第二轮打印前不存在实体小佩奇；选择黄圆台之后不恢复高底座。成人处理热端、取板与首次装配。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L070",
+          "speaker": "奇莉",
+          "text": "礼物带好了吗？该去见朋友了。",
+          "emotion": "日常出门招呼，温暖自然",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L071",
+          "speaker": "宾果",
+          "text": "礼物小店出发送货！",
+          "emotion": "大声开心宣布出发，响亮有行动力",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G055",
+      "page_number": 55,
+      "scene_id": "G20",
+      "act": 4,
+      "chapter": "第四幕 · 球先玩了躲猫猫",
+      "title": "到球场入口",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-055",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-055.png",
+        "existing_key": null,
+        "prompt": "猪爸爸停车后从前驾驶位下车，佩奇乔治安全下车后走入与车道分开的入口休息区；佩奇提画夹，猪爸爸拿球袋。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L072",
+          "speaker": "猪爸爸",
+          "text": "到了，咱们从这边进去。",
+          "emotion": "亲切轻快",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G056",
+      "page_number": 56,
+      "scene_id": "G20",
+      "act": 4,
+      "chapter": "第四幕 · 球先玩了躲猫猫",
+      "title": "入口的朋友",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-056",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-056.png",
+        "existing_key": null,
+        "prompt": "简洁平涂球场入口，苏西和瑞贝卡在入口向佩奇挥手；长椅与球场门的位置清楚，不形成复杂地图。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L073",
+          "speaker": "佩奇",
+          "text": "苏西！瑞贝卡！",
+          "emotion": "开心招呼",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G057",
+      "page_number": 57,
+      "scene_id": "G21",
+      "act": 4,
+      "chapter": "第四幕 · 球先玩了躲猫猫",
+      "title": "球袋放到长椅旁",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-057",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-057.png",
+        "existing_key": null,
+        "prompt": "佩奇把猪爸爸递来的球袋轻放长椅旁，画夹靠椅背，乔治抱绿色玩具恐龙；袋口绳松开。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L074",
+          "speaker": "旁白",
+          "text": "佩奇把球袋放到长椅旁边。",
+          "emotion": "自然讲述",
+          "pause_after_s": 0.25
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G058",
+      "page_number": 58,
+      "scene_id": "G21",
+      "act": 4,
+      "chapter": "第四幕 · 球先玩了躲猫猫",
+      "title": "足球悄悄滚出去",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-058",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-058.png",
+        "existing_key": null,
+        "prompt": "足球从袋口缓慢滚到同一长椅下面，只露出一部分；人物注意朋友，没有看见，不增加其他丢失物。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L075",
+          "speaker": "旁白",
+          "text": "足球悄悄滚了出去。",
+          "emotion": "轻轻讲述",
+          "pause_after_s": 0.25
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G059",
+      "page_number": 59,
+      "scene_id": "G21",
+      "act": 4,
+      "chapter": "第四幕 · 球先玩了躲猫猫",
+      "title": "袋子里空了",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-059",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-059.png",
+        "existing_key": null,
+        "prompt": "佩奇转回来拎起空袋，轻微惊讶；保持入口宽景能看出长椅下露出的足球。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L076",
+          "speaker": "佩奇",
+          "text": "咦，我的球呢？",
+          "emotion": "自然疑惑",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L077",
+          "speaker": "猪爸爸",
+          "text": "刚才还在袋里呀。",
+          "emotion": "轻轻疑惑",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G060",
+      "page_number": 60,
+      "scene_id": "G22",
+      "act": 4,
+      "chapter": "第四幕 · 球先玩了躲猫猫",
+      "title": "佩奇请君君帮忙",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-060",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-060.png",
+        "existing_key": null,
+        "prompt": "佩奇看向观众，手指空球袋，不指球的位置；同一宽景中长椅下足球仍部分可见。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L078",
+          "speaker": "佩奇",
+          "text": "君君，你看见它躲到哪里了吗？",
+          "emotion": "亲切邀请",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G061",
+      "page_number": 61,
+      "scene_id": "G22",
+      "act": 4,
+      "chapter": "第四幕 · 球先玩了躲猫猫",
+      "title": "给君君找球时间",
+      "illustration": {
+        "mode": "hold",
+        "held_from": "G060",
+        "unique_illustration_id": "GIFT-ILL-060",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-060.png",
+        "prompt": null,
+        "visual_note": "保持上一幅宽景，停留4秒；不突然切到答案、不要求点击，不假装理解回答。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [],
+      "silent_min_duration_s": 4,
+      "interaction": {
+        "type": "normal_playback_answer_pause",
+        "wait_s": 4,
+        "prompt_line_id": "GIFT-L078",
+        "parent_can_pause": true,
+        "no_answer_detection": true
+      }
+    },
+    {
+      "page_id": "G062",
+      "page_number": 62,
+      "scene_id": "G23",
+      "act": 4,
+      "chapter": "第四幕 · 球先玩了躲猫猫",
+      "title": "乔治发现了",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-062",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-062.png",
+        "existing_key": null,
+        "prompt": "乔治蹲下从长椅侧面指着露出的足球，佩奇顺着看过去；场景位置与球滚动方向一致。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L079",
+          "speaker": "乔治",
+          "text": "我看见了，在椅子下面！",
+          "emotion": "等待君君找球之后才说出发现，连贯清楚",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G063",
+      "page_number": 63,
+      "scene_id": "G23",
+      "act": 4,
+      "chapter": "第四幕 · 球先玩了躲猫猫",
+      "title": "佩奇抱好足球",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-063",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-063.png",
+        "existing_key": null,
+        "prompt": "佩奇从长椅下拿回同一足球并抱稳，猪爸爸收好空球袋与画夹，乔治站在旁边。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L080",
+          "speaker": "佩奇",
+          "text": "原来躲在椅子下面。",
+          "emotion": "释然开心",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L081",
+          "speaker": "猪爸爸",
+          "text": "还没开赛，它先玩起躲猫猫了！",
+          "emotion": "轻松幽默",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L082",
+          "speaker": "佩奇",
+          "text": "这次我要抱紧你。",
+          "emotion": "开心认真",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G064",
+      "page_number": 64,
+      "scene_id": "G23",
+      "act": 4,
+      "chapter": "第四幕 · 球先玩了躲猫猫",
+      "title": "从入口走进球场",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-064",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-064.png",
+        "existing_key": null,
+        "prompt": "佩奇抱球、猪爸爸带画夹、乔治抱恐龙，苏西瑞贝卡在旁跟着走入球场；远处布鲁伊挥手，妈妈不出现。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L083",
+          "speaker": "布鲁伊",
+          "text": "佩奇，这边！",
+          "emotion": "远处开心招呼",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G065",
+      "page_number": 65,
+      "scene_id": "G24",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "两家在球场见面",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-065",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-065.png",
+        "existing_key": "exchange-0",
+        "prompt": "沿用正式见面图：两位爸爸四孩子，Coco、Snickers、苏西、瑞贝卡为场边熟人；妈妈不来。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L084",
+          "speaker": "佩奇",
+          "text": "我们来啦！",
+          "emotion": "开心",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G066",
+      "page_number": 66,
+      "scene_id": "G24",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "递出礼盒",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-066",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-066.png",
+        "existing_key": null,
+        "prompt": "布鲁伊双手把同一礼盒递到佩奇手中，双方手与盒位置连续；猪爸爸在旁准备接盖。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L085",
+          "speaker": "布鲁伊",
+          "text": "快打开，这是给你的惊喜！",
+          "emotion": "期待朋友反应，开心热切",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G067",
+      "page_number": 67,
+      "scene_id": "G24",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "打开小惊喜",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-067",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-067.png",
+        "existing_key": null,
+        "prompt": "佩奇打开盒盖，看见粉色小佩奇与矮黄色圆台，双手拿起；猪爸爸接空盒和盖，布鲁伊看着。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L086",
+          "speaker": "佩奇",
+          "text": "是小小的我呀！",
+          "emotion": "惊喜",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L087",
+          "speaker": "布鲁伊",
+          "text": "君君也帮忙挑了这个小舞台！",
+          "emotion": "开心分享大家一起准备的心意",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G068",
+      "page_number": 68,
+      "scene_id": "G24",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "让佩奇看一看礼物",
+      "illustration": {
+        "mode": "hold",
+        "held_from": "G067",
+        "unique_illustration_id": "GIFT-ILL-067",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-067.png",
+        "prompt": null,
+        "visual_note": "保持上一幅，留短停顿看礼物与开心表情，不把同图再次计算为独立插图。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L088",
+          "speaker": "佩奇",
+          "text": "谢谢！我也有礼物！",
+          "emotion": "开心感谢",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.8,
+      "interaction": null
+    },
+    {
+      "page_id": "G069",
+      "page_number": 69,
+      "scene_id": "G25",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "交换礼物完成",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-069",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-069.png",
+        "existing_key": "exchange-1",
+        "prompt": "沿用正式交换图：布鲁伊接同一四孩子画，佩奇捧黄色圆台小佩奇，猪爸爸拿空盒和盖。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L089",
+          "speaker": "佩奇",
+          "text": "这张画里，我们四个一起踢球！",
+          "emotion": "把四个孩子当同样重要的朋友，开心自豪",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L090",
+          "speaker": "乔治",
+          "text": "这只恐龙是我画的！",
+          "emotion": "自豪展示自己的贡献，完整自然短句",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G070",
+      "page_number": 70,
+      "scene_id": "G25",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "画带到了球场",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-070",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-070.png",
+        "existing_key": null,
+        "prompt": "独立近景，布鲁伊蓝色手托同一张四孩子、足球、单只绿色恐龙的画，四孩子位置、笔触与第二幕严格一致；不要加父母。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L091",
+          "speaker": "布鲁伊",
+          "text": "我喜欢！我们都在一起玩！",
+          "emotion": "收到朋友心意后的真开心，不介绍画面构图",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G071",
+      "page_number": 71,
+      "scene_id": "G25",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "礼物放在场边",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-071",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-071.png",
+        "existing_key": null,
+        "prompt": "猪爸爸将画夹打开靠稳在场边安全长椅，小佩奇留在装好软垫的打开盒里，远离足球滚动路线；孩子跑向球。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L092",
+          "speaker": "猪爸爸",
+          "text": "小礼物放好，轮到足球啦！",
+          "emotion": "开心组织",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G072",
+      "page_number": 72,
+      "scene_id": "G26",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "混着组队",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-072",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-072.png",
+        "existing_key": null,
+        "prompt": "两端球门清楚，班迪特守右端，猪爸爸守左端；布鲁伊与佩奇搭档向班迪特进攻，宾果与乔治向猪爸爸进攻；四熟悉NPC只在场边。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L093",
+          "speaker": "班迪特",
+          "text": "来吧，我守这边！",
+          "emotion": "开心自信",
+          "pause_after_s": 0.18,
+          "voice_mood": "neutral"
+        },
+        {
+          "line_id": "GIFT-L094",
+          "speaker": "旁白",
+          "text": "孩子们混着组队，踢起了足球。",
+          "emotion": "自然讲述",
+          "pause_after_s": 0.25
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G073",
+      "page_number": 73,
+      "scene_id": "G26",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "宾果传给乔治",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-073",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-073.png",
+        "existing_key": null,
+        "prompt": "宾果支撑脚站稳向乔治轻轻地面传球，乔治正面迎球，猪爸爸在相应球门准备；球的去向清楚。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L095",
+          "speaker": "宾果",
+          "text": "乔治，给你！",
+          "emotion": "运动中的明亮呼喊，实在有劲，避免柔弱",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        },
+        {
+          "line_id": "GIFT-L096",
+          "speaker": "乔治",
+          "text": "传给我，我来射门！",
+          "emotion": "接球前主动呼应，有信心的童声短整句",
+          "pause_after_s": 0.18,
+          "voice_mood": "energetic"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G074",
+      "page_number": 74,
+      "scene_id": "G26",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "乔治射门爸爸接住",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-074",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-074.png",
+        "existing_key": null,
+        "prompt": "乔治接球后向猪爸爸守门端轻踢，猪爸爸弯腰双手接住，足球实际靠近并接触手；简短时间省略后边上显示布鲁伊佩奇侧1:2。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L097",
+          "speaker": "猪爸爸",
+          "text": "接住啦！再来最后一次进攻，我们就喝水休息。",
+          "emotion": "开心温和",
+          "pause_after_s": 0.18
+        },
+        {
+          "line_id": "GIFT-L098",
+          "speaker": "旁白",
+          "text": "踢了一会儿，布鲁伊这边还差一个球。",
+          "emotion": "清晰自然",
+          "pause_after_s": 0.25
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G075",
+      "page_number": 75,
+      "scene_id": "G27",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "布鲁伊准备传球",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-075",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-075.webp",
+        "existing_key": "pass-0",
+        "prompt": "沿用正式后摆腿图，朝佩奇的传球方向与班迪特所在球门连续。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L099",
+          "speaker": "布鲁伊",
+          "text": "佩奇，接住！",
+          "emotion": "踢球中自然抬高音量，活泼干脆",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G076",
+      "page_number": 76,
+      "scene_id": "G27",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "足球沿地面传过去",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-076",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-076.webp",
+        "existing_key": "pass-1",
+        "prompt": "沿用正式触球后前摆图；足球沿地面去向佩奇，脚与球接触动作前后对应。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [],
+      "silent_min_duration_s": 1.1,
+      "interaction": null
+    },
+    {
+      "page_id": "G077",
+      "page_number": 77,
+      "scene_id": "G27",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "佩奇停住球",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-077",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-077.png",
+        "existing_key": null,
+        "prompt": "佩奇细小脚在地面轻挡停同一足球，身体转向观众；布鲁伊跟进让出线路，班迪特远处守门。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L100",
+          "speaker": "佩奇",
+          "text": "接住啦！君君，准备好！",
+          "emotion": "开心邀请",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G078",
+      "page_number": 78,
+      "scene_id": "G27",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "佩奇传向君君",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-078",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-078.png",
+        "existing_key": null,
+        "prompt": "佩奇将球从自己脚下沿地面轻推到观众前景，不画真人君君或虚构脸；她的脚前摆和球起点连续。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L101",
+          "speaker": "布鲁伊",
+          "text": "君君，轮到你啦！",
+          "emotion": "兴奋邀请一起玩，友好明亮",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G079",
+      "page_number": 79,
+      "scene_id": "G28",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "球来到君君面前",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-079",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-079.webp",
+        "existing_key": "shot-0",
+        "prompt": "沿用正式低视角球门图，足球停前景，班迪特张手，布鲁伊佩奇让出射门通道。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L102",
+          "speaker": "班迪特",
+          "text": "我准备好啦！",
+          "emotion": "开心克制",
+          "pause_after_s": 0.18,
+          "voice_mood": "neutral"
+        },
+        {
+          "line_id": "GIFT-L103",
+          "speaker": "佩奇",
+          "text": "准备好了，就踢过来！",
+          "emotion": "开心鼓励",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G080",
+      "page_number": 80,
+      "scene_id": "G28",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "最后一脚留给君君",
+      "illustration": {
+        "mode": "hold",
+        "held_from": "G079",
+        "unique_illustration_id": "GIFT-ILL-079",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-079.webp",
+        "prompt": null,
+        "visual_note": "保持上一幅正常播放等待3秒；君君可以说踢或做安全小动作，家长可暂停，不要求实际踢设备。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [],
+      "silent_min_duration_s": 3,
+      "interaction": {
+        "type": "normal_playback_answer_pause",
+        "wait_s": 3,
+        "prompt_line_id": "GIFT-L103",
+        "parent_can_pause": true,
+        "no_answer_detection": true
+      }
+    },
+    {
+      "page_id": "G081",
+      "page_number": 81,
+      "scene_id": "G28",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "球飞出去班迪特扑救",
+      "illustration": {
+        "mode": "existing",
+        "unique_illustration_id": "GIFT-ILL-081",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-081.png",
+        "existing_key": "shot-1",
+        "prompt": "班迪特腾空扑救，只有左臂朝球前伸，右臂从身体后侧肩部自然向后跟随；两条后腿、单尾，球仍在指尖前方。保持球场构图与G082进球落地连续。",
+        "continuity": [
+          "单左臂扑球，右臂自然后随，不把双手挤在头前；两条后腿、单条尾巴；球还未触手。"
+        ],
+        "visual_note": "足球朝右侧球门飞去，班迪特伸出两只手横向扑救，但指尖还差一点；两腿和尾巴自然向后。"
+      },
+      "dialogue": [],
+      "silent_min_duration_s": 1.1,
+      "interaction": null
+    },
+    {
+      "page_id": "G082",
+      "page_number": 82,
+      "scene_id": "G29",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "进球变成二比二",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-082",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-082.png",
+        "existing_key": null,
+        "prompt": "独立入网图：同一个足球进右侧网，班迪特落地后回头笑，布鲁伊与佩奇欢呼，清楚计分牌2:2，无奖杯；NPC在场边鼓掌。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L104",
+          "speaker": "布鲁伊",
+          "text": "进啦！",
+          "emotion": "孩子进球后不由自主的开心欢呼，音头清楚",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        },
+        {
+          "line_id": "GIFT-L105",
+          "speaker": "班迪特",
+          "text": "好球！",
+          "emotion": "开心认可",
+          "pause_after_s": 0.18,
+          "voice_mood": "neutral"
+        },
+        {
+          "line_id": "GIFT-L106",
+          "speaker": "佩奇",
+          "text": "平局，踢得真开心！",
+          "emotion": "开心满足",
+          "pause_after_s": 0.18
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G083",
+      "page_number": 83,
+      "scene_id": "G29",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "和君君击掌",
+      "illustration": {
+        "mode": "new",
+        "unique_illustration_id": "GIFT-ILL-083",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-083.png",
+        "existing_key": null,
+        "prompt": "布鲁伊与佩奇先互相击掌后面对镜头伸手，宾果乔治欢呼，两位爸爸笑；安全场边仍能见同一画与黄色底座礼物。 无对白文字气泡，无水印。保持正式参考图的角色比例、画风和同一物件连续。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L107",
+          "speaker": "布鲁伊",
+          "text": "君君，击掌！",
+          "emotion": "玩得开心后亲近地招呼，充满精神",
+          "pause_after_s": 0.18,
+          "voice_mood": "happy"
+        }
+      ],
+      "silent_min_duration_s": 0.55,
+      "interaction": null
+    },
+    {
+      "page_id": "G084",
+      "page_number": 84,
+      "scene_id": "G29",
+      "act": 5,
+      "chapter": "第五幕 · 见面与踢球",
+      "title": "大家都喜欢踢球",
+      "illustration": {
+        "mode": "hold",
+        "held_from": "G083",
+        "unique_illustration_id": "GIFT-ILL-083",
+        "source_path": "materials/original/gift/illustrations/GIFT-ILL-083.png",
+        "prompt": null,
+        "visual_note": "保持上一幅击掌画面，留结尾停顿，不新增总结考试或奖杯。",
+        "continuity": [
+          "沿用布鲁伊式平涂球场、大色块阴影与简洁树丛；无照片景深、草纹或油画纹理。球场只有两位爸爸和四孩子，奇莉与猪妈妈不在场；Coco、Snickers、苏西、瑞贝卡作熟悉场边配角，无奖杯。"
+        ]
+      },
+      "dialogue": [
+        {
+          "line_id": "GIFT-L112",
+          "speaker": "旁白",
+          "text": "布鲁伊喜欢踢球，佩奇喜欢踢球，君君也喜欢踢球，大家都喜欢踢球。",
+          "emotion": "经典片尾，亲切自然叙述，语速稍从容",
+          "pause_after_s": 0.45,
+          "voice_mood": "neutral"
+        }
+      ],
+      "silent_min_duration_s": 3,
+      "interaction": null
+    }
+  ]
+}

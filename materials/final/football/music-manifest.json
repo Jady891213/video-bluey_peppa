@@ -1,0 +1,57 @@
+{
+  "status": "OPTIONAL ORIGINAL TEMP MUSIC/SFX \u2014 preview before enabling",
+  "provenance": "Newly composed and synthesized for this project using local Python, NumPy/SciPy and FFmpeg. No samples, downloaded tracks, actor voices, or third-party compositions were used.",
+  "rights_note": "Original generated project assets, provided for use in this project. This is not licensed Bluey/Peppa music and is not an imitation of either soundtrack. No third-party music license is bundled or required for source samples because none were used.",
+  "default_enabled": false,
+  "music": {
+    "bpm": 96,
+    "bars": 16,
+    "key": "C major / pentatonic",
+    "loop_note": "40-second near-loop with 15 ms endpoint fades. Prefer WAV and a 30\u201380 ms crossfade for repeated playback. MP3 decoder padding can introduce a tiny gap.",
+    "intended_use": "Optional gentle instrumental bed during football silent montage. Keep off beneath narration unless separately reviewed; when needed reduce a further 8\u201312 dB."
+  },
+  "quality_notes": [
+    "Technically checked for sample rate, duration, finite samples, clipping and encoded readability.",
+    "No human listening review has been completed; this is a synthesized temp score, not a professionally produced final soundtrack.",
+    "Quiet target levels and soft attacks; playback loudness depends on device and application volume.",
+    "Music targeted at -25 LUFS; effects targeted at -30 to -32 LUFS with peak limits -16 to -17 dBTP. Short-effect loudness estimates are approximate."
+  ],
+  "assets": {
+    "football_bed": {
+      "wav": "original_temp_football_bed_40s.wav",
+      "mp3": "original_temp_football_bed_40s.mp3",
+      "duration_seconds": 40.0,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "sample_peak_dbfs": -15.11,
+      "rms_dbfs": -27.18
+    },
+    "ball_tap": {
+      "wav": "original_temp_soft_ball_tap.wav",
+      "mp3": "original_temp_soft_ball_tap.mp3",
+      "duration_seconds": 0.45,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "sample_peak_dbfs": -18.25,
+      "rms_dbfs": -33.46
+    },
+    "soft_whoosh": {
+      "wav": "original_temp_soft_pass_whoosh.wav",
+      "mp3": "original_temp_soft_pass_whoosh.mp3",
+      "duration_seconds": 0.8,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "sample_peak_dbfs": -19.74,
+      "rms_dbfs": -35.35
+    },
+    "gentle_chime": {
+      "wav": "original_temp_gentle_success_chime.wav",
+      "mp3": "original_temp_gentle_success_chime.mp3",
+      "duration_seconds": 1.4,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "sample_peak_dbfs": -20.89,
+      "rms_dbfs": -34.18
+    }
+  }
+}

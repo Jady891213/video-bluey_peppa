@@ -1,0 +1,18 @@
+{
+  "title": "准备礼物",
+  "filename": "准备礼物-剧本与时间轴.zip",
+  "files": [
+    {
+      "url": "/ebook/prepare-gifts-script.md",
+      "path": "剧本与时间轴/准备礼物-完整朗读稿.md",
+      "bytes": 8270,
+      "sha256": "4fec28d44cc49b4ee1171357b0ec5d717984345cd4ad5e2c2453c4a3f3ae7922"
+    },
+    {
+      "url": "/ebook/story.json",
+      "path": "剧本与时间轴/准备礼物-84页与108句时间轴.json",
+      "bytes": 49213,
+      "sha256": "6c2d6107e93191c698e8178c39739f9a3992629d7cdc7db98840e8d59808488b"
+    }
+  ]
+}

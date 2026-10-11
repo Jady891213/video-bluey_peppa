@@ -1,0 +1,100 @@
+{
+  "music": [
+    {
+      "id": "bluey-family",
+      "title": "Rain (Instrumental)",
+      "artist": "Bluey / Joff Bush / Jazz D'Arcy",
+      "source_url": "https://www.youtube.com/watch?v=U7Pvxqe2JvM",
+      "rights_note": "来源：用户本地网易云账号正常播放的短录音；曲目与录音权利归原权利人。",
+      "start_page": "G003",
+      "end_page": "G020",
+      "start_s": 0.0,
+      "end_s": 81.73882086167801,
+      "source_start_s": 14.0,
+      "source_end_s": 32.0
+    },
+    {
+      "id": "peppa-family",
+      "title": "Peppa's Lullaby (Instrumental)",
+      "artist": "Peppa Pig",
+      "source_url": "https://www.youtube.com/watch?v=mPpO75_N95g",
+      "rights_note": "来源：用户本地网易云账号正常播放的短录音；曲目与录音权利归原权利人。",
+      "start_page": "G021",
+      "end_page": "G033",
+      "start_s": 81.73882086167801,
+      "end_s": 145.39138321995466,
+      "source_start_s": 0.0,
+      "source_end_s": 18.0
+    },
+    {
+      "id": "bluey-making-gift",
+      "title": "Rain (Instrumental)",
+      "artist": "Bluey / Joff Bush / Jazz D'Arcy",
+      "source_url": "https://www.youtube.com/watch?v=U7Pvxqe2JvM",
+      "rights_note": "来源：用户本地网易云账号正常播放的短录音；曲目与录音权利归原权利人。",
+      "start_page": "G034",
+      "end_page": "G054",
+      "start_s": 145.39138321995466,
+      "end_s": 227.49201814058958,
+      "source_start_s": 14.0,
+      "source_end_s": 32.0
+    },
+    {
+      "id": "peppa-find-ball",
+      "title": "Peppa's Lullaby (Instrumental)",
+      "artist": "Peppa Pig",
+      "source_url": "https://www.youtube.com/watch?v=mPpO75_N95g",
+      "rights_note": "来源：用户本地网易云账号正常播放的短录音；曲目与录音权利归原权利人。",
+      "start_page": "G055",
+      "end_page": "G064",
+      "start_s": 227.49201814058958,
+      "end_s": 263.40902494331067,
+      "source_start_s": 0.0,
+      "source_end_s": 18.0
+    },
+    {
+      "id": "bluey-exchange-gifts",
+      "title": "Rain (Instrumental)",
+      "artist": "Bluey / Joff Bush / Jazz D'Arcy",
+      "source_url": "https://www.youtube.com/watch?v=U7Pvxqe2JvM",
+      "rights_note": "来源：用户本地网易云账号正常播放的短录音；曲目与录音权利归原权利人。",
+      "start_page": "G065",
+      "end_page": "G071",
+      "start_s": 263.40902494331067,
+      "end_s": 289.30548752834466,
+      "source_start_s": 14.0,
+      "source_end_s": 32.0
+    },
+    {
+      "id": "peppa-football",
+      "title": "Theme Music From Peppa Pig – Instrumental",
+      "artist": "Peppa Pig",
+      "source_url": "",
+      "rights_note": "来源：用户本地网易云账号正常播放的短录音；曲目与录音权利归原权利人。",
+      "start_page": "G072",
+      "end_page": "G083",
+      "start_s": 289.30548752834466,
+      "end_s": 333.15061224489796,
+      "source_start_s": 5.8,
+      "source_end_s": 25.8
+    },
+    {
+      "id": "peppa-classic-ending",
+      "title": "Theme Music From Peppa Pig – Instrumental",
+      "artist": "Peppa Pig",
+      "source_url": "",
+      "rights_note": "来源：用户本地网易云账号正常播放的短录音；曲目与录音权利归原权利人。",
+      "start_page": "G084",
+      "end_page": "G084",
+      "start_s": 333.15061224489796,
+      "end_s": 342.8884807256236,
+      "source_start_s": 5.8,
+      "source_end_s": 25.8
+    }
+  ],
+  "processing": "按原逐页时码混音；对白压低配乐，场景淡入淡出，必要时交叉淡化循环；干声另行保留。",
+  "duration_s": 342.8884807256236,
+  "sample_rate_hz": 22050,
+  "total_samples": 7560691,
+  "master_mp3_sha256": "a37a45238b99925248e1e4cc15f4d9ab7122f0aec888286218ae9bef8747942b"
+}

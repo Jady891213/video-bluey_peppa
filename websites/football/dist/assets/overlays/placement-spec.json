@@ -1,0 +1,44 @@
+{
+  "canvas": "16:9",
+  "undecided_tablet_models": {
+    "scenes": [
+      "F04",
+      "F10-S only"
+    ],
+    "asset": "three-models.png",
+    "placement_percent": {
+      "left": 48.5,
+      "top": 56,
+      "width": 24,
+      "height": 14
+    },
+    "transform_matrix": [
+      1,
+      0.09,
+      -0.12,
+      1,
+      0,
+      0
+    ],
+    "highlight": false
+  },
+  "F13_models": {
+    "asset": "three-models.png",
+    "placement_percent": {
+      "left": 4,
+      "top": 27,
+      "width": 69,
+      "height": 42
+    },
+    "label_layers": [
+      "choice-labels-question.svg",
+      "choice-labels-answer.svg"
+    ],
+    "label_canvas": "1600×900 full-frame",
+    "reveal_at_sec": 9.0
+  },
+  "F09_phone": "手机低电池/熄屏已经绘入对应帧，不叠加旧地图",
+  "F14_time_jump": "time-jump.svg在本镜overlay规定的显示区间出现",
+  "F18_route": "左路小桥+1树，中路无桥+2树，右路小桥+2树；physical-route-answer.svg仅在7秒观察结束或答对后继续时显示。route-geometry.json给出三路点击范围；clue-bridge/trees/both为递进提示。无球门提示或手机地图",
+  "interaction": "未点击时连续播放；点击会暂停。模型选择不改变足球奖杯主线。选错路给予提示和重选，选对后继续。"
+}

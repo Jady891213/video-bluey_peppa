@@ -1,0 +1,16 @@
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+TMP to delete*/
+*TMP to delete*
+sha256-manifest.json
+node_modules/
+.venv/
+*.log
+*.tar
+*.tar.gz
+*.tgz

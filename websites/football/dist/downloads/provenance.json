@@ -1,0 +1,1989 @@
+[
+  {
+    "path": "02_storyboards/shot01/start/F01-S.png",
+    "id": "F01-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "077aea534037bb30c953e47e9d35b9e57e47f19687f7a6d771d691703b6c6a7b",
+    "bytes": 1712768,
+    "correction": "Correct two-row five-seat right-hand-drive SUV layout, front driver-door/steering-wheel alignment and all opening shot car-orientation continuity",
+    "official_sources": [
+      "https://www.bluey.tv/characters/bobo/",
+      "https://www.moosetoys.com/gb/moose-news/exclusive-bluey-introduces-the-all-new-heeler-4wd"
+    ]
+  },
+  {
+    "path": "02_storyboards/shot01/mid/F01-M1.png",
+    "id": "F01-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "a7513163b6324e29287c17c4e67f096c7f35428805369ce9d60f9044d6f0a99a",
+    "bytes": 1840095,
+    "correction": "Correct two-row five-seat right-hand-drive SUV layout, front driver-door/steering-wheel alignment and all opening shot car-orientation continuity",
+    "official_sources": [
+      "https://www.bluey.tv/characters/bobo/",
+      "https://www.moosetoys.com/gb/moose-news/exclusive-bluey-introduces-the-all-new-heeler-4wd"
+    ]
+  },
+  {
+    "path": "02_storyboards/shot01/mid/F01-M2.png",
+    "id": "F01-M2",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "b443d53270779ad8e90f3976257409f6a7dee6ed23a887c61c59d722e3b9aea7",
+    "bytes": 1794927,
+    "correction": "Correct two-row five-seat right-hand-drive SUV layout, front driver-door/steering-wheel alignment and all opening shot car-orientation continuity",
+    "official_sources": [
+      "https://www.bluey.tv/characters/bobo/",
+      "https://www.moosetoys.com/gb/moose-news/exclusive-bluey-introduces-the-all-new-heeler-4wd"
+    ]
+  },
+  {
+    "path": "02_storyboards/shot01/end/F01-E.png",
+    "id": "F01-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "686d5b6f27fc542ce7f87776979abc76ca8c9f1d1c6ea3d7af61784291948f70",
+    "bytes": 1824513,
+    "correction": "Correct two-row five-seat right-hand-drive SUV layout, front driver-door/steering-wheel alignment and all opening shot car-orientation continuity",
+    "official_sources": [
+      "https://www.bluey.tv/characters/bobo/",
+      "https://www.moosetoys.com/gb/moose-news/exclusive-bluey-introduces-the-all-new-heeler-4wd"
+    ]
+  },
+  {
+    "path": "02_storyboards/shot02/start/F02-S.png",
+    "id": "F02-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "opening-v3",
+      "source_frame_id": "F02-S"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "c9654d6c465e059c139a200a0050714fcff9e6334ab2c0313df61408573ad194",
+    "bytes": 1802979
+  },
+  {
+    "path": "02_storyboards/shot02/mid/F02-M1.png",
+    "id": "F02-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "opening-v3",
+      "source_frame_id": "F02-M1"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "6beb945286d1e7dc60d7b5ca17d12111cafeae0fbf2254d0828f874cbdf32f3f",
+    "bytes": 1817193
+  },
+  {
+    "path": "02_storyboards/shot02/mid/F02-M2.png",
+    "id": "F02-M2",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "opening-v3",
+      "source_frame_id": "F02-M2"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "5ad2b36557f5899a02323352789bf6822b87e9c724b75200dc9787036f48d728",
+    "bytes": 1855175
+  },
+  {
+    "path": "02_storyboards/shot02/end/F02-E.png",
+    "id": "F02-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "opening-v3",
+      "source_frame_id": "F02-E"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "508dd01d44c00d6182f3b1636037ad6def9ff60458f59204ba1ba5cf96076e43",
+    "bytes": 1891009
+  },
+  {
+    "path": "02_storyboards/shot03/start/F03-S.png",
+    "id": "F03-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F04-S"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "08c7bde0a83f47ef85e4a04b44a59e113880d25846b6e899549b9f3c0f5e605b",
+    "bytes": 1680398
+  },
+  {
+    "path": "02_storyboards/shot03/mid/F03-M1.png",
+    "id": "F03-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "cd7e1ce5ca8c0961c47066cf73a9c9c24c9a123a7501fbc14f4d846124d4fbb1",
+    "bytes": 1738681
+  },
+  {
+    "path": "02_storyboards/shot03/mid/F03-M2.png",
+    "id": "F03-M2",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "5f546f38555417d1a62d67fdd565c2a322e5028f26f0c749769918c57141c31f",
+    "bytes": 1661854
+  },
+  {
+    "path": "02_storyboards/shot03/end/F03-E.png",
+    "id": "F03-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "fb03dd3c8ef787a97c03bf366ca1c16425d1b32fba428814a5960dae9c2aee41",
+    "bytes": 1695727
+  },
+  {
+    "path": "02_storyboards/shot04/start/F04-S.png",
+    "id": "F04-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F05-S"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "780f11a36bfef5da49af6e62171e8329f8a9f16bb20c4712ece7793a938616cb",
+    "bytes": 1626436
+  },
+  {
+    "path": "02_storyboards/shot04/mid/F04-M1.png",
+    "id": "F04-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "ba1b38673848f9ec280be9db0dbb56fb7b2e148e52ec1bcd671e8c04dcecd8f0",
+    "bytes": 1607736
+  },
+  {
+    "path": "02_storyboards/shot04/end/F04-E.png",
+    "id": "F04-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F05-E"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "54f8023681aaf0ad3a1b1143f7bc5e24afd0a8a538bfe9c1a473ea3205185356",
+    "bytes": 1615624
+  },
+  {
+    "path": "02_storyboards/shot05/start/F05-S.png",
+    "id": "F05-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "1fb965bc5491c808e8c58ce30bc0671d73e3b96d68816d1ea2565c66e66e3b6c",
+    "bytes": 1371549
+  },
+  {
+    "path": "02_storyboards/shot05/mid/F05-M1.png",
+    "id": "F05-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "682c71af234de6ea028dee1fd63a12e3f412050f10d3dd82b8c9f63acc2c5f35",
+    "bytes": 1379963
+  },
+  {
+    "path": "02_storyboards/shot05/end/F05-E.png",
+    "id": "F05-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "174ba7c21981a6be0dbc8c105e79d645761c5ff8dbd4a6914e89a9ad474c0865",
+    "bytes": 1422498
+  },
+  {
+    "path": "02_storyboards/shot06/start/F06-S.png",
+    "id": "F06-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "4aaa1442794268c4467c6264513169b271590226fdd0003502b021e6208a6fc7",
+    "bytes": 1472187
+  },
+  {
+    "path": "02_storyboards/shot06/mid/F06-M1.png",
+    "id": "F06-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "a1d42ba268d2783e5f90efa0005c1ecd0162196601410b2c9f05bf69ab5a39b9",
+    "bytes": 1433252
+  },
+  {
+    "path": "02_storyboards/shot06/end/F06-E.png",
+    "id": "F06-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "five-act-current",
+      "source_frame_id": "F06-M1"
+    },
+    "held_from": "F06-M1",
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "a1d42ba268d2783e5f90efa0005c1ecd0162196601410b2c9f05bf69ab5a39b9",
+    "bytes": 1433252
+  },
+  {
+    "path": "02_storyboards/shot07/start/F07-S.png",
+    "id": "F07-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F09-S"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "40b8fff2446b9eae84ae0f469fbf08325da463af3dac70bf3c820539a460add7",
+    "bytes": 1407117
+  },
+  {
+    "path": "02_storyboards/shot07/mid/F07-M1.png",
+    "id": "F07-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F09-M1"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "e642b1357a29b75ce9b8072e133eb70049faf775fa14dceb48c93a4b4aec25ae",
+    "bytes": 1442577
+  },
+  {
+    "path": "02_storyboards/shot07/end/F07-E.png",
+    "id": "F07-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F09-E"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "9c51353c709e9e76819fa86c9dc8d6cb45a25edefa862b39aaa101945d3529f7",
+    "bytes": 1445268
+  },
+  {
+    "path": "02_storyboards/shot08/start/F08-S.png",
+    "id": "F08-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F10-S"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "f95c703e7878a19bd9350c9ffc59a3238e73f92068e8184da1f256f033161515",
+    "bytes": 1388021
+  },
+  {
+    "path": "02_storyboards/shot08/mid/F08-M1.png",
+    "id": "F08-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "48e0e0f78757321e447e18633a062aec3f77e62a1706fa090e0fa1b7474d120c",
+    "bytes": 1467640
+  },
+  {
+    "path": "02_storyboards/shot08/end/F08-E.png",
+    "id": "F08-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F10-E"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "9f035eb2cc66b6e8de4daa9bbab6e395bdf209a9dde9d2a708e10f16d289bfe7",
+    "bytes": 1477609
+  },
+  {
+    "path": "02_storyboards/shot09/start/F09-S.png",
+    "id": "F09-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "6296227d0cc73950799aea33d0107861f8fce12b91e8e7d49a4390002f241ba1",
+    "bytes": 1517072
+  },
+  {
+    "path": "02_storyboards/shot09/mid/F09-M1.png",
+    "id": "F09-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "15bcd9af673303b8c5bbd2cd402fcd4f477ae3869c2a1cff71e072560f0b7276",
+    "bytes": 1486231
+  },
+  {
+    "path": "02_storyboards/shot09/mid/F09-M2.png",
+    "id": "F09-M2",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "4c44d77bb8e8633efb2faf592132895940ff023cadf58b9d495090b40852ebe3",
+    "bytes": 1480123
+  },
+  {
+    "path": "02_storyboards/shot09/end/F09-E.png",
+    "id": "F09-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "five-act-current",
+      "source_frame_id": "F09-M2"
+    },
+    "held_from": "F09-M2",
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "4c44d77bb8e8633efb2faf592132895940ff023cadf58b9d495090b40852ebe3",
+    "bytes": 1480123
+  },
+  {
+    "path": "02_storyboards/shot10/start/F10-S.png",
+    "id": "F10-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F05-S"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "780f11a36bfef5da49af6e62171e8329f8a9f16bb20c4712ece7793a938616cb",
+    "bytes": 1626436
+  },
+  {
+    "path": "02_storyboards/shot10/mid/F10-M1.png",
+    "id": "F10-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "230d6f78bf394c913d36fb8aadec4626fff3e50d093fbabf6175acc863aca19f",
+    "bytes": 1657171
+  },
+  {
+    "path": "02_storyboards/shot10/end/F10-E.png",
+    "id": "F10-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "f8f558f50475ee9d74515c50b71ed88c7392b5608758f5f74c897cec6418fc4c",
+    "bytes": 1697205
+  },
+  {
+    "path": "02_storyboards/shot11/start/F11-S.png",
+    "id": "F11-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "277a74ca767143b30f7102de949062cb9177e4734e630521dfa13416870d255f",
+    "bytes": 1606653
+  },
+  {
+    "path": "02_storyboards/shot11/mid/F11-M1.png",
+    "id": "F11-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "1c04188e86c5bbaaa430d905208fa608bbdc1e8e904e8fce8d0701ff5753c044",
+    "bytes": 1730678
+  },
+  {
+    "path": "02_storyboards/shot11/mid/F11-M2.png",
+    "id": "F11-M2",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "4c2c95ea81e27136719a1cc1eea2a66d40eb10ae43f7718d3ea26b5a30d939c5",
+    "bytes": 1685421
+  },
+  {
+    "path": "02_storyboards/shot11/end/F11-E.png",
+    "id": "F11-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "a7c3c3141b092853ab1488756647df6776611147a0f5aa8cf9315bb3ff16960a",
+    "bytes": 1722600
+  },
+  {
+    "path": "02_storyboards/shot12/start/F12-S.png",
+    "id": "F12-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "87851a35c0be9a13798de78fe4e0e94d518f3693cc455c295fa20fbfa40b3eaf",
+    "bytes": 1765515
+  },
+  {
+    "path": "02_storyboards/shot12/mid/F12-M1.png",
+    "id": "F12-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "95c6c806167473f33927c6347bb9bf72e1f7404d3ce31e8eefad59472c2f6b42",
+    "bytes": 1752264
+  },
+  {
+    "path": "02_storyboards/shot12/mid/F12-M2.png",
+    "id": "F12-M2",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "237edf55d6ab650773fc7136a11c54f135003763baf4404e07cd509cad66b4ef",
+    "bytes": 1750577
+  },
+  {
+    "path": "02_storyboards/shot12/end/F12-E.png",
+    "id": "F12-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "05fb1f8df554a0d382a06172d2884d85ce3136789ad4ca8500c9fd4a39f67955",
+    "bytes": 1749063
+  },
+  {
+    "path": "02_storyboards/shot13/start/F13-S.png",
+    "id": "F13-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F07-S"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "9d4c5bfbddc19b58310caeadaed24506afb23f2656bcd7da851603eae2d4c3f9",
+    "bytes": 1222330
+  },
+  {
+    "path": "02_storyboards/shot13/mid/F13-M1.png",
+    "id": "F13-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "edbe7b59e19b0d3741895e6b949fc213e6cced386d48fc4ed0d52990504266db",
+    "bytes": 1421995
+  },
+  {
+    "path": "02_storyboards/shot13/end/F13-E.png",
+    "id": "F13-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F07-E"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "8ae3bc267e5bc09c6b01b868a52b1171613ba994daa31adf76eb855b6037d128",
+    "bytes": 1411440
+  },
+  {
+    "path": "02_storyboards/shot14/start/F14-S.png",
+    "id": "F14-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "27a140ea925e0bf746b517322db1357819c4f60e025e67b5fab74194d2ee8a6a",
+    "bytes": 1705244
+  },
+  {
+    "path": "02_storyboards/shot14/mid/F14-M1.png",
+    "id": "F14-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F08-S"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "37cd9954ef3723e2267c8ab66e079acbdd123367e48bb93f7b0160c57975742b",
+    "bytes": 1713021
+  },
+  {
+    "path": "02_storyboards/shot14/mid/F14-M2.png",
+    "id": "F14-M2",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "0be88e45733200fc882a81354d92e6244506b62b79264fa4b90b738e6b95a93a",
+    "bytes": 1717856
+  },
+  {
+    "path": "02_storyboards/shot14/end/F14-E.png",
+    "id": "F14-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F08-M1"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "ee9afc0095981f98d6fd36d72f5c84e7bc5ac973e1d6a6d7ab0c5c8e097d3064",
+    "bytes": 1702717
+  },
+  {
+    "path": "02_storyboards/shot15/start/F15-S.png",
+    "id": "F15-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F08-M1"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "ee9afc0095981f98d6fd36d72f5c84e7bc5ac973e1d6a6d7ab0c5c8e097d3064",
+    "bytes": 1702717
+  },
+  {
+    "path": "02_storyboards/shot15/mid/F15-M1.png",
+    "id": "F15-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "3146324b6dc33f2589d58c4da543ab2016790766e6601893a33d7b103a1b777b",
+    "bytes": 1718718
+  },
+  {
+    "path": "02_storyboards/shot15/mid/F15-M2.png",
+    "id": "F15-M2",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F08-M2"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "86b66d8d60166eb0fff2b3cfc3d157f4bc1c959f107fcc6a93c5cda85973e030",
+    "bytes": 1717428
+  },
+  {
+    "path": "02_storyboards/shot15/end/F15-E.png",
+    "id": "F15-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F08-E"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "236e3381f7a18b86ac1c73b9f217016f4317373ead5248247cb0656edf2869b0",
+    "bytes": 1704067
+  },
+  {
+    "path": "02_storyboards/shot16/start/F16-S.png",
+    "id": "F16-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F08-E"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "236e3381f7a18b86ac1c73b9f217016f4317373ead5248247cb0656edf2869b0",
+    "bytes": 1704067
+  },
+  {
+    "path": "02_storyboards/shot16/mid/F16-M1.png",
+    "id": "F16-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "2c235763e2c31f6880a45b1e46b19affe2131eef7ddd094f6d21317400996136",
+    "bytes": 1755015
+  },
+  {
+    "path": "02_storyboards/shot16/end/F16-E.png",
+    "id": "F16-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "675d75395ea842260f52c8b7e17968514f8730fbca19c4072a412b252a70666a",
+    "bytes": 1865111,
+    "correction": "Only incidental left-edge car rear quarter changed to matching front quarter, keeping parked vehicle facing screen right; all characters, trophy and house preserved",
+    "official_sources": [
+      "https://www.bluey.tv/characters/bobo/"
+    ]
+  },
+  {
+    "path": "02_storyboards/shot17/start/F17-S.png",
+    "id": "F17-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "five-act-current",
+      "source_frame_id": "F09-M2"
+    },
+    "held_from": "F09-M2",
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "4c44d77bb8e8633efb2faf592132895940ff023cadf58b9d495090b40852ebe3",
+    "bytes": 1480123
+  },
+  {
+    "path": "02_storyboards/shot17/mid/F17-M1.png",
+    "id": "F17-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "641c84b25a95f7444a57c929f07724e031f55e34d24321ae449d29df5c6b6acc",
+    "bytes": 1497228
+  },
+  {
+    "path": "02_storyboards/shot17/end/F17-E.png",
+    "id": "F17-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "bd0f9245c63d4f382a6eb7e9009538afd6c1bdc688470c13ad28994c79f9e47f",
+    "bytes": 1484606
+  },
+  {
+    "path": "02_storyboards/shot18/start/F18-S.png",
+    "id": "F18-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "b844edf81464053cc353fb3c58aec15a05522573c08a4ca5da3ecc9ba9951163",
+    "bytes": 1377981
+  },
+  {
+    "path": "02_storyboards/shot18/mid/F18-M1.png",
+    "id": "F18-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "three-route-bridge-two-trees-20261009",
+      "source_frame_id": "F18-S",
+      "reason": "固定同一底图，计数线索稳定"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "b844edf81464053cc353fb3c58aec15a05522573c08a4ca5da3ecc9ba9951163",
+    "bytes": 1377981
+  },
+  {
+    "path": "02_storyboards/shot18/end/F18-E.png",
+    "id": "F18-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "three-route-bridge-two-trees-20261009",
+      "source_frame_id": "F18-S",
+      "reason": "固定底图，正确路线用后期图层揭晓"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "b844edf81464053cc353fb3c58aec15a05522573c08a4ca5da3ecc9ba9951163",
+    "bytes": 1377981
+  },
+  {
+    "path": "02_storyboards/shot19/start/F19-S.png",
+    "id": "F19-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "fc83f256a9b02f63c31918516ad80967181ca8b1c2e67bf60ca3d5e570cc3350",
+    "bytes": 1386730
+  },
+  {
+    "path": "02_storyboards/shot19/mid/F19-M1.png",
+    "id": "F19-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "6de25fae8c5ef82edce9935de404c16e963b0380355f7543f6ea40dd86c62dd7",
+    "bytes": 1425596
+  },
+  {
+    "path": "02_storyboards/shot19/mid/F19-M2.png",
+    "id": "F19-M2",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "d1c3440a15b99deb397ff99cdf2cad6cc974ef7657eba3ce93586d4e4ab4b123",
+    "bytes": 1464347
+  },
+  {
+    "path": "02_storyboards/shot19/end/F19-E.png",
+    "id": "F19-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F12-E"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "f68bdd0f97a494a49a4d998c050fd34efc14dc632c3e9b78e7e9d330c6ade25e",
+    "bytes": 1433792
+  },
+  {
+    "path": "02_storyboards/shot20/start/F20-S.png",
+    "id": "F20-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F13-S"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "0b35f3964a39c1601fb49420f19b539f39c596aa6749bf802c0193ac470440c8",
+    "bytes": 1829192
+  },
+  {
+    "path": "02_storyboards/shot20/mid/F20-M1.png",
+    "id": "F20-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "b626bebf6877e097480ef447718357b434f7ca85f578aa45f71c499e48a86fcc",
+    "bytes": 1851727
+  },
+  {
+    "path": "02_storyboards/shot20/end/F20-E.png",
+    "id": "F20-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F13-E"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "d09052f6fba116a3838289908dfd385d4c5a65b4b687604f7a323cf4a8a1fe27",
+    "bytes": 1813670
+  },
+  {
+    "path": "02_storyboards/shot21/start/F21-S.png",
+    "id": "F21-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "cf7ab357c9810f31229de4515f0d39e3fa657be4429801c53e51e28bda644533",
+    "bytes": 1858239
+  },
+  {
+    "path": "02_storyboards/shot21/mid/F21-M1.png",
+    "id": "F21-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "ef7a772398ec604854a7c14971ee01e5aa52fd15c540463addb897acd5ebbaeb",
+    "bytes": 1857845
+  },
+  {
+    "path": "02_storyboards/shot21/end/F21-E.png",
+    "id": "F21-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "c683eba214a504d3d163f0e112041dc17abf128b575d7561fcceb69629b8a3e1",
+    "bytes": 1896038
+  },
+  {
+    "path": "02_storyboards/shot22/start/F22-S.png",
+    "id": "F22-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F14-S"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "283efc3094dcec41b04a03cbc23a01b17475fbd3fb82c78be28f31947cf77aaa",
+    "bytes": 1858772
+  },
+  {
+    "path": "02_storyboards/shot22/mid/F22-M1.png",
+    "id": "F22-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F14-M1"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "3fd0e32edaa7ef24109d10f6bd03ccb81c490eed4010d7674f616e5a82fafc61",
+    "bytes": 1885681
+  },
+  {
+    "path": "02_storyboards/shot22/mid/F22-M2.png",
+    "id": "F22-M2",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F14-M2"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "879b55e183b80c9874c2e5d3b6a92079de1236e6728b864c0ad82ee8ea31533b",
+    "bytes": 1821053
+  },
+  {
+    "path": "02_storyboards/shot22/end/F22-E.png",
+    "id": "F22-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F14-E"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "fede54d5525c468c980357ee590e52efaeea6d8d737cc8a80bc82e39cb25859b",
+    "bytes": 1865859
+  },
+  {
+    "path": "02_storyboards/shot23/start/F23-S.png",
+    "id": "F23-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F15-S"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "431f7618ca97f2545d0abf1a85577159a08d36ff760e23c64aa2bbf0d8ddb038",
+    "bytes": 1862894
+  },
+  {
+    "path": "02_storyboards/shot23/mid/F23-M1.png",
+    "id": "F23-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "cc4fd016fc70c71dd037979c928bf51b1469267220401ac822f3da61335f4816",
+    "bytes": 1888962
+  },
+  {
+    "path": "02_storyboards/shot23/end/F23-E.png",
+    "id": "F23-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F15-E"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "7a44c4cb1ed0cf4300cf6285673190052ce5e9fe0e054f27be65f28a25c78264",
+    "bytes": 1866268
+  },
+  {
+    "path": "02_storyboards/shot24/start/F24-S.png",
+    "id": "F24-S",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F16-S"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "c5ac3d0da564cbf60a17005bf0eca552e4142f8ce526f9a59acce076d1b0d29c",
+    "bytes": 1901376
+  },
+  {
+    "path": "02_storyboards/shot24/mid/F24-M1.png",
+    "id": "F24-M1",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": null,
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "bbc4d9f81197f63fbb7d681bc32a37b8f800c555d745771330747fd0657aa2e5",
+    "bytes": 1887547
+  },
+  {
+    "path": "02_storyboards/shot24/mid/F24-M2.png",
+    "id": "F24-M2",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F16-M1"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "772048d7e3de501af7e95c0ee4f854ded258242d22f2f38fef4e2c6b6b1cc0df",
+    "bytes": 1881941
+  },
+  {
+    "path": "02_storyboards/shot24/end/F24-E.png",
+    "id": "F24-E",
+    "source": "AI生成或按制作计划复用的故事画面；非官方动画帧",
+    "reuse_source": {
+      "source_version": "v1",
+      "source_frame_id": "F16-E"
+    },
+    "held_from": null,
+    "rights": "角色相关权利归各自权利人；不声称官方授权或关联",
+    "sha256": "0b1c2c9ba41487854a212c258767e80be1de678a69ab4b29aec31c4de1a65dff",
+    "bytes": 1880668
+  },
+  {
+    "path": "02_storyboards/shot04/preview/F04-S.png",
+    "source": "对应关键帧与可编辑制作图层合成的预览；不是额外的新绘制状态",
+    "sha256": "65c798c9ced1e15ef2b195e96a8c4c3447b7cbbe497886f43682e9ca50ceaf17",
+    "bytes": 2248911
+  },
+  {
+    "path": "02_storyboards/shot04/preview/F04-M1.png",
+    "source": "对应关键帧与可编辑制作图层合成的预览；不是额外的新绘制状态",
+    "sha256": "94aeb8ea7b5ec3ba814445705619a68fca14dd3d3ae8ebbf83678e48cfc61aaf",
+    "bytes": 2260739
+  },
+  {
+    "path": "02_storyboards/shot04/preview/F04-E.png",
+    "source": "对应关键帧与可编辑制作图层合成的预览；不是额外的新绘制状态",
+    "sha256": "a69740438b2c4c14face9d846c279c6b1cf5952c8053eca7ffb994b4b38c27c0",
+    "bytes": 2260016
+  },
+  {
+    "path": "02_storyboards/shot10/preview/F10-S.png",
+    "source": "对应关键帧与可编辑制作图层合成的预览；不是额外的新绘制状态",
+    "sha256": "65c798c9ced1e15ef2b195e96a8c4c3447b7cbbe497886f43682e9ca50ceaf17",
+    "bytes": 2248911
+  },
+  {
+    "path": "02_storyboards/shot13/preview/F13-S.png",
+    "source": "对应关键帧与可编辑制作图层合成的预览；不是额外的新绘制状态",
+    "sha256": "f0e36cff85b57f7da8f8b8fbd85731e779145bdf2e4a0fa8a47520256e0e180c",
+    "bytes": 1471665
+  },
+  {
+    "path": "02_storyboards/shot13/preview/F13-M1.png",
+    "source": "对应关键帧与可编辑制作图层合成的预览；不是额外的新绘制状态",
+    "sha256": "6814462b3bf40f2a24c8ec37fa30f4c4b62eae87b905ca254806d9ff2c55b531",
+    "bytes": 1668358
+  },
+  {
+    "path": "02_storyboards/shot13/preview/F13-E.png",
+    "source": "对应关键帧与可编辑制作图层合成的预览；不是额外的新绘制状态",
+    "sha256": "b657c4fd4a06c055f0f3cfe4cca1b2570d3230b9ebea070eebc4a3040d1f7ba7",
+    "bytes": 1654095
+  },
+  {
+    "path": "02_storyboards/shot14/preview/F14-E.png",
+    "source": "对应关键帧与可编辑制作图层合成的预览；不是额外的新绘制状态",
+    "sha256": "b2b727dcfaa3e4bfe08ff5e7492c61e3736c8e245597266a077e16b8408f4252",
+    "bytes": 2505620
+  },
+  {
+    "path": "02_storyboards/shot18/preview/F18-E.png",
+    "source": "对应关键帧与可编辑制作图层合成的预览；不是额外的新绘制状态",
+    "sha256": "907a652cb8ed923bc82a94e43673d66a177d128b69e64e0994f34ed0952486a9",
+    "bytes": 1419401
+  },
+  {
+    "path": "02_storyboards/overlays/three-models.png",
+    "source": "故事模型或可编辑制作图层",
+    "sha256": "8762f2488129a33a468693fe3699d9c17d35a8d399368c00b76298210abdd453",
+    "bytes": 746203
+  },
+  {
+    "path": "02_storyboards/overlays/choice-labels-question.svg",
+    "source": "故事模型或可编辑制作图层",
+    "sha256": "fee733c28deb74ba67a3a6c0777602044a8cb04f995414684a230e697827808b",
+    "bytes": 737
+  },
+  {
+    "path": "02_storyboards/overlays/choice-labels-answer.svg",
+    "source": "故事模型或可编辑制作图层",
+    "sha256": "a460cc4070ae4d9fd5b67656d203b9fcd727b04182adbf3d05d37a35ba78abc7",
+    "bytes": 861
+  },
+  {
+    "path": "02_storyboards/overlays/time-jump.svg",
+    "source": "故事模型或可编辑制作图层",
+    "sha256": "c95c1b8a7aa24d55267f480627f96469345f593f20f78114f0ae20c02ca31d83",
+    "bytes": 293
+  },
+  {
+    "path": "02_storyboards/overlays/physical-route-answer.svg",
+    "source": "三条路双线索谜题的可编辑交互与提示图层",
+    "sha256": "1e055bf93c121bdafb6dfe6c84189cc236a409412ecbbd3c96e7cc9d47b1eb61",
+    "bytes": 856
+  },
+  {
+    "path": "02_storyboards/overlays/route-geometry.json",
+    "source": "三条路双线索谜题的可编辑交互与提示图层",
+    "sha256": "f511424ca5ab08925e86ba5e5cd1cecd2dfb3b6c0f38efd5341fbe69cf54ab73",
+    "bytes": 6443
+  },
+  {
+    "path": "02_storyboards/overlays/clue-bridge.svg",
+    "source": "三条路双线索谜题的可编辑交互与提示图层",
+    "sha256": "ed675324f27d33f9dfa9b68cd22ed015c4936e8a320b306fdcde3e5a112780ec",
+    "bytes": 456
+  },
+  {
+    "path": "02_storyboards/overlays/clue-trees.svg",
+    "source": "三条路双线索谜题的可编辑交互与提示图层",
+    "sha256": "0054fd9df6334dfa01f325e261370d6923cdde816d6433010e87862f2aa2cd16",
+    "bytes": 591
+  },
+  {
+    "path": "02_storyboards/overlays/clue-both.svg",
+    "source": "三条路双线索谜题的可编辑交互与提示图层",
+    "sha256": "66ee957f23be6e93daf287a57d088a7b537e0886b775d58abe7975cef595f982",
+    "bytes": 1013
+  },
+  {
+    "path": "04_music_sfx/original_temp_football_bed_40s.mp3",
+    "source": "本项目原创合成临时音乐/音效，非原作音乐，默认关闭",
+    "sha256": "b0302023741e08dde906f6f75ced29d4de05170b3d7f6485af7ed06c1ffdb0d9",
+    "bytes": 961388
+  },
+  {
+    "path": "04_music_sfx/original_temp_football_bed_40s.wav",
+    "source": "本项目原创合成临时音乐/音效，非原作音乐，默认关闭",
+    "sha256": "8cae0b8d8a9b2156d0a788857f535a6dfd4ed1deceec83a52f9b20430d46ec1c",
+    "bytes": 7680078
+  },
+  {
+    "path": "04_music_sfx/original_temp_gentle_success_chime.mp3",
+    "source": "本项目原创合成临时音乐/音效，非原作音乐，默认关闭",
+    "sha256": "f7210853544854fc3ca4772fb07bcf011af64b79dfd2b7802de282df7efcadb0",
+    "bytes": 35180
+  },
+  {
+    "path": "04_music_sfx/original_temp_gentle_success_chime.wav",
+    "source": "本项目原创合成临时音乐/音效，非原作音乐，默认关闭",
+    "sha256": "639b76e3bb9d74587940e9e634fe3b4d677a53e587f7d56a6053c045ef6abf88",
+    "bytes": 268878
+  },
+  {
+    "path": "04_music_sfx/original_temp_soft_ball_tap.mp3",
+    "source": "本项目原创合成临时音乐/音效，非原作音乐，默认关闭",
+    "sha256": "5685f628ab6f1201259fccca55d8010ed0648d76ee064c14deae604b1d290698",
+    "bytes": 12140
+  },
+  {
+    "path": "04_music_sfx/original_temp_soft_ball_tap.wav",
+    "source": "本项目原创合成临时音乐/音效，非原作音乐，默认关闭",
+    "sha256": "53829615db2d4c2b322165f68d5701574651159a0d30f18af082e0b478b90ecd",
+    "bytes": 86478
+  },
+  {
+    "path": "04_music_sfx/original_temp_soft_pass_whoosh.mp3",
+    "source": "本项目原创合成临时音乐/音效，非原作音乐，默认关闭",
+    "sha256": "9ecdfb1fce07b43999eec2e5ec5b42d4d15ee71386fd7d313bcc3ba647548ba5",
+    "bytes": 20780
+  },
+  {
+    "path": "04_music_sfx/original_temp_soft_pass_whoosh.wav",
+    "source": "本项目原创合成临时音乐/音效，非原作音乐，默认关闭",
+    "sha256": "46e0b0e4c206143cd110d1c012a8cce49ebe232b252f9b389e42cb8f1fecc3a2",
+    "bytes": 153678
+  },
+  {
+    "path": "04_music_sfx/manifest.json",
+    "sha256": "6d9cc394ec2cd81239cde67c9e36d14e765855b542228e5a2e9aa4c76bd0a014",
+    "bytes": 2652
+  },
+  {
+    "path": "04_music_sfx/README.txt",
+    "sha256": "afa9b8e239aae703e03fc7e1513a5a60935db30d097e560377f9ed87f77af903",
+    "bytes": 926
+  },
+  {
+    "path": "04_music_sfx/compose_original.py",
+    "sha256": "362ed5b88d6f88c8db7d7269b3a7ca86bfe83956419c14fa2747076e9c97c115",
+    "bytes": 7368
+  },
+  {
+    "path": "04_music_sfx/status.md",
+    "sha256": "4b27b759e4636b26a3e19156865df0746c66b1b4892f5e9543afeb171a81f6b8",
+    "bytes": 254
+  },
+  {
+    "path": "05_references/packaging-reference.png",
+    "source": "用户本次提供的包装参考",
+    "rights": "用于此项目的外包装造型参考",
+    "sha256": "a03d0e16b25ae0c6abe0f6330723dcc8c8b123630a32856a3d3eeb0104291bbc",
+    "bytes": 2021751
+  },
+  {
+    "path": "03_voice/F01.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "87757e437e9bd2c1a070c13c3048bd97c63d91cda4fb7a3046544c01cad42b3f",
+    "bytes": 202796
+  },
+  {
+    "path": "03_voice/F01.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "76848f7e0516f266c06dc37b728b0a4e75d82a6467a63e5054d0436661849122",
+    "bytes": 349
+  },
+  {
+    "path": "03_voice/F01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "4c5f0c6c0432807f7f377f96aaa3429ebfc0a5b797236fcdd5b239967d219c50",
+    "bytes": 1209770
+  },
+  {
+    "path": "03_voice/F02.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "4deae11cbfbb9028c19ad7a4e996bbafc90bb2b89997370e0bff6f25105b3d1c",
+    "bytes": 144428
+  },
+  {
+    "path": "03_voice/F02.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "15f75c3d3582af16090146d8c806b2a089dca9cab31b2571c7e3ff88e683e9c4",
+    "bytes": 262
+  },
+  {
+    "path": "03_voice/F02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "f9fc0ac534e2aef8384e5ebf10cbca8dfb6ea3babb3830163dd585722d001d13",
+    "bytes": 861524
+  },
+  {
+    "path": "03_voice/F03.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "1a22e29206d26fd4abd5f8fad26961b8f86d6110f1ff0ed2d00dde330ed50346",
+    "bytes": 128300
+  },
+  {
+    "path": "03_voice/F03.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "3445bf7d6e6b026806e430c6e55b83bbab16519214fe17c5b2ea296d1c8e0144",
+    "bytes": 195
+  },
+  {
+    "path": "03_voice/F03.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "83855a756466fdb1c7b7c921b818a81d249a7b79cbb2ce132f6bf6313b422b12",
+    "bytes": 763564
+  },
+  {
+    "path": "03_voice/F04.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "ea747687b4b8155fda4302d31c7ebd3a987f6d6ef03775b1f2f5c46d1df4977c",
+    "bytes": 119852
+  },
+  {
+    "path": "03_voice/F04.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "30e2dc4218b4b2f8fa5d5f2f24a18842cd2ec58e6288b7b330416be2190e8f3a",
+    "bytes": 137
+  },
+  {
+    "path": "03_voice/F04.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "e6d4580b95dbeb48ebc980d29b85a38ce156e6e273e7cf8b35bbba67f6584f46",
+    "bytes": 712132
+  },
+  {
+    "path": "03_voice/F05.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "297c2e079935367b2a1e34577c540a55b8da40c6ae00112b7ea436e9b80ff956",
+    "bytes": 105260
+  },
+  {
+    "path": "03_voice/F05.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "b7856405ad9ed1159220f825173ce19b6879cb87ddf2dadb3c7e5af50cb80691",
+    "bytes": 152
+  },
+  {
+    "path": "03_voice/F05.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "a63cdbe61851d2f8a11fc559299344e865b276fe933b78f19c7dee36a4e31a25",
+    "bytes": 624714
+  },
+  {
+    "path": "03_voice/F06.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "03d070d6dd8b713547e4ec6770124f8ad3971bae38787a5c37ef7701ac0f6fc0",
+    "bytes": 195116
+  },
+  {
+    "path": "03_voice/F06.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "b2081e765f450c0a461a5205d633e6ae590a975868dd693d15c701c84e0f8abe",
+    "bytes": 170
+  },
+  {
+    "path": "03_voice/F06.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "0fafdf087db1144b772fd51bb57d8a62c4171e8dff2a2a614e43b3bc5fc0e6a7",
+    "bytes": 1163954
+  },
+  {
+    "path": "03_voice/F07.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "ac9608cde3615f66f06caa14b551b801273332ccf34a89af44cf22984923c891",
+    "bytes": 112172
+  },
+  {
+    "path": "03_voice/F07.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "85d9609f6679c0a0f27ea232a995e8ab011e193ec8d68597fd5156c9be6e78f1",
+    "bytes": 146
+  },
+  {
+    "path": "03_voice/F07.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "32eadd9a616964969ab6dbde8aba985db9f627888266ca4a776a7c909dff0c16",
+    "bytes": 666972
+  },
+  {
+    "path": "03_voice/F08.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "f08d0e27c9e14ca1434a349f3deb71e6f309b24c67be243f9883d3aaea857390",
+    "bytes": 129452
+  },
+  {
+    "path": "03_voice/F08.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "54f76b2fa422de3b1f11ca34bfb3af8e3a748fe1c3dac0b13507f0f5f7533449",
+    "bytes": 195
+  },
+  {
+    "path": "03_voice/F08.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "8688938c7960d7ad1f82acbbebd1341b6093da05f98060e8b3673992b301b253",
+    "bytes": 771796
+  },
+  {
+    "path": "03_voice/F09.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "be0728dd014090e02672f2ae63872a0ed02d66fae525019b32b66729e3391a20",
+    "bytes": 173996
+  },
+  {
+    "path": "03_voice/F09.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "961dd150a3fe210288ecfa43a6c71bbf36fc6a1566cb1b40ae0fe2520314d702",
+    "bytes": 216
+  },
+  {
+    "path": "03_voice/F09.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "cdd23a731d0bbabd3759c4b33cb1d04c1a3c2456c3079deca282e9e41bdd71ba",
+    "bytes": 1037210
+  },
+  {
+    "path": "03_voice/F10.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "b7ef7f45f014445b6f2b30c48ac6c7cfa7da38f2c63fa94f41aa7c1dd3b710b0",
+    "bytes": 86828
+  },
+  {
+    "path": "03_voice/F10.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "ec18bb4cf2ea2e53ca3cc2af2ca981ceee51225785853a59fb986c33f4ba521b",
+    "bytes": 137
+  },
+  {
+    "path": "03_voice/F10.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "b8a02262daa4eda5bf7a01441284e9e9cbd8b21a7693c61a195f5ec60cf018bb",
+    "bytes": 514964
+  },
+  {
+    "path": "03_voice/F11.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "59c7554fd744041d26baccd3c3ec686ceb921b7f0dfce9cd79a2d2ebcdf9f07c",
+    "bytes": 137516
+  },
+  {
+    "path": "03_voice/F11.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "f1d9c615010bb794251926d213ce081550310b7978af06d8ebf9fa71968ad53a",
+    "bytes": 140
+  },
+  {
+    "path": "03_voice/F11.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "42c4d5f53217b8543d3a19e5745c6ac1bc57e614ec1dc6b79194b77d46d7056d",
+    "bytes": 819612
+  },
+  {
+    "path": "03_voice/F12.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "9940df20f40681f6490bc3dd371130002c0b2040e4074640b2809d430f8444ca",
+    "bytes": 125996
+  },
+  {
+    "path": "03_voice/F12.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "e3bc4031eb17b4afc8c50b1444bf92065ce11d09e6802ea31ecbdf3fd341c765",
+    "bytes": 85
+  },
+  {
+    "path": "03_voice/F12.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "3beba364cc6523f1e05453d0cea719ac738a1386582064c062b5d3dbb39f52fd",
+    "bytes": 749840
+  },
+  {
+    "path": "03_voice/F13.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "30b20d339ffbacbc5ec26b25ef2231d8d6d78782758fa088b2c530f83d673920",
+    "bytes": 168236
+  },
+  {
+    "path": "03_voice/F13.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "ea3c11a7fe70a61fceb577611f344b8c0b95604f196df69a37e6e4b66e0edc74",
+    "bytes": 158
+  },
+  {
+    "path": "03_voice/F13.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "d31d4af497ef966509c187b4cc94a76d4ab8229c6c8da78e380bc5c76e7b2802",
+    "bytes": 1004280
+  },
+  {
+    "path": "03_voice/F14.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "2282efba299b6b0d1972dc528e0dd74ee5a3d5e7c794a918fc3edac3340e7b3b",
+    "bytes": 141356
+  },
+  {
+    "path": "03_voice/F14.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "31fe6fd341ef7c0dd8ca7fd70def2f5a035ad1fcdd84689329614c9e2f565424",
+    "bytes": 100
+  },
+  {
+    "path": "03_voice/F14.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "66e3791692d9cdd527589824eb537a05cf49125d24a0c63b29bdc20e76992b0b",
+    "bytes": 841984
+  },
+  {
+    "path": "03_voice/F15.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "0761fd8f9c9e3bc45f938b109f8ee3cc15481bb0b7791833f2202263055ef0a3",
+    "bytes": 156332
+  },
+  {
+    "path": "03_voice/F15.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "7f0a661d740f79dd78ef397029f8d31f974325e58755f5a29f656b036e8df8e7",
+    "bytes": 149
+  },
+  {
+    "path": "03_voice/F15.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "009bdb54bb46dc159d501b8f2975dfea1487b387182bf2fd79ca515c3a99592c",
+    "bytes": 932516
+  },
+  {
+    "path": "03_voice/F16.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "84262686175bde1d130cae1bc66bf6140a889dd3a28bb043813b2c867bd0dcab",
+    "bytes": 92588
+  },
+  {
+    "path": "03_voice/F16.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "fe647df40e76533dd561322765f47146029716e72bd9d657edd95d1cbc3dfd14",
+    "bytes": 134
+  },
+  {
+    "path": "03_voice/F16.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "823873e230d0a84114a1f82694aea9a152422e8327f47771b284b039de522976",
+    "bytes": 550322
+  },
+  {
+    "path": "03_voice/F17.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "8ae698f38735e731a0399b11af0f3c734bacb09e3f3ca275c528a01bc253ef6e",
+    "bytes": 124076
+  },
+  {
+    "path": "03_voice/F17.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "d601a25800410493e86ff4e805a70aea57c22ab0bcfc4db637b9bdf416fdc907",
+    "bytes": 112
+  },
+  {
+    "path": "03_voice/F17.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "d9abef1d5ac8a0c82aa6583b8a5e0694a157f48937f7612621c8d1c6ca5a499c",
+    "bytes": 738270
+  },
+  {
+    "path": "03_voice/F18.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "cca4fed28933767097d2300a302f917f6e280c5ca38f2f483551a238e4b29c82",
+    "bytes": 241964
+  },
+  {
+    "path": "03_voice/F18.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "1f404b31c0b97a3f68aaffba0cb2fc1d2aae72486b7d0099e45c58c9494ed34c",
+    "bytes": 176
+  },
+  {
+    "path": "03_voice/F18.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "a5e03d0969d5dfc8bfbf1510532838c5e310cc15b15337fb0a82a6fceb452294",
+    "bytes": 1445934
+  },
+  {
+    "path": "03_voice/F19.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "6c448641ddc0bb44db5b590bfad029bd3cf338b85eaaf369dc523ade0d97bdc3",
+    "bytes": 182444
+  },
+  {
+    "path": "03_voice/F19.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "77e56b3f77f08e2be922ea619198db4e75ac52ebdaa25dcbd8700cd6a402dd50",
+    "bytes": 100
+  },
+  {
+    "path": "03_voice/F19.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "f0ff4e842301db6b6a422a3458028b09f1ec1e94a5edde99a31abcdb6ee916ba",
+    "bytes": 1087720
+  },
+  {
+    "path": "03_voice/F20.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "350b8ebe1cf4ece35ba12ea8871b588c8b42336b76dfecf9efd362daf3f0b301",
+    "bytes": 171692
+  },
+  {
+    "path": "03_voice/F20.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "8ca0cbf11cc956836bc2714ed2161371652c10a47845d9583c838ce18005b26a",
+    "bytes": 216
+  },
+  {
+    "path": "03_voice/F20.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "0d4018d2c3200a7a2cc210c5c098d0a76fb1e90f534e48d5d8a853d5e1dc15a3",
+    "bytes": 1023508
+  },
+  {
+    "path": "03_voice/F21.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "3abea35fec218bfeb0f477ee332b479c5861c2ec01ff7cd563d8f2c84f036892",
+    "bytes": 105644
+  },
+  {
+    "path": "03_voice/F21.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "c890048eb658423a66041f51ff18df5aea4a8f2a1bdc94f9d902aff95824019b",
+    "bytes": 143
+  },
+  {
+    "path": "03_voice/F21.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "cd0a36bd00e98dff8310129bf63f1966510a6f39343c1d95eb27afa1909cd1f2",
+    "bytes": 627374
+  },
+  {
+    "path": "03_voice/F22.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "ca3564c298f9328212ef5fb64572470d1b4df2a2d528545c274696ecac291e47",
+    "bytes": 224300
+  },
+  {
+    "path": "03_voice/F22.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "710ea4f1b8ae19c671c4a69a84811af9f4fea3f5aa76999022dc9ad2fb367364",
+    "bytes": 70
+  },
+  {
+    "path": "03_voice/F22.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "c346ccc87d9c13b622150bd4dde43c81e7d1ef6630ef5222816bf97afceb2a87",
+    "bytes": 1340730
+  },
+  {
+    "path": "03_voice/F23.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "953730afb064cf4643b7ccf130752278ff961d4287473cc318c02fa62bde8432",
+    "bytes": 132140
+  },
+  {
+    "path": "03_voice/F23.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "a2d4e98072b486fecc87d73870ee2c5968dab67b5c1ce81ea130966d4cc14b0c",
+    "bytes": 136
+  },
+  {
+    "path": "03_voice/F23.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "b599b3433f7f82fcda66893ca268f3cd1b8d8e88c64b5b165273e0e4f201b619",
+    "bytes": 786746
+  },
+  {
+    "path": "03_voice/F24.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "70ad4406a36899a95589cee6e3a3066231014f8464fe220c2911bbee57eeed3b",
+    "bytes": 237740
+  },
+  {
+    "path": "03_voice/F24.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "093282e64cbbd21c5f0bea184a649c23b458e09333203f4a20428fd697e33860",
+    "bytes": 85
+  },
+  {
+    "path": "03_voice/F24.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "e55b934bd5fe75b5fe148068f5e707f66524bf9828a76ee53b8faf97ea40ed78",
+    "bytes": 1421588
+  },
+  {
+    "path": "03_voice/editing-assets/line-timings.json",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "237495ff4741a11af45e1952e9213c11c9bb43927a5dd50ac36dbe2cc7fb8425",
+    "bytes": 81950
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F01_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "1a8f53c2cd08939cc677187a3fb2fcab050a43db3721e4a35482b7ee229681e8",
+    "bytes": 245282
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F01_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "2ad3e278ab35d5001a547079ff461f6339f92ab5d86bec62942722c1cb72f15e",
+    "bytes": 259770
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F01_L03.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "aa1dcce5c4cd116baffc0bbef052b71f199c02be336bbbd511fa34ae90d33b12",
+    "bytes": 256428
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F01_L04.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "28473c4064614af9f0ff0bc676068defc9dd22286568a7a69318f913cc0ad17f",
+    "bytes": 229678
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F02_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "0990d1432dc610e47acce8dce79c17c2aa63c85efc7834f405e25dacabc25fb4",
+    "bytes": 240824
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F02_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "06a2c9bd7714673fd51b05dbf5f2dcee522465f04f5780d53fa48dd1b6297398",
+    "bytes": 126024
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F02_L03.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "393ae10177cf41f04c96a6bffed35c1573d29763fd6e5816a40f669c8c64d4d7",
+    "bytes": 152774
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F02_L04.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "854412455e363addc5947b434c650467f1126dc3284026d59018482430a8081a",
+    "bytes": 95930
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F03_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "c3c9da27028904aa96d715551a41091622f1af05ad5686339a6fc6c15b956412",
+    "bytes": 195126
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F03_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "294b6f58c900f2ec76ee3581a37fc75e6f8aab04837b2a2b6911099b014fd8c6",
+    "bytes": 95930
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F03_L03.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "d3d79520ca039b80cfd8e3fa2ce9a282d00aba15d503dc2d1d6d535dadef5862",
+    "bytes": 168378
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F04_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "2dad22edeead4654b43936dbc1e2a385d7068a713acb59e8eccc21486c59e830",
+    "bytes": 183982
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F04_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "457a23b1e05e1697656d178ff22f63e599eaf226ab11761f0b47ec066627fffa",
+    "bytes": 191782
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F05_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "3c841424536fdc95bea06e29018fc46c7b348ecab3839f8db43d29f9cca68918",
+    "bytes": 248626
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F05_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "30f79585c0d37e7477d39ce2d034395f5a7adb6a0d71216ecb7cfd388503c5c5",
+    "bytes": 171720
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F06_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "95e96a03894f1aca8b3cd69b7827b27a40c87651c6c4c032807686dea91a6715",
+    "bytes": 559588
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F06_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "45d5640e860177221c3cf8a9fa47c34d3b402e8876e7c5d67f55dd0a5a94d8ad",
+    "bytes": 114878
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F07_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "3ffda47ab475d6475c21ee3d3a645ba60543641fd44c70a3ddebf337288ea59e",
+    "bytes": 176180
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F07_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "70af941e7953a0c0121f4dbd5c54d8e51863357601ee6f59dab8e9fcd3f6e986",
+    "bytes": 240824
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F08_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "7013fffb4a0e7d58d6c4de3dda6ebf5c4ee0bbac7130fd9705c82bf8dc85f539",
+    "bytes": 187324
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F08_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "1b3980f77637ed72271becd6e8e4ed8d4f0ddd0549ee6bad17d0f4e4b9dbe1c9",
+    "bytes": 237480
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F08_L03.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "62af127a7199c776e056025b804801f90c3be76827ac69c14fec9459e45cbb4a",
+    "bytes": 118222
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F09_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "5c31c71b7af71d3d1011658b7382f9fac935ccd690c45a288877957f523bcb38",
+    "bytes": 294322
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F09_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "125cd6c73e903a2a727cd768ef2635d5f8e99dc2ff0b9eed93b3cc64b64c91f7",
+    "bytes": 195126
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F09_L03.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "83ee865ee54c2c759e714ef550f3db443bd8744d35d876848f7176ee8637eceb",
+    "bytes": 157232
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F10_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "fbefc104282b3f27eb0620931f488f3fe2d734522d74c9f801ae26a39d937770",
+    "bytes": 202928
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F10_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "d0414460e5dcc9d5bb83eb712bcc4de0e4eb5e51e43d0ac020c8cd79058c8be4",
+    "bytes": 148468
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F11_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "8e879f1037005b0109fbf408936c10be9746b26b9ea950494180360e0eb3d5f5",
+    "bytes": 221876
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F11_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "e5d298405f675dbce6bdaf298ff6f0d7082ccbefe64c20351defa2a3b984369d",
+    "bytes": 129368
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F12_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "30affee876380e18f185bffd26c4b4d183415d4e55e8d2f0e2adece42f9fce32",
+    "bytes": 287634
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F13_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "44bd97c0f4cd4795b5c7685a76963c41314d1d9d41d0a4a5398dbde00e8f65eb",
+    "bytes": 240824
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F13_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "f11ee223d093c54a0768043f6c4f2f25c3c4f8909ca1b396e62771a8546f4771",
+    "bytes": 202928
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F14_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "19d8a940a82e383a362c7001427719d45c3ca939fbbdc58a5aff83750bcb0af9",
+    "bytes": 290978
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F15_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "0cab502019aa5d17d70c4ecbfbc80adfefd91bd5cd0a98a644b210dc1753f86f",
+    "bytes": 267572
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F15_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "5b6157d78defa2b2ff8bc73485e8107bb1b5201d4170a37bc10ffe4837db6136",
+    "bytes": 160576
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F16_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "a4b99ef61d1a619fbd29383d192ca663d737f96b26714ef9be395702d3636366",
+    "bytes": 264230
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F16_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "813f23b2d555fc5477d8719bd491441f76d5d7a4d62b04eca72cbe3565f65b71",
+    "bytes": 187324
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F17_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "e962349e9dcfa3be0f9d87842c99339c6d3648fd76b8fbdbc890afd2fb7a3325",
+    "bytes": 363424
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F18_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "148e5ff8d3c42d03f521069a83e74f25f81d451ce27c83e63fa7a296af1401c2",
+    "bytes": 267572
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F18_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "e672645a9b5a55d635b233f5e618a5dfcc21b3e29378ac412f6b2d56ece2a4c8",
+    "bytes": 328874
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F19_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "a4463aa8c21e0db969cec19723ccab9e40a51a28cf6cf1743786a259439c6ddc",
+    "bytes": 328874
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F20_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "f2db3b0ee13c9fc96e6e74b21fbd97f1d703d1736002a37fd9ff403b73c525ad",
+    "bytes": 137170
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F20_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "7eec630045a7a78d2f06e21d23790b52c06e06e24fdba21f85dac04be10993c4",
+    "bytes": 275374
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F20_L03.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "28c6c1bf318c34a49a2ced0a37dcffaa9e36be50432745c136990c27fa9beb69",
+    "bytes": 287634
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F21_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "25cf0d71a6442cdd664af549d8a22fff2b8dc48876349a3f4e8bca1fa0c0bb57",
+    "bytes": 237480
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F21_L02.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "9cf0609ff2f3a7f7722cbee0ca16e563ca4ec45a42b492b05df3f7feb99b5931",
+    "bytes": 195126
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F22_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "2df4f939f30139e50020c18e33142863d1235ea68bf9db5403d69c1053beb93f",
+    "bytes": 187324
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F23_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "756d8b08c8cbb6a34f5ffa57d4ae174f18198053c019091d65d49d9004c191b0",
+    "bytes": 692220
+  },
+  {
+    "path": "03_voice/editing-assets/lines/F24_L01.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "8e1156e146083fa8225fcb543034c47493cfc4448b2647cfa2771f60fa3a2d10",
+    "bytes": 306582
+  },
+  {
+    "path": "03_voice/editing-assets/字幕.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "07c7d2b168a2a9000d324f9193182957e8f249994bf8542fae2b366f30a5d444",
+    "bytes": 3803
+  },
+  {
+    "path": "03_voice/junjun-football-master-indextts25-selected-r4-20261010.mp3",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "acc18ad9f1910272bd144c82d3976e54ac46ba3a363e126d473bc57cd3868f21",
+    "bytes": 3616940
+  },
+  {
+    "path": "03_voice/junjun-football-master-indextts25-selected-r4-20261010.srt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "07c7d2b168a2a9000d324f9193182957e8f249994bf8542fae2b366f30a5d444",
+    "bytes": 3803
+  },
+  {
+    "path": "03_voice/junjun-football-master-indextts25-selected-r4-20261010.wav",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "82956b052630c4fbd3c600c331fddf8bf10d281cccaca551905558a290c9fe17",
+    "bytes": 21696012
+  },
+  {
+    "path": "03_voice/provenance/BigVGAN_LICENSE_MIT.txt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "90459cd52fc41bd723df7c0c76fac1e4dd60e6bfd644a7e2a93f325bed4f6d95",
+    "bytes": 1076
+  },
+  {
+    "path": "03_voice/provenance/CAMPPlus_ModelCard.md",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "c6025ccc42e290640f44e06f0742c584b99afe738bb819d74889330c692446f9",
+    "bytes": 2020
+  },
+  {
+    "path": "03_voice/provenance/DISCLAIMER",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "3ba7e9e94f823f4bd3a2446c55a7bd1fa71769c4ca733153cc89130f43493b49",
+    "bytes": 2212
+  },
+  {
+    "path": "03_voice/provenance/LICENSE",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "53875532237e0a97b17a41721556ff57e93193fc566e48c3a0febe6e35bb5343",
+    "bytes": 10554
+  },
+  {
+    "path": "03_voice/provenance/LICENSE_ZH.txt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "366175ecf329274358801b8365922677c52f25e643dcf00f0bc15857b5b2777f",
+    "bytes": 7336
+  },
+  {
+    "path": "03_voice/provenance/NOTICE.txt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "50323142d83580a143703742944a5b4ce72307748f2dea153f5e71d9345f6f43",
+    "bytes": 712
+  },
+  {
+    "path": "03_voice/provenance/Wav2Vec2Bert_ModelCard.md",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "478afeacb3b4ce0d86b361f099416d28a7e7673ade31775c0f85f396979b7fc2",
+    "bytes": 4792
+  },
+  {
+    "path": "03_voice/provenance/generation.json",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "51734430fbe95731d6a43bc1f1903cc2d5230cd55184bcebb17f6d4bdc63eb52",
+    "bytes": 38103
+  },
+  {
+    "path": "03_voice/provenance/opencc-python-reimplemented_LICENSE.txt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "18f3fedf9eac72e6054260489c764c1e54f63cf2b16055523f561ffeec7bc908",
+    "bytes": 10354
+  },
+  {
+    "path": "03_voice/provenance/pypinyin_LICENSE.txt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "1e6c90014b4912815c296ee64bb6f6280af47e6d4c5d80e86232dfc5defe764c",
+    "bytes": 1105
+  },
+  {
+    "path": "03_voice/provenance/发布声明.txt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "812ab768c6d40ad3a5ea968e5f45fa997289128925a0cc2f113dfb972c7a99ee",
+    "bytes": 494
+  },
+  {
+    "path": "03_voice/timing.json",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "739b88258971d6d97c0571fcfc7fa622431bc5ec1690b1fe502c05219c7c4215",
+    "bytes": 39377
+  },
+  {
+    "path": "03_voice/使用说明.txt",
+    "source": "AI合成配音；经用户确认的参考声音转换，非动画原作录音或演员新录音",
+    "sha256": "bb313460b29df1b608bcb781d21c3d6532e878c7fbf12063563d86f7fc0fc604",
+    "bytes": 806
+  }
+]

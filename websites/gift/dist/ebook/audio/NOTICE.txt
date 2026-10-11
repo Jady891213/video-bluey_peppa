@@ -1,0 +1,5 @@
+准备礼物：角色对白和旁白为AI合成，非原演员新录音；背景音乐为原作品短片段。
+本版配乐：Rain (Instrumental) — Bluey / Joff Bush / Jazz D'Arcy；Peppa's Lullaby (Instrumental) — Peppa Pig；Theme Music From Peppa Pig – Instrumental — Peppa Pig。
+音乐来自网易云客户端正常播放的短录音，经选段、淡入淡出及对白压低后混入故事；录屏与独立原曲不在本站提供。音乐权利归原权利人，未将会员收听或录制视为另行授权。
+音乐时码、署名见provenance/music-credits.json；模型版本与许可见provenance目录。
+模型原始权利人对衍生品不背书、不担保、不承担责任。自动转写和技术检查不能替代人耳听审。

@@ -1,0 +1,663 @@
+{
+  "storage": "为避免重复，原故事当前图片通过相对路径引用网站中同一份原文件；原片录屏与参考音色留在本地私有素材目录。",
+  "images": [
+    {
+      "id": "F01-S",
+      "path": "websites/football/dist/assets/storyboards/car-r1/F01-S.png",
+      "sha256": "077aea534037bb30c953e47e9d35b9e57e47f19687f7a6d771d691703b6c6a7b",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F01-M1",
+      "path": "websites/football/dist/assets/storyboards/car-r1/F01-M1.png",
+      "sha256": "a7513163b6324e29287c17c4e67f096c7f35428805369ce9d60f9044d6f0a99a",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F01-M2",
+      "path": "websites/football/dist/assets/storyboards/car-r1/F01-M2.png",
+      "sha256": "b443d53270779ad8e90f3976257409f6a7dee6ed23a887c61c59d722e3b9aea7",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F01-E",
+      "path": "websites/football/dist/assets/storyboards/car-r1/F01-E.png",
+      "sha256": "686d5b6f27fc542ce7f87776979abc76ca8c9f1d1c6ea3d7af61784291948f70",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F02-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F02-S.png",
+      "sha256": "c9654d6c465e059c139a200a0050714fcff9e6334ab2c0313df61408573ad194",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F02-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F02-M1.png",
+      "sha256": "6beb945286d1e7dc60d7b5ca17d12111cafeae0fbf2254d0828f874cbdf32f3f",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F02-M2",
+      "path": "websites/football/dist/assets/storyboards/v9/F02-M2.png",
+      "sha256": "5ad2b36557f5899a02323352789bf6822b87e9c724b75200dc9787036f48d728",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F02-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F02-E.png",
+      "sha256": "508dd01d44c00d6182f3b1636037ad6def9ff60458f59204ba1ba5cf96076e43",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F03-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F03-S.png",
+      "sha256": "08c7bde0a83f47ef85e4a04b44a59e113880d25846b6e899549b9f3c0f5e605b",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F03-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F03-M1.png",
+      "sha256": "cd7e1ce5ca8c0961c47066cf73a9c9c24c9a123a7501fbc14f4d846124d4fbb1",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F03-M2",
+      "path": "websites/football/dist/assets/storyboards/v9/F03-M2.png",
+      "sha256": "5f546f38555417d1a62d67fdd565c2a322e5028f26f0c749769918c57141c31f",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F03-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F03-E.png",
+      "sha256": "fb03dd3c8ef787a97c03bf366ca1c16425d1b32fba428814a5960dae9c2aee41",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F04-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F04-S.png",
+      "sha256": "780f11a36bfef5da49af6e62171e8329f8a9f16bb20c4712ece7793a938616cb",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F04-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F04-M1.png",
+      "sha256": "ba1b38673848f9ec280be9db0dbb56fb7b2e148e52ec1bcd671e8c04dcecd8f0",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F04-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F04-E.png",
+      "sha256": "54f8023681aaf0ad3a1b1143f7bc5e24afd0a8a538bfe9c1a473ea3205185356",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F05-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F05-S.png",
+      "sha256": "1fb965bc5491c808e8c58ce30bc0671d73e3b96d68816d1ea2565c66e66e3b6c",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F05-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F05-M1.png",
+      "sha256": "682c71af234de6ea028dee1fd63a12e3f412050f10d3dd82b8c9f63acc2c5f35",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F05-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F05-E.png",
+      "sha256": "174ba7c21981a6be0dbc8c105e79d645761c5ff8dbd4a6914e89a9ad474c0865",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F06-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F06-S.png",
+      "sha256": "4aaa1442794268c4467c6264513169b271590226fdd0003502b021e6208a6fc7",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F06-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F06-E.png",
+      "sha256": "a1d42ba268d2783e5f90efa0005c1ecd0162196601410b2c9f05bf69ab5a39b9",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F06-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F06-E.png",
+      "sha256": "a1d42ba268d2783e5f90efa0005c1ecd0162196601410b2c9f05bf69ab5a39b9",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F07-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F07-S.png",
+      "sha256": "40b8fff2446b9eae84ae0f469fbf08325da463af3dac70bf3c820539a460add7",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F07-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F07-M1.png",
+      "sha256": "e642b1357a29b75ce9b8072e133eb70049faf775fa14dceb48c93a4b4aec25ae",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F07-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F07-E.png",
+      "sha256": "9c51353c709e9e76819fa86c9dc8d6cb45a25edefa862b39aaa101945d3529f7",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F08-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F08-S.png",
+      "sha256": "f95c703e7878a19bd9350c9ffc59a3238e73f92068e8184da1f256f033161515",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F08-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F08-M1.png",
+      "sha256": "48e0e0f78757321e447e18633a062aec3f77e62a1706fa090e0fa1b7474d120c",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F08-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F08-E.png",
+      "sha256": "9f035eb2cc66b6e8de4daa9bbab6e395bdf209a9dde9d2a708e10f16d289bfe7",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F09-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F09-S.png",
+      "sha256": "6296227d0cc73950799aea33d0107861f8fce12b91e8e7d49a4390002f241ba1",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F09-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F09-M1.png",
+      "sha256": "15bcd9af673303b8c5bbd2cd402fcd4f477ae3869c2a1cff71e072560f0b7276",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F09-M2",
+      "path": "websites/football/dist/assets/storyboards/v9/F09-M2.png",
+      "sha256": "4c44d77bb8e8633efb2faf592132895940ff023cadf58b9d495090b40852ebe3",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F09-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F09-M2.png",
+      "sha256": "4c44d77bb8e8633efb2faf592132895940ff023cadf58b9d495090b40852ebe3",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F10-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F04-S.png",
+      "sha256": "780f11a36bfef5da49af6e62171e8329f8a9f16bb20c4712ece7793a938616cb",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F10-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F10-M1.png",
+      "sha256": "230d6f78bf394c913d36fb8aadec4626fff3e50d093fbabf6175acc863aca19f",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F10-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F10-E.png",
+      "sha256": "f8f558f50475ee9d74515c50b71ed88c7392b5608758f5f74c897cec6418fc4c",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F11-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F11-S.png",
+      "sha256": "277a74ca767143b30f7102de949062cb9177e4734e630521dfa13416870d255f",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F11-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F11-M1.png",
+      "sha256": "1c04188e86c5bbaaa430d905208fa608bbdc1e8e904e8fce8d0701ff5753c044",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F11-M2",
+      "path": "websites/football/dist/assets/storyboards/v9/F11-M2.png",
+      "sha256": "4c2c95ea81e27136719a1cc1eea2a66d40eb10ae43f7718d3ea26b5a30d939c5",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F11-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F11-E.png",
+      "sha256": "a7c3c3141b092853ab1488756647df6776611147a0f5aa8cf9315bb3ff16960a",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F12-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F12-S.png",
+      "sha256": "87851a35c0be9a13798de78fe4e0e94d518f3693cc455c295fa20fbfa40b3eaf",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F12-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F12-M1.png",
+      "sha256": "95c6c806167473f33927c6347bb9bf72e1f7404d3ce31e8eefad59472c2f6b42",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F12-M2",
+      "path": "websites/football/dist/assets/storyboards/v9/F12-M2.png",
+      "sha256": "237edf55d6ab650773fc7136a11c54f135003763baf4404e07cd509cad66b4ef",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F12-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F12-E.png",
+      "sha256": "05fb1f8df554a0d382a06172d2884d85ce3136789ad4ca8500c9fd4a39f67955",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F13-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F13-S.png",
+      "sha256": "9d4c5bfbddc19b58310caeadaed24506afb23f2656bcd7da851603eae2d4c3f9",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F13-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F13-M1.png",
+      "sha256": "edbe7b59e19b0d3741895e6b949fc213e6cced386d48fc4ed0d52990504266db",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F13-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F13-E.png",
+      "sha256": "8ae3bc267e5bc09c6b01b868a52b1171613ba994daa31adf76eb855b6037d128",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F14-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F14-S.png",
+      "sha256": "27a140ea925e0bf746b517322db1357819c4f60e025e67b5fab74194d2ee8a6a",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F14-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F14-M1.png",
+      "sha256": "37cd9954ef3723e2267c8ab66e079acbdd123367e48bb93f7b0160c57975742b",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F14-M2",
+      "path": "websites/football/dist/assets/storyboards/v9/F14-M2.png",
+      "sha256": "0be88e45733200fc882a81354d92e6244506b62b79264fa4b90b738e6b95a93a",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F14-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F15-S.png",
+      "sha256": "ee9afc0095981f98d6fd36d72f5c84e7bc5ac973e1d6a6d7ab0c5c8e097d3064",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F15-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F15-S.png",
+      "sha256": "ee9afc0095981f98d6fd36d72f5c84e7bc5ac973e1d6a6d7ab0c5c8e097d3064",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F15-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F15-M1.png",
+      "sha256": "3146324b6dc33f2589d58c4da543ab2016790766e6601893a33d7b103a1b777b",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F15-M2",
+      "path": "websites/football/dist/assets/storyboards/v9/F15-M2.png",
+      "sha256": "86b66d8d60166eb0fff2b3cfc3d157f4bc1c959f107fcc6a93c5cda85973e030",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F15-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F15-E.png",
+      "sha256": "236e3381f7a18b86ac1c73b9f217016f4317373ead5248247cb0656edf2869b0",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F16-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F15-E.png",
+      "sha256": "236e3381f7a18b86ac1c73b9f217016f4317373ead5248247cb0656edf2869b0",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F16-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F16-M1.png",
+      "sha256": "2c235763e2c31f6880a45b1e46b19affe2131eef7ddd094f6d21317400996136",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F16-E",
+      "path": "websites/football/dist/assets/storyboards/car-r1/F16-E.png",
+      "sha256": "675d75395ea842260f52c8b7e17968514f8730fbca19c4072a412b252a70666a",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F17-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F09-M2.png",
+      "sha256": "4c44d77bb8e8633efb2faf592132895940ff023cadf58b9d495090b40852ebe3",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F17-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F17-M1.png",
+      "sha256": "641c84b25a95f7444a57c929f07724e031f55e34d24321ae449d29df5c6b6acc",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F17-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F17-E.png",
+      "sha256": "bd0f9245c63d4f382a6eb7e9009538afd6c1bdc688470c13ad28994c79f9e47f",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F18-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F18-S.png",
+      "sha256": "b844edf81464053cc353fb3c58aec15a05522573c08a4ca5da3ecc9ba9951163",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F18-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F18-S.png",
+      "sha256": "b844edf81464053cc353fb3c58aec15a05522573c08a4ca5da3ecc9ba9951163",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F18-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F18-S.png",
+      "sha256": "b844edf81464053cc353fb3c58aec15a05522573c08a4ca5da3ecc9ba9951163",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F19-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F19-S.png",
+      "sha256": "fc83f256a9b02f63c31918516ad80967181ca8b1c2e67bf60ca3d5e570cc3350",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F19-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F19-M1.png",
+      "sha256": "6de25fae8c5ef82edce9935de404c16e963b0380355f7543f6ea40dd86c62dd7",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F19-M2",
+      "path": "websites/football/dist/assets/storyboards/v9/F19-M2.png",
+      "sha256": "d1c3440a15b99deb397ff99cdf2cad6cc974ef7657eba3ce93586d4e4ab4b123",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F19-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F19-E.png",
+      "sha256": "f68bdd0f97a494a49a4d998c050fd34efc14dc632c3e9b78e7e9d330c6ade25e",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F20-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F20-S.png",
+      "sha256": "0b35f3964a39c1601fb49420f19b539f39c596aa6749bf802c0193ac470440c8",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F20-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F20-M1.png",
+      "sha256": "b626bebf6877e097480ef447718357b434f7ca85f578aa45f71c499e48a86fcc",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F20-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F20-E.png",
+      "sha256": "d09052f6fba116a3838289908dfd385d4c5a65b4b687604f7a323cf4a8a1fe27",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F21-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F21-S.png",
+      "sha256": "cf7ab357c9810f31229de4515f0d39e3fa657be4429801c53e51e28bda644533",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F21-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F21-M1.png",
+      "sha256": "ef7a772398ec604854a7c14971ee01e5aa52fd15c540463addb897acd5ebbaeb",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F21-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F21-E.png",
+      "sha256": "c683eba214a504d3d163f0e112041dc17abf128b575d7561fcceb69629b8a3e1",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F22-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F22-S.png",
+      "sha256": "283efc3094dcec41b04a03cbc23a01b17475fbd3fb82c78be28f31947cf77aaa",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F22-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F22-M1.png",
+      "sha256": "3fd0e32edaa7ef24109d10f6bd03ccb81c490eed4010d7674f616e5a82fafc61",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F22-M2",
+      "path": "websites/football/dist/assets/storyboards/v9/F22-M2.png",
+      "sha256": "879b55e183b80c9874c2e5d3b6a92079de1236e6728b864c0ad82ee8ea31533b",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F22-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F22-E.png",
+      "sha256": "fede54d5525c468c980357ee590e52efaeea6d8d737cc8a80bc82e39cb25859b",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F23-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F23-S.png",
+      "sha256": "431f7618ca97f2545d0abf1a85577159a08d36ff760e23c64aa2bbf0d8ddb038",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F23-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F23-M1.png",
+      "sha256": "cc4fd016fc70c71dd037979c928bf51b1469267220401ac822f3da61335f4816",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F23-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F23-E.png",
+      "sha256": "7a44c4cb1ed0cf4300cf6285673190052ce5e9fe0e054f27be65f28a25c78264",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F24-S",
+      "path": "websites/football/dist/assets/storyboards/v9/F24-S.png",
+      "sha256": "c5ac3d0da564cbf60a17005bf0eca552e4142f8ce526f9a59acce076d1b0d29c",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F24-M1",
+      "path": "websites/football/dist/assets/storyboards/v9/F24-M1.png",
+      "sha256": "bbc4d9f81197f63fbb7d681bc32a37b8f800c555d745771330747fd0657aa2e5",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F24-M2",
+      "path": "websites/football/dist/assets/storyboards/v9/F24-M2.png",
+      "sha256": "772048d7e3de501af7e95c0ee4f854ded258242d22f2f38fef4e2c6b6b1cc0df",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F24-E",
+      "path": "websites/football/dist/assets/storyboards/v9/F24-E.png",
+      "sha256": "0b1c2c9ba41487854a212c258767e80be1de678a69ab4b29aec31c4de1a65dff",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "角色相关权利归各自权利人；不声称官方授权或关联"
+    },
+    {
+      "id": "F04-S",
+      "path": "websites/football/dist/assets/composited/v9/F04-S.png",
+      "sha256": "65c798c9ced1e15ef2b195e96a8c4c3447b7cbbe497886f43682e9ca50ceaf17",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": null
+    },
+    {
+      "id": "F04-M1",
+      "path": "websites/football/dist/assets/composited/v9/F04-M1.png",
+      "sha256": "94aeb8ea7b5ec3ba814445705619a68fca14dd3d3ae8ebbf83678e48cfc61aaf",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": null
+    },
+    {
+      "id": "F04-E",
+      "path": "websites/football/dist/assets/composited/v9/F04-E.png",
+      "sha256": "a69740438b2c4c14face9d846c279c6b1cf5952c8053eca7ffb994b4b38c27c0",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": null
+    },
+    {
+      "id": "F10-S",
+      "path": "websites/football/dist/assets/composited/v9/F04-S.png",
+      "sha256": "65c798c9ced1e15ef2b195e96a8c4c3447b7cbbe497886f43682e9ca50ceaf17",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": null
+    },
+    {
+      "id": "F13-S",
+      "path": "websites/football/dist/assets/composited/v9/F13-S.png",
+      "sha256": "f0e36cff85b57f7da8f8b8fbd85731e779145bdf2e4a0fa8a47520256e0e180c",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": null
+    },
+    {
+      "id": "F13-M1",
+      "path": "websites/football/dist/assets/composited/v9/F13-M1.png",
+      "sha256": "6814462b3bf40f2a24c8ec37fa30f4c4b62eae87b905ca254806d9ff2c55b531",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": null
+    },
+    {
+      "id": "F13-E",
+      "path": "websites/football/dist/assets/composited/v9/F13-E.png",
+      "sha256": "b657c4fd4a06c055f0f3cfe4cca1b2570d3230b9ebea070eebc4a3040d1f7ba7",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": null
+    },
+    {
+      "id": "F14-E",
+      "path": "websites/football/dist/assets/composited/v9/F14-E.png",
+      "sha256": "b2b727dcfaa3e4bfe08ff5e7492c61e3736c8e245597266a077e16b8408f4252",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": null
+    },
+    {
+      "id": "F18-E",
+      "path": "websites/football/dist/assets/composited/v9/F18-E.png",
+      "sha256": "907a652cb8ed923bc82a94e43673d66a177d128b69e64e0994f34ed0952486a9",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": null
+    },
+    {
+      "id": "three-models",
+      "path": "websites/football/dist/assets/overlays/three-models.png",
+      "sha256": "8762f2488129a33a468693fe3699d9c17d35a8d399368c00b76298210abdd453",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": null
+    },
+    {
+      "id": "packaging-reference",
+      "path": "websites/football/dist/assets/references/packaging-reference.png",
+      "sha256": "a03d0e16b25ae0c6abe0f6330723dcc8c8b123630a32856a3d3eeb0104291bbc",
+      "source": "原故事当前采用的插图原文件，单份保存在网站中",
+      "rights": "用于此项目的外包装造型参考"
+    }
+  ]
+}

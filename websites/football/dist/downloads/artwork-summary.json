@@ -1,0 +1,37 @@
+{
+  "planned_positions": 83,
+  "mapped_positions": 83,
+  "unique_current_artworks": 75,
+  "replaced_positions_this_revision": 19,
+  "unique_new_artworks_this_revision": 14,
+  "unique_unchanged_artworks_from_v4": 61,
+  "repeated_content_groups": [
+    [
+      "F04-S",
+      "F10-S"
+    ],
+    [
+      "F14-E",
+      "F15-S"
+    ],
+    [
+      "F06-M1",
+      "F06-E"
+    ],
+    [
+      "F09-M2",
+      "F09-E",
+      "F17-S"
+    ],
+    [
+      "F18-S",
+      "F18-M1",
+      "F18-E"
+    ],
+    [
+      "F15-E",
+      "F16-S"
+    ]
+  ],
+  "note": "F18 three planned states share one neutral base; answer revealed as Site overlay, not baked into art."
+}

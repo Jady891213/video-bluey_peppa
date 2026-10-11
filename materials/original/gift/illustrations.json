@@ -1,0 +1,531 @@
+{
+  "images": [
+    {
+      "id": "GIFT-ILL-003",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-003.png",
+      "sha256": "874d3702ed2419809ab36301a0fda0d7c966f8497e231d8b929ec62280310c25",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-004",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-004.png",
+      "sha256": "06e24363cb69eb32cd952bfc7a203a4c72388fa63af3d7af0a85823aaf6910d6",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-005",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-005.png",
+      "sha256": "9a6e0b58ad252ee8af4aa364c87c304712cd0ee9c6cb0ae68f38d7b8fbfc73ba",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-006",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-006.png",
+      "sha256": "0d64a3fa246626530ab70dd05584888e13fa731f2b1b78746f12a49457ba3b6c",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-007",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-007.png",
+      "sha256": "1c9f6d0338354b1899110a82b37a442bde83a51f703b5c56ad0baa5b081bebae",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-008",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-008.png",
+      "sha256": "1494651981d7fead148cf3c36f32a04387855e39657a35c6932dfdd6fc6c6af7",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-001",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-001.png",
+      "sha256": "3d6c234599c416b9c03da2a0a7b5c1283924f30df191cd9039c5111aa710d49d",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-009",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-009.png",
+      "sha256": "5cdcc8ca6fa01c44893ae77fa6abcfeb6f3c0ab2eab6c16f96373c2c4116968d",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-010",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-010.png",
+      "sha256": "03e098d7851661f7e369321025262f0f340dcd5d920b516d23b27464647de422",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-011",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-011.png",
+      "sha256": "1a5b15ea52c48d273ea4ba82212be31dd4c2873f3aa04253f9bc13fa9682d9f4",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-012",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-012.png",
+      "sha256": "10e565b78b634c0b334df6725b5087f71433b018ab963f44a05de68b3cdc7a9d",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-013",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-013.png",
+      "sha256": "6ff71b7d235aff71533032ee48379137157ea7d89f412d82c301477f758586ad",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-014",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-014.png",
+      "sha256": "1edf2f06618838fd1a0f2aab394e8d4abcd7e218894cef809b954b3f617f9324",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-016",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-016.png",
+      "sha256": "559a93c3ea6d7bce94c3c539f0dd6e1b29eeef15a4aff3b2617f5a1f462485e2",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-017",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-017.png",
+      "sha256": "b565903a657de8e111fd08f31db7b92650197bfaa8a5a49a60aeef9ffdfdc37e",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-018",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-018.png",
+      "sha256": "af3d344ebe18cf736fae6bb92682153313cc694fb1e17035ec3bb557a2ae03a9",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-019",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-019.png",
+      "sha256": "af40e5dcbdd7ef2dda31383f084bf305405e657418c40de6fdb4a0d3ec6b71ad",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-020",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-020.png",
+      "sha256": "74401d7b67c7ec47731230a8c2c5e6dbb747b3f5f019a2fa86354abaec4bfaf4",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-021",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-021.png",
+      "sha256": "695553451a02381ad4c7023e033cc0701d16fd16702d955eab88e9c2c0574c81",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-022",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-022.png",
+      "sha256": "5c24ac31e6de9045be905c9f9a67ff35ac5d892fd30106529ce7012d6b0ade97",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-023",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-023.png",
+      "sha256": "2aff30e4ae5caa45b2397c30efcc37d2251cb7f950e52a94224116f8a08d4a0f",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-024",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-024.png",
+      "sha256": "994e168f58dc160d5e4b70247bcaed87cc03278ba719b2a8f357a643a2e207dd",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-025",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-025.png",
+      "sha256": "4259cab29dfd651b7e0f2bf9f62093ae8bf9e6041522d45fe14fe7fd21b5119a",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-026",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-026.png",
+      "sha256": "7647a5543b79951eae7acaf3aa800efdca10e314a08f6edf06193cd2e4929373",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-027",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-027.png",
+      "sha256": "1f96fecfcd7116c31be767bbc03e45cff7afd7a89aaa448e5bec353743913bc6",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-028",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-028.png",
+      "sha256": "c2f8fae98aafacd1ce8e0f75ae9a62d938170bb30e86d662df9d499dd75b0050",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-029",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-029.png",
+      "sha256": "250916607263de299e7d4e7f2e52dd83daab6d87d2492cf11f5fd3533d24fc8a",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-030",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-030.png",
+      "sha256": "689b5554986942bce542c92180c4a03340ea2b25b539588d0693ca299b3de6b6",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-031",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-031.png",
+      "sha256": "1605e20087a2200b936bfa185ecfc1feee8f28b8bfff818587fbf39ecc3817ff",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-032",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-032.png",
+      "sha256": "b0b175ed63e4747c133a5b5da9999da2fa39fb9b1c5eae8eaac63651c3a1662e",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-034",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-034.webp",
+      "sha256": "a8e6a98305b0647508ae035d415637240dacb8155a1816d0caa36a6dfb068398",
+      "original_format": "webp",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-035",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-035.png",
+      "sha256": "ab6ec6d6ef6367a54edcc63833facdd23386bab0554f0219458519689bf52e31",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-036",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-036.png",
+      "sha256": "8531498a1503744d46a1d248a02b31ae20b4ca696f26c6f4c319b53d4b018168",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-037",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-037.png",
+      "sha256": "f89e959da9883ad9ceac9952389071834e7a953866e53c34e1e078455de69422",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-038",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-038.webp",
+      "sha256": "0bd04c06bbbb705f24d8ec1ff8341b3fb878647b57a3edfe89f7cf264a9af225",
+      "original_format": "webp",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-039",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-039.webp",
+      "sha256": "b379c4a10d84a16aae9a8e5d553054a91b17ee9a5f5f4719284bebdcfd2c9935",
+      "original_format": "webp",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-041",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-041.png",
+      "sha256": "3970eab52ebc9a7d9d78b753fdecf698f15dca0c9e74fd4e3e5240796729a6fb",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-042",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-042.png",
+      "sha256": "f3ab2f8cdf72ef8eaaec6e44355fce030e290ae05f6581e5d2001e285808424b",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-043",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-043.png",
+      "sha256": "71ccb09e7670b408bfdd73e620a564b65b1cdc35a0024637c477cf147cb1a713",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-044",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-044.png",
+      "sha256": "d12da87a42ca1bb45e2f6435ce7b53d87183501b627aa9c1191d8a2b0e5c6372",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-045",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-045.png",
+      "sha256": "6d4293d1cb28b4f6f1ca1f5ec5c52dbf9177ef42eb52b7dfef10e407d5968f0f",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-046",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-046.png",
+      "sha256": "d00d6fbd5ee5d7c6e34311a57ed32a2bd841fab4ccfe1859827bdcb225c40346",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-047",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-047.png",
+      "sha256": "1ab2f8090d5c1eb8ada5d97e8b07b4d0f3c713ae299f3b892475fcb8f4d7ef4f",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-048",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-048.png",
+      "sha256": "0d85640795a133629854b20d935c0b55e9807915cfdd4bba5844a82e1d6cbaf4",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-050",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-050.png",
+      "sha256": "22dc977bc06402b9af8e89d17fb334f744511f08f78a9b61f29b3ac465649ffd",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-051",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-051.png",
+      "sha256": "55416bcc080f0194e944b2579dfee65275704a92dcccc2227a4470ed724b36a1",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-052",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-052.png",
+      "sha256": "b8d69334f03f032d3ff63d5806808ce99dc53adae35511291c24ec180d7180c4",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-053",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-053.png",
+      "sha256": "6129371149fedb113f9250cb411e33b587fa0c142ae28fd68daf021ccb422f75",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-054",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-054.png",
+      "sha256": "c29da04b6ad2fe9f93d9500eb1835d978ef4ef5ca1f08cb23b12dae6ee2de361",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-055",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-055.png",
+      "sha256": "32672ebf9133d70dd0b517745a3d57cf7226c0f8f9993719400a542385663dc5",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-056",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-056.png",
+      "sha256": "65e80e57931b1cea73f8264e8c292c4ec06bdfec12909043238824345c6380f2",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-057",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-057.png",
+      "sha256": "eeb3665ecbd681a6aa168c75555d70b456993003d1f924e0607c32e7e77c9e19",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-058",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-058.png",
+      "sha256": "d13dbae55cf8fc9736652caebfd6056d8792b1f57a86a1f8e46e732264473d65",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-059",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-059.png",
+      "sha256": "27820ede2107262549ca0937fe8321d5480bdf60060a68e9df39d90bd99b9d8a",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-060",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-060.png",
+      "sha256": "44fad4b2d4949fe63874e34dc690bab6c61ca4b5ccd94a42b782df3829fefbe0",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-062",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-062.png",
+      "sha256": "692e676955634529d0aac32bbaf3c679a6352e781ee91e01609540a7b6a1bdf3",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-063",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-063.png",
+      "sha256": "b9fb8dc370d183dfd9693863d390bdae0be3cde3d56485141cf7bb7309276767",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-064",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-064.png",
+      "sha256": "a8a305a2f865fb9983333f87923bc03a6e1fbe3f8047748afd2a900a2a084209",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-065",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-065.png",
+      "sha256": "e5473f1e31baddadaf83d7578886df3b69691c913544e8df427b51022222d78e",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-066",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-066.png",
+      "sha256": "43535dce8e5e909b0f3a07497f1474ca7130679f1befff41d9002ab4838a9704",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-067",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-067.png",
+      "sha256": "7ed6eaa2444df0c0af77c79f3692188a46812737f44fbafb20022b626f92ea46",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-069",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-069.png",
+      "sha256": "7b7746f4a00df77d9b43fefe0b172d23a9b77a4efc2813a368f0e71e468bc815",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-070",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-070.png",
+      "sha256": "50295051405455f1a4fb76ff55f943bc1cce38d79091a93584e122a5c9386d95",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-071",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-071.png",
+      "sha256": "f853fa5469054cc831aa46730633c0f75d900ad66b9158fa02c8b7c11ad492bb",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-072",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-072.png",
+      "sha256": "32203cfdba0c7692d42fbd0aa10f01e99ac1ef225264325d31f6075572d4123e",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-073",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-073.png",
+      "sha256": "785c7537bcc964e77616019a1d68128807db83c89ac76cf7325ba762f531b1b6",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-074",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-074.png",
+      "sha256": "1fcea83bf63dbf0d74d4410fbea84b4a6d8634c5cfd328af182ef731f41ee9a9",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-075",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-075.webp",
+      "sha256": "74ae3f8dedc3dd2275f50584a3624c5c85cb3f97e5c0feee9c0031e3e4b885ec",
+      "original_format": "webp",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-076",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-076.webp",
+      "sha256": "b359f8d82a594af0cfef7fd856ff280a55e6203827d4414a7575a17973aefe6d",
+      "original_format": "webp",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-077",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-077.png",
+      "sha256": "832cbde4db7fc8362f0ec16f0a93f6cb3d1ff5db78bcfd5bb4cb7eee00c1c2f3",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-078",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-078.png",
+      "sha256": "f39161725c8535b24f4973f83015b6777504287749e7895119e07ebd21d64f7e",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-079",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-079.webp",
+      "sha256": "afc3f241f202cff5718f6693fd64abdab21072bb2af72397bc687527f607f6d0",
+      "original_format": "webp",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-081",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-081.png",
+      "sha256": "f1155128863cd7999d8d1cc7ba9fd0c4969e8258a0aa352b67649f7861e7837a",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-082",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-082.png",
+      "sha256": "b8e106ce9173a8559ba47358bc83422788cc7889dceb2716bf542fb76425728f",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    },
+    {
+      "id": "GIFT-ILL-083",
+      "path": "materials/original/gift/illustrations/GIFT-ILL-083.png",
+      "sha256": "d3d59d78888c0e9d00c37d01397f68c052f242cf753774f9496e0845a3dc41e7",
+      "original_format": "png",
+      "source": "当前选用的AI生成或局部修改插图原文件；非官方动画帧"
+    }
+  ],
+  "count": 75,
+  "notes": "原PNG保留PNG；接手时已有的无损WebP保留原格式，网站全图另有像素等价无损WebP。正片录屏和声线参考在本地私有原素材目录。"
+}

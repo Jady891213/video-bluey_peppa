@@ -1,0 +1,768 @@
+{
+  "model": "IndexTTS-2.5",
+  "source_commit": "d9e41aac89fd00b3d71497fddb287b7f24613712",
+  "weights_revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+  "audio_label": "AI合成对白与场景配乐；背景音乐为原作品短片段",
+  "reference_source_note": "角色参考原声仅用于本地AI配音制作，未作为对白分发；背景音乐片段及作者见music-credits.json。",
+  "processing": "对白保持原生语速和音高；按同一真实样本时轴混入短音乐片段，对白期间压低背景音乐，场景间淡入淡出。",
+  "master_mp3_sha256": "a37a45238b99925248e1e4cc15f4d9ab7122f0aec888286218ae9bef8747942b",
+  "lines": [
+    {
+      "line_id": "GIFT-L002",
+      "speaker": "布鲁伊",
+      "text": "爸爸回来啦！",
+      "generated_wav_sha256": "929d300b010676971c0b401dc7770b45a2bdd89b661aad3623fee6bb6ed6b580",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L003",
+      "speaker": "布鲁伊",
+      "text": "爸爸，这么大的箱子里是什么呀？",
+      "generated_wav_sha256": "64fda0ccbfbcb994885837fb996da1e72c84e15d65f6762607e07ee9d1649b77",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L004",
+      "speaker": "班迪特",
+      "text": "打印机！能做出小礼物的机器。",
+      "generated_wav_sha256": "c45a8388d8c464fc61191c4b9abf1199bda9562e8cc5308eed3f5b72bb816da0",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L005",
+      "speaker": "宾果",
+      "text": "那我们开个礼物小店，我当老板！",
+      "generated_wav_sha256": "7eb6a0dd19acc8eeb99ac9d208b7d87f0ebf88b861a4c356f12dc05f9f42ff53",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L006",
+      "speaker": "班迪特",
+      "text": "老板，先让我把箱子放下吧！",
+      "generated_wav_sha256": "c808f737de2aa5beb9ba12a41a564b7ca618b8a6f4322a29d71fdc1e0c2dd9f2",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L007",
+      "speaker": "班迪特",
+      "text": "礼物小店开张啦！",
+      "generated_wav_sha256": "15c0f276c9ca9949b96ded4104cdbecd8e3e9457d4020c5de39bbc9e926fdbc9",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L008",
+      "speaker": "布鲁伊",
+      "text": "第一件礼物，我们先来试试！",
+      "generated_wav_sha256": "564d08dc0e5d0701c0a832586dca36a08476e3814787f1f53fbcf5ebaff12bb4",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L009",
+      "speaker": "宾果",
+      "text": "这是它的面条吗？",
+      "generated_wav_sha256": "a65e00f6cae1eb36952460f032f14eaecf3f1b91d76df526a1a0a6582e360477",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L010",
+      "speaker": "班迪特",
+      "text": "打印机的蓝色面条来了！",
+      "generated_wav_sha256": "55141428bf29aac92e1154679dc4f17ae5ee56f081e2aca4856799d256caede8",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L001",
+      "speaker": "布鲁伊",
+      "text": "这一集布鲁伊的名字叫，准备礼物。",
+      "generated_wav_sha256": "c3db310e3c2388e270921e7d81a978d40d171f348e6fb92b032f9ef9c33fd409",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L012",
+      "speaker": "班迪特",
+      "text": "老板想先做什么礼物？",
+      "generated_wav_sha256": "2fb850efd108f371136a72f2a52da0dcf83c10203d1fa7ce8de229cb3fac78c4",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L013",
+      "speaker": "布鲁伊",
+      "text": "做个我，送给宾果！",
+      "generated_wav_sha256": "06da115d0fe0ca895147bd1cd99441036f2d0644c9d120c5f0b0662fa008734d",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L014",
+      "speaker": "班迪特",
+      "text": "模特请站好！",
+      "generated_wav_sha256": "4d0d6767bf9922328f56be9b911216d77c71f9f0a6db87615f8bee0bc27fe447",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L111",
+      "speaker": "宾果",
+      "text": "姐姐，再神气一点！",
+      "generated_wav_sha256": "eaa2f364b113fffee2cd9b4941ac02803eee31a8a4c2059de00ac5e210aea305",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L015",
+      "speaker": "班迪特",
+      "text": "瞧这两只神气的小耳朵！",
+      "generated_wav_sha256": "16b55bbaa76bd88fd4b6fe1c2add8809a934a506d95b2bcda07571ebe1cc45a0",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L016",
+      "speaker": "布鲁伊",
+      "text": "等它出来，你就有两个我啦！",
+      "generated_wav_sha256": "63efce47886887dad910e2b7d8f7081ac5486b00e3b9c4754721f7eb6128f65f",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L109",
+      "speaker": "宾果",
+      "text": "快递员，去沙发那边！",
+      "generated_wav_sha256": "12f8ed6a0a049e27ed3054b00389bcc3de3aae739ea1fbd4d4c2a35c79ad69e9",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L110",
+      "speaker": "班迪特",
+      "text": "哎呀，老板又改地址啦！",
+      "generated_wav_sha256": "74aee86978e7ec9530035d7b487ce8919b8e5b2da35e262b0bced3d44848d3ff",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L018",
+      "speaker": "旁白",
+      "text": "过了好一会儿，小礼物做好了。",
+      "generated_wav_sha256": "3b1717afe266531e75e290103d0b5475bff451d65ea75ed9f2e344eb407259bc",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L019",
+      "speaker": "班迪特",
+      "text": "已经凉好了，请老板验收！",
+      "generated_wav_sha256": "0c78d37a32b5b57b66f25a12f2f2a8e797969566fb40166be5a54313c3b4647c",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L020",
+      "speaker": "宾果",
+      "text": "布鲁伊，你变成小蓝莓啦！",
+      "generated_wav_sha256": "26361766f90f2a30f2ecf4445940f4ebd2123824b10a26a760e7957207ad857d",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L108",
+      "speaker": "布鲁伊",
+      "text": "我可不是蓝莓！",
+      "generated_wav_sha256": "39306953e133a2bcbde650c932efe7a62ce570770cb4c4a0aaabda457adc1af0",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L021",
+      "speaker": "班迪特",
+      "text": "这是旅行装布鲁伊！",
+      "generated_wav_sha256": "2d2c134265040afa1c69e44a5439cde9a304d58cfa91f5939752cf055c9b07e5",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L022",
+      "speaker": "布鲁伊",
+      "text": "那我就能陪你到处玩啦！",
+      "generated_wav_sha256": "5fb2d6bdef15a450575d9613cd23f6f5151c03797568a750332a5cda8211fcec",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L023",
+      "speaker": "奇莉",
+      "text": "下午还要见朋友呢，礼物小店忙得过来吗？",
+      "generated_wav_sha256": "298a1b5100413c54274f87a27e2a3235200263a48196000453772210538b2d43",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L024",
+      "speaker": "布鲁伊",
+      "text": "当然！我还要准备一份惊喜。",
+      "generated_wav_sha256": "6460975457c4d78a8dfc455ee8bece74d99b32481d6f90cc8991df739067902e",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L025",
+      "speaker": "班迪特",
+      "text": "收到，我们再接一单！",
+      "generated_wav_sha256": "adb5d530780df260f74f0a9f679dfc17890055287bb98ea0560adc7f179348b7",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L026",
+      "speaker": "旁白",
+      "text": "这次，她想让朋友也笑起来。",
+      "generated_wav_sha256": "357bbafb142b222c415f5e6fc1ffd073d12079e245fdf92b1f957119ad03ab99",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L027",
+      "speaker": "旁白",
+      "text": "原来，佩奇也在准备一个小惊喜。",
+      "generated_wav_sha256": "884b142283f1de67dd675e6bbe64eebdf11c8787975285622821254a6cd96c7a",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L028",
+      "speaker": "佩奇",
+      "text": "我要画我们四个，一起踢足球！",
+      "generated_wav_sha256": "35d6c57bbb59f1a29c81f889140e57dc1347efff9e709a35aed5545a631952a2",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L029",
+      "speaker": "乔治",
+      "text": "我也来画，我要绿色的！",
+      "generated_wav_sha256": "6b0c33215485ad142e8af8cbeb212f6e9e342413beddc825250d9a4b852ba0a6",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L030",
+      "speaker": "佩奇",
+      "text": "给你这支绿的。",
+      "generated_wav_sha256": "97d2ba6ebd45ba0f047289728d7ea99653f37150fcab79c24f71296408d3ba33",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L031",
+      "speaker": "猪妈妈",
+      "text": "你把朋友们都画进来了呀。",
+      "generated_wav_sha256": "7bfb3c181cc3c09668356b723cd02de1015339f8e36d0dc9f53e8c70566bf16a",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L032",
+      "speaker": "佩奇",
+      "text": "这张画要送给布鲁伊。",
+      "generated_wav_sha256": "ef73445f8be425976442b8730787297c416beeb95f9937327d15a11923ae16e7",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L033",
+      "speaker": "佩奇",
+      "text": "我们一起踢球！",
+      "generated_wav_sha256": "f80ee3852fd2f75c83f5ea9997a7145c5e8db503b875744f6eefe703582f9bdf",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L034",
+      "speaker": "乔治",
+      "text": "还要把恐龙画上！",
+      "generated_wav_sha256": "1bf8af9c0b16d22a91b169e429e15d0cfe1832e5927fc964c1814eda3456c248",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L035",
+      "speaker": "佩奇",
+      "text": "好吧，不过它不能吃足球！",
+      "generated_wav_sha256": "cf0e9d87e0e89b902e2e6e4b7e9b53cc0110959b0e3c6383d1d1b8ab7729edbd",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L036",
+      "speaker": "乔治",
+      "text": "它也想跟我们踢球！",
+      "generated_wav_sha256": "0370b846e70481e67e5b28112a329c6bc2b1ef9046c7ae6dea12e22ff48fdd43",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L037",
+      "speaker": "佩奇",
+      "text": "那让它在旁边给大家加油吧。",
+      "generated_wav_sha256": "3b2633897e20faf87133c2ded2aa808d8e598b6b6adf0d446567db1843cbe47a",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L038",
+      "speaker": "猪爸爸",
+      "text": "那我来带足球，你们带小礼物。",
+      "generated_wav_sha256": "7ee1077a8f7556b83f3fbbd0b38ee7b0c210b5e99530b702f6bd18f49155eda0",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L039",
+      "speaker": "佩奇",
+      "text": "爸爸，你也要跟我们一起踢！",
+      "generated_wav_sha256": "41462f64ee2a48ea91492eb9df3e9af94c27ce984f8e0a3b4d95eb6595857d81",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L040",
+      "speaker": "佩奇",
+      "text": "爸爸，是你在抱球，还是肚子在抱球？",
+      "generated_wav_sha256": "540bab21c46c5ef8c24e65fa098ee0713ef1b8437a25c31267ee4a477e4eaddb",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L041",
+      "speaker": "猪爸爸",
+      "text": "我们一起抱！",
+      "generated_wav_sha256": "175425c0f00d456b33216153b75829e527f439030d161fd0f3ba200a42b4e2ea",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L042",
+      "speaker": "猪妈妈",
+      "text": "水和水果装好了。画放进画夹，就不会弄皱。",
+      "generated_wav_sha256": "97761ddfa52acff5a5baad2753b4d55731f35262261b8dbaba7d176c81c140d9",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L043",
+      "speaker": "猪爸爸",
+      "text": "球和礼物，都带好了。",
+      "generated_wav_sha256": "4b33aef9b8af7da5baeb7ed59b703614569235861b4678ffce9b2731ae3b44bd",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L044",
+      "speaker": "乔治",
+      "text": "我要带恐龙一起去！",
+      "generated_wav_sha256": "4bd54240c2c553999fb682604600605aa5da064922aec6c11f5d5dbca0cbefad",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L045",
+      "speaker": "佩奇",
+      "text": "我们四个都在球旁边！",
+      "generated_wav_sha256": "0f402140394e17f97d89d5263890c3a66e6fb19dae08b4b2309c450c72d18ecb",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L046",
+      "speaker": "布鲁伊",
+      "text": "我要送佩奇一个小小的佩奇！",
+      "generated_wav_sha256": "97f65e179228b66b238423d26cf956924fb0aa5c4ef7ca6d4488dd40e40e2411",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L047",
+      "speaker": "宾果",
+      "text": "开盒子的那一下，肯定最好玩！",
+      "generated_wav_sha256": "570d98c059a360d34cdb368eca679cc1c9f1ff299666ebbb7c049e48a2f5e774",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L048",
+      "speaker": "班迪特",
+      "text": "好主意，可别把礼物挤坏了。",
+      "generated_wav_sha256": "c40f0692616f3e6f3aca9ae1a1f06a71190e4c8a51b0ba8f663ecf33d4857ebb",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L049",
+      "speaker": "宾果",
+      "text": "我要给它铺个软垫！",
+      "generated_wav_sha256": "bade54a63d02c4649aff93371d64202984cf2359358042223ad093d3576b5152",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L050",
+      "speaker": "班迪特",
+      "text": "给小佩奇留个软软的座位。",
+      "generated_wav_sha256": "97a3e4fa8874d0853fa59b9213c3de3573b91e49a6faa198b88b16d0bd30125c",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L051",
+      "speaker": "布鲁伊",
+      "text": "我想给她一个神气的小舞台！",
+      "generated_wav_sha256": "d878d73dba56f182d02ceadc87d949b27e516b70025cddde483dcc2faa1dac66",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L052",
+      "speaker": "班迪特",
+      "text": "小佩奇还是这么高，换个底座试试。",
+      "generated_wav_sha256": "e7a989b1074f13aaa958a5b183fa0ab86eb9bc2e8c2419925b03f4b43bb82326",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L053",
+      "speaker": "布鲁伊",
+      "text": "君君，帮我们看看，哪个底座放得下，也能留好软垫的位置？",
+      "generated_wav_sha256": "239900896986363e8fa3c091df062c414a104dda0f38f34d1a487d870bbbabfa",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L054",
+      "speaker": "班迪特",
+      "text": "黄色这个怎么样？",
+      "generated_wav_sha256": "c89f24b4465e66ab6cd9ca639d656dbd132ac3daf1161333e070d2b02f55425f",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L055",
+      "speaker": "宾果",
+      "text": "黄色的最矮！",
+      "generated_wav_sha256": "2c609a4a8123e3d0e5a1ef5fad74146f2fd4d4cdad63723813ea1d8166b82f23",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L056",
+      "speaker": "布鲁伊",
+      "text": "太好了，不用再做旅行装佩奇！",
+      "generated_wav_sha256": "96fa5f167f72efa36199f5da4b9bf7b9a7318552f1fc4f4f8c5579e235b4e3ed",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L057",
+      "speaker": "宾果",
+      "text": "那盒盖还盖得上吗？",
+      "generated_wav_sha256": "93d4be9e56afd6e65e55a95d62f506a7b2401c2efae8b45635deb5cf15fd7f21",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L058",
+      "speaker": "班迪特",
+      "text": "我再量量真盒子，还得给盒盖留点空隙。",
+      "generated_wav_sha256": "97d1ffd665fc88331999489fccda99a4ba5b73f7b41a905c0e2ca921b5730217",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L059",
+      "speaker": "班迪特",
+      "text": "这次可不能只顾着看耳朵了！",
+      "generated_wav_sha256": "172295953130ee09715b1c8f4681d173f3f39d1f3614baefeabf046421def27d",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L061",
+      "speaker": "班迪特",
+      "text": "礼物小店开工喽！",
+      "generated_wav_sha256": "70d9284b3d0bdf95b7dce9cda885ec09dd6d2cc3b9ea318fef9f84068e8c72f3",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L062",
+      "speaker": "布鲁伊",
+      "text": "我都等不及看她打开盒子了！",
+      "generated_wav_sha256": "797ac93eef0249a12f0f74e15e88688678b3fadb9f8e34f3a2b81dfa2f1bd274",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L063",
+      "speaker": "奇莉",
+      "text": "礼物先慢慢做，老板们来吃饭啦！",
+      "generated_wav_sha256": "8fd9775d1b2046fe865483b8740b9546716f7778285ce4df036ba6af2b0e92ac",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L065",
+      "speaker": "旁白",
+      "text": "午饭后，小佩奇也做好了。",
+      "generated_wav_sha256": "5d824765f6ac66f74be5993c1ed6268b0d71f6182a29add23967b15f7e222e10",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L066",
+      "speaker": "班迪特",
+      "text": "凉好了，来迎接你们的小客人吧！",
+      "generated_wav_sha256": "8f58948d548fbe37f75476a2062ec10aa0985a495c92ae3bd5edc3756323f4e9",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L067",
+      "speaker": "宾果",
+      "text": "小佩奇，你的舞台好漂亮！",
+      "generated_wav_sha256": "e8face1af9fac61e9790fa599a838e2c99f3bd7883f21853254003a70ce3f50d",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L068",
+      "speaker": "布鲁伊",
+      "text": "小佩奇坐稳啦，我们要去见大佩奇了！",
+      "generated_wav_sha256": "4c98a8f568be9c89347bf5e26fe178b77073bcd8b2d4276ac5e478775ba2cc9f",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L069",
+      "speaker": "布鲁伊",
+      "text": "先保密，见到她才打开！",
+      "generated_wav_sha256": "012d7965160770c8167b43ed96829e9066cc2408d171338265b27c218be68369",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L070",
+      "speaker": "奇莉",
+      "text": "礼物带好了吗？该去见朋友了。",
+      "generated_wav_sha256": "e1b195925cfb4a0ee0fe88cd59002174b5b0a546acd8ceb4a472d8ab92058d84",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L071",
+      "speaker": "宾果",
+      "text": "礼物小店出发送货！",
+      "generated_wav_sha256": "70d1bc31ec8f9a671c21e4b96b2d7411d333581f10e93359afc8737d43a0e607",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L072",
+      "speaker": "猪爸爸",
+      "text": "到了，咱们从这边进去。",
+      "generated_wav_sha256": "6dde144a0f3a3a58a9979cfe45e3b0e2931c8210362ad89b58e532034d4b4d1e",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L073",
+      "speaker": "佩奇",
+      "text": "苏西！瑞贝卡！",
+      "generated_wav_sha256": "71e8614867fdf7047a3f4db58822218dc46fd6fc9d9584431ec8077cd1b851fa",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L074",
+      "speaker": "旁白",
+      "text": "佩奇把球袋放到长椅旁边。",
+      "generated_wav_sha256": "e46b70b2bc5261fd2a4e9ef6fc1c2467daec73f09e2000a0ed5d64fb61d1110c",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L075",
+      "speaker": "旁白",
+      "text": "足球悄悄滚了出去。",
+      "generated_wav_sha256": "922cf66debb4fbfffca6234a75ddd5a6f58e7e56a1b1f569479728a678744b5b",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L076",
+      "speaker": "佩奇",
+      "text": "咦，我的球呢？",
+      "generated_wav_sha256": "f89b4f4a743c5b52ec71471a2576a01fb3645b40eed06f187c1aee4fb697d28a",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L077",
+      "speaker": "猪爸爸",
+      "text": "刚才还在袋里呀。",
+      "generated_wav_sha256": "c24e932351af6245a1baa48ae9bedf3d87090bde87384a257b10f3d1702d4155",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L078",
+      "speaker": "佩奇",
+      "text": "君君，你看见它躲到哪里了吗？",
+      "generated_wav_sha256": "084930a106952b4f30029825dddc7a3afbf2342324fd6f5a7dad7b35cdceaa2c",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L079",
+      "speaker": "乔治",
+      "text": "我看见了，在椅子下面！",
+      "generated_wav_sha256": "9f93ec7075f351548a2649784390d334744f6d9f01778926dd37ef6644eb4a5d",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L080",
+      "speaker": "佩奇",
+      "text": "原来躲在椅子下面。",
+      "generated_wav_sha256": "ff21d03772ade48562e5492b87969e6b282adeb40cec95e7c912c15c7ee5bbde",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L081",
+      "speaker": "猪爸爸",
+      "text": "还没开赛，它先玩起躲猫猫了！",
+      "generated_wav_sha256": "bda678f1d1f2e412550bca2adcd67d2d2eab645dd2895bb778ceff59340ec4eb",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L082",
+      "speaker": "佩奇",
+      "text": "这次我要抱紧你。",
+      "generated_wav_sha256": "426aa99be581cf01f83bea60a9a489db7e07cbfaee22568232df865bb4ca72ce",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L083",
+      "speaker": "布鲁伊",
+      "text": "佩奇，这边！",
+      "generated_wav_sha256": "e7bf2087c1550786f9fbc56db282415f87bc25a6f5ab1017597ac702fcc457a0",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L084",
+      "speaker": "佩奇",
+      "text": "我们来啦！",
+      "generated_wav_sha256": "d23ea6f95528cd178a4b542057daaa773f057b6babf2de468593aaf996c7bf3d",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L085",
+      "speaker": "布鲁伊",
+      "text": "快打开，这是给你的惊喜！",
+      "generated_wav_sha256": "aa9ea6535d4dc8d10fb7bd32c71e44c36ee2051f4c717846e5b88ba05a50a5c4",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L086",
+      "speaker": "佩奇",
+      "text": "是小小的我呀！",
+      "generated_wav_sha256": "ca59a76fa95fecd00e05face1fb2fece3066863aa9e4984455e9f538ba0b5c46",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L087",
+      "speaker": "布鲁伊",
+      "text": "君君也帮忙挑了这个小舞台！",
+      "generated_wav_sha256": "dbede569c8528808a971791202375bbf18e854593e9c9e599b62bb407665329e",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L088",
+      "speaker": "佩奇",
+      "text": "谢谢！我也有礼物！",
+      "generated_wav_sha256": "79ff935b6200aa3ca16d0829714dfd731e4018c5c11164097de33e30d61972b2",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L089",
+      "speaker": "佩奇",
+      "text": "这张画里，我们四个一起踢球！",
+      "generated_wav_sha256": "b132dcafc64cff86de7ea0ef8aeb6642eb824faed1fa77b692d9f8847e563b4b",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L090",
+      "speaker": "乔治",
+      "text": "这只恐龙是我画的！",
+      "generated_wav_sha256": "f877582dab10b35c5b51323fc916befac94715279c16b65ba3d426cb1af81d5d",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L091",
+      "speaker": "布鲁伊",
+      "text": "我喜欢！我们都在一起玩！",
+      "generated_wav_sha256": "4780f40508ca99a093a3945c868dc019606f1ac93b0ca9926fc0de2076b1a120",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L092",
+      "speaker": "猪爸爸",
+      "text": "小礼物放好，轮到足球啦！",
+      "generated_wav_sha256": "4a28737b4a3f30c010318d3227744023e40d12303a48c0949f6288570349e3ce",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L093",
+      "speaker": "班迪特",
+      "text": "来吧，我守这边！",
+      "generated_wav_sha256": "66a623653e84f36804f9e9bd28963b504cbf75170977c1335398b905521bec3a",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L094",
+      "speaker": "旁白",
+      "text": "孩子们混着组队，踢起了足球。",
+      "generated_wav_sha256": "c85ea5b30321244c213d3c0ebd5c243d388373a8e06f05ff01d344700fd85c01",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L095",
+      "speaker": "宾果",
+      "text": "乔治，给你！",
+      "generated_wav_sha256": "d91fc121540139139b449555589515e865ecef2f46991d8191a7a4bcdf209faa",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L096",
+      "speaker": "乔治",
+      "text": "传给我，我来射门！",
+      "generated_wav_sha256": "2908982fe2d7354438f5aa29fd13af2c9d1296e0a2191f1cffb461351c8618eb",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L097",
+      "speaker": "猪爸爸",
+      "text": "接住啦！再来最后一次进攻，我们就喝水休息。",
+      "generated_wav_sha256": "b5bc08f73e5449b9cdfe1a9dca5270378707e90c8cd2664dc6fd3ab606ec0875",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L098",
+      "speaker": "旁白",
+      "text": "踢了一会儿，布鲁伊这边还差一个球。",
+      "generated_wav_sha256": "c4361888a20f0dfa195e23f03924e413950b057515d942a0ba275878ca6a4fea",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L099",
+      "speaker": "布鲁伊",
+      "text": "佩奇，接住！",
+      "generated_wav_sha256": "a8f6ed44c848cc23bafbfafc8d1b75ce87d8ca303b8eca8da5aa96d2a7b2c9eb",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L100",
+      "speaker": "佩奇",
+      "text": "接住啦！君君，准备好！",
+      "generated_wav_sha256": "3e14f9c05086d06b3ef971d5a238ea2572a3d7fe5347964631a6e6be8a1650fd",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L101",
+      "speaker": "布鲁伊",
+      "text": "君君，轮到你啦！",
+      "generated_wav_sha256": "39ff4c9681fab201fd9b3097ecdd49bdea2bfc2e62f76a3b10b5b37f75666d39",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L102",
+      "speaker": "班迪特",
+      "text": "我准备好啦！",
+      "generated_wav_sha256": "ed56e0706c8e90d251d716a31aafc926049dbaaddbf5fd22c9c08aa80071931b",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L103",
+      "speaker": "佩奇",
+      "text": "准备好了，就踢过来！",
+      "generated_wav_sha256": "06934c4f024fd05bd0604a56d6f2dd624a3bac725f9beeb5629a6bf891c8fa86",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L104",
+      "speaker": "布鲁伊",
+      "text": "进啦！",
+      "generated_wav_sha256": "ca729d78181b34261a5c090301d28322771b8634df3e01801a2b0c0144a6acd4",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L105",
+      "speaker": "班迪特",
+      "text": "好球！",
+      "generated_wav_sha256": "1525e1d904f9343911f4efe4a32e8bc32685c0278336c9b219d4bcc09602ee89",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L106",
+      "speaker": "佩奇",
+      "text": "平局，踢得真开心！",
+      "generated_wav_sha256": "568528de2c4825f6a448aa6cf4ce82d97c97e4b8677be38de5a7f1921b25454e",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L107",
+      "speaker": "布鲁伊",
+      "text": "君君，击掌！",
+      "generated_wav_sha256": "d402b63b27d69126e9d8ebc20827d8d771e9d7cb797f1b8e7cea6ab940f81c74",
+      "human_review": "本版待用户试听确认"
+    },
+    {
+      "line_id": "GIFT-L112",
+      "speaker": "旁白",
+      "text": "布鲁伊喜欢踢球，佩奇喜欢踢球，君君也喜欢踢球，大家都喜欢踢球。",
+      "generated_wav_sha256": "bb9be3223145908c18978455ea29bf300a9639e076f547d712bd53bffc19b58f",
+      "human_review": "本版待用户试听确认"
+    }
+  ],
+  "music_credits": "music-credits.json"
+}

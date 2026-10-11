@@ -1,0 +1,167 @@
+{
+  "filename": "junjun-script-timing-indextts25-selected-r4-20261010.zip",
+  "files": [
+    {
+      "path": "00_readme/playback-manifest.json",
+      "url": "playback-manifest.json",
+      "bytes": 66028,
+      "sha256": "6de56b01edb130588ad97bb8590c6fb48dc0eccace7b2dd9ffe9f5ace262e5dd"
+    },
+    {
+      "path": "01_script/storybook_plan.json",
+      "url": "downloads/storybook_plan.json",
+      "bytes": 199570,
+      "sha256": "8dd709fd3c9824d183b9ba7d52a9223b5cabb1aa1cad1c1f9ea44381f3ca7e94"
+    },
+    {
+      "path": "01_script/keyframe_manifest.json",
+      "url": "downloads/keyframe_manifest.json",
+      "bytes": 112394,
+      "sha256": "fddceadced01f3995139958a1f5adb952bbbc830fde3fc3588a4bb442407b4cf"
+    },
+    {
+      "path": "01_script/朗读稿.md",
+      "url": "script.md",
+      "bytes": 3201,
+      "sha256": "66dde8a3d6fc78dd8fe3add166d66e9e43737a032dbffadde87e2416d8f17975"
+    },
+    {
+      "path": "01_script/storybook_plan.md",
+      "url": "downloads/storybook_plan.md",
+      "bytes": 95262,
+      "sha256": "30616f2dfe954c9e4ea70bbb526ecc0c09d2d807f31417ae67314fde2f321886"
+    },
+    {
+      "path": "00_readme/README.md",
+      "url": "downloads/readme.md",
+      "bytes": 858,
+      "sha256": "5232dcdb5f98f620ae233c0139c8ae80891d505b39c09d18228b70f93f3934d3"
+    },
+    {
+      "path": "00_readme/known-issues.md",
+      "url": "downloads/known-issues.md",
+      "bytes": 506,
+      "sha256": "27f64c97d3efceda5bccdf147c23c11725b6d74ce75a74796092d0ead7633948"
+    },
+    {
+      "path": "00_readme/artwork-summary.json",
+      "url": "downloads/artwork-summary.json",
+      "bytes": 651,
+      "sha256": "f145abe93af0a939897c6d33d5aac6f466028dce0b113fc0aeff7a291e54051a"
+    },
+    {
+      "path": "02_storyboards/图片位置映射/83画面位置到75图片映射.csv",
+      "url": "downloads/materials-v13/images/03_75幅绘本生成图片/83画面位置到75图片映射.csv",
+      "bytes": 21594,
+      "sha256": "bea9e92326110ffd6e2cfdc0ab1f9bd67e1527a32aadf27c7bb82272a15e9e5d"
+    },
+    {
+      "path": "02_storyboards/图片位置映射/83画面位置到75图片映射.json",
+      "url": "downloads/materials-v13/images/03_75幅绘本生成图片/83画面位置到75图片映射.json",
+      "bytes": 49434,
+      "sha256": "0977f72a79eba1c3f426534e25a589df57f3dec71bd6e8de98f0b849e490722e"
+    },
+    {
+      "path": "02_storyboards/图片位置映射/README.md",
+      "url": "downloads/materials-v13/images/03_75幅绘本生成图片/README.md",
+      "bytes": 581,
+      "sha256": "5bf09d863d1d8f418d0c162cd32ab9a601e88b37c61761a553cec75a9e8b15c0"
+    },
+    {
+      "path": "03_voice/editing-assets/line-timings.json",
+      "url": "assets/voice/indextts25-selected-r4-20261010/editing-assets/line-timings.json",
+      "bytes": 81950,
+      "sha256": "237495ff4741a11af45e1952e9213c11c9bb43927a5dd50ac36dbe2cc7fb8425"
+    },
+    {
+      "path": "03_voice/editing-assets/字幕.srt",
+      "url": "assets/voice/indextts25-selected-r4-20261010/editing-assets/字幕.srt",
+      "bytes": 3803,
+      "sha256": "07c7d2b168a2a9000d324f9193182957e8f249994bf8542fae2b366f30a5d444"
+    },
+    {
+      "path": "03_voice/provenance/BigVGAN_LICENSE_MIT.txt",
+      "url": "assets/voice/indextts25-selected-r4-20261010/provenance/BigVGAN_LICENSE_MIT.txt",
+      "bytes": 1076,
+      "sha256": "90459cd52fc41bd723df7c0c76fac1e4dd60e6bfd644a7e2a93f325bed4f6d95"
+    },
+    {
+      "path": "03_voice/provenance/CAMPPlus_ModelCard.md",
+      "url": "assets/voice/indextts25-selected-r4-20261010/provenance/CAMPPlus_ModelCard.md",
+      "bytes": 2020,
+      "sha256": "c6025ccc42e290640f44e06f0742c584b99afe738bb819d74889330c692446f9"
+    },
+    {
+      "path": "03_voice/provenance/DISCLAIMER",
+      "url": "assets/voice/indextts25-selected-r4-20261010/provenance/DISCLAIMER",
+      "bytes": 2212,
+      "sha256": "3ba7e9e94f823f4bd3a2446c55a7bd1fa71769c4ca733153cc89130f43493b49"
+    },
+    {
+      "path": "03_voice/provenance/LICENSE",
+      "url": "assets/voice/indextts25-selected-r4-20261010/provenance/LICENSE",
+      "bytes": 10554,
+      "sha256": "53875532237e0a97b17a41721556ff57e93193fc566e48c3a0febe6e35bb5343"
+    },
+    {
+      "path": "03_voice/provenance/LICENSE_ZH.txt",
+      "url": "assets/voice/indextts25-selected-r4-20261010/provenance/LICENSE_ZH.txt",
+      "bytes": 7336,
+      "sha256": "366175ecf329274358801b8365922677c52f25e643dcf00f0bc15857b5b2777f"
+    },
+    {
+      "path": "03_voice/provenance/NOTICE.txt",
+      "url": "assets/voice/indextts25-selected-r4-20261010/provenance/NOTICE.txt",
+      "bytes": 712,
+      "sha256": "50323142d83580a143703742944a5b4ce72307748f2dea153f5e71d9345f6f43"
+    },
+    {
+      "path": "03_voice/provenance/Wav2Vec2Bert_ModelCard.md",
+      "url": "assets/voice/indextts25-selected-r4-20261010/provenance/Wav2Vec2Bert_ModelCard.md",
+      "bytes": 4792,
+      "sha256": "478afeacb3b4ce0d86b361f099416d28a7e7673ade31775c0f85f396979b7fc2"
+    },
+    {
+      "path": "03_voice/provenance/generation.json",
+      "url": "assets/voice/indextts25-selected-r4-20261010/provenance/generation.json",
+      "bytes": 38103,
+      "sha256": "51734430fbe95731d6a43bc1f1903cc2d5230cd55184bcebb17f6d4bdc63eb52"
+    },
+    {
+      "path": "03_voice/provenance/opencc-python-reimplemented_LICENSE.txt",
+      "url": "assets/voice/indextts25-selected-r4-20261010/provenance/opencc-python-reimplemented_LICENSE.txt",
+      "bytes": 10354,
+      "sha256": "18f3fedf9eac72e6054260489c764c1e54f63cf2b16055523f561ffeec7bc908"
+    },
+    {
+      "path": "03_voice/provenance/pypinyin_LICENSE.txt",
+      "url": "assets/voice/indextts25-selected-r4-20261010/provenance/pypinyin_LICENSE.txt",
+      "bytes": 1105,
+      "sha256": "1e6c90014b4912815c296ee64bb6f6280af47e6d4c5d80e86232dfc5defe764c"
+    },
+    {
+      "path": "03_voice/provenance/发布声明.txt",
+      "url": "assets/voice/indextts25-selected-r4-20261010/provenance/发布声明.txt",
+      "bytes": 494,
+      "sha256": "812ab768c6d40ad3a5ea968e5f45fa997289128925a0cc2f113dfb972c7a99ee"
+    },
+    {
+      "path": "03_voice/timing.json",
+      "url": "assets/voice/indextts25-selected-r4-20261010/timing.json",
+      "bytes": 39377,
+      "sha256": "739b88258971d6d97c0571fcfc7fa622431bc5ec1690b1fe502c05219c7c4215"
+    },
+    {
+      "path": "00_readme/provenance.json",
+      "url": "downloads/provenance.json",
+      "bytes": 82802,
+      "sha256": "e4cacc0046a753fc8d9a162e49932de1881703637306f43a9b253c144c2e3998"
+    },
+    {
+      "path": "00_readme/file-manifest.json",
+      "url": "downloads/file-manifest.json",
+      "bytes": 63169,
+      "sha256": "1d1b2d0ee5823f820d1b5b204faa0e06cddcf77d30313f8814d88408ebb0ee7c"
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "title": "准备礼物",
+  "filename": "准备礼物-故事二完整素材.zip",
+  "files": [
+    {
+      "url": "/ebook/assets/gift-ill-003-874d3702ed24-full.webp",
+      "path": "完整插图/G003-爸爸回来啦！.webp",
+      "bytes": 1326582,
+      "sha256": "e0455e8a8e49d7aab01e533c689914749f3aae6c50922d83a021dbad5a070abc"
+    },
+    {
+      "url": "/assets/lossless/01A-box-greeting-06e24363cb69-full.webp",
+      "path": "完整插图/G004-孩子迎接大箱子.webp",
+      "bytes": 1336434,
+      "sha256": "6eb2083a08bcae8f3437d3c932d31ded93ee42d113a92d2e4c626c670bb095c8"
+    },
+    {
+      "url": "/assets/lossless/01B-box-walk-home-9a6e0b58ad25-full.webp",
+      "path": "完整插图/G005-礼物小店的老板.webp",
+      "bytes": 1344452,
+      "sha256": "f45bc7dff16653c0d623a1f0565badff430fd24996df6986116769525cb56524"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-006-0d64a3fa2466-full.webp",
+      "path": "完整插图/G006-礼物小店开张.webp",
+      "bytes": 1322158,
+      "sha256": "06bd4ee5a390f4edec37d1af57c1817373027a97007efe659b067e90668d3beb"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-007-1c9f6d033835-full.webp",
+      "path": "完整插图/G007-机器的蓝色面条.webp",
+      "bytes": 1319540,
+      "sha256": "9f0996aaabf14d8463873abf26029d456484307cee6676bcd0f1b6aa2e2ac4c7"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-008-1494651981d7-full.webp",
+      "path": "完整插图/G008-爸爸来帮忙.webp",
+      "bytes": 1266492,
+      "sha256": "3306b7a03e4139e47c448768174f2d490dbeba05a472ed212e40940a5265968b"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-001-3d6c234599c4-full.webp",
+      "path": "完整插图/G001-准备礼物.webp",
+      "bytes": 756678,
+      "sha256": "ac43f60bd6e3068f4a237c7bccb7b79b7eb540f385fba8c4bbedfb761ac2e2f2"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-009-5cdcc8ca6fa0-full.webp",
+      "path": "完整插图/G009-送宾果一个布鲁伊.webp",
+      "bytes": 1204010,
+      "sha256": "a855af8e00e30aab9a05641ecb28810b1dc67ba2359e72d2b561285f9b113de6"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-010-03e098d78516-full.webp",
+      "path": "完整插图/G010-请模特站好.webp",
+      "bytes": 1459640,
+      "sha256": "0fb4fe928631d3f2d344e67a6a6b632d86881d61fdade325569ba771a45ddcf6"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-011-1a5b15ea52c4-full.webp",
+      "path": "完整插图/G011-神气的小耳朵.webp",
+      "bytes": 1279660,
+      "sha256": "c175d90a65ca2d7607af996a3d87b5170906987dde47d7928dfd83ddc0aa28dd"
+    },
+    {
+      "url": "/assets/lossless/04B-preview-start-10e565b78b63-full.webp",
+      "path": "完整插图/G012-两个布鲁伊.webp",
+      "bytes": 1320582,
+      "sha256": "71242db819bb18fe2dfca6cbbe8be450f7b880dfc100a9dc7452d2cacc806f17"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-013-6ff71b7d235a-full.webp",
+      "path": "完整插图/G013-小礼物慢慢做好.webp",
+      "bytes": 1326998,
+      "sha256": "da49093c629e774f1fdc1c869fd962dac6194d2b1b89234ae933e9ce92ecb66d"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-014-1edf2f066188-full.webp",
+      "path": "完整插图/G014-礼物小店的快递车.webp",
+      "bytes": 1461702,
+      "sha256": "e7ba584b115b46a080d7497917de9e20ff00095266555ec60bba8718ca93c985"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-016-559a93c3ea6d-full.webp",
+      "path": "完整插图/G016-请老板验收.webp",
+      "bytes": 1367544,
+      "sha256": "999c5f1dfc4e8b022f9e26d03fa04e0d1d8343f4cce204c174d7d634394b82fe"
+    },
+    {
+      "url": "/assets/lossless/02A-miniature-palm-b565903a657d-full.webp",
+      "path": "完整插图/G017-掌心里的小布鲁伊.webp",
+      "bytes": 1317524,
+      "sha256": "6d4bfbfe3024acb206fede2a1fa46cf98a3b25f63cbc6a41de9d9a8678638fb3"
+    },
+    {
+      "url": "/assets/lossless/02B-miniature-joke-af3d344ebe18-full.webp",
+      "path": "完整插图/G018-旅行装布鲁伊.webp",
+      "bytes": 1310422,
+      "sha256": "686c4adafb19d9252fca5c7d37461bd70184b3cd26bbe9940c89ccf4fa4fa279"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-019-af40e5dcbdd7-full.webp",
+      "path": "完整插图/G019-再准备一份惊喜.webp",
+      "bytes": 1340266,
+      "sha256": "417223a60d02a9b55975371202117c18dca3f278679cf93eac5ce5d7cc311e0a"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-020-74401d7b67c7-full.webp",
+      "path": "完整插图/G020-让朋友也笑起来.webp",
+      "bytes": 1073178,
+      "sha256": "f35a4d1c0171f186eda0067e683895735882bfd3526cdd5280e27e0f103e4509"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-021-695553451a02-full.webp",
+      "path": "完整插图/G021-另一张白纸.webp",
+      "bytes": 1014426,
+      "sha256": "4118b243a693aa95a2bb6e58038651af940918f82a903f9fe66a79058ff8dd23"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-022-5c24ac31e6de-full.webp",
+      "path": "完整插图/G022-画下四个朋友.webp",
+      "bytes": 1150542,
+      "sha256": "f7ddffcc5c2f0b5841432ba7609e79b4e37d5dac4c13dfdf2ec8b256ba29d75b"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-023-2aff30e4ae5c-full.webp",
+      "path": "完整插图/G023-乔治也想画.webp",
+      "bytes": 1153082,
+      "sha256": "a16cd4a8aeaef373ba484bb7a096e7d4b05bf43b28e004804cc337de0b160819"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-024-994e168f58dc-full.webp",
+      "path": "完整插图/G024-送给布鲁伊的画.webp",
+      "bytes": 1153208,
+      "sha256": "c2ddf57fa2798179bf28e4b8af48e493734f62e93305f412847b4831461c499a"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-025-4259cab29dfd-full.webp",
+      "path": "完整插图/G025-添上足球.webp",
+      "bytes": 1204818,
+      "sha256": "065e9ba1f6b6d910c296e8ab44e647ed0668f9385343c30e11b9e654641caa8d"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-026-7647a5543b79-full.webp",
+      "path": "完整插图/G026-恐龙也要来.webp",
+      "bytes": 1167524,
+      "sha256": "ecd710b0922cea3c050357ddd7bcee8c35b4a65090af80b780507096fc39c955"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-027-1f96fecfcd71-full.webp",
+      "path": "完整插图/G027-恐龙站在草地上.webp",
+      "bytes": 1180176,
+      "sha256": "56ff33bb9521a9711307ac70a7519a21f2202b4b719738223da2763dd2f01b53"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-028-c2f8fae98aaf-full.webp",
+      "path": "完整插图/G028-猪爸爸准备守门.webp",
+      "bytes": 1174612,
+      "sha256": "964aaf1fbbffaa8b2921097ca58b3194d908991bc743f99b4c7f19f3ef45157a"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-029-250916607263-full.webp",
+      "path": "完整插图/G029-肚子也帮忙抱球.webp",
+      "bytes": 1148176,
+      "sha256": "07fdb04969de1ac9fc92a7b84ba695fe442d3731bf97074b8da77af568ea4596"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-030-689b55549869-full.webp",
+      "path": "完整插图/G030-画夹保护礼物.webp",
+      "bytes": 1182396,
+      "sha256": "81cebc2377e16d2f0e2909709bb8a2a9e0b079f53583490a864040bf760a4fc0"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-031-1605e20087a2-full.webp",
+      "path": "完整插图/G031-带好恐龙和球袋.webp",
+      "bytes": 1066730,
+      "sha256": "7e53d8cf04c8d694a7d70baf4dbdd69daec9a23dd18530dfe354fa217e15e506"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-032-b0b175ed63e4-full.webp",
+      "path": "完整插图/G032-画里的四个孩子.webp",
+      "bytes": 1253098,
+      "sha256": "bc9100c9d38e79396b589f990be810ae89098e99ea038142868dc3598266e726"
+    },
+    {
+      "url": "/assets/r2/03A-color-base-preview-0556d1df9c7f-full.webp",
+      "path": "完整插图/G034-给佩奇一个惊喜.webp",
+      "bytes": 1377928,
+      "sha256": "a8e6a98305b0647508ae035d415637240dacb8155a1816d0caa36a6dfb068398"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-035-ab6ec6d6ef63-full.webp",
+      "path": "完整插图/G035-礼物要住进盒子.webp",
+      "bytes": 1098094,
+      "sha256": "4119a18bdd2bef62e8902148beba08b82e691663ee391f11df17d8e92411c6d5"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-036-8531498a1503-full.webp",
+      "path": "完整插图/G036-铺一个软垫.webp",
+      "bytes": 1180292,
+      "sha256": "5f4d33132c4755679e2ad6aff0e0e3add1630065afa60558ee60ebab539ca322"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-037-f89e959da988-full.webp",
+      "path": "完整插图/G037-软软的小座位.webp",
+      "bytes": 1167676,
+      "sha256": "277dca5ed65e6e02f5b7d075b327d24ff3e748ff296b897d6541361806bca515"
+    },
+    {
+      "url": "/assets/r2/03C-size-closeup-0f4b5a3f2281-full.webp",
+      "path": "完整插图/G038-选一个小舞台.webp",
+      "bytes": 956128,
+      "sha256": "0bd04c06bbbb705f24d8ec1ff8341b3fb878647b57a3edfe89f7cf264a9af225"
+    },
+    {
+      "url": "/assets/r2/03B-color-base-invite-701d18d410fd-full.webp",
+      "path": "完整插图/G039-君君帮我们看一看.webp",
+      "bytes": 1390200,
+      "sha256": "b379c4a10d84a16aae9a8e5d553054a91b17ee9a5f5f4719284bebdcfd2c9935"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-041-3970eab52ebc-full.webp",
+      "path": "完整插图/G041-换成矮黄色圆台.webp",
+      "bytes": 950482,
+      "sha256": "fb5ade28b47227afcf304fb5b88fa917676e71760e5cb23aa58f187caacae563"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-042-f3ab2f8cdf72-full.webp",
+      "path": "完整插图/G042-还要留一点空隙.webp",
+      "bytes": 861252,
+      "sha256": "abe9a4c91dec56601a86f9c1196658ec395098ab3ca2f7871996283ab7bec96f"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-043-71ccb09e7670-full.webp",
+      "path": "完整插图/G043-爸爸再量一量.webp",
+      "bytes": 1290620,
+      "sha256": "0e07e4da5b79b9756174706515ba9891d04be9bcc4792dfa05c66a4c875f01a3"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-044-d12da87a42ca-full.webp",
+      "path": "完整插图/G044-这回可不能只看耳朵.webp",
+      "bytes": 873658,
+      "sha256": "f7ed6630e74fd132e8320094548911c49d096c769f163f2d3d4880a821e05ac9"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-045-6d4293d1cb28-full.webp",
+      "path": "完整插图/G045-小礼物准备开工.webp",
+      "bytes": 1303126,
+      "sha256": "6eae137b1acab25131d83a5a400739857378dae3fd4536ae9a28a990af930d39"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-046-d00d6fbd5ee5-full.webp",
+      "path": "完整插图/G046-礼物小店开工喽.webp",
+      "bytes": 1272594,
+      "sha256": "ee38733adae544472b3319fd9b7d30fdc441306b70a81dd46841f8168e01f430"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-047-1ab2f8090d5c-full.webp",
+      "path": "完整插图/G047-等她打开盒子的那一下.webp",
+      "bytes": 1292386,
+      "sha256": "06a2d3e33d6d8a0bb9f311e8135966c92576079f45691bdc76908a2ab9f59284"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-048-0d85640795a1-full.webp",
+      "path": "完整插图/G048-老板们吃午饭.webp",
+      "bytes": 1470882,
+      "sha256": "fa158b5e02df2ac676d73f0e2d74ec9196842cc768422fe53d1e5124e34780aa"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-050-22dc977bc064-full.webp",
+      "path": "完整插图/G050-迎接小客人.webp",
+      "bytes": 1297536,
+      "sha256": "f00a7f1214d517d613773985ebcb7cfad03b9938d9cf0c2e8a48ce4c1ccad53a"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-051-55416bcc080f-full.webp",
+      "path": "完整插图/G051-小佩奇的小舞台.webp",
+      "bytes": 1306098,
+      "sha256": "db9e91675f5e6ff3c1b1e8f0be0665e098c5dd3ea59684777b48912d99c1f610"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-052-b8d69334f03f-full.webp",
+      "path": "完整插图/G052-坐稳啦，小佩奇.webp",
+      "bytes": 1278108,
+      "sha256": "45e153a4a95970e8a993eef3837edcb466990ba52ef2788f0be4ee46743b5070"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-053-6129371149fe-full.webp",
+      "path": "完整插图/G053-先保密.webp",
+      "bytes": 1302512,
+      "sha256": "45adb2c35f466c4dc649cf96a59c38ffef7a2df2107471375bc7de15dc219dff"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-054-c29da04b6ad2-full.webp",
+      "path": "完整插图/G054-出发送礼物.webp",
+      "bytes": 1401868,
+      "sha256": "888293333e134864478422a9be4feb8a3d0fd3a36b2de38c4f2b89167daf7852"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-055-32672ebf9133-full.webp",
+      "path": "完整插图/G055-到球场入口.webp",
+      "bytes": 1225872,
+      "sha256": "ce5e97ecff2d52ae11a081b11454a221785b0731851d5e8b95e0ccc74ce645dd"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-056-65e80e57931b-full.webp",
+      "path": "完整插图/G056-入口的朋友.webp",
+      "bytes": 1259672,
+      "sha256": "3a61b01d8a47b8bf0bf5fb097d029bb285f6336018f57358108a5bcc00fafb5c"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-057-eeb3665ecbd6-full.webp",
+      "path": "完整插图/G057-球袋放到长椅旁.webp",
+      "bytes": 1270870,
+      "sha256": "67a79825b983673530a2ee226334c079a909f2edc2ca0f38459a742298fda27d"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-058-d13dbae55cf8-full.webp",
+      "path": "完整插图/G058-足球悄悄滚出去.webp",
+      "bytes": 1259294,
+      "sha256": "a8ba18ba301a9a0099ac8963cb55769898d2b4787f1a81f2c4ac512625c49e4f"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-059-27820ede2107-full.webp",
+      "path": "完整插图/G059-袋子里空了.webp",
+      "bytes": 1257086,
+      "sha256": "aa8caf575c2a66b884d61767e93c8f1cbaee1a91d3e59f6ba8a886182c80bb3f"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-060-44fad4b2d494-full.webp",
+      "path": "完整插图/G060-佩奇请君君帮忙.webp",
+      "bytes": 1256788,
+      "sha256": "662ac67cbac244766fe740d67359dc7b1213ec730717bc111e644a54e8584e8b"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-062-692e67695563-full.webp",
+      "path": "完整插图/G062-乔治发现了.webp",
+      "bytes": 1220508,
+      "sha256": "20071679f928cf99e785943f55d46a04897c14d2f3361afa2c6ea30983cb00ee"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-063-b9fb8dc370d1-full.webp",
+      "path": "完整插图/G063-佩奇抱好足球.webp",
+      "bytes": 1259382,
+      "sha256": "5e4550a9906a1c4600b6a8205521fd41f07167043ba404ed91e84e91f537a6a2"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-064-a8a305a2f865-full.webp",
+      "path": "完整插图/G064-从入口走进球场.webp",
+      "bytes": 1226728,
+      "sha256": "f9d9df3059b074165129b59c91086540a1e3f7cd17259a55d58e3cc5b2726c5f"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-065-e5473f1e31ba-full.webp",
+      "path": "完整插图/G065-两家在球场见面.webp",
+      "bytes": 1253540,
+      "sha256": "5de87ddee220c6404e8c5832a649af43bf7a5280147a96bb4fa76725baa89900"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-066-43535dce8e5e-full.webp",
+      "path": "完整插图/G066-递出礼盒.webp",
+      "bytes": 1272636,
+      "sha256": "42bdddc06629600ddbe6b03ffb6f5a8536396e39ce77524ad3fb10f897512074"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-067-7ed6eaa2444d-full.webp",
+      "path": "完整插图/G067-打开小惊喜.webp",
+      "bytes": 1255702,
+      "sha256": "89d0c1613b21a7f04f16afc9539b18911784cfbee8ce0fa2d616a014eb2a8062"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-069-7b7746f4a00d-full.webp",
+      "path": "完整插图/G069-交换礼物完成.webp",
+      "bytes": 1268160,
+      "sha256": "8bdead4294d63287b3ef1d4f1870047643f3ade21238e8163d542c8dbde99a21"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-070-502950514054-full.webp",
+      "path": "完整插图/G070-画带到了球场.webp",
+      "bytes": 1208136,
+      "sha256": "89e86f7da20a23207047cb13fab36e8d020f2c237a3bccba3f7544f4a47a14d4"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-071-f853fa546905-full.webp",
+      "path": "完整插图/G071-礼物放在场边.webp",
+      "bytes": 1376452,
+      "sha256": "3e9e84690113c04d5575a78428590407a14668dae8c221eeaac974bd778a91fb"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-072-32203cfdba0c-full.webp",
+      "path": "完整插图/G072-混着组队.webp",
+      "bytes": 1305502,
+      "sha256": "48800855de1c9a8aa3866e999f8befab238b0401700408ce08ca659dd8157701"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-073-785c7537bcc9-full.webp",
+      "path": "完整插图/G073-宾果传给乔治.webp",
+      "bytes": 1183708,
+      "sha256": "5b743a4ee65afc368cb93abe86a7410068918b575550cb6d1034fd8d08e7f3bc"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-074-1fcea83bf63d-full.webp",
+      "path": "完整插图/G074-乔治射门爸爸接住.webp",
+      "bytes": 1242240,
+      "sha256": "2bf687fae14c9e71c719d8c7afbe9e818437ecf89b6ff7ae6edab52e2e24d78d"
+    },
+    {
+      "url": "/assets/r2/06A-pass-backswing-flat-35ccea21e65e-full.webp",
+      "path": "完整插图/G075-布鲁伊准备传球.webp",
+      "bytes": 1074174,
+      "sha256": "74ae3f8dedc3dd2275f50584a3624c5c85cb3f97e5c0feee9c0031e3e4b885ec"
+    },
+    {
+      "url": "/assets/r2/06B-pass-release-flat-4c461215df2b-full.webp",
+      "path": "完整插图/G076-足球沿地面传过去.webp",
+      "bytes": 1112156,
+      "sha256": "b359f8d82a594af0cfef7fd856ff280a55e6203827d4414a7575a17973aefe6d"
+    },
+    {
+      "url": "/ebook/assets/GIFT-ILL-077-832cbde4db7f-full.webp",
+      "path": "完整插图/G077-佩奇停住球.webp",
+      "bytes": 1004280,
+      "sha256": "17f4665fdc978045d063847d0cfccebc7c0bb0988bdd280bb2020bd8967d66ef"
+    },
+    {
+      "url": "/ebook/assets/GIFT-ILL-078-f39161725c85-full.webp",
+      "path": "完整插图/G078-佩奇传向君君.webp",
+      "bytes": 1146082,
+      "sha256": "e340b48c32a738adb92495b1d9ed44052c98ee108424ed8caf0c6ebe3cc2a63b"
+    },
+    {
+      "url": "/assets/r2/07A-pov-ready-flat-87ccb8e519d9-full.webp",
+      "path": "完整插图/G079-球来到君君面前.webp",
+      "bytes": 1028718,
+      "sha256": "afc3f241f202cff5718f6693fd64abdab21072bb2af72397bc687527f607f6d0"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-081-f1155128863c-full.webp",
+      "path": "完整插图/G081-球飞出去班迪特扑救.webp",
+      "bytes": 1124298,
+      "sha256": "1aaa1902779796c95bf5305edc3bc2fadf18a24bbb0b6af5efe5fee7719671f3"
+    },
+    {
+      "url": "/ebook/assets/GIFT-ILL-082-b8e106ce9173-full.webp",
+      "path": "完整插图/G082-进球变成二比二.webp",
+      "bytes": 1159436,
+      "sha256": "e4ca98d29ad3a12103287a389201fd51f7cf1ba827ec0bad3b1baa50e7889c46"
+    },
+    {
+      "url": "/ebook/assets/gift-ill-083-d3d59d78888c-full.webp",
+      "path": "完整插图/G083-和君君击掌.webp",
+      "bytes": 1413484,
+      "sha256": "2b44677c3bf0cf0e51c74f67bb035f8a9b22db1e671488c1d139e1e05ade814a"
+    },
+    {
+      "url": "/ebook/prepare-gifts-script.md",
+      "path": "剧本与时间轴/准备礼物-完整朗读稿.md",
+      "bytes": 8270,
+      "sha256": "4fec28d44cc49b4ee1171357b0ec5d717984345cd4ad5e2c2453c4a3f3ae7922"
+    },
+    {
+      "url": "/ebook/story.json",
+      "path": "剧本与时间轴/准备礼物-84页与108句时间轴.json",
+      "bytes": 49213,
+      "sha256": "6c2d6107e93191c698e8178c39739f9a3992629d7cdc7db98840e8d59808488b"
+    },
+    {
+      "url": "/ebook/audio/prepare-gifts-bgm-a37a45238b99.mp3",
+      "path": "配音/准备礼物-配音与配乐.mp3",
+      "bytes": 5487847,
+      "sha256": "a37a45238b99925248e1e4cc15f4d9ab7122f0aec888286218ae9bef8747942b"
+    },
+    {
+      "url": "/ebook/audio/prepare-gifts-subtitles-01390694cf58.srt",
+      "path": "配音/准备礼物-完整字幕.srt",
+      "bytes": 8588,
+      "sha256": "01390694cf58409eb67b93e1c1a7f0bea924589547766ee2758596e5b9ee97ea"
+    },
+    {
+      "url": "/ebook/audio/NOTICE.txt",
+      "path": "配音/AI配音说明.txt",
+      "bytes": 757,
+      "sha256": "bc5cdacbddfdfc66d9564cf9f879bb202806eb841e0ee7ffa737e9befd1b69ee"
+    },
+    {
+      "url": "/ebook/audio/provenance/BigVGAN_LICENSE_MIT.txt",
+      "path": "配音/许可与生成说明/BigVGAN_LICENSE_MIT.txt",
+      "bytes": 1076,
+      "sha256": "90459cd52fc41bd723df7c0c76fac1e4dd60e6bfd644a7e2a93f325bed4f6d95"
+    },
+    {
+      "url": "/ebook/audio/provenance/CAMPPlus_ModelCard.md",
+      "path": "配音/许可与生成说明/CAMPPlus_ModelCard.md",
+      "bytes": 2020,
+      "sha256": "c6025ccc42e290640f44e06f0742c584b99afe738bb819d74889330c692446f9"
+    },
+    {
+      "url": "/ebook/audio/provenance/DISCLAIMER",
+      "path": "配音/许可与生成说明/DISCLAIMER",
+      "bytes": 2212,
+      "sha256": "3ba7e9e94f823f4bd3a2446c55a7bd1fa71769c4ca733153cc89130f43493b49"
+    },
+    {
+      "url": "/ebook/audio/provenance/LICENSE",
+      "path": "配音/许可与生成说明/LICENSE",
+      "bytes": 10554,
+      "sha256": "53875532237e0a97b17a41721556ff57e93193fc566e48c3a0febe6e35bb5343"
+    },
+    {
+      "url": "/ebook/audio/provenance/LICENSE_ZH.txt",
+      "path": "配音/许可与生成说明/LICENSE_ZH.txt",
+      "bytes": 7336,
+      "sha256": "366175ecf329274358801b8365922677c52f25e643dcf00f0bc15857b5b2777f"
+    },
+    {
+      "url": "/ebook/audio/provenance/NOTICE.txt",
+      "path": "配音/许可与生成说明/NOTICE.txt",
+      "bytes": 608,
+      "sha256": "9d1c947f3379ff5cfc65acf077dcdebd85f23616e6896ed47de29b3b779be76e"
+    },
+    {
+      "url": "/ebook/audio/provenance/Wav2Vec2Bert_ModelCard.md",
+      "path": "配音/许可与生成说明/Wav2Vec2Bert_ModelCard.md",
+      "bytes": 4792,
+      "sha256": "478afeacb3b4ce0d86b361f099416d28a7e7673ade31775c0f85f396979b7fc2"
+    },
+    {
+      "url": "/ebook/audio/provenance/generation.json",
+      "path": "配音/许可与生成说明/generation.json",
+      "bytes": 30255,
+      "sha256": "cee471d7dc213f604e8203180e254337a1282944c6578e7972c8eb46e2a65f04"
+    },
+    {
+      "url": "/ebook/audio/provenance/music-credits.json",
+      "path": "配音/许可与生成说明/music-credits.json",
+      "bytes": 3789,
+      "sha256": "1cfcf598d51203354b5e0601fbacd25cc5a9685591af5206427a6b7ef60ca77f"
+    },
+    {
+      "url": "/ebook/audio/provenance/opencc-python-reimplemented_LICENSE.txt",
+      "path": "配音/许可与生成说明/opencc-python-reimplemented_LICENSE.txt",
+      "bytes": 10354,
+      "sha256": "18f3fedf9eac72e6054260489c764c1e54f63cf2b16055523f561ffeec7bc908"
+    },
+    {
+      "url": "/ebook/audio/provenance/pypinyin_LICENSE.txt",
+      "path": "配音/许可与生成说明/pypinyin_LICENSE.txt",
+      "bytes": 1105,
+      "sha256": "1e6c90014b4912815c296ee64bb6f6280af47e6d4c5d80e86232dfc5defe764c"
+    }
+  ]
+}

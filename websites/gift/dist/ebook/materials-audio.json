@@ -1,0 +1,90 @@
+{
+  "title": "准备礼物",
+  "filename": "准备礼物-完整配音与字幕.zip",
+  "files": [
+    {
+      "url": "/ebook/audio/prepare-gifts-bgm-a37a45238b99.mp3",
+      "path": "配音/准备礼物-配音与配乐.mp3",
+      "bytes": 5487847,
+      "sha256": "a37a45238b99925248e1e4cc15f4d9ab7122f0aec888286218ae9bef8747942b"
+    },
+    {
+      "url": "/ebook/audio/prepare-gifts-subtitles-01390694cf58.srt",
+      "path": "配音/准备礼物-完整字幕.srt",
+      "bytes": 8588,
+      "sha256": "01390694cf58409eb67b93e1c1a7f0bea924589547766ee2758596e5b9ee97ea"
+    },
+    {
+      "url": "/ebook/audio/NOTICE.txt",
+      "path": "配音/AI配音说明.txt",
+      "bytes": 757,
+      "sha256": "bc5cdacbddfdfc66d9564cf9f879bb202806eb841e0ee7ffa737e9befd1b69ee"
+    },
+    {
+      "url": "/ebook/audio/provenance/BigVGAN_LICENSE_MIT.txt",
+      "path": "配音/许可与生成说明/BigVGAN_LICENSE_MIT.txt",
+      "bytes": 1076,
+      "sha256": "90459cd52fc41bd723df7c0c76fac1e4dd60e6bfd644a7e2a93f325bed4f6d95"
+    },
+    {
+      "url": "/ebook/audio/provenance/CAMPPlus_ModelCard.md",
+      "path": "配音/许可与生成说明/CAMPPlus_ModelCard.md",
+      "bytes": 2020,
+      "sha256": "c6025ccc42e290640f44e06f0742c584b99afe738bb819d74889330c692446f9"
+    },
+    {
+      "url": "/ebook/audio/provenance/DISCLAIMER",
+      "path": "配音/许可与生成说明/DISCLAIMER",
+      "bytes": 2212,
+      "sha256": "3ba7e9e94f823f4bd3a2446c55a7bd1fa71769c4ca733153cc89130f43493b49"
+    },
+    {
+      "url": "/ebook/audio/provenance/LICENSE",
+      "path": "配音/许可与生成说明/LICENSE",
+      "bytes": 10554,
+      "sha256": "53875532237e0a97b17a41721556ff57e93193fc566e48c3a0febe6e35bb5343"
+    },
+    {
+      "url": "/ebook/audio/provenance/LICENSE_ZH.txt",
+      "path": "配音/许可与生成说明/LICENSE_ZH.txt",
+      "bytes": 7336,
+      "sha256": "366175ecf329274358801b8365922677c52f25e643dcf00f0bc15857b5b2777f"
+    },
+    {
+      "url": "/ebook/audio/provenance/NOTICE.txt",
+      "path": "配音/许可与生成说明/NOTICE.txt",
+      "bytes": 608,
+      "sha256": "9d1c947f3379ff5cfc65acf077dcdebd85f23616e6896ed47de29b3b779be76e"
+    },
+    {
+      "url": "/ebook/audio/provenance/Wav2Vec2Bert_ModelCard.md",
+      "path": "配音/许可与生成说明/Wav2Vec2Bert_ModelCard.md",
+      "bytes": 4792,
+      "sha256": "478afeacb3b4ce0d86b361f099416d28a7e7673ade31775c0f85f396979b7fc2"
+    },
+    {
+      "url": "/ebook/audio/provenance/generation.json",
+      "path": "配音/许可与生成说明/generation.json",
+      "bytes": 30255,
+      "sha256": "cee471d7dc213f604e8203180e254337a1282944c6578e7972c8eb46e2a65f04"
+    },
+    {
+      "url": "/ebook/audio/provenance/music-credits.json",
+      "path": "配音/许可与生成说明/music-credits.json",
+      "bytes": 3789,
+      "sha256": "1cfcf598d51203354b5e0601fbacd25cc5a9685591af5206427a6b7ef60ca77f"
+    },
+    {
+      "url": "/ebook/audio/provenance/opencc-python-reimplemented_LICENSE.txt",
+      "path": "配音/许可与生成说明/opencc-python-reimplemented_LICENSE.txt",
+      "bytes": 10354,
+      "sha256": "18f3fedf9eac72e6054260489c764c1e54f63cf2b16055523f561ffeec7bc908"
+    },
+    {
+      "url": "/ebook/audio/provenance/pypinyin_LICENSE.txt",
+      "path": "配音/许可与生成说明/pypinyin_LICENSE.txt",
+      "bytes": 1105,
+      "sha256": "1e6c90014b4912815c296ee64bb6f6280af47e6d4c5d80e86232dfc5defe764c"
+    }
+  ]
+}
