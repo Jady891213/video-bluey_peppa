@@ -999,5 +999,10 @@
     "cross_segment_box_continuity_reviewed": true,
     "title_insertion_tail_sec": 0.9
   },
-  "selected_duration_sec": 41.400000000000006
+  "selected_duration_sec": 41.400000000000006,
+  "user_acceptance": {
+    "accepted": true,
+    "usage": "用户确认两段作为正式原片，后续逐段沿用同一风格、比例和像素，优先人物与物件连续性。",
+    "date": "2026-10-12"
+  }
 }

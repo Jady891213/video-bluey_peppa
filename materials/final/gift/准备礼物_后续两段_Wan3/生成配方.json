@@ -1,0 +1,870 @@
+{
+  "story": "准备礼物",
+  "status": "Wan后续制作中，预算内逐镜完成",
+  "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
+  "model_id": 56,
+  "model": "Wan 3.0",
+  "resolution": "720p",
+  "audio_reference_supported": true,
+  "asset_prefix": "准备礼物后续Wan3",
+  "tmp_directory": "TMP to delete - 准备礼物Wan后续制作",
+  "export": {
+    "width": 1280,
+    "height": 720,
+    "aspect_ratio": "16:9",
+    "fps": 30,
+    "video_codec": "H264",
+    "audio_codec": "AAC",
+    "audio_rate": 48000
+  },
+  "generation_budget_points": 210,
+  "balance_before_points": 210,
+  "notice": "接用户已认可的两段开场；完整原配音作为生成参考，成片沿用同一原音轨；优先质量，不为固定时长删内容。",
+  "music": {
+    "file": "materials/original/gift/music/bluey-rain-instrumental-selected.wav",
+    "sha256": "7f8f4a76d722f22f858f01b7c0c12db9697b9e780b6d51228b4282467bf26117",
+    "title": "Rain (Instrumental)",
+    "source_selection_sec": [
+      14,
+      32
+    ],
+    "notice": "materials/original/gift/music/NOTICE.md",
+    "target_rms_dbfs": -35.5,
+    "loop_crossfade_sec": 1.0,
+    "role": "沿用现有故事的轻場景配乐，片头由用户之后自行剪入。"
+  },
+  "segments": [
+    {
+      "id": "C",
+      "title": "准备礼物｜礼物模特",
+      "file": "prepare-gifts-next-part-1-model-pose-wan3.mp4",
+      "dialogue_stem": {
+        "file": "C-clean-dialogue.wav",
+        "sha256": "1beea514b47eb0e78775d09ef03847233d2c6410fe12cf96d0ca0bc499b50093"
+      },
+      "result": {
+        "sha256": "fbe5f70c9361fc57cd48b476bbafd746e697cff5fd7d1b9b779a79e0be31044a",
+        "bytes": 4328793,
+        "duration_sec": 16.0,
+        "width": 1280,
+        "height": 720,
+        "fps": "30/1"
+      },
+      "timeline": [
+        {
+          "id": "C01",
+          "start_sec": 0,
+          "end_sec": 3,
+          "lines": [
+            {
+              "id": "GIFT-L012",
+              "speaker": "班迪特",
+              "text": "老板想先做什么礼物？",
+              "source": "materials/final/gift/voices/GIFT-L012.wav",
+              "offset_sec": 0.12,
+              "duration_sec": 2.5541950113378684,
+              "source_sha256": "2fb850efd108f371136a72f2a52da0dcf83c10203d1fa7ce8de229cb3fac78c4",
+              "gain_db": 4.132
+            }
+          ]
+        },
+        {
+          "id": "C02",
+          "start_sec": 3,
+          "end_sec": 6,
+          "lines": [
+            {
+              "id": "GIFT-L013",
+              "speaker": "布鲁伊",
+              "text": "做个我，送给宾果！",
+              "source": "materials/final/gift/voices/GIFT-L013.wav",
+              "offset_sec": 0.12,
+              "duration_sec": 1.787936507936508,
+              "source_sha256": "06da115d0fe0ca895147bd1cd99441036f2d0644c9d120c5f0b0662fa008734d",
+              "gain_db": 7.061
+            }
+          ]
+        },
+        {
+          "id": "C03",
+          "start_sec": 6,
+          "end_sec": 9,
+          "lines": [
+            {
+              "id": "GIFT-L014",
+              "speaker": "班迪特",
+              "text": "模特请站好！",
+              "source": "materials/final/gift/voices/GIFT-L014.wav",
+              "offset_sec": 0.12,
+              "duration_sec": 2.670294784580499,
+              "source_sha256": "4d0d6767bf9922328f56be9b911216d77c71f9f0a6db87615f8bee0bc27fe447",
+              "gain_db": 6.746
+            }
+          ]
+        },
+        {
+          "id": "C04",
+          "start_sec": 9,
+          "end_sec": 12,
+          "lines": [
+            {
+              "id": "GIFT-L111",
+              "speaker": "宾果",
+              "text": "姐姐，再神气一点！",
+              "source": "materials/final/gift/voices/GIFT-L111.wav",
+              "offset_sec": 0.12,
+              "duration_sec": 2.2755555555555556,
+              "source_sha256": "eaa2f364b113fffee2cd9b4941ac02803eee31a8a4c2059de00ac5e210aea305",
+              "gain_db": 6.61
+            }
+          ]
+        },
+        {
+          "id": "C05",
+          "start_sec": 12,
+          "end_sec": 16,
+          "lines": [
+            {
+              "id": "GIFT-L015",
+              "speaker": "班迪特",
+              "text": "瞧这两只神气的小耳朵！",
+              "source": "materials/final/gift/voices/GIFT-L015.wav",
+              "offset_sec": 0.12,
+              "duration_sec": 3.5526530612244898,
+              "source_sha256": "16b55bbaa76bd88fd4b6fe1c2add8809a934a506d95b2bcda07571ebe1cc45a0",
+              "gain_db": 4.592
+            }
+          ]
+        }
+      ],
+      "user_review_status": "待用户确认",
+      "online_upload": {
+        "uri": "hogi://video/mv5idjek_f1982e9ada6871e1.mp4",
+        "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
+        "sha256": "fbe5f70c9361fc57cd48b476bbafd746e697cff5fd7d1b9b779a79e0be31044a"
+      }
+    },
+    {
+      "id": "D",
+      "title": "准备礼物｜打印与快递车",
+      "file": "prepare-gifts-next-part-2-print-and-play-wan3.mp4",
+      "dialogue_stem": {
+        "file": "D-clean-dialogue.wav",
+        "sha256": "656a9c669d26b003824d990e555a75a3f6665c9ff0215aa7f77b491e4c846d39"
+      },
+      "user_review_status": "待用户确认",
+      "result": {
+        "sha256": "409e05e9f1fb677115ee8a3e86a6cebd3af64f33ce01536fd935990d0cc1edf3",
+        "bytes": 4601472,
+        "duration_sec": 14.4,
+        "width": 1280,
+        "height": 720,
+        "fps": "30/1"
+      },
+      "timeline": [
+        {
+          "id": "D01",
+          "start_sec": 0,
+          "end_sec": 3,
+          "lines": [
+            {
+              "id": "GIFT-L016",
+              "speaker": "布鲁伊",
+              "text": "等它出来，你就有两个我啦！",
+              "source": "materials/final/gift/voices/GIFT-L016.wav",
+              "offset_sec": 0.12,
+              "duration_sec": 2.4729251700680273,
+              "source_sha256": "63efce47886887dad910e2b7d8f7081ac5486b00e3b9c4754721f7eb6128f65f",
+              "gain_db": 8.086
+            }
+          ]
+        },
+        {
+          "id": "D02",
+          "start_sec": 3,
+          "end_sec": 6,
+          "lines": []
+        },
+        {
+          "id": "D03",
+          "start_sec": 6,
+          "end_sec": 9,
+          "lines": [
+            {
+              "id": "GIFT-L109",
+              "speaker": "宾果",
+              "text": "快递员，去沙发那边！",
+              "source": "materials/final/gift/voices/GIFT-L109.wav",
+              "offset_sec": 0.12,
+              "duration_sec": 2.2291156462585033,
+              "source_sha256": "12f8ed6a0a049e27ed3054b00389bcc3de3aae739ea1fbd4d4c2a35c79ad69e9",
+              "gain_db": 4.755
+            }
+          ]
+        },
+        {
+          "id": "D04",
+          "start_sec": 9,
+          "end_sec": 14.4,
+          "lines": [
+            {
+              "id": "GIFT-L110",
+              "speaker": "班迪特",
+              "text": "哎呀，老板又改地址啦！",
+              "source": "materials/final/gift/voices/GIFT-L110.wav",
+              "offset_sec": 2.65,
+              "duration_sec": 2.6354648526077096,
+              "source_sha256": "74aee86978e7ec9530035d7b487ce8919b8e5b2da35e262b0bced3d44848d3ff",
+              "gain_db": 3.826
+            }
+          ]
+        }
+      ],
+      "online_upload": {
+        "uri": "hogi://video/mv5idpp1_d27261be0ac22081.mp4",
+        "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
+        "sha256": "409e05e9f1fb677115ee8a3e86a6cebd3af64f33ce01536fd935990d0cc1edf3"
+      }
+    }
+  ],
+  "shots": [
+    {
+      "id": "C01",
+      "segment": "C",
+      "title": "班迪特询问礼物",
+      "duration_sec": 3,
+      "generation_duration_sec": 3,
+      "prompt_file": "prompts/C01.txt",
+      "reference": "materials/original/gift/后续动画原型参考图/dad-fourspools.png",
+      "image_uri": "hogi://image/mv5c0dt0_9cb875d271d77102.png",
+      "reference_sha256": "7cbe0f1a3e86a6987dda0244a6dc423a845f1e3ef408d5d0a4afda8954e73e5c",
+      "lines": [
+        {
+          "id": "GIFT-L012",
+          "speaker": "班迪特",
+          "text": "老板想先做什么礼物？",
+          "source": "materials/final/gift/voices/GIFT-L012.wav",
+          "offset_sec": 0.12,
+          "duration_sec": 2.5541950113378684,
+          "source_sha256": "2fb850efd108f371136a72f2a52da0dcf83c10203d1fa7ce8de229cb3fac78c4",
+          "gain_db": 4.132
+        }
+      ],
+      "audio_uri": "hogi://audio/mv5fqnpd_d6e2f2fcb4ad0310.wav",
+      "validation": {
+        "valid": true,
+        "points": 21,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_42bdd438d06e9f0f3ce8f807b9b7ef53",
+        "local_task_id": "task_a904de72e88827d9",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "b823abd0-f480-4b83-8230-09e412548846",
+        "resourceUris": [
+          "hogi://video/757f8431a7d463afd57348d7bff9a366508019565c47e16540672e4c0cd82fc9.mp4"
+        ]
+      },
+      "charged_points": 21,
+      "trim_start_sec": 0.05,
+      "video_speed": 0.87,
+      "review": {
+        "accepted": true,
+        "scope": "技术选片，仍待用户听审",
+        "method": "本轮Wan原生动作密集抽帧、嘴部声能窗；原配音参考逐样本检查",
+        "notes": "角色、机器连续；未见重复手脚或尾巴；局部画面时轴匹配完整原配音。C05后段切静态UI特写。"
+      },
+      "selected_sha256": "25531293d1b3b80914dc4c535926d325a41b1b70adc003252593d175006c5b26"
+    },
+    {
+      "id": "C02",
+      "segment": "C",
+      "title": "布鲁伊想送自己",
+      "duration_sec": 3,
+      "generation_duration_sec": 3,
+      "prompt_file": "prompts/C02.txt",
+      "reference": "materials/original/gift/后续动画原型参考图/bluey-pose.png",
+      "image_uri": "hogi://image/mv5c0n6a_1ee8389f2875f9e0.png",
+      "reference_sha256": "cc085522b9ce8f15b7a84b4d7dffc28e0320bbf8eb3b20a0060826290e87844a",
+      "lines": [
+        {
+          "id": "GIFT-L013",
+          "speaker": "布鲁伊",
+          "text": "做个我，送给宾果！",
+          "source": "materials/final/gift/voices/GIFT-L013.wav",
+          "offset_sec": 0.12,
+          "duration_sec": 1.787936507936508,
+          "source_sha256": "06da115d0fe0ca895147bd1cd99441036f2d0644c9d120c5f0b0662fa008734d",
+          "gain_db": 7.061
+        }
+      ],
+      "audio_uri": "hogi://audio/mv5fqtzk_d0781745eb591499.wav",
+      "validation": {
+        "valid": true,
+        "points": 21,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_d7b9e26293a50a31b4ea0b6726414d56",
+        "local_task_id": "task_21b1b893e7b0425d",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "41f7f444-a3bf-41f1-aee4-6730be5fc899",
+        "resourceUris": [
+          "hogi://video/96ce266c8b0a1c79c30b2761342ba0e86722145d38769911953e2b732492b4dd.mp4"
+        ]
+      },
+      "charged_points": 21,
+      "review": {
+        "accepted": true,
+        "scope": "技术选片，仍待用户听审",
+        "method": "本轮Wan原生动作密集抽帧、嘴部声能窗；原配音参考逐样本检查",
+        "notes": "角色、机器连续；未见重复手脚或尾巴；局部画面时轴匹配完整原配音。C05后段切静态UI特写。"
+      },
+      "selected_sha256": "dfe6d0345d1eebcd58b3f38f98799090fade8eefcfc7fee69350e03411f307bb"
+    },
+    {
+      "id": "C03",
+      "segment": "C",
+      "title": "模特请站好",
+      "duration_sec": 3,
+      "generation_duration_sec": 3,
+      "prompt_file": "prompts/C03.txt",
+      "reference": "materials/original/gift/后续动画原型参考图/dad-fourspools.png",
+      "image_uri": "hogi://image/mv5c0dt0_9cb875d271d77102.png",
+      "reference_sha256": "7cbe0f1a3e86a6987dda0244a6dc423a845f1e3ef408d5d0a4afda8954e73e5c",
+      "lines": [
+        {
+          "id": "GIFT-L014",
+          "speaker": "班迪特",
+          "text": "模特请站好！",
+          "source": "materials/final/gift/voices/GIFT-L014.wav",
+          "offset_sec": 0.12,
+          "duration_sec": 2.670294784580499,
+          "source_sha256": "4d0d6767bf9922328f56be9b911216d77c71f9f0a6db87615f8bee0bc27fe447",
+          "gain_db": 6.746
+        }
+      ],
+      "audio_uri": "hogi://audio/mv5fqzw3_0500dc8495ce1385.wav",
+      "validation": {
+        "valid": true,
+        "points": 21,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_3a50f6ee0c66bf19a6690fe0716d90dd",
+        "local_task_id": "task_d83b1174a75c45dc",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "b686c30f-f99b-40d0-99ae-84c8207455f1",
+        "resourceUris": [
+          "hogi://video/092f88d938caa656d6a792e0e10fee72d49402dff1e44e499649bd536bc5688f.mp4"
+        ]
+      },
+      "charged_points": 21,
+      "video_speed": 1.2,
+      "review": {
+        "accepted": true,
+        "scope": "技术选片，仍待用户听审",
+        "method": "本轮Wan原生动作密集抽帧、嘴部声能窗；原配音参考逐样本检查",
+        "notes": "角色、机器连续；未见重复手脚或尾巴；局部画面时轴匹配完整原配音。C05后段切静态UI特写。 按主音节声能窗.52—2.16匹配，忽略前呼吸和尾底噪，撤销拖慢参数。"
+      },
+      "selected_sha256": "595e01e5a33aabf55ae8b108316dd8f80347cf8bb3066b30fe836295a5356933"
+    },
+    {
+      "id": "C04",
+      "segment": "C",
+      "title": "姐姐再神气一点",
+      "duration_sec": 3,
+      "generation_duration_sec": 3,
+      "prompt_file": "prompts/C04.txt",
+      "reference": "materials/original/gift/后续动画原型参考图/bingo-table.png",
+      "image_uri": "hogi://image/mv5c0urh_3befb79046bf0283.png",
+      "reference_sha256": "14cca6860620ec07a427c4257da528294380b27ffd3b9842aff76ae5e7959bd1",
+      "lines": [
+        {
+          "id": "GIFT-L111",
+          "speaker": "宾果",
+          "text": "姐姐，再神气一点！",
+          "source": "materials/final/gift/voices/GIFT-L111.wav",
+          "offset_sec": 0.12,
+          "duration_sec": 2.2755555555555556,
+          "source_sha256": "eaa2f364b113fffee2cd9b4941ac02803eee31a8a4c2059de00ac5e210aea305",
+          "gain_db": 6.61
+        }
+      ],
+      "audio_uri": "hogi://audio/mv5fr5s9_688a439897e4a800.wav",
+      "validation": {
+        "valid": true,
+        "points": 21,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_6182d42197609ae5068be488d0d8d0d2",
+        "local_task_id": "task_87f1ced06a2396fe",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "ec55c3ea-2aee-41fd-a008-74c2bdbf78e2",
+        "resourceUris": [
+          "hogi://video/2158fbfab853f0484e0dd4dbb053fd100d61e4085dab5c261c78850e00e528bd.mp4"
+        ]
+      },
+      "charged_points": 21,
+      "trim_start_sec": 0.165,
+      "video_speed": 1.15,
+      "review": {
+        "accepted": true,
+        "scope": "技术选片，仍待用户听审",
+        "method": "本轮Wan原生动作密集抽帧、嘴部声能窗；原配音参考逐样本检查",
+        "notes": "角色、机器连续；未见重复手脚或尾巴；局部画面时轴匹配完整原配音。C05后段切静态UI特写。"
+      },
+      "selected_sha256": "07b951f52045e59d7d41411b70b0bf1357ffc563fac240e2c0c7d5b154a390a9"
+    },
+    {
+      "id": "C05",
+      "segment": "C",
+      "title": "神气的小耳朵",
+      "duration_sec": 4,
+      "generation_duration_sec": 4,
+      "prompt_file": "prompts/C05.txt",
+      "reference": "materials/original/gift/后续动画原型参考图/dad-fourspools.png",
+      "image_uri": "hogi://image/mv5c0dt0_9cb875d271d77102.png",
+      "reference_sha256": "7cbe0f1a3e86a6987dda0244a6dc423a845f1e3ef408d5d0a4afda8954e73e5c",
+      "lines": [
+        {
+          "id": "GIFT-L015",
+          "speaker": "班迪特",
+          "text": "瞧这两只神气的小耳朵！",
+          "source": "materials/final/gift/voices/GIFT-L015.wav",
+          "offset_sec": 0.12,
+          "duration_sec": 3.5526530612244898,
+          "source_sha256": "16b55bbaa76bd88fd4b6fe1c2add8809a934a506d95b2bcda07571ebe1cc45a0",
+          "gain_db": 4.592
+        }
+      ],
+      "insert_image": "materials/original/gift/后续动画原型参考图/tablet-ears.png",
+      "insert_start_sec": 1.7,
+      "insert_note": "用静态UI特写切走爸爸的近景，确保预览模型不跟画外声音张嘴；完整对白贯穿两个分镜。",
+      "audio_uri": "hogi://audio/mv5fray9_fd8a16cd0cca8438.wav",
+      "validation": {
+        "valid": true,
+        "points": 28,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_2a973e2af9ef2d9cea4ab7d8c3052657",
+        "local_task_id": "task_d96c92444001b1a4",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "53858872-d975-4482-aa8f-df92133b23e9",
+        "resourceUris": [
+          "hogi://video/1ff7d8029b147f22268eb7d4c2463062c54db849c318850adc90552e486a9ad9.mp4"
+        ]
+      },
+      "charged_points": 28,
+      "review": {
+        "accepted": true,
+        "scope": "技术选片，仍待用户听审",
+        "method": "本轮Wan原生动作密集抽帧、嘴部声能窗；原配音参考逐样本检查",
+        "notes": "角色、机器连续；未见重复手脚或尾巴；局部画面时轴匹配完整原配音。C05后段切静态UI特写。"
+      },
+      "selected_sha256": "95db9ed4dbc7d4921de1dfa3bf88036c595dff00e7248312382469dee45df327"
+    },
+    {
+      "id": "D01",
+      "segment": "D",
+      "title": "你就有两个我啦",
+      "duration_sec": 3,
+      "generation_duration_sec": 3,
+      "prompt_file": "prompts/D01.txt",
+      "reference": "materials/original/gift/完整开场参考帧/indoor_bluey.png",
+      "image_uri": "hogi://image/mv56fbwj_e600b7c5dccda644.png",
+      "reference_sha256": "93901b2a80f33ac44875915d96e8662dd7912b09064ffa72970fab8268e22a5b",
+      "lines": [
+        {
+          "id": "GIFT-L016",
+          "speaker": "布鲁伊",
+          "text": "等它出来，你就有两个我啦！",
+          "source": "materials/final/gift/voices/GIFT-L016.wav",
+          "offset_sec": 0.12,
+          "duration_sec": 2.4729251700680273,
+          "source_sha256": "63efce47886887dad910e2b7d8f7081ac5486b00e3b9c4754721f7eb6128f65f",
+          "gain_db": 8.086
+        }
+      ],
+      "audio_uri": "hogi://audio/mv5g6966_5d01611a53dcfa7e.wav",
+      "validation": {
+        "valid": true,
+        "points": 21,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_9a442927c927a2c47f91bce2a2de3db0",
+        "local_task_id": "task_694736d50708692c",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "ee07152d-a8d6-436d-b3bb-8acc62a717ba",
+        "resourceUris": [
+          "hogi://video/b83ee5b00458ecca6973745b3a06384ba926a03e3f2fe5f4dc8a564a7e9e56e6.mp4"
+        ]
+      },
+      "charged_points": 21,
+      "review": {
+        "accepted": true,
+        "note": "定间隔关键帧已核对单个说话者与手势，沿用完整原配音。",
+        "scope": "制作技术选片通过，待用户听审；不是逐帧完美承诺"
+      },
+      "selected_sha256": "5c01abadfef15ad0568ef1cf3f2a7714a09135b63a7bc42a9612fd0ad48b801f"
+    },
+    {
+      "id": "D02",
+      "segment": "D",
+      "title": "第一次试打印",
+      "duration_sec": 3,
+      "generation_duration_sec": 3,
+      "prompt_file": "prompts/D02.txt",
+      "reference": "materials/original/gift/后续动画原型参考图/printer-start.png",
+      "image_uri": "hogi://image/mv5cs0vb_e27c3237d4862cce.png",
+      "reference_sha256": "fa7497497fddb6357bb5bb4002e2642e620cfd2a4f32b8ecb2c766cb95bb7c3c",
+      "lines": [],
+      "validation": {
+        "valid": true,
+        "points": 21,
+        "method": "generate_video_wan",
+        "mode": "firstframe2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_4d8c113be3d2d9efe8f0f38adfa6d32f",
+        "local_task_id": "task_c1b16b5d8676de70",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "firstframe2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "a168fae8-e0e0-4f12-802e-a1177afa3015",
+        "resourceUris": [
+          "hogi://video/ee1c630ded7677788dc5903e13b7823a3dada6effddac71f90f94daa6b50d07f.mp4"
+        ]
+      },
+      "charged_points": 21,
+      "review": {
+        "accepted": true,
+        "note": "打印机外壳与四卷料尺寸稳定，微型布鲁伊保持小尺寸，无角色讲话。",
+        "scope": "制作技术选片通过，待用户听审；不是逐帧完美承诺"
+      },
+      "selected_sha256": "1e34b1d76344eba2ec5856238bf9ef250c6b091a77bd077f6bdd15d4f6879b89"
+    },
+    {
+      "id": "D03",
+      "segment": "D",
+      "title": "老板指挥快递员",
+      "duration_sec": 3,
+      "generation_duration_sec": 3,
+      "prompt_file": "prompts/D03.txt",
+      "reference": "materials/original/gift/后续动画原型参考图/bingo-boss.png",
+      "image_uri": "hogi://image/mv5cs88f_23229010ae6666f3.png",
+      "reference_sha256": "07dfc1c4d37ba72b902e02f91f56593df06aa32e4252bd11169d285770cb2f5a",
+      "lines": [
+        {
+          "id": "GIFT-L109",
+          "speaker": "宾果",
+          "text": "快递员，去沙发那边！",
+          "source": "materials/final/gift/voices/GIFT-L109.wav",
+          "offset_sec": 0.12,
+          "duration_sec": 2.2291156462585033,
+          "source_sha256": "12f8ed6a0a049e27ed3054b00389bcc3de3aae739ea1fbd4d4c2a35c79ad69e9",
+          "gain_db": 4.755
+        }
+      ],
+      "audio_uri": "hogi://audio/mv5g6fjn_412c4e4eae1eaf0c.wav",
+      "validation": {
+        "valid": true,
+        "points": 21,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_91cd89cb569c2b587891b1da7c676038",
+        "local_task_id": "task_5e5a92f2a845e744",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "d38e4b78-dc18-4ad6-bb3c-7c5d9aa97341",
+        "resourceUris": [
+          "hogi://video/292fef0d673990edf837493d20a365be7121d0fde613dbc8eb568bcda9f582d1.mp4"
+        ]
+      },
+      "charged_points": 21,
+      "review": {
+        "accepted": true,
+        "note": "宾果指挥动作和原配音角色一致，未见多余肢体与尾巴。",
+        "scope": "制作技术选片通过，待用户听审；不是逐帧完美承诺"
+      },
+      "selected_sha256": "595c1d26267eb979d205405e39e6eb75e860820a04f245a2f2c0500088779afb"
+    },
+    {
+      "id": "D04",
+      "segment": "D",
+      "title": "快递车改地址",
+      "duration_sec": 5.4,
+      "generation_duration_sec": 5,
+      "prompt_file": "prompts/D04.txt",
+      "reference": "materials/original/gift/后续动画原型参考图/dad-courier.png",
+      "image_uri": "hogi://image/mv5csgdy_5921e33bf6c41aa5.png",
+      "reference_sha256": "397a8c45e56963dcd6c89c1371d3d690f17bbeeb70a05fd165c5a354a158dcb2",
+      "lines": [
+        {
+          "id": "GIFT-L110",
+          "speaker": "班迪特",
+          "text": "哎呀，老板又改地址啦！",
+          "source": "materials/final/gift/voices/GIFT-L110.wav",
+          "offset_sec": 2.65,
+          "duration_sec": 2.6354648526077096,
+          "source_sha256": "74aee86978e7ec9530035d7b487ce8919b8e5b2da35e262b0bced3d44848d3ff",
+          "gain_db": 3.826
+        }
+      ],
+      "audio_uri": "hogi://audio/mv5g6kq7_7977ae664f74b858.wav",
+      "validation": {
+        "valid": true,
+        "points": 35,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_578c7f217b6a77296de41353d71f9400",
+        "local_task_id": "task_1ac1113c39dadcf3",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "ee9c66b2-a3f8-42eb-8b10-4348c4b32691",
+        "resourceUris": [
+          "hogi://video/92923323fb2e8fe664ffbaf8e9c8a9debff875dded7cb984e323e31555c840ed.mp4"
+        ]
+      },
+      "charged_points": 35,
+      "generation_audio_lines": [
+        {
+          "id": "GIFT-L110",
+          "speaker": "班迪特",
+          "text": "哎呀，老板又改地址啦！",
+          "source": "materials/final/gift/voices/GIFT-L110.wav",
+          "offset_sec": 0.6,
+          "duration_sec": 2.6354648526077096,
+          "source_sha256": "74aee86978e7ec9530035d7b487ce8919b8e5b2da35e262b0bced3d44848d3ff",
+          "gain_db": 3.826
+        }
+      ],
+      "generation_audio_reference_sha256": "e96cbdba55bafaae13aebd1856ad1560d76a4ff216d158bfaeafdb3b96f89212",
+      "insert_shot": "D02",
+      "insert_start_sec": 4.9,
+      "insert_note": "保留完整爬行动作后再回应，句尾切回同一打印过程特写；全原配音不截句。",
+      "assembly_note": "生成使用5秒原音参（.6秒起），成片按实际讲话后移到2.65秒；最终时间轴与云端生成参考分别保存。",
+      "review": {
+        "accepted": true,
+        "note": "先保留交替爬行动作，原声延后2.65秒，4.9秒切打印机特写覆盖句尾；完整保留原WAV。",
+        "scope": "制作技术选片通过，待用户听审；不是逐帧完美承诺"
+      },
+      "selected_sha256": "e03482ff16714d06e34a9beb4e2fb226c6f1aa203d2ce471e042bb7555f6c965"
+    }
+  ],
+  "pending_story_next": [
+    {
+      "id": "D05",
+      "title": "小礼物做好了",
+      "lines": [
+        {
+          "id": "GIFT-L018",
+          "speaker": "旁白",
+          "text": "过了好一会儿，小礼物做好了。",
+          "source": "materials/final/gift/voices/GIFT-L018.wav"
+        }
+      ],
+      "reference": "materials/original/gift/后续动画原型参考图/printer-complete.png"
+    },
+    {
+      "id": "E01",
+      "title": "凉好后请老板验收",
+      "lines": [
+        {
+          "id": "GIFT-L019",
+          "speaker": "班迪特",
+          "text": "已经凉好了，请老板验收！",
+          "source": "materials/final/gift/voices/GIFT-L019.wav"
+        }
+      ],
+      "reference": "materials/original/gift/后续动画原型参考图/dad-mini.png"
+    },
+    {
+      "id": "E02",
+      "title": "小蓝莓的笑话",
+      "lines": [
+        {
+          "id": "GIFT-L020",
+          "speaker": "宾果",
+          "text": "布鲁伊，你变成小蓝莓啦！",
+          "source": "materials/final/gift/voices/GIFT-L020.wav"
+        }
+      ],
+      "reference": "materials/original/gift/后续动画原型参考图/bingo-mini.png"
+    },
+    {
+      "id": "E03",
+      "title": "我可不是蓝莓",
+      "lines": [
+        {
+          "id": "GIFT-L108",
+          "speaker": "布鲁伊",
+          "text": "我可不是蓝莓！",
+          "source": "materials/final/gift/voices/GIFT-L108.wav"
+        }
+      ],
+      "reference": "materials/original/gift/完整开场参考帧/indoor_bluey.png"
+    },
+    {
+      "id": "E04",
+      "title": "旅行装布鲁伊",
+      "lines": [
+        {
+          "id": "GIFT-L021",
+          "speaker": "班迪特",
+          "text": "这是旅行装布鲁伊！",
+          "source": "materials/final/gift/voices/GIFT-L021.wav"
+        }
+      ],
+      "reference": "materials/original/gift/后续动画原型参考图/dad-mini.png"
+    },
+    {
+      "id": "E05",
+      "title": "陪你到处玩",
+      "lines": [
+        {
+          "id": "GIFT-L022",
+          "speaker": "布鲁伊",
+          "text": "那我就能陪你到处玩啦！",
+          "source": "materials/final/gift/voices/GIFT-L022.wav"
+        }
+      ],
+      "reference": "materials/original/gift/完整开场参考帧/indoor_bluey.png"
+    }
+  ],
+  "vidu_cleanup": {
+    "local_videos_deleted": true,
+    "prototype_images_preserved": 10,
+    "online_canvas_nodes_removed": 20,
+    "refresh_verified": true,
+    "preserved_existing_canvas_nodes": 75,
+    "scope": "线上画布节点移除；平台后台生成历史/底层资源永久删除无可用接口，未冒称永久删除。"
+  },
+  "consumption": {
+    "balance_before_points": 210,
+    "generation_budget_points": 210,
+    "net_generation_points": 210,
+    "rejected_prior_vidu_points": 312,
+    "prior_project_video_points": 860,
+    "project_video_points": 1070,
+    "retries": 0,
+    "balance_after_points": 0
+  }
+}

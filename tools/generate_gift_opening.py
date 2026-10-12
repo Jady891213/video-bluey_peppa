@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""按保存的配方逐镜生成、核验与组装《准备礼物》两段开场。
+"""按保存的配方逐镜生成、核验与组装《准备礼物》的动画片段。
 
 生成调用只使用官方 OiiOii CLI。submit 必须已通过 dry-run，存在任务ID则不重复提交。
-临时输入、下载与转码放项目根 TMP to delete 目录；最终仅保存选定参考与两段结果。
+临时输入、下载与转码放项目根 TMP to delete 目录；最终仅保存选定参考与结果。
 """
 import argparse
 import array
@@ -38,11 +38,13 @@ def api(m, *args):
     return d['data']
 
 
-def audio(s):
+def audio(s, *, generation_reference=False):
     TMP.mkdir(exist_ok=True)
     fs = 22050
-    samples = array.array('h', [0] * round(s['duration_sec'] * fs))
-    for line in s['lines']:
+    duration = s.get('generation_duration_sec', s['duration_sec']) if generation_reference else s['duration_sec']
+    lines = s.get('generation_audio_lines', s['lines']) if generation_reference else s['lines']
+    samples = array.array('h', [0] * round(duration * fs))
+    for line in lines:
         src = ROOT / line['source']
         source_hash = hashlib.sha256(src.read_bytes()).hexdigest()
         if line.get('source_sha256'):
@@ -58,7 +60,7 @@ def audio(s):
         line['duration_sec'] = len(raw) / fs
         line['gain_db'] = round(20 * math.log10(gain), 3)
         line['source_sha256'] = source_hash
-    file = TMP / (s['id'] + '-dialogue.wav')
+    file = TMP / (s['id'] + ('-reference-dialogue.wav' if generation_reference else '-dialogue.wav'))
     with wave.open(str(file), 'wb') as w:
         w.setparams((1, 2, fs, len(samples), 'NONE', 'not compressed'))
         w.writeframes(samples.tobytes())
@@ -68,9 +70,9 @@ def audio(s):
 def request(m, s, dry=False):
     args = ['video', 'generate', '--model-id', str(m['model_id']),
             '--duration', str(s.get('generation_duration_sec', s['duration_sec'])), '--resolution', m['resolution'],
-            '--aspect-ratio', '16:9', '--mode', 'omni2Video' if s.get('audio_uri') else 'firstframe2Video',
+            '--aspect-ratio', '16:9', '--mode', 'omni2Video' if s.get('audio_uri') and m.get('audio_reference_supported', True) else 'firstframe2Video',
             '--prompt', (OUT / s['prompt_file']).read_text(), '--image', s['image_uri']]
-    if s.get('audio_uri'):
+    if s.get('audio_uri') and m.get('audio_reference_supported', True):
         args += ['--audio', s['audio_uri']]
     if dry:
         args += ['--dry-run']
@@ -90,19 +92,45 @@ def export(m, s):
     filters = []
     if s.get('trim_start_sec'):
         filters += [f"trim=start={s['trim_start_sec']}", 'setpts=PTS-STARTPTS']
+    if s.get('video_speed'):
+        assert .7 <= s['video_speed'] <= 1.5, 'Retiming must preserve natural action'
+        filters.append(f"setpts=(PTS-STARTPTS)/{s['video_speed']}")
+    if s.get('start_hold_sec'):
+        assert 0 <= s['start_hold_sec'] <= .5, 'Keep the initial reaction hold brief'
+        filters.append(f"tpad=start_mode=clone:start_duration={s['start_hold_sec']}")
     if s.get('crop'):
         c = s['crop']
         assert c['width'] * 9 == c['height'] * 16, 'Keep the selected framing 16:9'
         filters.append(f"crop={c['width']}:{c['height']}:{c['x']}:{c['y']}")
     filters += ['scale=1280:720:force_original_aspect_ratio=decrease',
-                'pad=1280:720:(ow-iw)/2:(oh-ih)/2', 'setsar=1', 'fps=30']
+                'pad=1280:720:(ow-iw)/2:(oh-ih)/2', 'setsar=1',
+                f"tpad=stop_mode=clone:stop_duration={s['duration_sec']}", 'fps=30']
     vf = ','.join(filters)
     # 中间片只留画面，避免每镜AAC填充时长影响拼接；对白在完整时轴上只编码一次。
-    cmd = ['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-i', str(src),
-           '-map', '0:v:0', '-an', '-vf', vf, '-c:v', 'libx264', '-crf', '18',
+    cmd = ['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-i', str(src)]
+    if s.get('insert_image') or s.get('insert_shot'):
+        if s.get('insert_shot'):
+            assert s['insert_shot'] in {x['id'] for x in m['shots']}
+            insert = TMP / (s['insert_shot'] + '-native.mp4')
+        else:
+            insert = ROOT / s['insert_image']
+        assert insert.is_relative_to(ROOT) and insert.exists()
+        at = s['insert_start_sec']
+        assert 0 < at < s['duration_sec']
+        image_filters = ('scale=1280:720:force_original_aspect_ratio=decrease,'
+                         'pad=1280:720:(ow-iw)/2:(oh-ih)/2,setsar=1,fps=30')
+        graph = (f'[0:v]{vf},trim=duration={at},setpts=PTS-STARTPTS[a];'
+                 f'[1:v]{image_filters},trim=duration={s["duration_sec"]-at},setpts=PTS-STARTPTS[b];'
+                 '[a][b]concat=n=2:v=1:a=0[v]')
+        if s.get('insert_image'):
+            cmd += ['-loop', '1']
+        cmd += ['-i', str(insert), '-filter_complex', graph, '-map', '[v]', '-an']
+    else:
+        cmd += ['-map', '0:v:0', '-an', '-vf', vf]
+    cmd += ['-c:v', 'libx264', '-crf', '18',
            '-preset', 'medium', '-pix_fmt', 'yuv420p', '-t', str(s['duration_sec']),
            '-map_metadata', '-1', '-movflags', '+faststart+use_metadata_tags',
-           '-metadata', 'comment=AI生成画面：Wan3.0；现有AI对白；制作镜头']
+           '-metadata', 'comment=AI生成画面：' + m['model'] + '；现有AI对白；制作镜头']
     for k in ['AIGC', 'HOGI_GENERATION']:
         if k in tags:
             cmd += ['-metadata', k + '=' + tags[k]]
@@ -112,7 +140,7 @@ def export(m, s):
     return dst
 
 
-def compose(m):
+def compose(m, selected_segments=None):
     voice_parts = array.array('h')
     lengths = {}
     for segment in m['segments']:
@@ -153,6 +181,9 @@ def compose(m):
                         '-t', str(full_duration), '-c:a', 'pcm_s16le', str(mix)], check=True)
     offset = 0
     for segment in m['segments']:
+        if selected_segments and segment['id'] not in selected_segments:
+            offset += lengths[segment['id']]
+            continue
         shots = [s for s in m['shots'] if s['segment'] == segment['id']]
         for s in shots:
             assert s.get('review', {}).get('accepted'), 'Review each shot before assembly'
@@ -170,7 +201,7 @@ def compose(m):
                         '-b:a', '192k', '-ar', '48000', '-ac', '2', '-map_metadata', '-1',
                         '-movflags', '+faststart+use_metadata_tags', '-metadata',
                         'title=' + segment['title'], '-metadata',
-                        'comment=AI生成动画：Wan3.0；沿用现有AI对白；未包含用户自备原版片头',
+                        'comment=AI生成动画：' + m['model'] + '；沿用现有AI对白；未包含用户自备原版片头',
                         '-metadata', 'AI_GENERATED=1', str(out)], check=True)
         d = probe(out)
         v = next(x for x in d['streams'] if x['codec_type'] == 'video')
@@ -189,14 +220,24 @@ def compose(m):
 
 
 def main():
+    global OUT, TMP, MANIFEST
     p = argparse.ArgumentParser()
     p.add_argument('command', choices=['upload', 'validate', 'submit', 'status', 'download', 'compose'])
     p.add_argument('--shots', nargs='*')
+    p.add_argument('--segments', nargs='*', help='仅组装指定片段，保留整套配方与完整音轨时轴')
+    p.add_argument('--manifest', help='仓库内另一套分镜配方，用于独立模型试片')
     a = p.parse_args()
+    if a.manifest:
+        MANIFEST = (ROOT / a.manifest).resolve()
+        assert MANIFEST.is_relative_to(ROOT), 'Manifest must remain inside the project'
+        OUT = MANIFEST.parent
     m = read()
+    if m.get('tmp_directory'):
+        TMP = ROOT / m['tmp_directory']
+        assert TMP.parent == ROOT and TMP.name.startswith('TMP to delete'), 'Use a project-root temporary directory'
     shots = [s for s in m['shots'] if not a.shots or s['id'] in a.shots]
     if a.command == 'compose':
-        compose(m)
+        compose(m, a.segments)
         return
     for s in shots:
         if a.command == 'upload':
@@ -205,12 +246,12 @@ def main():
                 print(s['id'], 'reference pending', flush=True)
                 continue
             if not s.get('image_uri'):
-                d = api(m, 'upload', 'file', str(ref), '--name', '准备礼物完整开场-' + s['id'] + '-首帧')
+                d = api(m, 'upload', 'file', str(ref), '--name', m.get('asset_prefix', '准备礼物完整开场') + '-' + s['id'] + '-首帧')
                 s['image_uri'] = d['uri']
                 s['reference_sha256'] = hashlib.sha256(ref.read_bytes()).hexdigest()
                 save(m)
-            if s['lines'] and not s.get('audio_uri'):
-                d = api(m, 'upload', 'file', str(audio(s)), '--name', '准备礼物完整开场-' + s['id'] + '-现有AI对白')
+            if s['lines'] and m.get('audio_reference_supported', True) and not s.get('audio_uri'):
+                d = api(m, 'upload', 'file', str(audio(s, generation_reference=True)), '--name', m.get('asset_prefix', '准备礼物完整开场') + '-' + s['id'] + '-现有AI对白')
                 s['audio_uri'] = d['uri']
         elif a.command == 'validate':
             d = request(m, s, True)
@@ -223,6 +264,12 @@ def main():
                 print(s['id'], 'task exists; skip resubmission', flush=True)
                 continue
             assert s.get('validation', {}).get('valid')
+            if m.get('generation_budget_points') is not None:
+                reserved = sum(x.get('validation', {}).get('points', 0) for x in m['shots'] if x.get('task'))
+                discarded = sum(x.get('retake', {}).get('charged_points', 0) for x in m['shots'])
+                quote = s['validation']['points']
+                assert reserved + discarded + quote <= m['generation_budget_points'], 'Do not exceed the authorized generation budget'
+                assert api(m, 'points', 'balance')['points'] >= quote, 'Insufficient current balance'
             if s.get('submission_pending'):
                 raise RuntimeError(s['id'] + ' 上次提交结果未知：请先查询官方任务记录，不能直接重复收费生成')
             s['submission_pending'] = True
