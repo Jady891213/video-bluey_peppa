@@ -4,7 +4,7 @@
 
 - 本仓库是迁移主库；网站在 `websites/{football,gift}/dist`，素材在同级 `materials/{original,final}/{football,gift}`。两个故事独立部署，不合并 Sites 包。
 - 《准备礼物》已采纳动画仅 A22.8秒、B18.6秒，集中在 `materials/final/gift/已采纳成片`，合计41.4秒。新Wan C16秒/D14.4秒被用户指出有问题，仅作备用；连同两条早期试片在 `备用片段`，不能自动加入正式剪辑。
-- 后续转MiniMax，官方CLI已安装，登录及H3订阅调用尚未验证。本轮整理不是模型生成或网站发布。动画状态、SHA、尺寸、声音和下一段输入以 `materials/final/gift/动画素材清单.json` 为准。
+- 后续转MiniMax，官方CLI已安装，认证与H3订阅调用已实测通过。本轮整理不是模型生成或网站发布。动画状态、SHA、尺寸、声音和下一段输入以 `materials/final/gift/动画素材清单.json` 为准。
 - 原型保留：`materials/original/gift/动画参考图/开场`12图、`后续`10图；正式PNG为 `illustrations`75图，完整WAV为 `materials/final/gift/voices`108句。原型是动作参考，不是已完成动画。
 - 私人原作录屏、角色声线、配音配置、独有母版与旧站本地Git历史在相邻 `../本地私有素材`。其README与素材路径索引负责本地路径；不复制进公共Git、不触碰LocalModels环境和权重。
 
@@ -33,4 +33,6 @@
 - `tools/serve.py`和`tools/verify.py`只用Python标准库。提交前核验两站SHA、素材引用与媒体SHA、文件不超过95MiB、无私人路径/凭证，commit主要内容用中文。
 - 浏览器、context、预览服务器、模型和录制等自有进程须退出；不关闭用户不相关应用。Chrome模拟视口不能称Android真机验收。
 
-- 2026-10-13通过官方npm包mmx-cli安装CLI1.0.28，Node20.19.6，已实测版本及video generate帮助，支持H3图像/视频/音频参考。身份状态未登录；下一步由用户在本机运行mmx auth login，使用Subscription Key，之后先查quota和调用权限。不得把Key写聊天、命令日志或Git，也不擅自更换Codex主模型。用户明确淘汰MetasoH3开场试片，目录及素材索引已删除，剩2条已采纳/4条备用。
+- 2026-10-13通过官方npm包mmx-cli安装CLI1.0.28，Node20.19.6，已实测版本及video generate帮助，支持H3图像/视频/音频参考。现已使用用户授权的Subscription Key配置本机CLI，CN区认证、quota、文字请求及H3实际生成通过；凭证仅留CLI本机配置，权限0600。不得把Key写聊天、命令日志或Git，也不擅自更换Codex主模型。用户明确淘汰MetasoH3开场试片，目录及素材索引已删除，剩2条已采纳/4条备用。
+
+- MiniMax直连已验证：M3.1轻量请求返回连接成功；H3用现有宾果图与完整WAV参考请求4秒/2K，后端完成且MP4完整解码通过。实际原生输出2560×1440、24fps，封装时长4.459秒；后续正式剪辑仍须统一1280×720/30fps并按真实音轨时轴处理。查询任务使用显式--model MiniMax-H3和--output json；task get不要加--quiet，它可能抑制成功输出。CLI当前H3默认2K，未提供resolution旗标，需768P时用官方V2 API参数，不捏造CLI旗标。

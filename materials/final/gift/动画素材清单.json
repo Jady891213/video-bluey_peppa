@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "story": "准备礼物",
-  "current_direction": "后续转MiniMax；已采纳Wan开场保留，其他片段仅备用；接入尚未完成",
+  "current_direction": "后续转MiniMax；官方CLI已安全配置，认证、文字与H3实际生成测试通过；已采纳Wan开场保留，其他片段仅备用",
   "accepted_duration_sec": 41.4,
   "accepted": [
     {

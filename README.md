@@ -53,7 +53,7 @@ GitHub 是可迁移源码与素材的主库。Sites 官方源码流程目前不�
 
 ## 后续转 MiniMax 的素材入口
 
-先读 [动画素材清单](materials/final/gift/动画素材清单.json)，它分别列出已采纳与备用视频的文件、SHA和时长，以及下一段微型礼物揭晓、蓝莓笑点的原型和配音。MiniMax 官方CLI已安装（mmx 1.0.28），登录及H3订阅调用尚未验证；不能把 OiiOii 任务ID当作 MiniMax 任务。
+先读 [动画素材清单](materials/final/gift/动画素材清单.json)，它分别列出已采纳与备用视频的文件、SHA和时长，以及下一段微型礼物揭晓、蓝莓笑点的原型和配音。MiniMax 官方CLI已安装（mmx 1.0.28），认证、额度查询与H3实际生成均已验证；不能把 OiiOii 任务ID当作 MiniMax 任务。
 
 ```text
 materials/original/gift/
