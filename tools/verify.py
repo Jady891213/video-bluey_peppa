@@ -117,7 +117,8 @@ def check_animation_assets():
     }
     if actual_accepted != {x['file'] for x in accepted}:
         errors.append('已采纳目录与采用清单不一致')
-    for item in accepted + data['backup']:
+    candidates = data.get('candidate', [])
+    for item in accepted + data['backup'] + candidates + data.get('generated_sources', []):
         p = ROOT / item['file']
         if not p.is_file() or sha256(p) != item['sha256']:
             errors.append(f'动画文件缺少或SHA不符：{item["file"]}')
@@ -142,6 +143,7 @@ def check_animation_assets():
         if not p.is_file() or sha256(p) != line['wav_sha256']:
             errors.append(f'原配音SHA不符：{line["line_id"]}')
     return {'accepted': len(accepted), 'backup': len(data['backup']),
+            'candidate': len(candidates), 'generated_sources': len(data.get('generated_sources', [])),
             'full_voice_lines': len(voices)}, errors
 
 

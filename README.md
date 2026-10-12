@@ -16,7 +16,7 @@ websites/
 materials/
   original/gift/   # 选定的插图原文件与索引
   original/football/
-  final/gift/      # 最终交付素材
+  final/gift/      # 正式素材、已采纳、待确认与备用分开
   final/football/
 tools/            # 无依赖预览与核验脚本
 deployment-manifest.json
@@ -51,19 +51,28 @@ GitHub 是可迁移源码与素材的主库。Sites 官方源码流程目前不�
 
 上述两段已由用户采纳，集中存放在 `materials/final/gift/已采纳成片`，合计41.4秒。Wan 后续 C「礼物模特」16秒、D「打印与快递车」14.4秒经用户观看后反馈有问题，现放在[备用片段](materials/final/gift/备用片段/Wan_礼物模特与快递车/README.md)，不计入采纳。两条早期试片也归入备用目录；不会自动用于正式剪辑。
 
-## 后续转 MiniMax 的素材入口
+## MiniMax 第一幕待确认版
 
-先读 [动画素材清单](materials/final/gift/动画素材清单.json)，它分别列出已采纳与备用视频的文件、SHA和时长，以及下一段微型礼物揭晓、蓝莓笑点的原型和配音。MiniMax 官方CLI已安装（mmx 1.0.28），认证、额度查询与H3实际生成均已验证；不能把 OiiOii 任务ID当作 MiniMax 任务。
+[104秒第一幕完整预览与四个分片](materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/README.md)已完成：保留A/B，在22.8秒插入现有4秒标题卡，再接选礼物、快递游戏、小蓝莓与下一份惊喜。新段分别15、15、15.4和13.2秒，各2–3镜，使用完整自有配音与低音量配乐；28句字幕和时轴随配方保存。
+
+新H3结果全部放在“待确认成片”，不会自动改成已采纳。佩奇前10秒四次生成被平台审核阻断，未返回视频；输入与错误保留在同目录配方。本轮周额度97%→66%，并未切换按量Key。网站静态内容没有因动画制作而修改。
+
+## MiniMax 制作素材入口
+
+先读 [动画素材清单](materials/final/gift/动画素材清单.json)，它分别列出已采纳、待确认、备用及当前剪辑源片的文件、SHA和时长。MiniMax 官方CLI已安装（mmx 1.0.28），认证、额度查询与H3实际生成均已验证；不能把 OiiOii 任务ID当作 MiniMax 任务。
 
 ```text
 materials/original/gift/
-  illustrations/              # 75幅当前正式PNG，映射见illustrations.json
+  illustrations/              # 69幅当前正式PNG，映射见illustrations.json
   动画参考图/开场/             # 12张已采纳开场的选定参考
   动画参考图/后续/             # 10张后续原型，保留给MiniMax
+  动画参考图/MiniMaxH3修正/    # 2张独立补镜参考
+  动画源片/                   # 当前候选实际使用的6个H3源片
   music/                      # 已选配乐参考与说明
 materials/final/gift/
   已采纳成片/                 # A、B两段MP4、干净对白与配方
-  备用片段/                   # 新C/D及早期试片，未正式采纳
+  待确认成片/                 # 新H3完整第一幕、4分片、字幕与配方
+  备用片段/                   # Wan C/D及早期试片，未正式采纳
   voices/                     # 108句完整原WAV
   story-plan.json             # 当前84页故事与台词
   voice-manifest.json         # 每句角色、文本、音频SHA

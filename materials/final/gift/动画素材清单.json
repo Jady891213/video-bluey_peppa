@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "story": "准备礼物",
-  "current_direction": "后续转MiniMax；官方CLI已安全配置，认证、文字与H3实际生成测试通过；已采纳Wan开场保留，其他片段仅备用",
+  "current_direction": "MiniMax H3第一幕104秒待确认预览完成；A/B已采纳原片保留，新C/D/E/F独立待确认；佩奇10秒开场被平台审核阻断",
   "accepted_duration_sec": 41.4,
   "accepted": [
     {
@@ -88,8 +88,8 @@
     "illustrations_directory": "materials/original/gift/illustrations",
     "illustration_count": 69,
     "reference_directory": "materials/original/gift/动画参考图",
-    "reference_count": 22,
-    "pending_story_next": [
+    "reference_count": 24,
+    "completed_act1_inputs": [
       {
         "id": "D05",
         "title": "小礼物做好了",
@@ -168,6 +168,37 @@
         ],
         "reference": "materials/original/gift/动画参考图/开场/indoor_bluey.png"
       }
+    ],
+    "pending_story_next": [
+      {
+        "id": "act2-opening",
+        "title": "佩奇家准备画礼物，前10秒",
+        "status": "已准备图与完整原声；四次平台审核失败，无视频",
+        "reference": "materials/original/gift/illustrations/GIFT-ILL-021.png",
+        "lines": [
+          {
+            "id": "GIFT-L027",
+            "speaker": "旁白",
+            "text": "原来，佩奇也在准备一个小惊喜。",
+            "source": "materials/final/gift/voices/GIFT-L027.wav",
+            "start_sec": 0.25,
+            "source_sha256": "884b142283f1de67dd675e6bbe64eebdf11c8787975285622821254a6cd96c7a",
+            "duration_sec": 3.111473922902494,
+            "gain_db": 5.004
+          },
+          {
+            "id": "GIFT-L028",
+            "speaker": "佩奇",
+            "text": "我要画我们四个，一起踢足球！",
+            "source": "materials/final/gift/voices/GIFT-L028.wav",
+            "start_sec": 3.6,
+            "source_sha256": "35d6c57bbb59f1a29c81f889140e57dc1347efff9e709a35aed5545a631952a2",
+            "duration_sec": 3.4249433106575964,
+            "gain_db": 8.716
+          }
+        ],
+        "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json"
+      }
     ]
   },
   "target_video_format": {
@@ -176,5 +207,163 @@
     "fps": 30,
     "ratio": "16:9"
   },
-  "notice": "原型是动作参考图，不是动画；自己的完整WAV作为声音参考，配方输入与成片音轨时轴分别维护。"
+  "notice": "原型为动作参考。采纳状态只由用户确认改变；新H3结果独立保存。生成参考与最终音轨时轴分开维护。完整第一幕28句原声、独立字幕与拼接时轴见本轮配方。",
+  "candidate": [
+    {
+      "id": "act1-h3-preview",
+      "title": "准备礼物｜第一幕完整预览",
+      "status": "待用户确认，含已采纳A/B与现有标题卡，新H3部分尚未采纳",
+      "file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/准备礼物_第一幕完整预览.mp4",
+      "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json",
+      "sha256": "0c19a8196216fc7c2ee98643c230944688dfaba3c54d2e642fa01a9f40cb2037",
+      "bytes": 25899242,
+      "duration_sec": 104.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "frames": 3120
+    },
+    {
+      "id": "H3-C",
+      "title": "选礼物与模特游戏",
+      "status": "待用户确认，技术复核完成",
+      "file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/C-选礼物与模特游戏.mp4",
+      "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json",
+      "sha256": "be3de08adac9799d9867fa52bd3d5605ff0cfb135b3b889c475c3a0ddae0bced",
+      "bytes": 3888201,
+      "duration_sec": 15.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "frames": 450
+    },
+    {
+      "id": "H3-D",
+      "title": "开始打印与快递游戏",
+      "status": "待用户确认，技术复核完成",
+      "file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/D-开始打印与快递游戏.mp4",
+      "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json",
+      "sha256": "4bb7ecbf317ecf6371450c4950f7dab417349d92f4be73e559bcfc90bd4d34e1",
+      "bytes": 3202902,
+      "duration_sec": 15.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "frames": 450
+    },
+    {
+      "id": "H3-E",
+      "title": "小蓝莓与旅行装布鲁伊",
+      "status": "待用户确认，技术复核完成",
+      "file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/E-小蓝莓与旅行装布鲁伊.mp4",
+      "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json",
+      "sha256": "cd784bbafefc181995a9bc7aa590b75be95a039536feefac4e83ee40680938d7",
+      "bytes": 3518047,
+      "duration_sec": 15.4,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "frames": 462
+    },
+    {
+      "id": "H3-F",
+      "title": "再准备一份惊喜",
+      "status": "待用户确认，技术复核完成",
+      "file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/F-再准备一份惊喜.mp4",
+      "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json",
+      "sha256": "afe13524db9015c44ff0fc5635e3bf591e53b6a330fe679b3be33695113f8d35",
+      "bytes": 2902020,
+      "duration_sec": 13.2,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "frames": 396
+    }
+  ],
+  "generated_sources": [
+    {
+      "id": "H3-source-C",
+      "title": "选礼物与模特游戏",
+      "status": "当前待确认剪辑使用的原生源片；含明确弃用的瑕疵区间，剪辑用途见配方",
+      "file": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/C-h3-native.mp4",
+      "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json",
+      "sha256": "4c563f6bf3276a280551913719b4ffb2cae188b42e738fcea00debff37672739",
+      "bytes": 2227074,
+      "duration_sec": 15.083333,
+      "width": 1344,
+      "height": 768,
+      "fps": "24/1",
+      "frames": 362
+    },
+    {
+      "id": "H3-source-D",
+      "title": "开始打印与快递游戏",
+      "status": "当前待确认剪辑使用的原生源片；含明确弃用的瑕疵区间，剪辑用途见配方",
+      "file": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/D-h3-native.mp4",
+      "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json",
+      "sha256": "7211531000c93d0a0c6aca2ba6d4e3030f5361a15f4eb0792889c625a4809d60",
+      "bytes": 1988617,
+      "duration_sec": 15.083333,
+      "width": 1344,
+      "height": 768,
+      "fps": "24/1",
+      "frames": 362
+    },
+    {
+      "id": "H3-source-E",
+      "title": "小蓝莓与旅行装布鲁伊",
+      "status": "当前待确认剪辑使用的原生源片；含明确弃用的瑕疵区间，剪辑用途见配方",
+      "file": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/E-h3-native.mp4",
+      "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json",
+      "sha256": "75facdb9913f1923de5ccfce90e7be52a55e629157b8caef96acd7ed6458b43c",
+      "bytes": 1933392,
+      "duration_sec": 15.083333,
+      "width": 1344,
+      "height": 768,
+      "fps": "24/1",
+      "frames": 362
+    },
+    {
+      "id": "H3-source-F",
+      "title": "再准备一份惊喜",
+      "status": "当前待确认剪辑使用的原生源片；含明确弃用的瑕疵区间，剪辑用途见配方",
+      "file": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/F-h3-native.mp4",
+      "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json",
+      "sha256": "f5e84178a3ab92f589f2a710995faefda95053d10acabfecf9f3ad869c664481",
+      "bytes": 1838920,
+      "duration_sec": 15.083333,
+      "width": 1344,
+      "height": 768,
+      "fps": "24/1",
+      "frames": 362
+    },
+    {
+      "id": "H3-source-D0",
+      "title": "打印机从空床开始打印物件镜",
+      "status": "当前待确认剪辑使用的原生源片；含明确弃用的瑕疵区间，剪辑用途见配方",
+      "file": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/D0-print-start-native.mp4",
+      "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json",
+      "sha256": "c172f42da3243255d2987f4f9163531142fe174b5ba4fcae3228f0997b4eb400",
+      "bytes": 417656,
+      "duration_sec": 4.458333,
+      "width": 1344,
+      "height": 768,
+      "fps": "24/1",
+      "frames": 107
+    },
+    {
+      "id": "H3-source-E2",
+      "title": "小蓝莓与旅行装的三人单镜补拍",
+      "status": "当前待确认剪辑使用的原生源片；含明确弃用的瑕疵区间，剪辑用途见配方",
+      "file": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/E2-mini-dialogue-native.mp4",
+      "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json",
+      "sha256": "2312ba81154a33831911210d2cca2d024cb1d464173b20e1a5be77e40ee6491a",
+      "bytes": 1378389,
+      "duration_sec": 11.542,
+      "width": 1344,
+      "height": 768,
+      "fps": "24/1",
+      "frames": 277
+    }
+  ]
 }

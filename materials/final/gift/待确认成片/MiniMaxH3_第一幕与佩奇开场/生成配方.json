@@ -1,0 +1,1352 @@
+{
+  "schema_version": 1,
+  "story": "准备礼物",
+  "model": "MiniMax-H3",
+  "resolution": "768P",
+  "ratio": "16:9",
+  "status": "布鲁伊第一幕104秒完整预览已完成，C/D/E/F待用户确认；佩奇开场四次被平台审核阻断，无可交付视频",
+  "quota_policy": "订阅Key；记录每次提交前后周额度；禁止未知结果自动重提，禁止自动切换按量付费Key",
+  "music": {
+    "bluey": {
+      "source": "materials/original/gift/music/bluey-rain-instrumental-selected.wav",
+      "target_rms_dbfs": -35.5,
+      "linear_gain": 0.427058,
+      "source_rms_dbfs": -28.11,
+      "notice": "materials/original/gift/music/NOTICE.md"
+    },
+    "peppa": {
+      "source": "materials/original/gift/music/peppa-lullaby-instrumental-selected.wav",
+      "target_rms_dbfs": -35.5,
+      "linear_gain": 0.809651,
+      "source_rms_dbfs": -33.666,
+      "notice": "materials/original/gift/music/NOTICE.md"
+    }
+  },
+  "clips": [
+    {
+      "id": "C",
+      "title": "选礼物与模特游戏",
+      "act": "bluey",
+      "duration_sec": 15,
+      "reference_images": [
+        "materials/original/gift/动画参考图/后续/dad-fourspools.png",
+        "materials/original/gift/illustrations/GIFT-ILL-010.png",
+        "materials/original/gift/动画参考图/后续/bingo-table.png",
+        "materials/original/gift/illustrations/GIFT-ILL-011.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L012",
+          "speaker": "班迪特",
+          "text": "老板想先做什么礼物？",
+          "source": "materials/final/gift/voices/GIFT-L012.wav",
+          "start_sec": 0.4,
+          "source_sha256": "2fb850efd108f371136a72f2a52da0dcf83c10203d1fa7ce8de229cb3fac78c4",
+          "duration_sec": 2.5541950113378684,
+          "gain_db": 6.132
+        },
+        {
+          "id": "GIFT-L013",
+          "speaker": "布鲁伊",
+          "text": "做个我，送给宾果！",
+          "source": "materials/final/gift/voices/GIFT-L013.wav",
+          "start_sec": 3.15,
+          "source_sha256": "06da115d0fe0ca895147bd1cd99441036f2d0644c9d120c5f0b0662fa008734d",
+          "duration_sec": 1.787936507936508,
+          "gain_db": 9.061
+        },
+        {
+          "id": "GIFT-L014",
+          "speaker": "班迪特",
+          "text": "模特请站好！",
+          "source": "materials/final/gift/voices/GIFT-L014.wav",
+          "start_sec": 5.2,
+          "source_sha256": "4d0d6767bf9922328f56be9b911216d77c71f9f0a6db87615f8bee0bc27fe447",
+          "duration_sec": 2.670294784580499,
+          "gain_db": 8.746
+        },
+        {
+          "id": "GIFT-L111",
+          "speaker": "宾果",
+          "text": "姐姐，再神气一点！",
+          "source": "materials/final/gift/voices/GIFT-L111.wav",
+          "start_sec": 8.1,
+          "source_sha256": "eaa2f364b113fffee2cd9b4941ac02803eee31a8a4c2059de00ac5e210aea305",
+          "duration_sec": 2.2755555555555556,
+          "gain_db": 8.61
+        },
+        {
+          "id": "GIFT-L015",
+          "speaker": "班迪特",
+          "text": "瞧这两只神气的小耳朵！",
+          "source": "materials/final/gift/voices/GIFT-L015.wav",
+          "start_sec": 10.8,
+          "source_sha256": "16b55bbaa76bd88fd4b6fe1c2add8809a934a506d95b2bcda07571ebe1cc45a0",
+          "duration_sec": 3.5526530612244898,
+          "gain_db": 6.592
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/prompts/C.txt",
+      "native_video": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/C-h3-native.mp4",
+      "final_video": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/C-选礼物与模特游戏.mp4",
+      "reference_video": {
+        "source": "materials/final/gift/备用片段/Wan与MiniMax_初期试片/bluey-pose-minimax-h3.mp4",
+        "start_sec": 2.5,
+        "duration_sec": 2.0,
+        "role": "仅参考自然转头、抬臂、表演节奏，静音后上传；不复制对白和镜头时轴"
+      },
+      "quota_before": {
+        "checked_at": "2026-10-12T18:29:39.023261+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 97,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "submission": {
+        "state": "submitted",
+        "started_at": "2026-10-12T18:29:39.023474+00:00",
+        "completed_at": "2026-10-12T18:29:41.231428+00:00"
+      },
+      "task_id": "451693881905547",
+      "backend_status": "succeeded",
+      "last_checked_at": "2026-10-12T18:38:33.015419+00:00",
+      "native_result": {
+        "sha256": "4c563f6bf3276a280551913719b4ffb2cae188b42e738fcea00debff37672739",
+        "bytes": 2227074,
+        "duration_sec": 15.083333,
+        "width": 1344,
+        "height": 768,
+        "fps": "24/1",
+        "frames": 362
+      },
+      "quota_after": {
+        "checked_at": "2026-10-12T18:38:41.832680+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 90,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "fixed_opening_crop": {
+        "end_frame": 124,
+        "width": 1120,
+        "height": 630,
+        "x": 128,
+        "y": 0,
+        "reason": "第一镜改为桌边中近景，双脚/桌面接触处留在画外；完整动作与对白保留，后两镜不裁剪。"
+      },
+      "review": {
+        "status": "有针对性构图修正后待确认",
+        "native_cuts_sec": [
+          5.166667,
+          11.041667
+        ],
+        "speaker_mouth_check": "8.1–10.376秒宾果说话时布鲁伊闭嘴；10.8–14.35秒爸爸说话时两孩子闭嘴，按0.1–0.2秒抽帧放大核验。",
+        "limitation": "原生首镜站桌错误保留在源片，最终导出通过固定构图避开，不冒称源片无bug。"
+      },
+      "final_result": {
+        "sha256": "be3de08adac9799d9867fa52bd3d5605ff0cfb135b3b889c475c3a0ddae0bced",
+        "bytes": 3888201,
+        "duration_sec": 15.0,
+        "width": 1280,
+        "height": 720,
+        "fps": "30/1",
+        "frames": 450
+      },
+      "prompt_sha256": "f9ca49e86141ab2fb26798901464a45af829c6159d9430ae91c1fbaaeec44e81",
+      "reference_image_sha256": {
+        "materials/original/gift/动画参考图/后续/dad-fourspools.png": "7cbe0f1a3e86a6987dda0244a6dc423a845f1e3ef408d5d0a4afda8954e73e5c",
+        "materials/original/gift/illustrations/GIFT-ILL-010.png": "03e098d7851661f7e369321025262f0f340dcd5d920b516d23b27464647de422",
+        "materials/original/gift/动画参考图/后续/bingo-table.png": "14cca6860620ec07a427c4257da528294380b27ffd3b9842aff76ae5e7959bd1",
+        "materials/original/gift/illustrations/GIFT-ILL-011.png": "1a5b15ea52c48d273ea4ba82212be31dd4c2873f3aa04253f9bc13fa9682d9f4"
+      },
+      "reference_audio_sha256": "04eeee7dc67de069161e8ef120fedfc90d5d74a72bb41e61b7d8eadc4da4222f"
+    },
+    {
+      "id": "D",
+      "title": "开始打印与快递游戏",
+      "act": "bluey",
+      "duration_sec": 15,
+      "reference_images": [
+        "materials/original/gift/动画参考图/后续/printer-start.png",
+        "materials/original/gift/动画参考图/后续/dad-courier.png",
+        "materials/original/gift/动画参考图/后续/printer-complete.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L016",
+          "speaker": "布鲁伊",
+          "text": "等它出来，你就有两个我啦！",
+          "source": "materials/final/gift/voices/GIFT-L016.wav",
+          "start_sec": 0.35,
+          "source_sha256": "63efce47886887dad910e2b7d8f7081ac5486b00e3b9c4754721f7eb6128f65f",
+          "duration_sec": 2.4729251700680273,
+          "gain_db": 10.086
+        },
+        {
+          "id": "GIFT-L109",
+          "speaker": "宾果",
+          "text": "快递员，去沙发那边！",
+          "source": "materials/final/gift/voices/GIFT-L109.wav",
+          "start_sec": 4.65,
+          "source_sha256": "12f8ed6a0a049e27ed3054b00389bcc3de3aae739ea1fbd4d4c2a35c79ad69e9",
+          "duration_sec": 2.2291156462585033,
+          "gain_db": 6.755,
+          "final_start_sec": 3.625
+        },
+        {
+          "id": "GIFT-L110",
+          "speaker": "班迪特",
+          "text": "哎呀，老板又改地址啦！",
+          "source": "materials/final/gift/voices/GIFT-L110.wav",
+          "start_sec": 8.0,
+          "source_sha256": "74aee86978e7ec9530035d7b487ce8919b8e5b2da35e262b0bced3d44848d3ff",
+          "duration_sec": 2.6354648526077096,
+          "gain_db": 5.826,
+          "final_start_sec": 6.15
+        },
+        {
+          "id": "GIFT-L018",
+          "speaker": "旁白",
+          "text": "过了好一会儿，小礼物做好了。",
+          "source": "materials/final/gift/voices/GIFT-L018.wav",
+          "start_sec": 12.0,
+          "source_sha256": "3b1717afe266531e75e290103d0b5475bff451d65ea75ed9f2e344eb407259bc",
+          "duration_sec": 2.426485260770975,
+          "gain_db": 3.703
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/prompts/D.txt",
+      "native_video": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/D-h3-native.mp4",
+      "final_video": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/D-开始打印与快递游戏.mp4",
+      "quota_before": {
+        "checked_at": "2026-10-12T18:42:19.614342+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 90,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "submission": {
+        "state": "submitted",
+        "started_at": "2026-10-12T18:42:19.614587+00:00",
+        "completed_at": "2026-10-12T18:42:20.691502+00:00"
+      },
+      "task_id": "451694542688668",
+      "backend_status": "succeeded",
+      "last_checked_at": "2026-10-12T18:50:11.649472+00:00",
+      "prompt_sha256": "85997512bb1c3ed402413fe04b66195bd6c39e0efd99246985b0b912ae6dda39",
+      "reference_image_sha256": {
+        "materials/original/gift/动画参考图/后续/printer-start.png": "fa7497497fddb6357bb5bb4002e2642e620cfd2a4f32b8ecb2c766cb95bb7c3c",
+        "materials/original/gift/动画参考图/后续/dad-courier.png": "397a8c45e56963dcd6c89c1371d3d690f17bbeeb70a05fd165c5a354a158dcb2",
+        "materials/original/gift/动画参考图/后续/printer-complete.png": "c6b5fba97a1c9bedb5e3514b804ba7e5ebbe0efbb9600ace0517791b4026a0b0"
+      },
+      "reference_audio_sha256": "f85f0e03c706aecb8611329cf5ac158bbf8855d18901abeb612630440761a618",
+      "native_result": {
+        "sha256": "7211531000c93d0a0c6aca2ba6d4e3030f5361a15f4eb0792889c625a4809d60",
+        "bytes": 1988617,
+        "duration_sec": 15.083333,
+        "width": 1344,
+        "height": 768,
+        "fps": "24/1",
+        "frames": 362
+      },
+      "quota_after": {
+        "checked_at": "2026-10-12T18:50:20.526984+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 84,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "replacement_prefix": {
+        "source": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/D0-print-start-native.mp4",
+        "end_frame": 87,
+        "reason": "移除原生首镜已完成模型、桌上站人与多人口型；补同一机器空床开始打印的近景，Bluey台词画外，后续游戏与时间省略保留。"
+      },
+      "review": {
+        "status": "局部补首镜及原声重排后待确认",
+        "native_cuts_sec": [
+          3.625,
+          11.625
+        ],
+        "native_errors": "原生首镜提前出现完整模型、宾果站桌与共同口型，因此整段首镜弃用；游戏镜头保留。",
+        "mouth_intervals_sec": {
+          "宾果": [
+            3.75,
+            5.71
+          ],
+          "班迪特": [
+            6.29,
+            8.58
+          ]
+        },
+        "dialogue_alignment": "完整宾果WAV前移至3.625秒，完整爸爸WAV前移至6.15秒；参考音频时轴另保留，不加速或截断原WAV，不增加按台词切镜。",
+        "body_check": "快递游戏实际爬行；Bluey稳坐爸爸背上，各人双臂双腿单尾，无合体；完成镜旁白画外。"
+      },
+      "rendered_dialogue_sha256": "268468970fef2a50058c132ed4b228f949d57154cf49b034281a3329cd75cdad",
+      "final_result": {
+        "sha256": "4bb7ecbf317ecf6371450c4950f7dab417349d92f4be73e559bcfc90bd4d34e1",
+        "bytes": 3202902,
+        "duration_sec": 15.0,
+        "width": 1280,
+        "height": 720,
+        "fps": "30/1",
+        "frames": 450
+      }
+    },
+    {
+      "id": "E",
+      "title": "小蓝莓与旅行装布鲁伊",
+      "act": "bluey",
+      "duration_sec": 15.4,
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-016.png",
+        "materials/original/gift/illustrations/GIFT-ILL-017.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L019",
+          "speaker": "班迪特",
+          "text": "已经凉好了，请老板验收！",
+          "source": "materials/final/gift/voices/GIFT-L019.wav",
+          "start_sec": 0.25,
+          "source_sha256": "0c78d37a32b5b57b66f25a12f2f2a8e797969566fb40166be5a54313c3b4647c",
+          "duration_sec": 3.5874829931972787,
+          "gain_db": 6.816
+        },
+        {
+          "id": "GIFT-L020",
+          "speaker": "宾果",
+          "text": "布鲁伊，你变成小蓝莓啦！",
+          "source": "materials/final/gift/voices/GIFT-L020.wav",
+          "start_sec": 4.2,
+          "source_sha256": "26361766f90f2a30f2ecf4445940f4ebd2123824b10a26a760e7957207ad857d",
+          "duration_sec": 2.3103854875283445,
+          "gain_db": 6.107
+        },
+        {
+          "id": "GIFT-L108",
+          "speaker": "布鲁伊",
+          "text": "我可不是蓝莓！",
+          "source": "materials/final/gift/voices/GIFT-L108.wav",
+          "start_sec": 6.72,
+          "source_sha256": "39306953e133a2bcbde650c932efe7a62ce570770cb4c4a0aaabda457adc1af0",
+          "duration_sec": 1.3931972789115645,
+          "gain_db": 9.979
+        },
+        {
+          "id": "GIFT-L021",
+          "speaker": "班迪特",
+          "text": "这是旅行装布鲁伊！",
+          "source": "materials/final/gift/voices/GIFT-L021.wav",
+          "start_sec": 8.38,
+          "source_sha256": "2d2c134265040afa1c69e44a5439cde9a304d58cfa91f5939752cf055c9b07e5",
+          "duration_sec": 2.786394557823129,
+          "gain_db": 5.953,
+          "final_start_sec": 8.6
+        },
+        {
+          "id": "GIFT-L022",
+          "speaker": "布鲁伊",
+          "text": "那我就能陪你到处玩啦！",
+          "source": "materials/final/gift/voices/GIFT-L022.wav",
+          "start_sec": 11.43,
+          "source_sha256": "5fb2d6bdef15a450575d9613cd23f6f5151c03797568a750332a5cda8211fcec",
+          "duration_sec": 2.507755102040816,
+          "gain_db": 8.286
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/prompts/E.txt",
+      "native_video": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/E-h3-native.mp4",
+      "final_video": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/E-小蓝莓与旅行装布鲁伊.mp4",
+      "prompt_sha256": "c51c1921fdc64055ae33c1803557647ee986a20e17fb26ac3de63fc9c98c937e",
+      "reference_image_sha256": {
+        "materials/original/gift/illustrations/GIFT-ILL-016.png": "559a93c3ea6d7bce94c3c539f0dd6e1b29eeef15a4aff3b2617f5a1f462485e2",
+        "materials/original/gift/illustrations/GIFT-ILL-017.png": "b565903a657de8e111fd08f31db7b92650197bfaa8a5a49a60aeef9ffdfdc37e"
+      },
+      "reference_audio_sha256": "7a267b72acb78feee0292e88ec5c43d4c7c2e617f31cb425120032659d5fae0d",
+      "quota_before": {
+        "checked_at": "2026-10-12T18:51:43.019264+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 84,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "submission": {
+        "state": "submitted",
+        "started_at": "2026-10-12T18:51:43.019528+00:00",
+        "completed_at": "2026-10-12T18:51:45.716318+00:00"
+      },
+      "task_id": "451694807802294",
+      "backend_status": "succeeded",
+      "last_checked_at": "2026-10-12T19:01:50.195791+00:00",
+      "native_result": {
+        "sha256": "75facdb9913f1923de5ccfce90e7be52a55e629157b8caef96acd7ed6458b43c",
+        "bytes": 1933392,
+        "duration_sec": 15.083333,
+        "width": 1344,
+        "height": 768,
+        "fps": "24/1",
+        "frames": 362
+      },
+      "quota_after": {
+        "checked_at": "2026-10-12T19:01:58.982368+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 77,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "replacement_suffix": {
+        "source": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/E2-mini-dialogue-native.mp4",
+        "start_frame": 93,
+        "source_fps": 24,
+        "reason": "原生两孩子同步口型；保留3.875秒成人冷却取件首镜，换为11秒单一三人群像，各角色分别提供声音参考；完整动作收尾保留，最终15.4秒。"
+      },
+      "generation_duration_sec": 15,
+      "review": {
+        "status": "局部单镜补拍复核通过，待用户确认",
+        "native_error": "原生第二镜两个孩子同步开合嘴，首93帧冷板取件保留；其余替换为E2。",
+        "selected_cuts_sec": [
+          3.875
+        ],
+        "e2_mouth_intervals_sec": {
+          "宾果": [
+            0.6,
+            2.6
+          ],
+          "布鲁伊短句": [
+            3.0,
+            4.35
+          ],
+          "班迪特": [
+            4.9,
+            7.2
+          ],
+          "布鲁伊后句": [
+            7.8,
+            10.0
+          ]
+        },
+        "e2_non_speaker_check": "三声音参考分角色绑定，密抽确认两孩子旧同步口型消除；固定露齿微笑没有重复跟随台词变化。",
+        "objects": "单镜，双手单尾、同一掌心微型模型尺寸稳定，不说话；打印机不入近景，不产生相对尺寸变化。",
+        "duration_reason": "保留新单镜的完整动作收尾，剪辑15.4秒；首版API请求仍为15秒，补拍API11秒。"
+      },
+      "rendered_dialogue_sha256": "a97e2d14e4754d5af35cf9adec2d5d1009c45ec32742c9a4bee34760148bc1a9",
+      "final_result": {
+        "sha256": "cd784bbafefc181995a9bc7aa590b75be95a039536feefac4e83ee40680938d7",
+        "bytes": 3518047,
+        "duration_sec": 15.4,
+        "width": 1280,
+        "height": 720,
+        "fps": "30/1",
+        "frames": 462
+      }
+    },
+    {
+      "id": "F",
+      "title": "再准备一份惊喜",
+      "act": "bluey",
+      "duration_sec": 13.2,
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-019.png",
+        "materials/original/gift/illustrations/GIFT-ILL-020.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L023",
+          "speaker": "奇莉",
+          "text": "下午还要见朋友呢，礼物小店忙得过来吗？",
+          "source": "materials/final/gift/voices/GIFT-L023.wav",
+          "start_sec": 0.4,
+          "source_sha256": "298a1b5100413c54274f87a27e2a3235200263a48196000453772210538b2d43",
+          "duration_sec": 4.342131519274377,
+          "gain_db": 7.825
+        },
+        {
+          "id": "GIFT-L024",
+          "speaker": "布鲁伊",
+          "text": "当然！我还要准备一份惊喜。",
+          "source": "materials/final/gift/voices/GIFT-L024.wav",
+          "start_sec": 5.0,
+          "source_sha256": "6460975457c4d78a8dfc455ee8bece74d99b32481d6f90cc8991df739067902e",
+          "duration_sec": 2.4729251700680273,
+          "gain_db": 10.25
+        },
+        {
+          "id": "GIFT-L025",
+          "speaker": "班迪特",
+          "text": "收到，我们再接一单！",
+          "source": "materials/final/gift/voices/GIFT-L025.wav",
+          "start_sec": 7.7,
+          "source_sha256": "adb5d530780df260f74f0a9f679dfc17890055287bb98ea0560adc7f179348b7",
+          "duration_sec": 2.391655328798186,
+          "gain_db": 5.326,
+          "final_start_sec": 7.75
+        },
+        {
+          "id": "GIFT-L026",
+          "speaker": "旁白",
+          "text": "这次，她想让朋友也笑起来。",
+          "source": "materials/final/gift/voices/GIFT-L026.wav",
+          "start_sec": 11.7,
+          "source_sha256": "357bbafb142b222c415f5e6fc1ffd073d12079e245fdf92b1f957119ad03ab99",
+          "duration_sec": 2.589024943310658,
+          "gain_db": 5.245,
+          "final_start_sec": 10.3
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/prompts/F.txt",
+      "native_video": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/F-h3-native.mp4",
+      "final_video": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/F-再准备一份惊喜.mp4",
+      "prompt_sha256": "7fe960090f33aca912d4a5dc79eba3c03e1860205acde01d377504d0bf716ced",
+      "reference_image_sha256": {
+        "materials/original/gift/illustrations/GIFT-ILL-019.png": "af40e5dcbdd7ef2dda31383f084bf305405e657418c40de6fdb4a0d3ec6b71ad",
+        "materials/original/gift/illustrations/GIFT-ILL-020.png": "74401d7b67c7ec47731230a8c2c5e6dbb747b3f5f019a2fa86354abaec4bfaf4"
+      },
+      "reference_audio_sha256": "9e05f5d3dff62b885bd11b76e987887251055d67eb9f0a22f2d18e6189bbba9e",
+      "attempts": [
+        {
+          "task_id": "451695534850362",
+          "backend_status": "failed",
+          "failure": {
+            "code": "1026",
+            "message": "content blocked by moderation"
+          },
+          "submission": {
+            "state": "submitted",
+            "started_at": "2026-10-12T18:54:10.314969+00:00",
+            "completed_at": "2026-10-12T18:54:11.893880+00:00"
+          },
+          "quota_before": {
+            "checked_at": "2026-10-12T18:54:10.314745+00:00",
+            "windows": [
+              {
+                "model_name": "general",
+                "current_interval_remaining_percent": 99,
+                "current_weekly_remaining_percent": 84,
+                "end_time": 1791846306270,
+                "weekly_end_time": 1792433106270
+              }
+            ]
+          },
+          "quota_after": {
+            "checked_at": "2026-10-12T19:02:29.211642+00:00",
+            "windows": [
+              {
+                "model_name": "general",
+                "current_interval_remaining_percent": 99,
+                "current_weekly_remaining_percent": 77,
+                "end_time": 1791846306270,
+                "weekly_end_time": 1792433106270
+              }
+            ]
+          }
+        }
+      ],
+      "quota_before": {
+        "checked_at": "2026-10-12T19:06:21.039953+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 77,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "submission": {
+        "state": "submitted",
+        "started_at": "2026-10-12T19:06:21.040241+00:00",
+        "completed_at": "2026-10-12T19:06:21.729174+00:00"
+      },
+      "task_id": "451703511355777",
+      "backend_status": "succeeded",
+      "last_checked_at": "2026-10-12T19:17:25.753872+00:00",
+      "native_result": {
+        "sha256": "f5e84178a3ab92f589f2a710995faefda95053d10acabfecf9f3ad869c664481",
+        "bytes": 1838920,
+        "duration_sec": 15.083333,
+        "width": 1344,
+        "height": 768,
+        "fps": "24/1",
+        "frames": 362
+      },
+      "quota_after": {
+        "checked_at": "2026-10-12T19:17:31.450440+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 71,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "generation_duration_sec": 15,
+      "replacement_suffix": {
+        "source": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/F-h3-native.mp4",
+        "start_frame": 240,
+        "source_start_frame": 291,
+        "source_fps": 24,
+        "reason": "10秒在递标签动作处直接切桌面标签，避开后续镜中微型模型无放回动作即消失的问题；旁白前移到10.3秒，完整原声保留，空白标签自然收尾，节省多余停留。"
+      },
+      "review": {
+        "status": "口型及标签动作用于待确认剪辑",
+        "native_cut_sec": 12.125,
+        "selected_cut_sec": 10,
+        "mouth_intervals_sec": {
+          "奇莉": [
+            0.58,
+            4.3
+          ],
+          "布鲁伊": [
+            5.04,
+            7.33
+          ],
+          "班迪特": [
+            7.95,
+            9.8
+          ]
+        },
+        "non_speaker_check": "三人分别说话，其余闭嘴，Bingo闭合笑线未跟口型，6fps放大抽帧核验。",
+        "native_error": "10.25秒后Bingo掌心小模型消失，选择10秒切到标签物件近景，弃用消失部分。",
+        "hand_and_object_check": "父亲两手一尾、单标签、Bluey蓝色小手落纸并自然收走；机器四卷线与尺寸稳定。",
+        "dialogue_alignment": "爸爸完整原声始于7.75秒；旁白始于10.3秒，画外读完，成片13.2秒。"
+      },
+      "rendered_dialogue_sha256": "8a87ef7564312342f0985b7f96fb9d844cb11bea58c0d1d08da902ecc32139ae",
+      "final_result": {
+        "sha256": "afe13524db9015c44ff0fc5635e3bf591e53b6a330fe679b3be33695113f8d35",
+        "bytes": 2902020,
+        "duration_sec": 13.2,
+        "width": 1280,
+        "height": 720,
+        "fps": "30/1",
+        "frames": 396
+      }
+    },
+    {
+      "id": "D0",
+      "title": "打印机从空床开始打印物件镜",
+      "act": "bluey",
+      "duration_sec": 4,
+      "input_mode": "first_frame",
+      "role": "仅替换D原生首87帧，不新增故事轮次或独立成片",
+      "reference_images": [
+        "materials/original/gift/动画参考图/MiniMaxH3修正/printer-empty-bed.png"
+      ],
+      "lines": [],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/prompts/D0.txt",
+      "native_video": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/D0-print-start-native.mp4",
+      "prompt_sha256": "e0138490bcca1a10b5ec599064e09eb497481bf50a848ce2c2dee1ba0469fc88",
+      "reference_image_sha256": {
+        "materials/original/gift/动画参考图/MiniMaxH3修正/printer-empty-bed.png": "8bbcbe322483565dacbed2b8d0d7123d823f773134ae89366ae33f6a6bf325b7"
+      },
+      "quota_before": {
+        "checked_at": "2026-10-12T18:59:35.509327+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 78,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "submission": {
+        "state": "submitted",
+        "started_at": "2026-10-12T18:59:35.509553+00:00",
+        "completed_at": "2026-10-12T18:59:36.084414+00:00"
+      },
+      "task_id": "451699262890272",
+      "backend_status": "succeeded",
+      "last_checked_at": "2026-10-12T19:07:28.993901+00:00",
+      "native_result": {
+        "sha256": "c172f42da3243255d2987f4f9163531142fe174b5ba4fcae3228f0997b4eb400",
+        "bytes": 417656,
+        "duration_sec": 4.458333,
+        "width": 1344,
+        "height": 768,
+        "fps": "24/1",
+        "frames": 107
+      },
+      "quota_after": {
+        "checked_at": "2026-10-12T19:07:37.695125+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 77,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      }
+    },
+    {
+      "id": "E2",
+      "title": "小蓝莓与旅行装的三人单镜补拍",
+      "act": "bluey",
+      "duration_sec": 11,
+      "role": "仅替换E原生第93帧以后的第二镜",
+      "reference_images": [
+        "materials/original/gift/动画参考图/MiniMaxH3修正/mini-gift-three-closed-mouths.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L020",
+          "speaker": "宾果",
+          "text": "布鲁伊，你变成小蓝莓啦！",
+          "source": "materials/final/gift/voices/GIFT-L020.wav",
+          "start_sec": 0.325,
+          "source_sha256": "26361766f90f2a30f2ecf4445940f4ebd2123824b10a26a760e7957207ad857d",
+          "duration_sec": 2.3103854875283445
+        },
+        {
+          "id": "GIFT-L108",
+          "speaker": "布鲁伊",
+          "text": "我可不是蓝莓！",
+          "source": "materials/final/gift/voices/GIFT-L108.wav",
+          "start_sec": 2.845,
+          "source_sha256": "39306953e133a2bcbde650c932efe7a62ce570770cb4c4a0aaabda457adc1af0",
+          "duration_sec": 1.3931972789115645
+        },
+        {
+          "id": "GIFT-L021",
+          "speaker": "班迪特",
+          "text": "这是旅行装布鲁伊！",
+          "source": "materials/final/gift/voices/GIFT-L021.wav",
+          "start_sec": 4.505,
+          "source_sha256": "2d2c134265040afa1c69e44a5439cde9a304d58cfa91f5939752cf055c9b07e5",
+          "duration_sec": 2.786394557823129
+        },
+        {
+          "id": "GIFT-L022",
+          "speaker": "布鲁伊",
+          "text": "那我就能陪你到处玩啦！",
+          "source": "materials/final/gift/voices/GIFT-L022.wav",
+          "start_sec": 7.555,
+          "source_sha256": "5fb2d6bdef15a450575d9613cd23f6f5151c03797568a750332a5cda8211fcec",
+          "duration_sec": 2.507755102040816
+        }
+      ],
+      "audio_reference_groups": [
+        {
+          "speaker": "宾果",
+          "line_ids": [
+            "GIFT-L020"
+          ],
+          "duration_sec": 2.3103854875283445,
+          "sha256": "d6aa06179c578ca2a371eaef1faffe1880ced9f8d852ca8ceead4d031a003888",
+          "source_entries": [
+            {
+              "id": "GIFT-L020",
+              "speaker": "宾果",
+              "text": "布鲁伊，你变成小蓝莓啦！",
+              "source": "materials/final/gift/voices/GIFT-L020.wav",
+              "start_sec": 0,
+              "source_sha256": "26361766f90f2a30f2ecf4445940f4ebd2123824b10a26a760e7957207ad857d",
+              "duration_sec": 2.3103854875283445,
+              "gain_db": 6.107
+            }
+          ]
+        },
+        {
+          "speaker": "布鲁伊",
+          "line_ids": [
+            "GIFT-L108",
+            "GIFT-L022"
+          ],
+          "gap_sec": 0.16,
+          "duration_sec": 4.060952380952381,
+          "sha256": "e996e883c3de5e4f8acee5cd811887c397494f605bd33cbf78faff455cc0e0e8",
+          "source_entries": [
+            {
+              "id": "GIFT-L108",
+              "speaker": "布鲁伊",
+              "text": "我可不是蓝莓！",
+              "source": "materials/final/gift/voices/GIFT-L108.wav",
+              "start_sec": 0,
+              "source_sha256": "39306953e133a2bcbde650c932efe7a62ce570770cb4c4a0aaabda457adc1af0",
+              "duration_sec": 1.3931972789115645,
+              "gain_db": 9.979
+            },
+            {
+              "id": "GIFT-L022",
+              "speaker": "布鲁伊",
+              "text": "那我就能陪你到处玩啦！",
+              "source": "materials/final/gift/voices/GIFT-L022.wav",
+              "start_sec": 1.5531972789115644,
+              "source_sha256": "5fb2d6bdef15a450575d9613cd23f6f5151c03797568a750332a5cda8211fcec",
+              "duration_sec": 2.507755102040816,
+              "gain_db": 8.286
+            }
+          ]
+        },
+        {
+          "speaker": "班迪特",
+          "line_ids": [
+            "GIFT-L021"
+          ],
+          "duration_sec": 2.786394557823129,
+          "sha256": "3cfecce0092d9b150dfdd80c5d095441d293d7eb727ae8f0e0291e9ae96d7fe7",
+          "source_entries": [
+            {
+              "id": "GIFT-L021",
+              "speaker": "班迪特",
+              "text": "这是旅行装布鲁伊！",
+              "source": "materials/final/gift/voices/GIFT-L021.wav",
+              "start_sec": 0,
+              "source_sha256": "2d2c134265040afa1c69e44a5439cde9a304d58cfa91f5939752cf055c9b07e5",
+              "duration_sec": 2.786394557823129,
+              "gain_db": 5.953
+            }
+          ]
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/prompts/E2.txt",
+      "native_video": "materials/original/gift/动画源片/MiniMaxH3_第一幕与佩奇开场/E2-mini-dialogue-native.mp4",
+      "prompt_sha256": "2388e8b0069e09aa9b049148733c1d18ccc13a269ed063c59a2fdb5a0fa30f08",
+      "reference_image_sha256": {
+        "materials/original/gift/动画参考图/MiniMaxH3修正/mini-gift-three-closed-mouths.png": "01f8d3d6c13bfba00bdb97880e979d8edcb656aad8a15d25eff4d325a799be48"
+      },
+      "quota_before": {
+        "checked_at": "2026-10-12T19:16:22.707990+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 71,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "submission": {
+        "state": "submitted",
+        "started_at": "2026-10-12T19:16:22.708185+00:00",
+        "completed_at": "2026-10-12T19:16:23.333057+00:00"
+      },
+      "task_id": "451700521849268",
+      "backend_status": "succeeded",
+      "last_checked_at": "2026-10-12T19:26:07.606018+00:00",
+      "native_result": {
+        "sha256": "2312ba81154a33831911210d2cca2d024cb1d464173b20e1a5be77e40ee6491a",
+        "bytes": 1378389,
+        "duration_sec": 11.542,
+        "width": 1344,
+        "height": 768,
+        "fps": "24/1",
+        "frames": 277
+      },
+      "quota_after": {
+        "checked_at": "2026-10-12T19:26:16.391130+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      }
+    }
+  ],
+  "assembly": {
+    "file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/准备礼物_第一幕完整预览.mp4",
+    "sequence": [
+      "A",
+      "T",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "notice": "已采纳A/B完整保留；22.8秒插入现有4秒标题卡，自备原版片头后续可在该位置替换；新H3段待用户确认。",
+    "accepted_sources": {
+      "A": {
+        "file": "materials/final/gift/已采纳成片/prepare-gifts-opening-part-1.mp4",
+        "sha256": "f3c56ed085a317b17b9e2b453ed63726281e3ea0ce0611b4facbd26fdb0e652d",
+        "duration_sec": 22.8
+      },
+      "B": {
+        "file": "materials/final/gift/已采纳成片/prepare-gifts-opening-part-2.mp4",
+        "sha256": "1881845e435a33e5a6f1cfa2b7824b4f5e509d536eaa86aa0de9e9b1ad62d7e2",
+        "duration_sec": 18.6
+      }
+    },
+    "title_card": {
+      "image": "materials/original/gift/illustrations/GIFT-ILL-001.png",
+      "duration_sec": 4,
+      "line": {
+        "id": "GIFT-L001",
+        "speaker": "布鲁伊",
+        "text": "这一集布鲁伊的名字叫，准备礼物。",
+        "source": "materials/final/gift/voices/GIFT-L001.wav",
+        "start_sec": 0.25,
+        "source_sha256": "c3db310e3c2388e270921e7d81a978d40d171f348e6fb92b032f9ef9c33fd409",
+        "duration_sec": 3.030204081632653,
+        "gain_db": 10.347
+      }
+    },
+    "result": {
+      "sha256": "0c19a8196216fc7c2ee98643c230944688dfaba3c54d2e642fa01a9f40cb2037",
+      "bytes": 25899242,
+      "duration_sec": 104.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "frames": 3120
+    },
+    "expected_duration_sec": 104.0,
+    "accepted_recipe": "materials/final/gift/已采纳成片/生成配方.json",
+    "subtitles": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/准备礼物_第一幕完整预览.srt",
+    "subtitle_sha256": "2671d98ce75b55c2d0cc6a3d0e3808dd041142e5ca35b9b0821afbb3ea92490e",
+    "dialogue_timeline": [
+      {
+        "id": "GIFT-L002",
+        "speaker": "布鲁伊",
+        "text": "爸爸回来啦！",
+        "start_sec": 3.0,
+        "end_sec": 4.230658
+      },
+      {
+        "id": "GIFT-L003",
+        "speaker": "布鲁伊",
+        "text": "爸爸，这么大的箱子里是什么呀？",
+        "start_sec": 9.0,
+        "end_sec": 11.391655
+      },
+      {
+        "id": "GIFT-L004",
+        "speaker": "班迪特",
+        "text": "打印机！能做出小礼物的机器。",
+        "start_sec": 12.0,
+        "end_sec": 15.308844
+      },
+      {
+        "id": "GIFT-L005",
+        "speaker": "宾果",
+        "text": "那我们开个礼物小店，我当老板！",
+        "start_sec": 16.0,
+        "end_sec": 18.670295
+      },
+      {
+        "id": "GIFT-L006",
+        "speaker": "班迪特",
+        "text": "老板，先让我把箱子放下吧！",
+        "start_sec": 19.0,
+        "end_sec": 22.111474
+      },
+      {
+        "id": "GIFT-L001",
+        "speaker": "布鲁伊",
+        "text": "这一集布鲁伊的名字叫，准备礼物。",
+        "start_sec": 23.05,
+        "end_sec": 26.080204
+      },
+      {
+        "id": "GIFT-L007",
+        "speaker": "班迪特",
+        "text": "礼物小店开张啦！",
+        "start_sec": 32.6,
+        "end_sec": 35.432834
+      },
+      {
+        "id": "GIFT-L008",
+        "speaker": "布鲁伊",
+        "text": "第一件礼物，我们先来试试！",
+        "start_sec": 36.6,
+        "end_sec": 38.991655
+      },
+      {
+        "id": "GIFT-L009",
+        "speaker": "宾果",
+        "text": "这是它的面条吗？",
+        "start_sec": 39.6,
+        "end_sec": 41.028027
+      },
+      {
+        "id": "GIFT-L010",
+        "speaker": "班迪特",
+        "text": "打印机的蓝色面条来了！",
+        "start_sec": 41.6,
+        "end_sec": 44.467664
+      },
+      {
+        "id": "GIFT-L012",
+        "speaker": "班迪特",
+        "text": "老板想先做什么礼物？",
+        "start_sec": 45.8,
+        "end_sec": 48.354195
+      },
+      {
+        "id": "GIFT-L013",
+        "speaker": "布鲁伊",
+        "text": "做个我，送给宾果！",
+        "start_sec": 48.55,
+        "end_sec": 50.337937
+      },
+      {
+        "id": "GIFT-L014",
+        "speaker": "班迪特",
+        "text": "模特请站好！",
+        "start_sec": 50.6,
+        "end_sec": 53.270295
+      },
+      {
+        "id": "GIFT-L111",
+        "speaker": "宾果",
+        "text": "姐姐，再神气一点！",
+        "start_sec": 53.5,
+        "end_sec": 55.775556
+      },
+      {
+        "id": "GIFT-L015",
+        "speaker": "班迪特",
+        "text": "瞧这两只神气的小耳朵！",
+        "start_sec": 56.2,
+        "end_sec": 59.752653
+      },
+      {
+        "id": "GIFT-L016",
+        "speaker": "布鲁伊",
+        "text": "等它出来，你就有两个我啦！",
+        "start_sec": 60.75,
+        "end_sec": 63.222925
+      },
+      {
+        "id": "GIFT-L109",
+        "speaker": "宾果",
+        "text": "快递员，去沙发那边！",
+        "start_sec": 64.025,
+        "end_sec": 66.254116
+      },
+      {
+        "id": "GIFT-L110",
+        "speaker": "班迪特",
+        "text": "哎呀，老板又改地址啦！",
+        "start_sec": 66.55,
+        "end_sec": 69.185465
+      },
+      {
+        "id": "GIFT-L018",
+        "speaker": "旁白",
+        "text": "过了好一会儿，小礼物做好了。",
+        "start_sec": 72.4,
+        "end_sec": 74.826485
+      },
+      {
+        "id": "GIFT-L019",
+        "speaker": "班迪特",
+        "text": "已经凉好了，请老板验收！",
+        "start_sec": 75.65,
+        "end_sec": 79.237483
+      },
+      {
+        "id": "GIFT-L020",
+        "speaker": "宾果",
+        "text": "布鲁伊，你变成小蓝莓啦！",
+        "start_sec": 79.6,
+        "end_sec": 81.910385
+      },
+      {
+        "id": "GIFT-L108",
+        "speaker": "布鲁伊",
+        "text": "我可不是蓝莓！",
+        "start_sec": 82.12,
+        "end_sec": 83.513197
+      },
+      {
+        "id": "GIFT-L021",
+        "speaker": "班迪特",
+        "text": "这是旅行装布鲁伊！",
+        "start_sec": 84.0,
+        "end_sec": 86.786395
+      },
+      {
+        "id": "GIFT-L022",
+        "speaker": "布鲁伊",
+        "text": "那我就能陪你到处玩啦！",
+        "start_sec": 86.83,
+        "end_sec": 89.337755
+      },
+      {
+        "id": "GIFT-L023",
+        "speaker": "奇莉",
+        "text": "下午还要见朋友呢，礼物小店忙得过来吗？",
+        "start_sec": 91.2,
+        "end_sec": 95.542132
+      },
+      {
+        "id": "GIFT-L024",
+        "speaker": "布鲁伊",
+        "text": "当然！我还要准备一份惊喜。",
+        "start_sec": 95.8,
+        "end_sec": 98.272925
+      },
+      {
+        "id": "GIFT-L025",
+        "speaker": "班迪特",
+        "text": "收到，我们再接一单！",
+        "start_sec": 98.55,
+        "end_sec": 100.941655
+      },
+      {
+        "id": "GIFT-L026",
+        "speaker": "旁白",
+        "text": "这次，她想让朋友也笑起来。",
+        "start_sec": 101.1,
+        "end_sec": 103.689025
+      }
+    ],
+    "review": "拼接处只读复核通过：A/标题/B无重复；E取件到群像保留同一掌心小模型；F递标签近景接住爸爸句尾及完整旁白。固定露齿笑与局部形体仍供用户观感确认。"
+  },
+  "blocked_tests": [
+    {
+      "id": "P",
+      "title": "佩奇家开始准备礼物",
+      "act": "peppa",
+      "duration_sec": 10,
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-021.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L027",
+          "speaker": "旁白",
+          "text": "原来，佩奇也在准备一个小惊喜。",
+          "source": "materials/final/gift/voices/GIFT-L027.wav",
+          "start_sec": 0.25,
+          "source_sha256": "884b142283f1de67dd675e6bbe64eebdf11c8787975285622821254a6cd96c7a",
+          "duration_sec": 3.111473922902494,
+          "gain_db": 5.004
+        },
+        {
+          "id": "GIFT-L028",
+          "speaker": "佩奇",
+          "text": "我要画我们四个，一起踢足球！",
+          "source": "materials/final/gift/voices/GIFT-L028.wav",
+          "start_sec": 3.6,
+          "source_sha256": "35d6c57bbb59f1a29c81f889140e57dc1347efff9e709a35aed5545a631952a2",
+          "duration_sec": 3.4249433106575964,
+          "gain_db": 8.716
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/prompts/P.txt",
+      "attempts": [
+        {
+          "task_id": "451691341967640",
+          "status": "failed",
+          "code": "1026",
+          "reason": "input text sensitive",
+          "submission": {
+            "state": "submitted",
+            "started_at": "2026-10-12T18:29:57.089455+00:00",
+            "completed_at": "2026-10-12T18:29:57.763061+00:00"
+          },
+          "quota_before": {
+            "checked_at": "2026-10-12T18:29:57.089240+00:00",
+            "windows": [
+              {
+                "model_name": "general",
+                "current_interval_remaining_percent": 99,
+                "current_weekly_remaining_percent": 97,
+                "end_time": 1791846306270,
+                "weekly_end_time": 1792433106270
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "451689558237497",
+          "backend_status": "failed",
+          "failure": {
+            "code": "1027",
+            "message": "output new_sensitive"
+          },
+          "submission": {
+            "state": "submitted",
+            "started_at": "2026-10-12T18:32:51.989835+00:00",
+            "completed_at": "2026-10-12T18:32:52.719167+00:00"
+          },
+          "quota_before": {
+            "checked_at": "2026-10-12T18:32:51.989604+00:00",
+            "windows": [
+              {
+                "model_name": "general",
+                "current_interval_remaining_percent": 99,
+                "current_weekly_remaining_percent": 97,
+                "end_time": 1791846306270,
+                "weekly_end_time": 1792433106270
+              }
+            ]
+          },
+          "quota_after": {
+            "checked_at": "2026-10-12T18:39:38.266147+00:00",
+            "windows": [
+              {
+                "model_name": "general",
+                "current_interval_remaining_percent": 99,
+                "current_weekly_remaining_percent": 90,
+                "end_time": 1791846306270,
+                "weekly_end_time": 1792433106270
+              }
+            ]
+          }
+        }
+      ],
+      "quota_before": {
+        "checked_at": "2026-10-12T18:44:59.706823+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 90,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "submission": {
+        "state": "submitted",
+        "started_at": "2026-10-12T18:44:59.706991+00:00",
+        "completed_at": "2026-10-12T18:45:01.060876+00:00"
+      },
+      "task_id": "451694993695147",
+      "backend_status": "failed",
+      "last_checked_at": "2026-10-12T18:51:02.853244+00:00",
+      "prompt_sha256": "a0e9e79e1a3b3a4a4cdfc6372814de634ac0671fcfebaaee6abb5332cc3557ad",
+      "reference_image_sha256": {
+        "materials/original/gift/illustrations/GIFT-ILL-021.png": "695553451a02381ad4c7023e033cc0701d16fd16702d955eab88e9c2c0574c81"
+      },
+      "reference_audio_sha256": "10917289e890d1fd08c7a2b90492f82a8f756f6b0c71b3e4a75e8c792f41631a",
+      "failure": {
+        "code": "1027",
+        "message": "output new_sensitive"
+      },
+      "quota_after": {
+        "checked_at": "2026-10-12T18:51:11.202397+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 84,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "status": "平台审核阻断，未产生可用视频，未见额外周额度扣减"
+    },
+    {
+      "id": "P0",
+      "title": "佩奇家首帧动作开场小样",
+      "act": "peppa",
+      "duration_sec": 10,
+      "input_mode": "first_frame",
+      "role": "测试第一幕之后佩奇家的真实画画动作与原型一致性，含原画外旁白；角色完整对白后续再制作",
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-021.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L027",
+          "speaker": "旁白",
+          "text": "原来，佩奇也在准备一个小惊喜。",
+          "source": "materials/final/gift/voices/GIFT-L027.wav",
+          "start_sec": 0.25,
+          "source_sha256": "884b142283f1de67dd675e6bbe64eebdf11c8787975285622821254a6cd96c7a",
+          "duration_sec": 3.111473922902494,
+          "gain_db": 5.004
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/prompts/P0.txt",
+      "prompt_sha256": "de9a2f674317ab5337adb80820794f2d1b725b00fcd1653b517fe03e72634874",
+      "reference_image_sha256": {
+        "materials/original/gift/illustrations/GIFT-ILL-021.png": "695553451a02381ad4c7023e033cc0701d16fd16702d955eab88e9c2c0574c81"
+      },
+      "quota_before": {
+        "checked_at": "2026-10-12T19:22:10.770087+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "submission": {
+        "state": "submitted",
+        "started_at": "2026-10-12T19:22:10.770307+00:00",
+        "completed_at": "2026-10-12T19:22:11.311953+00:00"
+      },
+      "task_id": "451702879174938",
+      "backend_status": "failed",
+      "last_checked_at": "2026-10-12T19:31:48.469979+00:00",
+      "failure": {
+        "code": "1027",
+        "message": "output new_sensitive"
+      },
+      "quota_after": {
+        "checked_at": "2026-10-12T19:31:56.900203+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791846306270,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "status": "首帧动作模式仍被结果审核拦住，无视频可交付；四次尝试合计未见额外扣额"
+    }
+  ],
+  "quota_summary": {
+    "window": "weekly",
+    "remaining_before_percent": 97,
+    "remaining_after_percent": 66,
+    "observed_change_percentage_points": 31,
+    "generated_requests_sec": 75,
+    "motion_reference_sec": 2,
+    "successful_jobs": 6,
+    "peppa_blocked_attempts": 4,
+    "notice": "同一周额度的实际前后差值；并发任务及百分比取整不支持精确拆分单段费用。未切换按量Key，审核失败未观察到额外扣减。",
+    "checked_at": "2026-10-12T19:45:20.956243+00:00"
+  }
+}
