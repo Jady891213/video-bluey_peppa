@@ -77,16 +77,6 @@
       "width": 1280,
       "height": 720,
       "fps": "30/1"
-    },
-    {
-      "id": "prepare-gifts-opening-10s",
-      "status": "早期试片，仅备用，未采纳",
-      "file": "materials/final/gift/备用片段/MetasoH3_开场试片/prepare-gifts-opening-10s.mp4",
-      "sha256": "58df90a4287f1f9dd6dd9b4b2034f05e7f62a2eb11ffa1327590ee086d4229c3",
-      "duration_sec": 10.125,
-      "width": 1344,
-      "height": 768,
-      "fps": "24/1"
     }
   ],
   "production_inputs": {

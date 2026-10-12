@@ -49,11 +49,11 @@ GitHub 是可迁移源码与素材的主库。Sites 官方源码流程目前不�
 
 《准备礼物》已完成可拼接的两段开场：第一段22.8秒（下车、关门、取箱与孩子对话），第二段18.6秒（抱箱进屋、拆箱和放料）。两段均为1280×720、16:9、30fps；[视频、干净对白与制作配方](materials/final/gift/已采纳成片/README.md)集中保存，[选定首帧清单](materials/original/gift/动画参考图/开场/reference-manifest.json)位于原始素材目录。原版正式片头由用户自行剪入。
 
-上述两段已由用户采纳，集中存放在 `materials/final/gift/已采纳成片`，合计41.4秒。Wan 后续 C「礼物模特」16秒、D「打印与快递车」14.4秒经用户观看后反馈有问题，现放在[备用片段](materials/final/gift/备用片段/Wan_礼物模特与快递车/README.md)，不计入采纳。三条早期试片也归入备用目录；不会自动用于正式剪辑。
+上述两段已由用户采纳，集中存放在 `materials/final/gift/已采纳成片`，合计41.4秒。Wan 后续 C「礼物模特」16秒、D「打印与快递车」14.4秒经用户观看后反馈有问题，现放在[备用片段](materials/final/gift/备用片段/Wan_礼物模特与快递车/README.md)，不计入采纳。两条早期试片也归入备用目录；不会自动用于正式剪辑。
 
 ## 后续转 MiniMax 的素材入口
 
-先读 [动画素材清单](materials/final/gift/动画素材清单.json)，它分别列出已采纳与备用视频的文件、SHA和时长，以及下一段微型礼物揭晓、蓝莓笑点的原型和配音。MiniMax 接入尚未完成，不能把 OiiOii 任务ID当作 MiniMax 任务。
+先读 [动画素材清单](materials/final/gift/动画素材清单.json)，它分别列出已采纳与备用视频的文件、SHA和时长，以及下一段微型礼物揭晓、蓝莓笑点的原型和配音。MiniMax 官方CLI已安装（mmx 1.0.28），登录及H3订阅调用尚未验证；不能把 OiiOii 任务ID当作 MiniMax 任务。
 
 ```text
 materials/original/gift/
