@@ -10,7 +10,7 @@
   "aspect_ratio": "16:9",
   "estimated_points": 20,
   "audio": {
-    "path": "materials/final/gift/准备礼物_开场10秒_OiiOii测试/prepare-gifts-opening-10s-dialogue.wav",
+    "path": "materials/final/gift/备用片段/MetasoH3_开场试片/prepare-gifts-opening-10s-dialogue.wav",
     "sha256": "94820d53e9ddcbee18ae0279cdb3d43025acbadf9d89b8b16debf658291c68bf",
     "sample_rate_hz": 22050,
     "samples": 220500,
@@ -125,7 +125,7 @@
   "charged_points": 20,
   "balance_after_generation": 1050,
   "final_video": {
-    "path": "materials/final/gift/准备礼物_开场10秒_OiiOii测试/prepare-gifts-opening-10s.mp4",
+    "path": "materials/final/gift/备用片段/MetasoH3_开场试片/prepare-gifts-opening-10s.mp4",
     "sha256": "58df90a4287f1f9dd6dd9b4b2034f05e7f62a2eb11ffa1327590ee086d4229c3",
     "size_bytes": 6605700,
     "duration_sec": 10.125,

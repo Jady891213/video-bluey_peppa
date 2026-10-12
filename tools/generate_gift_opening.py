@@ -15,7 +15,7 @@ import subprocess
 import wave
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'materials/final/gift/准备礼物_完整开场两段_Wan3'
+OUT = ROOT / 'materials/final/gift/已采纳成片'
 TMP = ROOT / 'TMP to delete - 准备礼物完整开场制作'
 MANIFEST = OUT / '生成配方.json'
 CLI = shutil.which('oiioii') or str(Path.home() / '.local/bin/oiioii')

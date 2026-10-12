@@ -5,62 +5,62 @@
   "references": [
     {
       "key": "arrival_closed",
-      "file": "materials/original/gift/完整开场参考帧/arrival_closed.png",
+      "file": "materials/original/gift/动画参考图/开场/arrival_closed.png",
       "sha256": "957af02b54ba05c0bb7a7c4e79d866cd0d70ed873381b99172509f07d8e794d6"
     },
     {
       "key": "box_insert-upright",
-      "file": "materials/original/gift/完整开场参考帧/box_insert-upright.png",
+      "file": "materials/original/gift/动画参考图/开场/box_insert-upright.png",
       "sha256": "798ef444ba342304be6c5f529b665c7b63d146683f0075a358b8a15452c6f9ef"
     },
     {
       "key": "indoor_bandit",
-      "file": "materials/original/gift/完整开场参考帧/indoor_bandit.png",
+      "file": "materials/original/gift/动画参考图/开场/indoor_bandit.png",
       "sha256": "60653207f50ddb4acd25d41307ded38c2256bfe7273217ff36a9dd8bbe836b93"
     },
     {
       "key": "indoor_bingo",
-      "file": "materials/original/gift/完整开场参考帧/indoor_bingo.png",
+      "file": "materials/original/gift/动画参考图/开场/indoor_bingo.png",
       "sha256": "ec8fdb851aa3ea67f80adc927118a3081eeb38a6b383507db99fb7877f0dc286"
     },
     {
       "key": "indoor_bluey",
-      "file": "materials/original/gift/完整开场参考帧/indoor_bluey.png",
+      "file": "materials/original/gift/动画参考图/开场/indoor_bluey.png",
       "sha256": "93901b2a80f33ac44875915d96e8662dd7912b09064ffa72970fab8268e22a5b"
     },
     {
       "key": "outdoor_bandit",
-      "file": "materials/original/gift/完整开场参考帧/outdoor_bandit.png",
+      "file": "materials/original/gift/动画参考图/开场/outdoor_bandit.png",
       "sha256": "d46f55c718d24c0b6a97f8b336cd8d1eb99518610a49cd7de9b11df4961f217a"
     },
     {
       "key": "outdoor_bingo-closeup",
-      "file": "materials/original/gift/完整开场参考帧/outdoor_bingo-closeup.png",
+      "file": "materials/original/gift/动画参考图/开场/outdoor_bingo-closeup.png",
       "sha256": "235f06ff356f4b59d36e5e5fd6683d12bd295e2d64a066e08ba8633129621851"
     },
     {
       "key": "outdoor_bluey",
-      "file": "materials/original/gift/完整开场参考帧/outdoor_bluey.png",
+      "file": "materials/original/gift/动画参考图/开场/outdoor_bluey.png",
       "sha256": "d4524d8943ef260601735547a28b10ef683b91044b71a0907a304dc11a043ff1"
     },
     {
       "key": "outdoor_greeting",
-      "file": "materials/original/gift/完整开场参考帧/outdoor_greeting.png",
+      "file": "materials/original/gift/动画参考图/开场/outdoor_greeting.png",
       "sha256": "4e5e5fcdd5607c16004c34da1136a62a6dd5fa56bfd8e43976ecb45ceeec6ef6"
     },
     {
       "key": "porch_entry-single",
-      "file": "materials/original/gift/完整开场参考帧/porch_entry-single.png",
+      "file": "materials/original/gift/动画参考图/开场/porch_entry-single.png",
       "sha256": "8695ee43994a78b22d20ce9499aada46b9f31c072cd21cb05ce6696acbea0dde"
     },
     {
       "key": "printer_insert",
-      "file": "materials/original/gift/完整开场参考帧/printer_insert.png",
+      "file": "materials/original/gift/动画参考图/开场/printer_insert.png",
       "sha256": "7e883ae34c71d907e2aa60eea96dd8dd8a7e642e97268a961803e654f7153f56"
     },
     {
       "key": "trunk_pickup",
-      "file": "materials/original/gift/完整开场参考帧/trunk_pickup.png",
+      "file": "materials/original/gift/动画参考图/开场/trunk_pickup.png",
       "sha256": "bd29e392c92c443f27119dca310a0c84757b4b499bfaf28962180ecde8939068"
     }
   ]

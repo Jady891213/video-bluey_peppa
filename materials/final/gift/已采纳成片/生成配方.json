@@ -246,7 +246,7 @@
       "segment": "A",
       "title": "爸爸完整下车并关前驾驶门",
       "duration_sec": 2.8,
-      "reference": "materials/original/gift/完整开场参考帧/arrival_closed.png",
+      "reference": "materials/original/gift/动画参考图/开场/arrival_closed.png",
       "prompt_file": "prompts/A01.txt",
       "lines": [],
       "image_uri": "hogi://image/mv56efrr_9ea88c0a6d142fd7.png",
@@ -300,7 +300,7 @@
       "segment": "A",
       "title": "孩子先迎接爸爸",
       "duration_sec": 2,
-      "reference": "materials/original/gift/完整开场参考帧/outdoor_greeting.png",
+      "reference": "materials/original/gift/动画参考图/开场/outdoor_greeting.png",
       "prompt_file": "prompts/A02.txt",
       "lines": [
         {
@@ -358,7 +358,7 @@
       "segment": "A",
       "title": "双手把箱子从车尾抱出来",
       "duration_sec": 4,
-      "reference": "materials/original/gift/完整开场参考帧/trunk_pickup.png",
+      "reference": "materials/original/gift/动画参考图/开场/trunk_pickup.png",
       "prompt_file": "prompts/A03.txt",
       "lines": [],
       "image_uri": "hogi://image/mv56em4b_29a46bb45fff6add.png",
@@ -404,7 +404,7 @@
       "segment": "A",
       "title": "布鲁伊好奇问箱子",
       "duration_sec": 3,
-      "reference": "materials/original/gift/完整开场参考帧/outdoor_bluey.png",
+      "reference": "materials/original/gift/动画参考图/开场/outdoor_bluey.png",
       "prompt_file": "prompts/A04.txt",
       "lines": [
         {
@@ -462,7 +462,7 @@
       "segment": "A",
       "title": "爸爸回答小礼物机器",
       "duration_sec": 4,
-      "reference": "materials/original/gift/完整开场参考帧/outdoor_bandit.png",
+      "reference": "materials/original/gift/动画参考图/开场/outdoor_bandit.png",
       "prompt_file": "prompts/A05.txt",
       "lines": [
         {
@@ -520,7 +520,7 @@
       "segment": "A",
       "title": "宾果紧近景当小老板",
       "duration_sec": 3,
-      "reference": "materials/original/gift/完整开场参考帧/outdoor_bingo-closeup.png",
+      "reference": "materials/original/gift/动画参考图/开场/outdoor_bingo-closeup.png",
       "prompt_file": "prompts/A06.txt",
       "lines": [
         {
@@ -578,7 +578,7 @@
       "segment": "A",
       "title": "爸爸抱箱准备进屋",
       "duration_sec": 4,
-      "reference": "materials/original/gift/完整开场参考帧/outdoor_bandit.png",
+      "reference": "materials/original/gift/动画参考图/开场/outdoor_bandit.png",
       "prompt_file": "prompts/A07.txt",
       "lines": [
         {
@@ -636,7 +636,7 @@
       "segment": "B",
       "title": "孩子开门、爸爸抱箱跨门槛",
       "duration_sec": 2.6,
-      "reference": "materials/original/gift/完整开场参考帧/porch_entry-single.png",
+      "reference": "materials/original/gift/动画参考图/开场/porch_entry-single.png",
       "prompt_file": "prompts/B01.txt",
       "lines": [],
       "image_uri": "hogi://image/mv57hike_dbd30824c21c0e66.png",
@@ -685,7 +685,7 @@
       "segment": "B",
       "title": "室内放稳纸箱、打开包装",
       "duration_sec": 3,
-      "reference": "materials/original/gift/完整开场参考帧/box_insert-upright.png",
+      "reference": "materials/original/gift/动画参考图/开场/box_insert-upright.png",
       "prompt_file": "prompts/B02.txt",
       "lines": [],
       "image_uri": "hogi://image/mv57hmz3_c762d059d494e14c.png",
@@ -731,7 +731,7 @@
       "segment": "B",
       "title": "装好后礼物小店开张",
       "duration_sec": 4,
-      "reference": "materials/original/gift/完整开场参考帧/indoor_bandit.png",
+      "reference": "materials/original/gift/动画参考图/开场/indoor_bandit.png",
       "prompt_file": "prompts/B03.txt",
       "lines": [
         {
@@ -789,7 +789,7 @@
       "segment": "B",
       "title": "布鲁伊想试第一件礼物",
       "duration_sec": 3,
-      "reference": "materials/original/gift/完整开场参考帧/indoor_bluey.png",
+      "reference": "materials/original/gift/动画参考图/开场/indoor_bluey.png",
       "prompt_file": "prompts/B04.txt",
       "lines": [
         {
@@ -847,7 +847,7 @@
       "segment": "B",
       "title": "宾果好奇蓝色面条",
       "duration_sec": 2,
-      "reference": "materials/original/gift/完整开场参考帧/indoor_bingo.png",
+      "reference": "materials/original/gift/动画参考图/开场/indoor_bingo.png",
       "prompt_file": "prompts/B05.txt",
       "lines": [
         {
@@ -905,7 +905,7 @@
       "segment": "B",
       "title": "爸爸把蓝卷放好、留出片头接口",
       "duration_sec": 4,
-      "reference": "materials/original/gift/完整开场参考帧/printer_insert.png",
+      "reference": "materials/original/gift/动画参考图/开场/printer_insert.png",
       "prompt_file": "prompts/B06.txt",
       "lines": [
         {

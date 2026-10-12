@@ -101,6 +101,50 @@ def check_sites(deployment):
     return summaries, errors
 
 
+def check_animation_assets():
+    """目录调整后，核对采用状态、清单媒体与原始输入引用。"""
+    path = ROOT / 'materials/final/gift/动画素材清单.json'
+    if not path.exists():
+        return None, ['缺少动画素材清单']
+    data = json.loads(path.read_text())
+    errors = []
+    accepted = data['accepted']
+    if {x['id'] for x in accepted} != {'A', 'B'}:
+        errors.append('已采纳动画必须仅为用户确认的A/B')
+    actual_accepted = {
+        p.relative_to(ROOT).as_posix()
+        for p in (ROOT / 'materials/final/gift/已采纳成片').glob('*.mp4')
+    }
+    if actual_accepted != {x['file'] for x in accepted}:
+        errors.append('已采纳目录与采用清单不一致')
+    for item in accepted + data['backup']:
+        p = ROOT / item['file']
+        if not p.is_file() or sha256(p) != item['sha256']:
+            errors.append(f'动画文件缺少或SHA不符：{item["file"]}')
+
+    def walk(value, source):
+        if isinstance(value, dict):
+            for child in value.values():
+                walk(child, source)
+        elif isinstance(value, list):
+            for child in value:
+                walk(child, source)
+        elif isinstance(value, str) and value.startswith('materials/'):
+            p = (ROOT / value).resolve()
+            if not p.is_relative_to(ROOT) or not p.exists():
+                errors.append(f'{source}: 无效素材引用 {value}')
+
+    for p in (ROOT / 'materials').rglob('*.json'):
+        walk(json.loads(p.read_text()), p.relative_to(ROOT).as_posix())
+    voices = json.loads((ROOT / 'materials/final/gift/voice-manifest.json').read_text())['lines']
+    for line in voices:
+        p = ROOT / line['wav_file']
+        if not p.is_file() or sha256(p) != line['wav_sha256']:
+            errors.append(f'原配音SHA不符：{line["line_id"]}')
+    return {'accepted': len(accepted), 'backup': len(data['backup']),
+            'full_voice_lines': len(voices)}, errors
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--write", action="store_true", help="另生成本地 sha256-manifest.json，不修改部署信息")
@@ -122,17 +166,23 @@ def main():
         if CREDENTIAL.search(text):
             errors.append(f"文本疑似含凭证：{name}")
     summaries = []
+    animation = None
     try:
         summaries, site_errors = check_sites(ROOT / "deployment-manifest.json")
         errors.extend(site_errors)
     except (OSError, ValueError, KeyError, TypeError) as exc:
         errors.append(f"部署清单无法核验：{exc}")
+    try:
+        animation, asset_errors = check_animation_assets()
+        errors.extend(asset_errors)
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f'动画素材无法核验：{exc}')
     if args.write:
         LOCAL_MANIFEST.write_text(json.dumps({
             "algorithm": "sha256", "count": len(files),
             "bytes": sum(item["bytes"] for item in files.values()), "files": files,
         }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"ok": not errors, "files": len(files), "sites": summaries,
+    print(json.dumps({"ok": not errors, "files": len(files), "sites": summaries, "animation": animation,
                       "local_manifest_written": args.write, "errors": errors},
                      ensure_ascii=False, indent=2))
     raise SystemExit(1 if errors else 0)

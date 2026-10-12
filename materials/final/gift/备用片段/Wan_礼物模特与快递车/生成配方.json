@@ -1,6 +1,6 @@
 {
   "story": "准备礼物",
-  "status": "Wan后续制作中，预算内逐镜完成",
+  "status": "备用片段；用户反馈两段有问题，后续转向MiniMax，不作为正式采纳原片",
   "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
   "model_id": 56,
   "model": "Wan 3.0",
@@ -137,7 +137,7 @@
           ]
         }
       ],
-      "user_review_status": "待用户确认",
+      "user_review_status": "备用，用户反馈有问题，未采纳",
       "online_upload": {
         "uri": "hogi://video/mv5idjek_f1982e9ada6871e1.mp4",
         "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
@@ -152,7 +152,7 @@
         "file": "D-clean-dialogue.wav",
         "sha256": "656a9c669d26b003824d990e555a75a3f6665c9ff0215aa7f77b491e4c846d39"
       },
-      "user_review_status": "待用户确认",
+      "user_review_status": "备用，用户反馈有问题，未采纳",
       "result": {
         "sha256": "409e05e9f1fb677115ee8a3e86a6cebd3af64f33ce01536fd935990d0cc1edf3",
         "bytes": 4601472,
@@ -235,7 +235,7 @@
       "duration_sec": 3,
       "generation_duration_sec": 3,
       "prompt_file": "prompts/C01.txt",
-      "reference": "materials/original/gift/后续动画原型参考图/dad-fourspools.png",
+      "reference": "materials/original/gift/动画参考图/后续/dad-fourspools.png",
       "image_uri": "hogi://image/mv5c0dt0_9cb875d271d77102.png",
       "reference_sha256": "7cbe0f1a3e86a6987dda0244a6dc423a845f1e3ef408d5d0a4afda8954e73e5c",
       "lines": [
@@ -296,7 +296,7 @@
       "duration_sec": 3,
       "generation_duration_sec": 3,
       "prompt_file": "prompts/C02.txt",
-      "reference": "materials/original/gift/后续动画原型参考图/bluey-pose.png",
+      "reference": "materials/original/gift/动画参考图/后续/bluey-pose.png",
       "image_uri": "hogi://image/mv5c0n6a_1ee8389f2875f9e0.png",
       "reference_sha256": "cc085522b9ce8f15b7a84b4d7dffc28e0320bbf8eb3b20a0060826290e87844a",
       "lines": [
@@ -355,7 +355,7 @@
       "duration_sec": 3,
       "generation_duration_sec": 3,
       "prompt_file": "prompts/C03.txt",
-      "reference": "materials/original/gift/后续动画原型参考图/dad-fourspools.png",
+      "reference": "materials/original/gift/动画参考图/后续/dad-fourspools.png",
       "image_uri": "hogi://image/mv5c0dt0_9cb875d271d77102.png",
       "reference_sha256": "7cbe0f1a3e86a6987dda0244a6dc423a845f1e3ef408d5d0a4afda8954e73e5c",
       "lines": [
@@ -415,7 +415,7 @@
       "duration_sec": 3,
       "generation_duration_sec": 3,
       "prompt_file": "prompts/C04.txt",
-      "reference": "materials/original/gift/后续动画原型参考图/bingo-table.png",
+      "reference": "materials/original/gift/动画参考图/后续/bingo-table.png",
       "image_uri": "hogi://image/mv5c0urh_3befb79046bf0283.png",
       "reference_sha256": "14cca6860620ec07a427c4257da528294380b27ffd3b9842aff76ae5e7959bd1",
       "lines": [
@@ -476,7 +476,7 @@
       "duration_sec": 4,
       "generation_duration_sec": 4,
       "prompt_file": "prompts/C05.txt",
-      "reference": "materials/original/gift/后续动画原型参考图/dad-fourspools.png",
+      "reference": "materials/original/gift/动画参考图/后续/dad-fourspools.png",
       "image_uri": "hogi://image/mv5c0dt0_9cb875d271d77102.png",
       "reference_sha256": "7cbe0f1a3e86a6987dda0244a6dc423a845f1e3ef408d5d0a4afda8954e73e5c",
       "lines": [
@@ -491,7 +491,7 @@
           "gain_db": 4.592
         }
       ],
-      "insert_image": "materials/original/gift/后续动画原型参考图/tablet-ears.png",
+      "insert_image": "materials/original/gift/动画参考图/后续/tablet-ears.png",
       "insert_start_sec": 1.7,
       "insert_note": "用静态UI特写切走爸爸的近景，确保预览模型不跟画外声音张嘴；完整对白贯穿两个分镜。",
       "audio_uri": "hogi://audio/mv5fray9_fd8a16cd0cca8438.wav",
@@ -538,7 +538,7 @@
       "duration_sec": 3,
       "generation_duration_sec": 3,
       "prompt_file": "prompts/D01.txt",
-      "reference": "materials/original/gift/完整开场参考帧/indoor_bluey.png",
+      "reference": "materials/original/gift/动画参考图/开场/indoor_bluey.png",
       "image_uri": "hogi://image/mv56fbwj_e600b7c5dccda644.png",
       "reference_sha256": "93901b2a80f33ac44875915d96e8662dd7912b09064ffa72970fab8268e22a5b",
       "lines": [
@@ -596,7 +596,7 @@
       "duration_sec": 3,
       "generation_duration_sec": 3,
       "prompt_file": "prompts/D02.txt",
-      "reference": "materials/original/gift/后续动画原型参考图/printer-start.png",
+      "reference": "materials/original/gift/动画参考图/后续/printer-start.png",
       "image_uri": "hogi://image/mv5cs0vb_e27c3237d4862cce.png",
       "reference_sha256": "fa7497497fddb6357bb5bb4002e2642e620cfd2a4f32b8ecb2c766cb95bb7c3c",
       "lines": [],
@@ -642,7 +642,7 @@
       "duration_sec": 3,
       "generation_duration_sec": 3,
       "prompt_file": "prompts/D03.txt",
-      "reference": "materials/original/gift/后续动画原型参考图/bingo-boss.png",
+      "reference": "materials/original/gift/动画参考图/后续/bingo-boss.png",
       "image_uri": "hogi://image/mv5cs88f_23229010ae6666f3.png",
       "reference_sha256": "07dfc1c4d37ba72b902e02f91f56593df06aa32e4252bd11169d285770cb2f5a",
       "lines": [
@@ -700,7 +700,7 @@
       "duration_sec": 5.4,
       "generation_duration_sec": 5,
       "prompt_file": "prompts/D04.txt",
-      "reference": "materials/original/gift/后续动画原型参考图/dad-courier.png",
+      "reference": "materials/original/gift/动画参考图/后续/dad-courier.png",
       "image_uri": "hogi://image/mv5csgdy_5921e33bf6c41aa5.png",
       "reference_sha256": "397a8c45e56963dcd6c89c1371d3d690f17bbeeb70a05fd165c5a354a158dcb2",
       "lines": [
@@ -781,7 +781,7 @@
           "source": "materials/final/gift/voices/GIFT-L018.wav"
         }
       ],
-      "reference": "materials/original/gift/后续动画原型参考图/printer-complete.png"
+      "reference": "materials/original/gift/动画参考图/后续/printer-complete.png"
     },
     {
       "id": "E01",
@@ -794,7 +794,7 @@
           "source": "materials/final/gift/voices/GIFT-L019.wav"
         }
       ],
-      "reference": "materials/original/gift/后续动画原型参考图/dad-mini.png"
+      "reference": "materials/original/gift/动画参考图/后续/dad-mini.png"
     },
     {
       "id": "E02",
@@ -807,7 +807,7 @@
           "source": "materials/final/gift/voices/GIFT-L020.wav"
         }
       ],
-      "reference": "materials/original/gift/后续动画原型参考图/bingo-mini.png"
+      "reference": "materials/original/gift/动画参考图/后续/bingo-mini.png"
     },
     {
       "id": "E03",
@@ -820,7 +820,7 @@
           "source": "materials/final/gift/voices/GIFT-L108.wav"
         }
       ],
-      "reference": "materials/original/gift/完整开场参考帧/indoor_bluey.png"
+      "reference": "materials/original/gift/动画参考图/开场/indoor_bluey.png"
     },
     {
       "id": "E04",
@@ -833,7 +833,7 @@
           "source": "materials/final/gift/voices/GIFT-L021.wav"
         }
       ],
-      "reference": "materials/original/gift/后续动画原型参考图/dad-mini.png"
+      "reference": "materials/original/gift/动画参考图/后续/dad-mini.png"
     },
     {
       "id": "E05",
@@ -846,7 +846,7 @@
           "source": "materials/final/gift/voices/GIFT-L022.wav"
         }
       ],
-      "reference": "materials/original/gift/完整开场参考帧/indoor_bluey.png"
+      "reference": "materials/original/gift/动画参考图/开场/indoor_bluey.png"
     }
   ],
   "vidu_cleanup": {
@@ -866,5 +866,11 @@
     "project_video_points": 1070,
     "retries": 0,
     "balance_after_points": 0
+  },
+  "user_acceptance": {
+    "accepted": false,
+    "disposition": "备用",
+    "date": "2026-10-13",
+    "feedback": "这两个有点问题，不过先备用吧。"
   }
 }

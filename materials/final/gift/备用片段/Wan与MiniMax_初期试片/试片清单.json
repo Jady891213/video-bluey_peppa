@@ -106,7 +106,7 @@
         },
         {
           "kind": "audio",
-          "file": "materials/final/gift/准备礼物_后续两段_Wan3与MiniMaxH3试片/gift-shop-wan3-dialogue.wav",
+          "file": "materials/final/gift/备用片段/Wan与MiniMax_初期试片/gift-shop-wan3-dialogue.wav",
           "uri": "hogi://audio/mv53yuz5_a31281c046cb6ca1.wav",
           "asset_id": "b6ac316b-9e1d-4a8e-aa82-3598df60b96c"
         }
@@ -269,7 +269,7 @@
         },
         {
           "kind": "audio",
-          "file": "materials/final/gift/准备礼物_后续两段_Wan3与MiniMaxH3试片/bluey-pose-minimax-h3-dialogue.wav",
+          "file": "materials/final/gift/备用片段/Wan与MiniMax_初期试片/bluey-pose-minimax-h3-dialogue.wav",
           "uri": "hogi://audio/mv53z55x_f9c7817b9cac5550.wav",
           "asset_id": "5a7a2f9e-5352-4ae6-8ade-f5a367703e7d"
         }

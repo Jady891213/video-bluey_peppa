@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "story": "准备礼物",
+  "current_direction": "后续转MiniMax；已采纳Wan开场保留，其他片段仅备用；接入尚未完成",
+  "accepted_duration_sec": 41.4,
+  "accepted": [
+    {
+      "id": "A",
+      "title": "准备礼物｜第一段：爸爸回来与拿箱子",
+      "status": "已采纳，正式剪辑原片",
+      "file": "materials/final/gift/已采纳成片/prepare-gifts-opening-part-1.mp4",
+      "sha256": "f3c56ed085a317b17b9e2b453ed63726281e3ea0ce0611b4facbd26fdb0e652d",
+      "duration_sec": 22.8,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "dialogue_stem": "materials/final/gift/已采纳成片/A-clean-dialogue.wav",
+      "recipe": "materials/final/gift/已采纳成片/生成配方.json"
+    },
+    {
+      "id": "B",
+      "title": "准备礼物｜第二段：进屋与礼物小店开张",
+      "status": "已采纳，正式剪辑原片",
+      "file": "materials/final/gift/已采纳成片/prepare-gifts-opening-part-2.mp4",
+      "sha256": "1881845e435a33e5a6f1cfa2b7824b4f5e509d536eaa86aa0de9e9b1ad62d7e2",
+      "duration_sec": 18.6,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "dialogue_stem": "materials/final/gift/已采纳成片/B-clean-dialogue.wav",
+      "recipe": "materials/final/gift/已采纳成片/生成配方.json"
+    }
+  ],
+  "backup": [
+    {
+      "id": "C",
+      "title": "准备礼物｜礼物模特",
+      "status": "备用，用户反馈有问题，未采纳",
+      "file": "materials/final/gift/备用片段/Wan_礼物模特与快递车/prepare-gifts-next-part-1-model-pose-wan3.mp4",
+      "sha256": "fbe5f70c9361fc57cd48b476bbafd746e697cff5fd7d1b9b779a79e0be31044a",
+      "duration_sec": 16.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "dialogue_stem": "materials/final/gift/备用片段/Wan_礼物模特与快递车/C-clean-dialogue.wav",
+      "recipe": "materials/final/gift/备用片段/Wan_礼物模特与快递车/生成配方.json"
+    },
+    {
+      "id": "D",
+      "title": "准备礼物｜打印与快递车",
+      "status": "备用，用户反馈有问题，未采纳",
+      "file": "materials/final/gift/备用片段/Wan_礼物模特与快递车/prepare-gifts-next-part-2-print-and-play-wan3.mp4",
+      "sha256": "409e05e9f1fb677115ee8a3e86a6cebd3af64f33ce01536fd935990d0cc1edf3",
+      "duration_sec": 14.4,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "dialogue_stem": "materials/final/gift/备用片段/Wan_礼物模特与快递车/D-clean-dialogue.wav",
+      "recipe": "materials/final/gift/备用片段/Wan_礼物模特与快递车/生成配方.json"
+    },
+    {
+      "id": "bluey-pose-minimax-h3",
+      "status": "早期试片，仅备用，未采纳",
+      "file": "materials/final/gift/备用片段/Wan与MiniMax_初期试片/bluey-pose-minimax-h3.mp4",
+      "sha256": "88e476750f939e32812c1c116bd608ca2efd0493e109b9f7331e7cbb80f31ae6",
+      "duration_sec": 10.125,
+      "width": 1344,
+      "height": 768,
+      "fps": "24/1"
+    },
+    {
+      "id": "gift-shop-wan3",
+      "status": "早期试片，仅备用，未采纳",
+      "file": "materials/final/gift/备用片段/Wan与MiniMax_初期试片/gift-shop-wan3.mp4",
+      "sha256": "56b90faa09b4700a6104138f8bd40b33ae6c368ab96dbacabdd3ff3d58152c4d",
+      "duration_sec": 10.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1"
+    },
+    {
+      "id": "prepare-gifts-opening-10s",
+      "status": "早期试片，仅备用，未采纳",
+      "file": "materials/final/gift/备用片段/MetasoH3_开场试片/prepare-gifts-opening-10s.mp4",
+      "sha256": "58df90a4287f1f9dd6dd9b4b2034f05e7f62a2eb11ffa1327590ee086d4229c3",
+      "duration_sec": 10.125,
+      "width": 1344,
+      "height": 768,
+      "fps": "24/1"
+    }
+  ],
+  "production_inputs": {
+    "story_plan": "materials/final/gift/story-plan.json",
+    "voice_manifest": "materials/final/gift/voice-manifest.json",
+    "voices_directory": "materials/final/gift/voices",
+    "voice_count": 108,
+    "illustration_manifest": "materials/original/gift/illustrations.json",
+    "illustrations_directory": "materials/original/gift/illustrations",
+    "illustration_count": 69,
+    "reference_directory": "materials/original/gift/动画参考图",
+    "reference_count": 22,
+    "pending_story_next": [
+      {
+        "id": "D05",
+        "title": "小礼物做好了",
+        "lines": [
+          {
+            "id": "GIFT-L018",
+            "speaker": "旁白",
+            "text": "过了好一会儿，小礼物做好了。",
+            "source": "materials/final/gift/voices/GIFT-L018.wav"
+          }
+        ],
+        "reference": "materials/original/gift/动画参考图/后续/printer-complete.png"
+      },
+      {
+        "id": "E01",
+        "title": "凉好后请老板验收",
+        "lines": [
+          {
+            "id": "GIFT-L019",
+            "speaker": "班迪特",
+            "text": "已经凉好了，请老板验收！",
+            "source": "materials/final/gift/voices/GIFT-L019.wav"
+          }
+        ],
+        "reference": "materials/original/gift/动画参考图/后续/dad-mini.png"
+      },
+      {
+        "id": "E02",
+        "title": "小蓝莓的笑话",
+        "lines": [
+          {
+            "id": "GIFT-L020",
+            "speaker": "宾果",
+            "text": "布鲁伊，你变成小蓝莓啦！",
+            "source": "materials/final/gift/voices/GIFT-L020.wav"
+          }
+        ],
+        "reference": "materials/original/gift/动画参考图/后续/bingo-mini.png"
+      },
+      {
+        "id": "E03",
+        "title": "我可不是蓝莓",
+        "lines": [
+          {
+            "id": "GIFT-L108",
+            "speaker": "布鲁伊",
+            "text": "我可不是蓝莓！",
+            "source": "materials/final/gift/voices/GIFT-L108.wav"
+          }
+        ],
+        "reference": "materials/original/gift/动画参考图/开场/indoor_bluey.png"
+      },
+      {
+        "id": "E04",
+        "title": "旅行装布鲁伊",
+        "lines": [
+          {
+            "id": "GIFT-L021",
+            "speaker": "班迪特",
+            "text": "这是旅行装布鲁伊！",
+            "source": "materials/final/gift/voices/GIFT-L021.wav"
+          }
+        ],
+        "reference": "materials/original/gift/动画参考图/后续/dad-mini.png"
+      },
+      {
+        "id": "E05",
+        "title": "陪你到处玩",
+        "lines": [
+          {
+            "id": "GIFT-L022",
+            "speaker": "布鲁伊",
+            "text": "那我就能陪你到处玩啦！",
+            "source": "materials/final/gift/voices/GIFT-L022.wav"
+          }
+        ],
+        "reference": "materials/original/gift/动画参考图/开场/indoor_bluey.png"
+      }
+    ]
+  },
+  "target_video_format": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "ratio": "16:9"
+  },
+  "notice": "原型是动作参考图，不是动画；自己的完整WAV作为声音参考，配方输入与成片音轨时轴分别维护。"
+}
