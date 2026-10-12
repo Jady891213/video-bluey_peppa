@@ -1,0 +1,165 @@
+{
+  "story": "准备礼物",
+  "status": "10秒开场动画已生成，最终MP4已核验，待用户试看。",
+  "duration_sec": 10,
+  "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
+  "workspace_name": "准备礼物｜开场10秒动画测试",
+  "model_id": 63,
+  "model": "Metaso-H3",
+  "resolution": "768p",
+  "aspect_ratio": "16:9",
+  "estimated_points": 20,
+  "audio": {
+    "path": "materials/final/gift/准备礼物_开场10秒_OiiOii测试/prepare-gifts-opening-10s-dialogue.wav",
+    "sha256": "94820d53e9ddcbee18ae0279cdb3d43025acbadf9d89b8b16debf658291c68bf",
+    "sample_rate_hz": 22050,
+    "samples": 220500,
+    "notice": "沿用现有AI配音，仅调整句间静音和增益，未变调/变速/截字"
+  },
+  "references": [
+    "materials/original/gift/illustrations/GIFT-ILL-003.png",
+    "materials/original/gift/illustrations/GIFT-ILL-004.png",
+    "materials/original/gift/illustrations/GIFT-ILL-005.png"
+  ],
+  "lines": [
+    {
+      "id": "GIFT-L002",
+      "speaker": "布鲁伊",
+      "text": "爸爸回来啦！",
+      "start_sec": 0.0,
+      "end_sec": 1.230657596371882,
+      "source": "materials/final/gift/voices/GIFT-L002.wav",
+      "source_sha256": "929d300b010676971c0b401dc7770b45a2bdd89b661aad3623fee6bb6ed6b580",
+      "gain_db": 6.868
+    },
+    {
+      "id": "GIFT-L003",
+      "speaker": "布鲁伊",
+      "text": "爸爸，这么大的箱子里是什么呀？",
+      "start_sec": 1.330657596371882,
+      "end_sec": 3.722312925170068,
+      "source": "materials/final/gift/voices/GIFT-L003.wav",
+      "source_sha256": "64fda0ccbfbcb994885837fb996da1e72c84e15d65f6762607e07ee9d1649b77",
+      "gain_db": 5.581
+    },
+    {
+      "id": "GIFT-L004",
+      "speaker": "班迪特",
+      "text": "打印机！能做出小礼物的机器。",
+      "start_sec": 3.822312925170068,
+      "end_sec": 7.131156462585034,
+      "source": "materials/final/gift/voices/GIFT-L004.wav",
+      "source_sha256": "c45a8388d8c464fc61191c4b9abf1199bda9562e8cc5308eed3f5b72bb816da0",
+      "gain_db": 2.492
+    },
+    {
+      "id": "GIFT-L005",
+      "speaker": "宾果",
+      "text": "那我们开个礼物小店，我当老板！",
+      "start_sec": 7.231156462585034,
+      "end_sec": 9.901451247165532,
+      "source": "materials/final/gift/voices/GIFT-L005.wav",
+      "source_sha256": "7eb6a0dd19acc8eeb99ac9d208b7d87f0ebf88b861a4c356f12dc05f9f42ff53",
+      "gain_db": 2.39
+    }
+  ],
+  "shots": [
+    {
+      "start_sec": 0,
+      "end_sec": 1.330658,
+      "reference": "GIFT-ILL-003",
+      "action": "爸爸从前驾驶位把另一只脚踏下并站稳；布鲁伊与宾果看向爸爸、挥手，小脚轻跑；不额外生成肢体或尾巴。"
+    },
+    {
+      "start_sec": 1.330658,
+      "end_sec": 7.231156,
+      "reference": "GIFT-ILL-004",
+      "action": "动作切镜省略从后备箱取箱子；爸爸已抱同一高长打印机箱，布鲁伊自然转头看箱子，问话时嘴部连续开合；爸爸低头回应。"
+    },
+    {
+      "start_sec": 7.231156,
+      "end_sec": 10,
+      "reference": "GIFT-ILL-005",
+      "action": "爸爸抱箱子向门口迈一步，布鲁伊跟上；宾果看向爸爸，活泼地宣布当老板，小手自然张开。"
+    }
+  ],
+  "uploaded_resources": [
+    {
+      "reference": "G003",
+      "uri": "hogi://image/mv510cbx_d6ea0d4907021d20.png",
+      "asset_id": "da48ce92-a6a6-4a4d-85f3-f0383ad44cb2"
+    },
+    {
+      "reference": "G004",
+      "uri": "hogi://image/mv512tk3_ffe9464fb715f6e3.png",
+      "asset_id": "f3c06ef2-282d-42a3-811e-c441b427eb84"
+    },
+    {
+      "reference": "G005",
+      "uri": "hogi://image/mv512whv_03ce1e0c734b08c3.png",
+      "asset_id": "accf870b-7ba8-41f2-aefa-37ec4b208954"
+    },
+    {
+      "reference": "dialogue",
+      "uri": "hogi://audio/mv512zce_0010a54e68efb638.wav",
+      "asset_id": "543baf4b-5488-480c-a43d-f3b72d671d62"
+    }
+  ],
+  "dry_run_validation": {
+    "valid": true,
+    "method": "generate_video_minimax_h3",
+    "mode": "omni2Video",
+    "estimated_points": 20,
+    "warnings": []
+  },
+  "generation_submission": {
+    "task_id": "async_video_feef432b58e842bba48c534a8b0c6c9f",
+    "local_task_id": "task_eeffc8efdf929851",
+    "tool": "generate_video_minimax_h3",
+    "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
+    "generation_mode": "omni2Video",
+    "status": "succeeded"
+  },
+  "generation_asset_id": "512cc395-93f7-43d2-9646-989b2edd0705",
+  "generation_resource_uri": "hogi://video/dd960d619112792b27e8d2ca344f4095ec4463d3850d5d0e6bede749f224d7a6.mp4",
+  "charged_points": 20,
+  "balance_after_generation": 1050,
+  "final_video": {
+    "path": "materials/final/gift/准备礼物_开场10秒_OiiOii测试/prepare-gifts-opening-10s.mp4",
+    "sha256": "58df90a4287f1f9dd6dd9b4b2034f05e7f62a2eb11ffa1327590ee086d4229c3",
+    "size_bytes": 6605700,
+    "duration_sec": 10.125,
+    "width": 1344,
+    "height": 768,
+    "fps": "24/1",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "audio_notice": "保留平台画面不重编码，重新封装现有10秒AI对白并补0.125秒尾部静音，清除账号元数据；保留AI生成标识。"
+  },
+  "review": {
+    "motion": "抽样帧显示下车、挥手、转头、迈步及嘴部变化；并非整张图平移缩放。",
+    "continuity": "三位角色及同一竖直纸箱基本保持；模型没有严格按指定时刻切镜，父亲提早向门口移动。",
+    "audio": "平台音轨与输入对白时轴零偏移且有显著相关；最终版直接使用原有四句AI配音。",
+    "scope": "仅独立10秒动作测试；未改动正式网站、旧足球或标题卡位置。"
+  },
+  "final_video_upload": {
+    "uri": "hogi://video/mv53gfht_1cd82c178aa892c0.mp4",
+    "asset_id": "1042767d-0421-4eff-882e-d4f87dfa48d2",
+    "asset_uri": "hogi://asset/1042767d-0421-4eff-882e-d4f87dfa48d2",
+    "file_uri": "hogi://video/mv53gfht_1cd82c178aa892c0.mp4",
+    "domain": "video",
+    "file_type": "mp4",
+    "file_name": "准备礼物-开场10秒最终试片-现有AI配音",
+    "size": 6605700,
+    "attached": true,
+    "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
+    "upload_mode": "direct"
+  },
+  "reference_sha256": {
+    "materials/original/gift/illustrations/GIFT-ILL-003.png": "874d3702ed2419809ab36301a0fda0d7c966f8497e231d8b929ec62280310c25",
+    "materials/original/gift/illustrations/GIFT-ILL-004.png": "06e24363cb69eb32cd952bfc7a203a4c72388fa63af3d7af0a85823aaf6910d6",
+    "materials/original/gift/illustrations/GIFT-ILL-005.png": "9a6e0b58ad252ee8af4aa364c87c304712cd0ee9c6cb0ae68f38d7b8fbfc73ba"
+  },
+  "prompt_file": "生成指令.txt",
+  "rendered_duration_sec": 10.125
+}
