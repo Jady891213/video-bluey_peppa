@@ -47,6 +47,8 @@ GitHub 是可迁移源码与素材的主库。Sites 官方源码流程目前不�
 
 仅保留选定原始插图、配音导出、最终素材与网站必需资源。原片录屏、声音参考、模型权重和推理环境仅存本地；中间试做与临时产物已清理，不进入公共仓库。网站已有 AI 内容说明应保留；角色、音乐和原作资料的权利仍属于各权利人，仓库记录与素材说明不构成授权证明。
 
+《准备礼物》已完成可拼接的两段开场：第一段22.8秒（下车、关门、取箱与孩子对话），第二段18.6秒（抱箱进屋、拆箱和放料）。两段均为1280×720、16:9、30fps；[视频、干净对白与制作配方](materials/final/gift/准备礼物_完整开场两段_Wan3/README.md)集中保存，[选定首帧清单](materials/original/gift/完整开场参考帧/reference-manifest.json)位于原始素材目录。原版正式片头由用户自行剪入。
+
 仓库的 [Deployments](https://github.com/Jady891213/video-bluey_peppa/deployments) 已登记两套线上网站。环境名为 `Sites-gift` 与 `Sites-football`，点击环境地址可打开当前线上故事；这属于发布结果登记，后续改动仍需单独通过 Sites 官方流程发布。
 
 登记使用 [GitHub Deployments](https://docs.github.com/en/rest/deployments/deployments) 与 [Deployment Statuses](https://docs.github.com/en/rest/deployments/statuses)；这些记录用于标记已经完成的发布，不执行上传素材或重新部署。

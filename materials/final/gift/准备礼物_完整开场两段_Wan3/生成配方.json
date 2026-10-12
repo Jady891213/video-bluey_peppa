@@ -1,0 +1,1003 @@
+{
+  "story": "准备礼物",
+  "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
+  "model_id": 56,
+  "model": "Wan 3.0",
+  "resolution": "720p",
+  "export": {
+    "width": 1280,
+    "height": 720,
+    "aspect_ratio": "16:9",
+    "fps": 30,
+    "video_codec": "H264",
+    "audio_codec": "AAC",
+    "audio_rate": 48000
+  },
+  "source_book_opening_duration_sec": 24.65310657596372,
+  "notice": "按原对白与新补自然动作分镜，不固定10秒；原版正式片头由用户自行剪入，本次生成截止片头前。",
+  "segments": [
+    {
+      "id": "A",
+      "title": "准备礼物｜第一段：爸爸回来与拿箱子",
+      "file": "prepare-gifts-opening-part-1.mp4",
+      "dialogue_stem": {
+        "file": "A-clean-dialogue.wav",
+        "sha256": "d472a69050ee2a297be5d2d149bc132be9558ed691a343ae6b99e6bb9e9a3529"
+      },
+      "result": {
+        "sha256": "f3c56ed085a317b17b9e2b453ed63726281e3ea0ce0611b4facbd26fdb0e652d",
+        "bytes": 7590144,
+        "duration_sec": 22.8,
+        "width": 1280,
+        "height": 720,
+        "fps": "30/1"
+      },
+      "timeline": [
+        {
+          "id": "A01",
+          "start_sec": 0,
+          "end_sec": 2.8,
+          "lines": []
+        },
+        {
+          "id": "A02",
+          "start_sec": 2.8,
+          "end_sec": 4.8,
+          "lines": [
+            {
+              "id": "GIFT-L002",
+              "speaker": "布鲁伊",
+              "text": "爸爸回来啦！",
+              "source": "materials/final/gift/voices/GIFT-L002.wav",
+              "offset_sec": 0.2,
+              "duration_sec": 1.230657596371882,
+              "gain_db": 6.868,
+              "source_sha256": "929d300b010676971c0b401dc7770b45a2bdd89b661aad3623fee6bb6ed6b580"
+            }
+          ]
+        },
+        {
+          "id": "A03",
+          "start_sec": 4.8,
+          "end_sec": 8.8,
+          "lines": []
+        },
+        {
+          "id": "A04",
+          "start_sec": 8.8,
+          "end_sec": 11.8,
+          "lines": [
+            {
+              "id": "GIFT-L003",
+              "speaker": "布鲁伊",
+              "text": "爸爸，这么大的箱子里是什么呀？",
+              "source": "materials/final/gift/voices/GIFT-L003.wav",
+              "offset_sec": 0.2,
+              "duration_sec": 2.391655328798186,
+              "gain_db": 5.581,
+              "source_sha256": "64fda0ccbfbcb994885837fb996da1e72c84e15d65f6762607e07ee9d1649b77"
+            }
+          ]
+        },
+        {
+          "id": "A05",
+          "start_sec": 11.8,
+          "end_sec": 15.8,
+          "lines": [
+            {
+              "id": "GIFT-L004",
+              "speaker": "班迪特",
+              "text": "打印机！能做出小礼物的机器。",
+              "source": "materials/final/gift/voices/GIFT-L004.wav",
+              "offset_sec": 0.2,
+              "duration_sec": 3.308843537414966,
+              "gain_db": 2.492,
+              "source_sha256": "c45a8388d8c464fc61191c4b9abf1199bda9562e8cc5308eed3f5b72bb816da0"
+            }
+          ]
+        },
+        {
+          "id": "A06",
+          "start_sec": 15.8,
+          "end_sec": 18.8,
+          "lines": [
+            {
+              "id": "GIFT-L005",
+              "speaker": "宾果",
+              "text": "那我们开个礼物小店，我当老板！",
+              "source": "materials/final/gift/voices/GIFT-L005.wav",
+              "offset_sec": 0.2,
+              "duration_sec": 2.670294784580499,
+              "gain_db": 2.39,
+              "source_sha256": "7eb6a0dd19acc8eeb99ac9d208b7d87f0ebf88b861a4c356f12dc05f9f42ff53"
+            }
+          ]
+        },
+        {
+          "id": "A07",
+          "start_sec": 18.8,
+          "end_sec": 22.8,
+          "lines": [
+            {
+              "id": "GIFT-L006",
+              "speaker": "班迪特",
+              "text": "老板，先让我把箱子放下吧！",
+              "source": "materials/final/gift/voices/GIFT-L006.wav",
+              "offset_sec": 0.2,
+              "duration_sec": 3.111473922902494,
+              "gain_db": 4.946,
+              "source_sha256": "c808f737de2aa5beb9ba12a41a564b7ca618b8a6f4322a29d71fdc1e0c2dd9f2"
+            }
+          ]
+        }
+      ],
+      "online_upload": {
+        "uri": "hogi://video/mv57v69x_c91e0fa2d6960450.mp4",
+        "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c"
+      }
+    },
+    {
+      "id": "B",
+      "title": "准备礼物｜第二段：进屋与礼物小店开张",
+      "file": "prepare-gifts-opening-part-2.mp4",
+      "dialogue_stem": {
+        "file": "B-clean-dialogue.wav",
+        "sha256": "796b4be728c32f3752cecb8e4d4eba39494e5d9724d82954a21a598374651981"
+      },
+      "result": {
+        "sha256": "1881845e435a33e5a6f1cfa2b7824b4f5e509d536eaa86aa0de9e9b1ad62d7e2",
+        "bytes": 5557135,
+        "duration_sec": 18.6,
+        "width": 1280,
+        "height": 720,
+        "fps": "30/1"
+      },
+      "timeline": [
+        {
+          "id": "B01",
+          "start_sec": 0,
+          "end_sec": 2.6,
+          "lines": []
+        },
+        {
+          "id": "B02",
+          "start_sec": 2.6,
+          "end_sec": 5.6,
+          "lines": []
+        },
+        {
+          "id": "B03",
+          "start_sec": 5.6,
+          "end_sec": 9.6,
+          "lines": [
+            {
+              "id": "GIFT-L007",
+              "speaker": "班迪特",
+              "text": "礼物小店开张啦！",
+              "source": "materials/final/gift/voices/GIFT-L007.wav",
+              "offset_sec": 0.2,
+              "duration_sec": 2.8328344671201813,
+              "gain_db": 6.01,
+              "source_sha256": "15c0f276c9ca9949b96ded4104cdbecd8e3e9457d4020c5de39bbc9e926fdbc9"
+            }
+          ]
+        },
+        {
+          "id": "B04",
+          "start_sec": 9.6,
+          "end_sec": 12.6,
+          "lines": [
+            {
+              "id": "GIFT-L008",
+              "speaker": "布鲁伊",
+              "text": "第一件礼物，我们先来试试！",
+              "source": "materials/final/gift/voices/GIFT-L008.wav",
+              "offset_sec": 0.2,
+              "duration_sec": 2.391655328798186,
+              "gain_db": 7.445,
+              "source_sha256": "564d08dc0e5d0701c0a832586dca36a08476e3814787f1f53fbcf5ebaff12bb4"
+            }
+          ]
+        },
+        {
+          "id": "B05",
+          "start_sec": 12.6,
+          "end_sec": 14.6,
+          "lines": [
+            {
+              "id": "GIFT-L009",
+              "speaker": "宾果",
+              "text": "这是它的面条吗？",
+              "source": "materials/final/gift/voices/GIFT-L009.wav",
+              "offset_sec": 0.2,
+              "duration_sec": 1.4280272108843537,
+              "gain_db": 4.356,
+              "source_sha256": "a65e00f6cae1eb36952460f032f14eaecf3f1b91d76df526a1a0a6582e360477"
+            }
+          ]
+        },
+        {
+          "id": "B06",
+          "start_sec": 14.6,
+          "end_sec": 18.6,
+          "lines": [
+            {
+              "id": "GIFT-L010",
+              "speaker": "班迪特",
+              "text": "打印机的蓝色面条来了！",
+              "source": "materials/final/gift/voices/GIFT-L010.wav",
+              "offset_sec": 0.2,
+              "duration_sec": 2.8676643990929707,
+              "gain_db": 5.292,
+              "source_sha256": "55141428bf29aac92e1154679dc4f17ae5ee56f081e2aca4856799d256caede8"
+            }
+          ]
+        }
+      ],
+      "online_upload": {
+        "uri": "hogi://video/mv57v7hc_57c73f1619d11c66.mp4",
+        "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c"
+      }
+    }
+  ],
+  "shots": [
+    {
+      "id": "A01",
+      "segment": "A",
+      "title": "爸爸完整下车并关前驾驶门",
+      "duration_sec": 2.8,
+      "reference": "materials/original/gift/完整开场参考帧/arrival_closed.png",
+      "prompt_file": "prompts/A01.txt",
+      "lines": [],
+      "image_uri": "hogi://image/mv56efrr_9ea88c0a6d142fd7.png",
+      "reference_sha256": "957af02b54ba05c0bb7a7c4e79d866cd0d70ed873381b99172509f07d8e794d6",
+      "validation": {
+        "valid": true,
+        "points": 28,
+        "method": "generate_video_wan",
+        "mode": "firstframe2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_3844669fa845a45c5c853317527c9332",
+        "local_task_id": "task_bc57be2402f98917",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "firstframe2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "b9289001-fff7-4718-8c69-92a093dda697",
+        "resourceUris": [
+          "hogi://video/8157b1f7df15001db6a73604e6b4853dd408f84d0ad3b88bd6e5b076a8bd3d0a.mp4"
+        ]
+      },
+      "charged_points": 28,
+      "generation_duration_sec": 4,
+      "crop": {
+        "width": 800,
+        "height": 450,
+        "x": 0,
+        "y": 125,
+        "reason": "爸爸与前驾驶门固定近景：孩子留画外；完整关前门后切镜，排除尾段开后乘客门"
+      },
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；对白源样本长度核对",
+        "notes": "固定爸爸/前驾驶门近景，孩子完全画外；保留0—2.8秒完整下车、落脚、关门，丢弃尾段开后侧门。"
+      },
+      "selected_sha256": "8f287612e0039daad460e2616d5ed260e019b59e964deeedbfbae042b50965da",
+      "prompt_sha256": "ebde42a276299d8db78843d1f838f640339d4dcf88dc5b6c7ffe20817f6455fd"
+    },
+    {
+      "id": "A02",
+      "segment": "A",
+      "title": "孩子先迎接爸爸",
+      "duration_sec": 2,
+      "reference": "materials/original/gift/完整开场参考帧/outdoor_greeting.png",
+      "prompt_file": "prompts/A02.txt",
+      "lines": [
+        {
+          "id": "GIFT-L002",
+          "speaker": "布鲁伊",
+          "text": "爸爸回来啦！",
+          "source": "materials/final/gift/voices/GIFT-L002.wav",
+          "offset_sec": 0.2,
+          "duration_sec": 1.230657596371882,
+          "gain_db": 6.868,
+          "source_sha256": "929d300b010676971c0b401dc7770b45a2bdd89b661aad3623fee6bb6ed6b580"
+        }
+      ],
+      "image_uri": "hogi://image/mv56eihx_ea1ba228d0fc7321.png",
+      "reference_sha256": "4e5e5fcdd5607c16004c34da1136a62a6dd5fa56bfd8e43976ecb45ceeec6ef6",
+      "audio_uri": "hogi://audio/mv56el99_72f9a5fdbd042f44.wav",
+      "validation": {
+        "valid": true,
+        "points": 14,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_783b3655a6f2c36fbf87a1c6151a7afa",
+        "local_task_id": "task_21ac47f3df282fe2",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "47b53824-c41c-468e-8771-db840947fc1a",
+        "resourceUris": [
+          "hogi://video/dc465435c6c25182aa73f38f17a6f8a38c302004316191d2b665303bab01653e.mp4"
+        ]
+      },
+      "charged_points": 14,
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；对白源样本长度核对",
+        "notes": "只有布鲁伊一张脸，招呼爸爸，台词结束收嘴。"
+      },
+      "selected_sha256": "39ab19bd8f65cf43f3ffc2d8151f23f7937451598dd153db1afb5e6d74aa2d0c",
+      "prompt_sha256": "ebfa1fc89d13c9eb06c303c19d0b05058128ef4935d165c6cfedd2424ceb68f7"
+    },
+    {
+      "id": "A03",
+      "segment": "A",
+      "title": "双手把箱子从车尾抱出来",
+      "duration_sec": 4,
+      "reference": "materials/original/gift/完整开场参考帧/trunk_pickup.png",
+      "prompt_file": "prompts/A03.txt",
+      "lines": [],
+      "image_uri": "hogi://image/mv56em4b_29a46bb45fff6add.png",
+      "reference_sha256": "bd29e392c92c443f27119dca310a0c84757b4b499bfaf28962180ecde8939068",
+      "validation": {
+        "valid": true,
+        "points": 28,
+        "method": "generate_video_wan",
+        "mode": "firstframe2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_ed005db59f2ad9b27d7bab530d735fe3",
+        "local_task_id": "task_356fd816beae32c2",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "firstframe2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "9d112ba3-d314-45ac-80ef-b0478007a992",
+        "resourceUris": [
+          "hogi://video/d3e9dcccb569b45199f7cba9005b36f0a965e88a7bd04beb843df5a9fee752db.mp4"
+        ]
+      },
+      "charged_points": 28,
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；对白源样本长度核对",
+        "notes": "箱子从后备箱连续抬到怀里、爸爸迈步；儿童嘴部保持闭合，没有重复肢体。"
+      },
+      "selected_sha256": "7e6cc96086d422226c5920d5b7a807ac3050840c8fe316046689c58d2e8917d3",
+      "prompt_sha256": "832558bc70ed1d5e93c77239129ee2af4207d5e7a927736edd5885ce24629b75"
+    },
+    {
+      "id": "A04",
+      "segment": "A",
+      "title": "布鲁伊好奇问箱子",
+      "duration_sec": 3,
+      "reference": "materials/original/gift/完整开场参考帧/outdoor_bluey.png",
+      "prompt_file": "prompts/A04.txt",
+      "lines": [
+        {
+          "id": "GIFT-L003",
+          "speaker": "布鲁伊",
+          "text": "爸爸，这么大的箱子里是什么呀？",
+          "source": "materials/final/gift/voices/GIFT-L003.wav",
+          "offset_sec": 0.2,
+          "duration_sec": 2.391655328798186,
+          "gain_db": 5.581,
+          "source_sha256": "64fda0ccbfbcb994885837fb996da1e72c84e15d65f6762607e07ee9d1649b77"
+        }
+      ],
+      "image_uri": "hogi://image/mv56eo89_17eefcb1b9c4ef34.png",
+      "reference_sha256": "d4524d8943ef260601735547a28b10ef683b91044b71a0907a304dc11a043ff1",
+      "audio_uri": "hogi://audio/mv56epw1_0b5b6a7b225392e0.wav",
+      "validation": {
+        "valid": true,
+        "points": 21,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_bcb295cdae12fcc0c2b60743e1cb8dee",
+        "local_task_id": "task_4d890ef8d2c4d289",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "987da076-3f71-4db4-ae95-360784381559",
+        "resourceUris": [
+          "hogi://video/71b4eedcefd50303e007af8b656ef864df87d8108943b3f5384ba5f58faddc27.mp4"
+        ]
+      },
+      "charged_points": 21,
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；对白源样本长度核对",
+        "notes": "只有布鲁伊一张脸完整提问，未见其他脸与串口型。"
+      },
+      "selected_sha256": "fbb02d8700dbce4169794328f51bca8e42064f65c616b5b2e8e82449bb11a821",
+      "prompt_sha256": "93816ec90772bc801e0f1892daabb68f84d9e2d616bf18b2897fd33f1951a987"
+    },
+    {
+      "id": "A05",
+      "segment": "A",
+      "title": "爸爸回答小礼物机器",
+      "duration_sec": 4,
+      "reference": "materials/original/gift/完整开场参考帧/outdoor_bandit.png",
+      "prompt_file": "prompts/A05.txt",
+      "lines": [
+        {
+          "id": "GIFT-L004",
+          "speaker": "班迪特",
+          "text": "打印机！能做出小礼物的机器。",
+          "source": "materials/final/gift/voices/GIFT-L004.wav",
+          "offset_sec": 0.2,
+          "duration_sec": 3.308843537414966,
+          "gain_db": 2.492,
+          "source_sha256": "c45a8388d8c464fc61191c4b9abf1199bda9562e8cc5308eed3f5b72bb816da0"
+        }
+      ],
+      "image_uri": "hogi://image/mv56eqqd_e847b7e3f8485849.png",
+      "reference_sha256": "d46f55c718d24c0b6a97f8b336cd8d1eb99518610a49cd7de9b11df4961f217a",
+      "audio_uri": "hogi://audio/mv56etoh_49283a61650b038b.wav",
+      "validation": {
+        "valid": true,
+        "points": 28,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_e4d9c1b77c6610e2acbe64811f57e138",
+        "local_task_id": "task_ba4547215b0f3bcc",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "a8711494-09e5-4fae-9af7-6bc786ac3941",
+        "resourceUris": [
+          "hogi://video/2823dd3c56b9af8c3ffcb95948ac843ad9b2cfe7b0f28388d2fe0e910bb64294.mp4"
+        ]
+      },
+      "charged_points": 28,
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；对白源样本长度核对",
+        "notes": "只有班迪特抱竖箱讲话，图案保持，未见物件突然跳变。"
+      },
+      "selected_sha256": "580253a852e3a636f2cf027487797b4ccd79e3d5c7ef0dcbb28c81466bf892f6",
+      "prompt_sha256": "27d42f2909a4d7ba73dcee4630164e2f5853757f262cfd8d30f4b2088d7a2275"
+    },
+    {
+      "id": "A06",
+      "segment": "A",
+      "title": "宾果紧近景当小老板",
+      "duration_sec": 3,
+      "reference": "materials/original/gift/完整开场参考帧/outdoor_bingo-closeup.png",
+      "prompt_file": "prompts/A06.txt",
+      "lines": [
+        {
+          "id": "GIFT-L005",
+          "speaker": "宾果",
+          "text": "那我们开个礼物小店，我当老板！",
+          "source": "materials/final/gift/voices/GIFT-L005.wav",
+          "offset_sec": 0.2,
+          "duration_sec": 2.670294784580499,
+          "gain_db": 2.39,
+          "source_sha256": "7eb6a0dd19acc8eeb99ac9d208b7d87f0ebf88b861a4c356f12dc05f9f42ff53"
+        }
+      ],
+      "audio_uri": "hogi://audio/mv56exbf_54693365fcb6d733.wav",
+      "image_uri": "hogi://image/mv579qvn_f1f4a708547f2fc2.png",
+      "reference_sha256": "235f06ff356f4b59d36e5e5fd6683d12bd295e2d64a066e08ba8633129621851",
+      "validation": {
+        "valid": true,
+        "points": 21,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_7d04b573e6e4e5ac4716cee1fa86551e",
+        "local_task_id": "task_2fb8d83a4fc28d92",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "a99122cc-b720-4211-9b9f-499ff4dfb59c",
+        "resourceUris": [
+          "hogi://video/521e9e7e4196de4791e80471c4ce05b502c606ed42216dda54fb534e3a6abe43.mp4"
+        ]
+      },
+      "charged_points": 21,
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；对白源样本长度核对",
+        "notes": "已补胸前近景，车轮留画外；只有宾果一张脸，手势、眨眼连续，尾部收嘴。"
+      },
+      "selected_sha256": "8305d1fcfc3a66531554f47ef9eb775209ac516f7867f8abca21b5047fc9aa9d",
+      "prompt_sha256": "579cda994ffd0ac3bd335dc2905e49793bb60d92a4ee8e8b5ec987dc2fd24c1f"
+    },
+    {
+      "id": "A07",
+      "segment": "A",
+      "title": "爸爸抱箱准备进屋",
+      "duration_sec": 4,
+      "reference": "materials/original/gift/完整开场参考帧/outdoor_bandit.png",
+      "prompt_file": "prompts/A07.txt",
+      "lines": [
+        {
+          "id": "GIFT-L006",
+          "speaker": "班迪特",
+          "text": "老板，先让我把箱子放下吧！",
+          "source": "materials/final/gift/voices/GIFT-L006.wav",
+          "offset_sec": 0.2,
+          "duration_sec": 3.111473922902494,
+          "gain_db": 4.946,
+          "source_sha256": "c808f737de2aa5beb9ba12a41a564b7ca618b8a6f4322a29d71fdc1e0c2dd9f2"
+        }
+      ],
+      "image_uri": "hogi://image/mv56eqqd_e847b7e3f8485849.png",
+      "reference_sha256": "d46f55c718d24c0b6a97f8b336cd8d1eb99518610a49cd7de9b11df4961f217a",
+      "audio_uri": "hogi://audio/mv56eysp_3a631bcab833e667.wav",
+      "validation": {
+        "valid": true,
+        "points": 28,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_1cc42b90eea1b11d0380d883b6888ce7",
+        "local_task_id": "task_65c53310f013d223",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "6a1ae2a7-704d-4112-8852-1c5ed3c9cea3",
+        "resourceUris": [
+          "hogi://video/5ec575f5ee4e1cbb9c7c3e970d562552feff7f58534bb3d5baca2cc53048b786.mp4"
+        ]
+      },
+      "charged_points": 28,
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；对白源样本长度核对",
+        "notes": "班迪特抱同一竖箱说完往屋子方向迈步，末尾出现的宾果闭嘴；不延长镜头。"
+      },
+      "selected_sha256": "6e796d8cb28bb8278f7cc5fe4052e3413ce20e69a5dc058333553cc1cd05ede9",
+      "prompt_sha256": "2607b889bbc375f3caf99379884bf5af6860bc3c5154d40588ad8c8f51e10324"
+    },
+    {
+      "id": "B01",
+      "segment": "B",
+      "title": "孩子开门、爸爸抱箱跨门槛",
+      "duration_sec": 2.6,
+      "reference": "materials/original/gift/完整开场参考帧/porch_entry-single.png",
+      "prompt_file": "prompts/B01.txt",
+      "lines": [],
+      "image_uri": "hogi://image/mv57hike_dbd30824c21c0e66.png",
+      "reference_sha256": "8695ee43994a78b22d20ce9499aada46b9f31c072cd21cb05ce6696acbea0dde",
+      "validation": {
+        "valid": true,
+        "points": 28,
+        "method": "generate_video_wan",
+        "mode": "firstframe2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_9070af835f73a39be84b22248cca6190",
+        "local_task_id": "task_f48587f04ac9b5c0",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "firstframe2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "0f8e2cdc-5837-4194-bc05-5e35ebb3475a",
+        "resourceUris": [
+          "hogi://video/4acabbd383e0085faff1d6f7afc72271fa43140f1234da750e4dc04f32dd6936.mp4"
+        ]
+      },
+      "charged_points": 28,
+      "generation_duration_sec": 4,
+      "trim_start_sec": 1.4,
+      "edit_note": "选用1.4—4秒：删除前段原地重复迈步，保留连续上最后两级、穿过门洞和空门口收镜。",
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；最终整段仍需检查",
+        "notes": "选用1.4—4秒，单人闭嘴抱同一竖箱连续上阶并穿门，末尾门洞空下。"
+      },
+      "selected_sha256": "02609ce072ff5acfb045301707a39cd6d7cf874b10526367f31f7ddcea7ecfa0",
+      "prompt_sha256": "5b263a8028d05b1f91e2cc0aac405a421653a404cd086f7fd575ad1685d2ed75"
+    },
+    {
+      "id": "B02",
+      "segment": "B",
+      "title": "室内放稳纸箱、打开包装",
+      "duration_sec": 3,
+      "reference": "materials/original/gift/完整开场参考帧/box_insert-upright.png",
+      "prompt_file": "prompts/B02.txt",
+      "lines": [],
+      "image_uri": "hogi://image/mv57hmz3_c762d059d494e14c.png",
+      "reference_sha256": "798ef444ba342304be6c5f529b665c7b63d146683f0075a358b8a15452c6f9ef",
+      "validation": {
+        "valid": true,
+        "points": 21,
+        "method": "generate_video_wan",
+        "mode": "firstframe2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_33e62545d85add1a2691f9901dc58eae",
+        "local_task_id": "task_0b5a6d999f1afee2",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "firstframe2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "5a0e3c08-2249-41bb-b06e-fcd6df513a5c",
+        "resourceUris": [
+          "hogi://video/219b02f54bb5f0f6836032658bba7900cc79767eada1dc5c23cc73b961a1362c.mp4"
+        ]
+      },
+      "charged_points": 21,
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；最终整段仍需检查",
+        "notes": "竖箱只轻放并翻开顶部短盖，正面图案和高宽比稳定；无脸，双手数量正常。"
+      },
+      "selected_sha256": "60af7e6a75834a385134b4d361fd491496a4f49cfd26a4a70812d72f77088428",
+      "prompt_sha256": "91cd4eca9068a46dc369dba1c8824caea01ea241e398a52333a48a5c43c51240"
+    },
+    {
+      "id": "B03",
+      "segment": "B",
+      "title": "装好后礼物小店开张",
+      "duration_sec": 4,
+      "reference": "materials/original/gift/完整开场参考帧/indoor_bandit.png",
+      "prompt_file": "prompts/B03.txt",
+      "lines": [
+        {
+          "id": "GIFT-L007",
+          "speaker": "班迪特",
+          "text": "礼物小店开张啦！",
+          "source": "materials/final/gift/voices/GIFT-L007.wav",
+          "offset_sec": 0.2,
+          "duration_sec": 2.8328344671201813,
+          "gain_db": 6.01,
+          "source_sha256": "15c0f276c9ca9949b96ded4104cdbecd8e3e9457d4020c5de39bbc9e926fdbc9"
+        }
+      ],
+      "image_uri": "hogi://image/mv56f7jl_21c48f132e1d8c04.png",
+      "reference_sha256": "60653207f50ddb4acd25d41307ded38c2256bfe7273217ff36a9dd8bbe836b93",
+      "audio_uri": "hogi://audio/mv56fb0g_824567daaea6cbee.wav",
+      "validation": {
+        "valid": true,
+        "points": 28,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_248da136bcac136165a44d696399d1c4",
+        "local_task_id": "task_1689fca8705a6f66",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "f7ce04a9-49b7-43b1-bc7c-238eb928f4f0",
+        "resourceUris": [
+          "hogi://video/d47169775a7f01099d1510d2db7330bc0290b3daf4f680cfb55ff9ce29db73f9.mp4"
+        ]
+      },
+      "charged_points": 28,
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；对白源样本长度核对",
+        "notes": "只班迪特可见并讲话；打印机黄黑白三卷和空第四槽、外壳保持。"
+      },
+      "selected_sha256": "aa92f5d45825799fd1b05c802f1929ef7ade4cde450a6825ddcaa04887fd4600",
+      "prompt_sha256": "71d5ca5dbad046d51c3a5c510db511887f997a77b8ba4db4deec33a194bd5afc"
+    },
+    {
+      "id": "B04",
+      "segment": "B",
+      "title": "布鲁伊想试第一件礼物",
+      "duration_sec": 3,
+      "reference": "materials/original/gift/完整开场参考帧/indoor_bluey.png",
+      "prompt_file": "prompts/B04.txt",
+      "lines": [
+        {
+          "id": "GIFT-L008",
+          "speaker": "布鲁伊",
+          "text": "第一件礼物，我们先来试试！",
+          "source": "materials/final/gift/voices/GIFT-L008.wav",
+          "offset_sec": 0.2,
+          "duration_sec": 2.391655328798186,
+          "gain_db": 7.445,
+          "source_sha256": "564d08dc0e5d0701c0a832586dca36a08476e3814787f1f53fbcf5ebaff12bb4"
+        }
+      ],
+      "image_uri": "hogi://image/mv56fbwj_e600b7c5dccda644.png",
+      "reference_sha256": "93901b2a80f33ac44875915d96e8662dd7912b09064ffa72970fab8268e22a5b",
+      "audio_uri": "hogi://audio/mv56ferf_7a95ddd89768161b.wav",
+      "validation": {
+        "valid": true,
+        "points": 21,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_0e2f2e9cf75e13a974ff0c499ca3bb23",
+        "local_task_id": "task_25d1421bc4326ce4",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "f358330e-0265-4a0a-8e10-80f916b9cef0",
+        "resourceUris": [
+          "hogi://video/7fdff255cec157626c0f614967554dea809260d87bdd04030c61abbd02c0b3b9.mp4"
+        ]
+      },
+      "charged_points": 21,
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；对白源样本长度核对",
+        "notes": "只布鲁伊可见，手臂、转头与语句结束自然收住。"
+      },
+      "selected_sha256": "6c1db8c39b8311cc56f2ef215735202cdb6a2075a792b25264979d71bb764f37",
+      "prompt_sha256": "b9b8c555bd84dc647a407d8c467a491b0ee6e23da4d2d0dd775ed0038be03151"
+    },
+    {
+      "id": "B05",
+      "segment": "B",
+      "title": "宾果好奇蓝色面条",
+      "duration_sec": 2,
+      "reference": "materials/original/gift/完整开场参考帧/indoor_bingo.png",
+      "prompt_file": "prompts/B05.txt",
+      "lines": [
+        {
+          "id": "GIFT-L009",
+          "speaker": "宾果",
+          "text": "这是它的面条吗？",
+          "source": "materials/final/gift/voices/GIFT-L009.wav",
+          "offset_sec": 0.2,
+          "duration_sec": 1.4280272108843537,
+          "gain_db": 4.356,
+          "source_sha256": "a65e00f6cae1eb36952460f032f14eaecf3f1b91d76df526a1a0a6582e360477"
+        }
+      ],
+      "image_uri": "hogi://image/mv56ffl4_52eb9442f27313d5.png",
+      "reference_sha256": "ec8fdb851aa3ea67f80adc927118a3081eeb38a6b383507db99fb7877f0dc286",
+      "audio_uri": "hogi://audio/mv56ficx_fb1749be5a75c9b5.wav",
+      "validation": {
+        "valid": true,
+        "points": 14,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_c4f56a88124b8c1fdc26490fc60651f5",
+        "local_task_id": "task_7084b4f275630e40",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "bec4f199-2046-4c19-a1e4-f1a480bcf686",
+        "resourceUris": [
+          "hogi://video/2c7ade6f614987f57a9f07696e10abf99b28125f080a8663d9d96d05c1551fb2.mp4"
+        ]
+      },
+      "charged_points": 14,
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；对白源样本长度核对",
+        "notes": "只宾果的脸，父亲仅手部与同一蓝卷入画；结束后收嘴。"
+      },
+      "selected_sha256": "742bd622c47a1c43a60cc17576b8517f09850289e653c09fb0853a789e2614bb",
+      "prompt_sha256": "e1dd80eec2e2a0bda323fb1e09a729f80bf5bca256158c0911a2132e67fb4356"
+    },
+    {
+      "id": "B06",
+      "segment": "B",
+      "title": "爸爸把蓝卷放好、留出片头接口",
+      "duration_sec": 4,
+      "reference": "materials/original/gift/完整开场参考帧/printer_insert.png",
+      "prompt_file": "prompts/B06.txt",
+      "lines": [
+        {
+          "id": "GIFT-L010",
+          "speaker": "班迪特",
+          "text": "打印机的蓝色面条来了！",
+          "source": "materials/final/gift/voices/GIFT-L010.wav",
+          "offset_sec": 0.2,
+          "duration_sec": 2.8676643990929707,
+          "gain_db": 5.292,
+          "source_sha256": "55141428bf29aac92e1154679dc4f17ae5ee56f081e2aca4856799d256caede8"
+        }
+      ],
+      "image_uri": "hogi://image/mv56fj6m_6bf2e9aa88a4c493.png",
+      "reference_sha256": "7e883ae34c71d907e2aa60eea96dd8dd8a7e642e97268a961803e654f7153f56",
+      "audio_uri": "hogi://audio/mv56flu1_071461d7d10ca019.wav",
+      "validation": {
+        "valid": true,
+        "points": 28,
+        "method": "generate_video_wan",
+        "mode": "omni2Video",
+        "warnings": []
+      },
+      "task": {
+        "task_id": "async_video_2027f1e06d128bb60f1607035a631f4b",
+        "local_task_id": "task_739f591565755ffc",
+        "status": "succeeded",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video"
+      },
+      "status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendAssetId": "2c2787fe-56e3-4796-a3fe-14226bf531fb",
+        "resourceUris": [
+          "hogi://video/a094d33c8e382bd6f4f0a0245ed6c6a8f3d4272023264cd3ca7f0b0050fb4124.mp4"
+        ]
+      },
+      "charged_points": 28,
+      "review": {
+        "accepted": true,
+        "method": "固定间隔抽帧及关键帧放大；对白源样本长度核对",
+        "notes": "成人两手把同一蓝卷装到第四槽；黄黑白顺序保留，外壳未突然放大。"
+      },
+      "selected_sha256": "8ee3604a69be0b3b607abba04079d223e1215eb5587aa287a669590901d4d162",
+      "prompt_sha256": "608b232ed12d2b4985c3cdde184b8958b5c38d7fa9cd6b379cd0337770d8bbfb"
+    }
+  ],
+  "music": {
+    "file": "materials/original/gift/music/bluey-rain-instrumental-selected.wav",
+    "sha256": "7f8f4a76d722f22f858f01b7c0c12db9697b9e780b6d51228b4282467bf26117",
+    "title": "Rain (Instrumental)",
+    "source_selection_sec": [
+      14,
+      32
+    ],
+    "notice": "materials/original/gift/music/NOTICE.md",
+    "target_rms_dbfs": -35.5,
+    "loop_crossfade_sec": 1.0,
+    "role": "沿用现有故事的轻場景配乐，片头由用户之后自行剪入。"
+  },
+  "cost": {
+    "currency": "盒饭",
+    "selected_generations_points": 308,
+    "discarded_generations_points": 70,
+    "total_points": 378,
+    "balance_after_points": 522,
+    "retakes_count": 3
+  },
+  "quality_check": {
+    "decoded_complete": true,
+    "consecutive_video_pts": true,
+    "format": "1280×720，16:9，30fps，H264/AAC，48kHz双声道",
+    "dialogue_source_words_cut": false,
+    "audio_clipping_detected": false,
+    "audio_peak_dbfs": {
+      "A": -4.74,
+      "B": -6.17
+    },
+    "visual_method": "定间隔抽帧与关键帧放大，重点复核门、箱、打印机、肢体、说话者；不宣称逐帧无瑕疵",
+    "final_dialogue_alignment_ms": 0,
+    "whole_line_correlations_range": [
+      0.975,
+      0.986
+    ],
+    "cross_segment_box_continuity_reviewed": true,
+    "title_insertion_tail_sec": 0.9
+  },
+  "selected_duration_sec": 41.400000000000006
+}
