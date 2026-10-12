@@ -1,0 +1,348 @@
+{
+  "story": "准备礼物",
+  "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
+  "status": "两种模型各生成一条约10秒片段，已导出供用户确认。",
+  "model_selection_notice": "上次model_id63是Metaso-H3；本次使用Wan3.0 model_id56和MiniMax-H3 model_id45。",
+  "clips": [
+    {
+      "key": "gift-shop-wan3",
+      "title": "礼物小店开张与蓝色面条",
+      "model_id": 56,
+      "model": "Wan 3.0",
+      "resolution": "720p",
+      "estimated_points": 70,
+      "line_ids": [
+        "GIFT-L007",
+        "GIFT-L008",
+        "GIFT-L009",
+        "GIFT-L010"
+      ],
+      "reference_ids": [
+        "007",
+        "008"
+      ],
+      "story_pages": [
+        "G006",
+        "G007",
+        "G008"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L007",
+          "speaker": "班迪特",
+          "text": "礼物小店开张啦！",
+          "start_sec": 0.0,
+          "end_sec": 2.8328344671201813,
+          "source": "materials/final/gift/voices/GIFT-L007.wav",
+          "source_sha256": "15c0f276c9ca9949b96ded4104cdbecd8e3e9457d4020c5de39bbc9e926fdbc9",
+          "gain_db": 6.01
+        },
+        {
+          "id": "GIFT-L008",
+          "speaker": "布鲁伊",
+          "text": "第一件礼物，我们先来试试！",
+          "start_sec": 2.9528344671201814,
+          "end_sec": 5.344489795918367,
+          "source": "materials/final/gift/voices/GIFT-L008.wav",
+          "source_sha256": "564d08dc0e5d0701c0a832586dca36a08476e3814787f1f53fbcf5ebaff12bb4",
+          "gain_db": 7.445
+        },
+        {
+          "id": "GIFT-L009",
+          "speaker": "宾果",
+          "text": "这是它的面条吗？",
+          "start_sec": 5.464489795918367,
+          "end_sec": 6.892517006802721,
+          "source": "materials/final/gift/voices/GIFT-L009.wav",
+          "source_sha256": "a65e00f6cae1eb36952460f032f14eaecf3f1b91d76df526a1a0a6582e360477",
+          "gain_db": 4.356
+        },
+        {
+          "id": "GIFT-L010",
+          "speaker": "班迪特",
+          "text": "打印机的蓝色面条来了！",
+          "start_sec": 7.012517006802721,
+          "end_sec": 9.880181405895692,
+          "source": "materials/final/gift/voices/GIFT-L010.wav",
+          "source_sha256": "55141428bf29aac92e1154679dc4f17ae5ee56f081e2aca4856799d256caede8",
+          "gain_db": 5.292
+        }
+      ],
+      "speech_end_sec": 9.880181405895692,
+      "audio": {
+        "file": "gift-shop-wan3-dialogue.wav",
+        "sha256": "995a1c3e5921beb4f875f024c57ff8618eb40fcddf1d29afcc4609d74f62d7ff",
+        "duration_sec": 10,
+        "sample_rate": 22050,
+        "samples": 220500,
+        "notice": "现有AI配音只调整静音与增益，不截字、不变速。"
+      },
+      "references": [
+        {
+          "file": "materials/original/gift/illustrations/GIFT-ILL-007.png",
+          "sha256": "1c9f6d0338354b1899110a82b37a442bde83a51f703b5c56ad0baa5b081bebae"
+        },
+        {
+          "file": "materials/original/gift/illustrations/GIFT-ILL-008.png",
+          "sha256": "1494651981d7fead148cf3c36f32a04387855e39657a35c6932dfdd6fc6c6af7"
+        }
+      ],
+      "duration_sec": 10,
+      "aspect_ratio": "16:9",
+      "status": "ready_for_review",
+      "prompt_file": "gift-shop-wan3-prompt.txt",
+      "uploaded_resources": [
+        {
+          "kind": "image",
+          "file": "materials/original/gift/illustrations/GIFT-ILL-007.png",
+          "uri": "hogi://image/mv53ypl5_15125fe8e3408b2d.png",
+          "asset_id": "feabff5e-a7d0-4e6a-946b-7bfe00719e03"
+        },
+        {
+          "kind": "image",
+          "file": "materials/original/gift/illustrations/GIFT-ILL-008.png",
+          "uri": "hogi://image/mv53ysqf_d974d54c64fa3daf.png",
+          "asset_id": "f0422499-0e4b-486a-8c55-9f8d861c18e7"
+        },
+        {
+          "kind": "audio",
+          "file": "materials/final/gift/准备礼物_后续两段_Wan3与MiniMaxH3试片/gift-shop-wan3-dialogue.wav",
+          "uri": "hogi://audio/mv53yuz5_a31281c046cb6ca1.wav",
+          "asset_id": "b6ac316b-9e1d-4a8e-aa82-3598df60b96c"
+        }
+      ],
+      "dry_run_validation": {
+        "valid": true,
+        "method": "generate_video_wan",
+        "model_id": 56,
+        "variant": "3.0",
+        "mode": "omni2Video",
+        "estimate": {
+          "caveat": "Client-side estimate from the current model catalog; actual charge may differ because backend feature flags, resolved media duration, promotions, and fallback pricing are authoritative. Assumes the API-key member tier; no generation was submitted.",
+          "points": 70
+        },
+        "warnings": []
+      },
+      "generation_submission": {
+        "task_id": "async_video_3876b53a5e7dc803c3c4f2148f612b8f",
+        "local_task_id": "task_cc9ddd7da3b67a42",
+        "tool": "generate_video_wan",
+        "model": {
+          "key": "wan",
+          "model_id": 56,
+          "name": "Wan 3.0",
+          "variant": "3.0"
+        },
+        "generation_mode": "omni2Video",
+        "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
+        "status": "succeeded"
+      },
+      "generation_status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendTaskId": "async_video_3876b53a5e7dc803c3c4f2148f612b8f",
+        "backendAssetId": "f46e8fe3-40e2-4725-b640-fbb89e3c2391",
+        "resourceUris": [
+          "hogi://video/fa00da1c0193360c39fc6d8e35d32fa90a5616a5228b60c181287757bef35349.mp4"
+        ],
+        "updatedAt": "2026-10-12T10:32:51.241Z"
+      },
+      "charged_points": 70,
+      "final_video": {
+        "file": "gift-shop-wan3.mp4",
+        "sha256": "56b90faa09b4700a6104138f8bd40b33ae6c368ab96dbacabdd3ff3d58152c4d",
+        "bytes": 8671679,
+        "duration_sec": 10.0,
+        "width": 1280,
+        "height": 720,
+        "fps": "30/1",
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "audio_notice": "画面流不重编码，复用现有AI对白，保留AI生成标识，移除账号元数据。"
+      },
+      "review": {
+        "continuity": "0.5秒间隔抽帧未见硬切换位；四个角色保留，爸爸把蓝色料卷抬起并放入顶层。",
+        "limits": "手部接触及打印机盖子/机身局部仍有轻微变形；本段是上半身表演，不能据此判断走路质量。",
+        "scope": "可供用户确认的候选动画素材，未替换正式网站。"
+      },
+      "final_video_upload": {
+        "uri": "hogi://video/mv549384_42055d80e2dfd11f.mp4",
+        "asset_id": "57d801c9-f5b3-495b-b568-7df3075bf3c8",
+        "asset_uri": "hogi://asset/57d801c9-f5b3-495b-b568-7df3075bf3c8",
+        "file_uri": "hogi://video/mv549384_42055d80e2dfd11f.mp4",
+        "domain": "video",
+        "file_type": "mp4",
+        "file_name": "准备礼物-Wan3.0-礼物小店开张-最终试片",
+        "size": 8671679,
+        "attached": true,
+        "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
+        "upload_mode": "direct"
+      }
+    },
+    {
+      "key": "bluey-pose-minimax-h3",
+      "title": "布鲁伊做礼物模特",
+      "model_id": 45,
+      "model": "MiniMax-H3",
+      "resolution": "768p",
+      "estimated_points": 80,
+      "line_ids": [
+        "GIFT-L012",
+        "GIFT-L013",
+        "GIFT-L014",
+        "GIFT-L111"
+      ],
+      "reference_ids": [
+        "010"
+      ],
+      "story_pages": [
+        "G009",
+        "G010"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L012",
+          "speaker": "班迪特",
+          "text": "老板想先做什么礼物？",
+          "start_sec": 0.0,
+          "end_sec": 2.5541950113378684,
+          "source": "materials/final/gift/voices/GIFT-L012.wav",
+          "source_sha256": "2fb850efd108f371136a72f2a52da0dcf83c10203d1fa7ce8de229cb3fac78c4",
+          "gain_db": 4.132
+        },
+        {
+          "id": "GIFT-L013",
+          "speaker": "布鲁伊",
+          "text": "做个我，送给宾果！",
+          "start_sec": 2.6741950113378685,
+          "end_sec": 4.462131519274377,
+          "source": "materials/final/gift/voices/GIFT-L013.wav",
+          "source_sha256": "06da115d0fe0ca895147bd1cd99441036f2d0644c9d120c5f0b0662fa008734d",
+          "gain_db": 7.061
+        },
+        {
+          "id": "GIFT-L014",
+          "speaker": "班迪特",
+          "text": "模特请站好！",
+          "start_sec": 4.582131519274377,
+          "end_sec": 7.252426303854875,
+          "source": "materials/final/gift/voices/GIFT-L014.wav",
+          "source_sha256": "4d0d6767bf9922328f56be9b911216d77c71f9f0a6db87615f8bee0bc27fe447",
+          "gain_db": 6.746
+        },
+        {
+          "id": "GIFT-L111",
+          "speaker": "宾果",
+          "text": "姐姐，再神气一点！",
+          "start_sec": 7.372426303854875,
+          "end_sec": 9.64798185941043,
+          "source": "materials/final/gift/voices/GIFT-L111.wav",
+          "source_sha256": "eaa2f364b113fffee2cd9b4941ac02803eee31a8a4c2059de00ac5e210aea305",
+          "gain_db": 6.61
+        }
+      ],
+      "speech_end_sec": 9.64798185941043,
+      "audio": {
+        "file": "bluey-pose-minimax-h3-dialogue.wav",
+        "sha256": "34530da482d3fb5bacfe3745d2ddf05a91ac865b8bf122cccf0668894493e9d0",
+        "duration_sec": 10,
+        "sample_rate": 22050,
+        "samples": 220500,
+        "notice": "现有AI配音只调整静音与增益，不截字、不变速。"
+      },
+      "references": [
+        {
+          "file": "materials/original/gift/illustrations/GIFT-ILL-010.png",
+          "sha256": "03e098d7851661f7e369321025262f0f340dcd5d920b516d23b27464647de422"
+        }
+      ],
+      "duration_sec": 10,
+      "aspect_ratio": "16:9",
+      "status": "ready_for_review",
+      "prompt_file": "bluey-pose-minimax-h3-prompt.txt",
+      "uploaded_resources": [
+        {
+          "kind": "image",
+          "file": "materials/original/gift/illustrations/GIFT-ILL-010.png",
+          "uri": "hogi://image/mv53yvwp_9e952dc749bb2721.png",
+          "asset_id": "a6c8a082-8ffb-4781-9dce-e2138e8e7028"
+        },
+        {
+          "kind": "audio",
+          "file": "materials/final/gift/准备礼物_后续两段_Wan3与MiniMaxH3试片/bluey-pose-minimax-h3-dialogue.wav",
+          "uri": "hogi://audio/mv53z55x_f9c7817b9cac5550.wav",
+          "asset_id": "5a7a2f9e-5352-4ae6-8ade-f5a367703e7d"
+        }
+      ],
+      "dry_run_validation": {
+        "valid": true,
+        "method": "generate_video_minimax_h3",
+        "model_id": 45,
+        "variant": "minimax-h3",
+        "mode": "omni2Video",
+        "estimate": {
+          "caveat": "Client-side estimate from the current model catalog; actual charge may differ because backend feature flags, resolved media duration, promotions, and fallback pricing are authoritative. Assumes the API-key member tier; no generation was submitted.",
+          "points": 80
+        },
+        "warnings": []
+      },
+      "generation_submission": {
+        "task_id": "async_video_e5de1c174479669a9b4067f4cef7d67a",
+        "local_task_id": "task_2bd5818a5548bba7",
+        "tool": "generate_video_minimax_h3",
+        "model": {
+          "key": "minimax-h3",
+          "model_id": 45,
+          "name": "MiniMax-H3",
+          "variant": "minimax-h3"
+        },
+        "generation_mode": "omni2Video",
+        "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
+        "status": "succeeded"
+      },
+      "generation_status": {
+        "status": "succeeded",
+        "progress": 100,
+        "backendTaskId": "async_video_e5de1c174479669a9b4067f4cef7d67a",
+        "backendAssetId": "0fdbdc21-2c44-4522-8f1f-4ada8d071513",
+        "resourceUris": [
+          "hogi://video/dac6964613a6dfcf0825988dae7416db4d9571ac9e9b70c6db45803a70c9bf51.mp4"
+        ],
+        "updatedAt": "2026-10-12T10:35:34.434Z"
+      },
+      "charged_points": 80,
+      "final_video": {
+        "file": "bluey-pose-minimax-h3.mp4",
+        "sha256": "88e476750f939e32812c1c116bd608ca2efd0493e109b9f7331e7cbb80f31ae6",
+        "bytes": 1249643,
+        "duration_sec": 10.125,
+        "width": 1344,
+        "height": 768,
+        "fps": "24/1",
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "audio_notice": "画面流不重编码，复用现有10秒AI对白并补齐尾部静音，保留AI生成标识，移除账号元数据。"
+      },
+      "review": {
+        "continuity": "0.5秒间隔抽帧中镜位与四个角色保持，布鲁伊连续迈步后摆姿势，其他角色有目光、转头及手势反应。",
+        "limits": "步幅较小，是否足够活泼需要用户观看完整播放；耳朵、手指等细节仍可能轻微变形。",
+        "scope": "可供用户确认的候选动画素材，未替换正式网站。"
+      },
+      "final_video_upload": {
+        "uri": "hogi://video/mv54c2y1_780ac9cd2b06d5a8.mp4",
+        "asset_id": "fc7897c0-04ba-4a2e-8201-13a49902bc0d",
+        "asset_uri": "hogi://asset/fc7897c0-04ba-4a2e-8201-13a49902bc0d",
+        "file_uri": "hogi://video/mv54c2y1_780ac9cd2b06d5a8.mp4",
+        "domain": "video",
+        "file_type": "mp4",
+        "file_name": "准备礼物-MiniMax-H3-布鲁伊摆模特姿势-最终试片",
+        "size": 1249643,
+        "attached": true,
+        "workspace_id": "62fd1fd9-325a-4d41-85ae-3e599a0c603c",
+        "upload_mode": "direct"
+      }
+    }
+  ],
+  "charged_points_total": 150,
+  "balance_after_generation": 900
+}
