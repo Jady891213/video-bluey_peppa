@@ -4,6 +4,8 @@
 
 [MiniMax H3待确认版](待确认成片/MiniMaxH3_第一幕与佩奇开场/README.md)包含104秒完整第一幕、C/D/E/F四段分片、28句字幕与可复用配方。第一幕蓝莓笑话已制作；原A/B完整保留，新H3部分尚未采纳。佩奇开场被平台审核阻断，无视频可交付，详情及准备好的输入见该配方。
 
+[佩奇复试与第三幕输入](待确认成片/MiniMaxH3_第二幕复试与第三幕/README.md)记录随后15秒、4秒佩奇及15秒第三幕开头的三个审核失败任务。该目录只有可复用提示、完整声音引用和第三幕七段100秒计划，没有新增视频；不能计入成片数量。
+
 `voices/`保留108句完整合成WAV；`story-plan.json`是84页当前故事；`voice-manifest.json`映射角色、台词与音频SHA。`audio-timing.json`和`web-timing.json`是绘本与网站时间轴，不是新动画时长。
 
 网站材料清单位于 `websites/gift/dist/ebook/materials-all.json`。音频使用内容hash文件名。

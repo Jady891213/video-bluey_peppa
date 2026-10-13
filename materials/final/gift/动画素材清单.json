@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "story": "准备礼物",
-  "current_direction": "MiniMax H3第一幕104秒待确认预览完成；A/B已采纳原片保留，新C/D/E/F独立待确认；佩奇10秒开场被平台审核阻断",
+  "current_direction": "已采纳A/B与104秒H3第一幕候选保留；佩奇累计六次及第三幕开头一次审核失败，均无新增视频；第三幕100秒完整配方已准备，后续需平台核验或合适独立运行资源",
   "accepted_duration_sec": 41.4,
   "accepted": [
     {
@@ -88,7 +88,7 @@
     "illustrations_directory": "materials/original/gift/illustrations",
     "illustration_count": 69,
     "reference_directory": "materials/original/gift/动画参考图",
-    "reference_count": 24,
+    "reference_count": 25,
     "completed_act1_inputs": [
       {
         "id": "D05",
@@ -173,7 +173,7 @@
       {
         "id": "act2-opening",
         "title": "佩奇家准备画礼物，前10秒",
-        "status": "已准备图与完整原声；四次平台审核失败，无视频",
+        "status": "佩奇累计六次审核阻断，最新4秒单镜亦1027；图与原配音完整保留，无视频",
         "reference": "materials/original/gift/illustrations/GIFT-ILL-021.png",
         "lines": [
           {
@@ -198,8 +198,15 @@
           }
         ],
         "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json"
+      },
+      {
+        "id": "act3",
+        "title": "第三幕：底座、软垫与礼盒",
+        "status": "完整7段100秒输入已准备；开场15秒任务1026，未返回视频，其余尚未提交",
+        "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第二幕复试与第三幕/生成配方.json"
       }
-    ]
+    ],
+    "prepared_animation_recipe": "materials/final/gift/待确认成片/MiniMaxH3_第二幕复试与第三幕/生成配方.json"
   },
   "target_video_format": {
     "width": 1280,

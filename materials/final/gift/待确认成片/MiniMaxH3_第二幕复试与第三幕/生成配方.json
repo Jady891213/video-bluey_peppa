@@ -1,0 +1,842 @@
+{
+  "schema_version": 1,
+  "story": "准备礼物",
+  "model": "MiniMax-H3",
+  "resolution": "768P",
+  "ratio": "16:9",
+  "status": "佩奇15秒与4秒复试均1027，第三幕开头15秒1026，三任务均无视频；独立部署路线已核对，等待合适GPU资源",
+  "quota_policy": "现有订阅Key，未知响应不重提，已有task ID只查状态，不自动切换按量付费Key",
+  "music": {
+    "bluey": {
+      "source": "materials/original/gift/music/bluey-rain-instrumental-selected.wav",
+      "target_rms_dbfs": -35.5,
+      "linear_gain": 0.427058,
+      "source_rms_dbfs": -28.11,
+      "notice": "materials/original/gift/music/NOTICE.md"
+    },
+    "peppa": {
+      "source": "materials/original/gift/music/peppa-lullaby-instrumental-selected.wav",
+      "target_rms_dbfs": -35.5,
+      "linear_gain": 0.809651,
+      "source_rms_dbfs": -33.666,
+      "notice": "materials/original/gift/music/NOTICE.md"
+    }
+  },
+  "clips": [],
+  "prepared_act3": [
+    {
+      "id": "G3A",
+      "title": "商量惊喜与空礼盒",
+      "duration_sec": 15,
+      "status": "备用规划，未提交、未生成",
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-034.webp",
+        "materials/original/gift/illustrations/GIFT-ILL-035.png",
+        "materials/original/gift/illustrations/GIFT-ILL-036.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L046",
+          "speaker": "布鲁伊",
+          "text": "我要送佩奇一个小小的佩奇！",
+          "source": "materials/final/gift/voices/GIFT-L046.wav",
+          "start_sec": 0.4,
+          "duration_sec": 2.705124716553288
+        },
+        {
+          "id": "GIFT-L047",
+          "speaker": "宾果",
+          "text": "开盒子的那一下，肯定最好玩！",
+          "source": "materials/final/gift/voices/GIFT-L047.wav",
+          "start_sec": 3.4,
+          "duration_sec": 2.6354648526077096
+        },
+        {
+          "id": "GIFT-L048",
+          "speaker": "班迪特",
+          "text": "好主意，可别把礼物挤坏了。",
+          "source": "materials/final/gift/voices/GIFT-L048.wav",
+          "start_sec": 6.5,
+          "duration_sec": 3.0650340136054424
+        },
+        {
+          "id": "GIFT-L049",
+          "speaker": "宾果",
+          "text": "我要给它铺个软垫！",
+          "source": "materials/final/gift/voices/GIFT-L049.wav",
+          "start_sec": 10,
+          "duration_sec": 2.391655328798186
+        }
+      ]
+    },
+    {
+      "id": "G3B",
+      "title": "软垫与三个小舞台",
+      "duration_sec": 15,
+      "status": "备用规划，未提交、未生成",
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-037.png",
+        "materials/original/gift/illustrations/GIFT-ILL-038.webp"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L050",
+          "speaker": "班迪特",
+          "text": "给小佩奇留个软软的座位。",
+          "source": "materials/final/gift/voices/GIFT-L050.wav",
+          "start_sec": 0.3,
+          "duration_sec": 3.4713832199546486
+        },
+        {
+          "id": "GIFT-L051",
+          "speaker": "布鲁伊",
+          "text": "我想给她一个神气的小舞台！",
+          "source": "materials/final/gift/voices/GIFT-L051.wav",
+          "start_sec": 4.2,
+          "duration_sec": 2.670294784580499
+        },
+        {
+          "id": "GIFT-L052",
+          "speaker": "班迪特",
+          "text": "小佩奇还是这么高，换个底座试试。",
+          "source": "materials/final/gift/voices/GIFT-L052.wav",
+          "start_sec": 7.3,
+          "duration_sec": 3.633922902494331
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第二幕复试与第三幕/prompts/G3B.txt",
+      "act": "bluey",
+      "audio_reference_groups": [
+        {
+          "speaker": "班迪特",
+          "line_ids": [
+            "GIFT-L050",
+            "GIFT-L052"
+          ]
+        },
+        {
+          "speaker": "布鲁伊",
+          "line_ids": [
+            "GIFT-L051"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G3C",
+      "title": "君君帮忙选择底座",
+      "duration_sec": 15,
+      "status": "备用规划，未提交、未生成",
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-039.webp",
+        "materials/original/gift/illustrations/GIFT-ILL-038.webp",
+        "materials/original/gift/illustrations/GIFT-ILL-041.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L053",
+          "speaker": "布鲁伊",
+          "text": "君君，帮我们看看，哪个底座放得下，也能留好软垫的位置？",
+          "source": "materials/final/gift/voices/GIFT-L053.wav",
+          "start_sec": 0.25,
+          "duration_sec": 4.272471655328798
+        },
+        {
+          "id": "GIFT-L054",
+          "speaker": "班迪特",
+          "text": "黄色这个怎么样？",
+          "source": "materials/final/gift/voices/GIFT-L054.wav",
+          "start_sec": 8.8,
+          "duration_sec": 2.8676643990929707
+        },
+        {
+          "id": "GIFT-L055",
+          "speaker": "宾果",
+          "text": "黄色的最矮！",
+          "source": "materials/final/gift/voices/GIFT-L055.wav",
+          "start_sec": 12,
+          "duration_sec": 1.811156462585034
+        }
+      ],
+      "answer_wait": {
+        "start_sec": 4.522471655328798,
+        "end_sec": 8.8,
+        "required_min_sec": 4,
+        "normal_video_playback": true,
+        "parent_can_pause": true
+      },
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第二幕复试与第三幕/prompts/G3C.txt",
+      "act": "bluey"
+    },
+    {
+      "id": "G3D",
+      "title": "留好盒盖空隙",
+      "duration_sec": 15,
+      "status": "备用规划，未提交、未生成",
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-042.png",
+        "materials/original/gift/illustrations/GIFT-ILL-043.png",
+        "materials/original/gift/illustrations/GIFT-ILL-044.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L056",
+          "speaker": "布鲁伊",
+          "text": "太好了，不用再做旅行装佩奇！",
+          "source": "materials/final/gift/voices/GIFT-L056.wav",
+          "start_sec": 0.2,
+          "duration_sec": 2.75156462585034
+        },
+        {
+          "id": "GIFT-L057",
+          "speaker": "宾果",
+          "text": "那盒盖还盖得上吗？",
+          "source": "materials/final/gift/voices/GIFT-L057.wav",
+          "start_sec": 3.1,
+          "duration_sec": 2.3219954648526078
+        },
+        {
+          "id": "GIFT-L058",
+          "speaker": "班迪特",
+          "text": "我再量量真盒子，还得给盒盖留点空隙。",
+          "source": "materials/final/gift/voices/GIFT-L058.wav",
+          "start_sec": 5.6,
+          "duration_sec": 5.108390022675737
+        },
+        {
+          "id": "GIFT-L059",
+          "speaker": "班迪特",
+          "text": "这次可不能只顾着看耳朵了！",
+          "source": "materials/final/gift/voices/GIFT-L059.wav",
+          "start_sec": 11,
+          "duration_sec": 3.8312925170068026
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第二幕复试与第三幕/prompts/G3D.txt",
+      "act": "bluey",
+      "audio_reference_groups": [
+        {
+          "speaker": "布鲁伊",
+          "line_ids": [
+            "GIFT-L056"
+          ]
+        },
+        {
+          "speaker": "宾果",
+          "line_ids": [
+            "GIFT-L057"
+          ]
+        },
+        {
+          "speaker": "班迪特",
+          "line_ids": [
+            "GIFT-L058",
+            "GIFT-L059"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G3E",
+      "title": "开工与午饭时间省略",
+      "duration_sec": 15,
+      "status": "备用规划，未提交、未生成",
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-045.png",
+        "materials/original/gift/illustrations/GIFT-ILL-046.png",
+        "materials/original/gift/illustrations/GIFT-ILL-047.png",
+        "materials/original/gift/illustrations/GIFT-ILL-048.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L061",
+          "speaker": "班迪特",
+          "text": "礼物小店开工喽！",
+          "source": "materials/final/gift/voices/GIFT-L061.wav",
+          "start_sec": 0.4,
+          "duration_sec": 2.914104308390023
+        },
+        {
+          "id": "GIFT-L062",
+          "speaker": "布鲁伊",
+          "text": "我都等不及看她打开盒子了！",
+          "source": "materials/final/gift/voices/GIFT-L062.wav",
+          "start_sec": 3.7,
+          "duration_sec": 2.345215419501134
+        },
+        {
+          "id": "GIFT-L063",
+          "speaker": "奇莉",
+          "text": "礼物先慢慢做，老板们来吃饭啦！",
+          "source": "materials/final/gift/voices/GIFT-L063.wav",
+          "start_sec": 6.7,
+          "duration_sec": 3.7848526077097504
+        },
+        {
+          "id": "GIFT-L065",
+          "speaker": "旁白",
+          "text": "午饭后，小佩奇也做好了。",
+          "source": "materials/final/gift/voices/GIFT-L065.wav",
+          "start_sec": 11.3,
+          "duration_sec": 2.426485260770975
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第二幕复试与第三幕/prompts/G3E.txt",
+      "act": "bluey",
+      "audio_reference_groups": [
+        {
+          "speaker": "班迪特",
+          "line_ids": [
+            "GIFT-L061"
+          ]
+        },
+        {
+          "speaker": "布鲁伊",
+          "line_ids": [
+            "GIFT-L062"
+          ]
+        },
+        {
+          "speaker": "奇莉",
+          "line_ids": [
+            "GIFT-L063"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G3F",
+      "title": "冷却取件与装盒",
+      "duration_sec": 15,
+      "status": "备用规划，未提交、未生成",
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-050.png",
+        "materials/original/gift/illustrations/GIFT-ILL-051.png",
+        "materials/original/gift/illustrations/GIFT-ILL-052.png",
+        "materials/original/gift/illustrations/GIFT-ILL-053.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L066",
+          "speaker": "班迪特",
+          "text": "凉好了，来迎接你们的小客人吧！",
+          "source": "materials/final/gift/voices/GIFT-L066.wav",
+          "start_sec": 0.25,
+          "duration_sec": 4.342131519274377
+        },
+        {
+          "id": "GIFT-L067",
+          "speaker": "宾果",
+          "text": "小佩奇，你的舞台好漂亮！",
+          "source": "materials/final/gift/voices/GIFT-L067.wav",
+          "start_sec": 4.95,
+          "duration_sec": 2.786394557823129
+        },
+        {
+          "id": "GIFT-L068",
+          "speaker": "布鲁伊",
+          "text": "小佩奇坐稳啦，我们要去见大佩奇了！",
+          "source": "materials/final/gift/voices/GIFT-L068.wav",
+          "start_sec": 8.1,
+          "duration_sec": 2.948934240362812
+        },
+        {
+          "id": "GIFT-L069",
+          "speaker": "布鲁伊",
+          "text": "先保密，见到她才打开！",
+          "source": "materials/final/gift/voices/GIFT-L069.wav",
+          "start_sec": 11.4,
+          "duration_sec": 1.9969160997732427
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第二幕复试与第三幕/prompts/G3F.txt",
+      "act": "bluey",
+      "audio_reference_groups": [
+        {
+          "speaker": "班迪特",
+          "line_ids": [
+            "GIFT-L066"
+          ]
+        },
+        {
+          "speaker": "宾果",
+          "line_ids": [
+            "GIFT-L067"
+          ]
+        },
+        {
+          "speaker": "布鲁伊",
+          "line_ids": [
+            "GIFT-L068",
+            "GIFT-L069"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G3G",
+      "title": "带礼物出发",
+      "duration_sec": 10,
+      "status": "备用规划，未提交、未生成",
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-054.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L070",
+          "speaker": "奇莉",
+          "text": "礼物带好了吗？该去见朋友了。",
+          "source": "materials/final/gift/voices/GIFT-L070.wav",
+          "start_sec": 0.35,
+          "duration_sec": 3.5526530612244898
+        },
+        {
+          "id": "GIFT-L071",
+          "speaker": "宾果",
+          "text": "礼物小店出发送货！",
+          "source": "materials/final/gift/voices/GIFT-L071.wav",
+          "start_sec": 4.3,
+          "duration_sec": 2.2755555555555556
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第二幕复试与第三幕/prompts/G3G.txt",
+      "act": "bluey",
+      "audio_reference_groups": [
+        {
+          "speaker": "奇莉",
+          "line_ids": [
+            "GIFT-L070"
+          ]
+        },
+        {
+          "speaker": "宾果",
+          "line_ids": [
+            "GIFT-L071"
+          ]
+        }
+      ]
+    }
+  ],
+  "open_source_research": {
+    "cloud_api": "1026/1027内容审核，无公开关闭审核或非盈利自动豁免参数",
+    "official_local_guidance": "https://github.com/MiniMax-AI/MiniMax-H3",
+    "official_integrations": "https://github.com/MiniMax-AI/awesome-minimax-h3-integration",
+    "mac_engine": "https://github.com/antirez/h3.c",
+    "license": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+    "notice": "模型许可与角色版权分开；官方API和独立部署是不同运行方式。当前本机16GB内存、约12GiB可用磁盘，不下载大权重；如需独立部署，先另评估合适GPU主机及费用。"
+  },
+  "blocked_tests": [
+    {
+      "id": "P1",
+      "title": "佩奇与乔治开始画礼物",
+      "act": "peppa",
+      "duration_sec": 15,
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-021.png"
+      ],
+      "audio_reference_groups": [
+        {
+          "speaker": "旁白",
+          "line_ids": [
+            "GIFT-L027"
+          ],
+          "duration_sec": 3.111473922902494,
+          "sha256": "ab4616cabb8c2178cbe3bf6e3ad1c51246f6d8a92f643b73e84b795f2e2f18d6",
+          "source_entries": [
+            {
+              "id": "GIFT-L027",
+              "speaker": "旁白",
+              "text": "原来，佩奇也在准备一个小惊喜。",
+              "source": "materials/final/gift/voices/GIFT-L027.wav",
+              "start_sec": 0,
+              "source_sha256": "884b142283f1de67dd675e6bbe64eebdf11c8787975285622821254a6cd96c7a",
+              "duration_sec": 3.111473922902494,
+              "gain_db": 5.004
+            }
+          ]
+        },
+        {
+          "speaker": "佩奇",
+          "line_ids": [
+            "GIFT-L028",
+            "GIFT-L030"
+          ],
+          "duration_sec": 5.611519274376418,
+          "sha256": "cb55be0f8b7e20dde437b92e27509df73ad3f6708a7d8ff61db6a38bf287b7fd",
+          "source_entries": [
+            {
+              "id": "GIFT-L028",
+              "speaker": "佩奇",
+              "text": "我要画我们四个，一起踢足球！",
+              "source": "materials/final/gift/voices/GIFT-L028.wav",
+              "start_sec": 0,
+              "source_sha256": "35d6c57bbb59f1a29c81f889140e57dc1347efff9e709a35aed5545a631952a2",
+              "duration_sec": 3.4249433106575964,
+              "gain_db": 8.716
+            },
+            {
+              "id": "GIFT-L030",
+              "speaker": "佩奇",
+              "text": "给你这支绿的。",
+              "source": "materials/final/gift/voices/GIFT-L030.wav",
+              "start_sec": 3.5449433106575965,
+              "source_sha256": "97d2ba6ebd45ba0f047289728d7ea99653f37150fcab79c24f71296408d3ba33",
+              "duration_sec": 2.066575963718821,
+              "gain_db": 9.311
+            }
+          ]
+        },
+        {
+          "speaker": "乔治",
+          "line_ids": [
+            "GIFT-L029"
+          ],
+          "duration_sec": 3.5294331065759637,
+          "sha256": "0e6de590dc14df94f55fa02ab876925b56afd6112d78ffe03703e7d2f324e0ff",
+          "source_entries": [
+            {
+              "id": "GIFT-L029",
+              "speaker": "乔治",
+              "text": "我也来画，我要绿色的！",
+              "source": "materials/final/gift/voices/GIFT-L029.wav",
+              "start_sec": 0,
+              "source_sha256": "6b0c33215485ad142e8af8cbeb212f6e9e342413beddc825250d9a4b852ba0a6",
+              "duration_sec": 3.5294331065759637,
+              "gain_db": 7.196
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L027",
+          "speaker": "旁白",
+          "text": "原来，佩奇也在准备一个小惊喜。",
+          "source": "materials/final/gift/voices/GIFT-L027.wav",
+          "start_sec": 0.25
+        },
+        {
+          "id": "GIFT-L028",
+          "speaker": "佩奇",
+          "text": "我要画我们四个，一起踢足球！",
+          "source": "materials/final/gift/voices/GIFT-L028.wav",
+          "start_sec": 3.6
+        },
+        {
+          "id": "GIFT-L029",
+          "speaker": "乔治",
+          "text": "我也来画，我要绿色的！",
+          "source": "materials/final/gift/voices/GIFT-L029.wav",
+          "start_sec": 7.35
+        },
+        {
+          "id": "GIFT-L030",
+          "speaker": "佩奇",
+          "text": "给你这支绿的。",
+          "source": "materials/final/gift/voices/GIFT-L030.wav",
+          "start_sec": 11.15
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第二幕复试与第三幕/prompts/P1.txt",
+      "prompt_sha256": "52410dcc184a738f996699fd1c28e55f8b94f251cfed1f64314d887fab6cf36c",
+      "reference_image_sha256": {
+        "materials/original/gift/illustrations/GIFT-ILL-021.png": "695553451a02381ad4c7023e033cc0701d16fd16702d955eab88e9c2c0574c81"
+      },
+      "quota_before": {
+        "checked_at": "2026-10-13T03:31:10.664189+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 100,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791880270597,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "submission": {
+        "state": "submitted",
+        "started_at": "2026-10-13T03:31:10.664363+00:00",
+        "completed_at": "2026-10-13T03:31:11.240913+00:00"
+      },
+      "task_id": "451826641367468",
+      "backend_status": "failed",
+      "last_checked_at": "2026-10-13T03:37:31.583824+00:00",
+      "failure": {
+        "code": "1027",
+        "message": "output new_sensitive"
+      },
+      "quota_after": {
+        "checked_at": "2026-10-13T03:37:32.091435+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 100,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791880652006,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "status": "用户授权复试，平台输出审核1027，未返回视频；周额度未见额外扣减"
+    },
+    {
+      "id": "P2",
+      "title": "佩奇画礼物四秒小样",
+      "act": "peppa",
+      "duration_sec": 4,
+      "reference_images": [
+        "materials/original/gift/illustrations/GIFT-ILL-021.png"
+      ],
+      "audio_reference_groups": [
+        {
+          "speaker": "佩奇",
+          "line_ids": [
+            "GIFT-L028"
+          ],
+          "duration_sec": 3.4249433106575964,
+          "sha256": "84a8d333865a74230d0f8fd6950a58c52852d821fac78cbfc21b8270edf234a9",
+          "source_entries": [
+            {
+              "id": "GIFT-L028",
+              "speaker": "佩奇",
+              "text": "我要画我们四个，一起踢足球！",
+              "source": "materials/final/gift/voices/GIFT-L028.wav",
+              "start_sec": 0,
+              "source_sha256": "35d6c57bbb59f1a29c81f889140e57dc1347efff9e709a35aed5545a631952a2",
+              "duration_sec": 3.4249433106575964,
+              "gain_db": 8.716
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L028",
+          "speaker": "佩奇",
+          "text": "我要画我们四个，一起踢足球！",
+          "source": "materials/final/gift/voices/GIFT-L028.wav",
+          "start_sec": 0.2
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第二幕复试与第三幕/prompts/P2.txt",
+      "prompt_sha256": "fb35ed194b564519f455531a45cefdddc02affa7fc15baeb7d76a72b855b4c59",
+      "reference_image_sha256": {
+        "materials/original/gift/illustrations/GIFT-ILL-021.png": "695553451a02381ad4c7023e033cc0701d16fd16702d955eab88e9c2c0574c81"
+      },
+      "quota_before": {
+        "checked_at": "2026-10-13T03:34:36.630899+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 100,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791880476544,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "submission": {
+        "state": "submitted",
+        "started_at": "2026-10-13T03:34:36.631092+00:00",
+        "completed_at": "2026-10-13T03:34:37.159331+00:00"
+      },
+      "task_id": "451827705008412",
+      "backend_status": "failed",
+      "last_checked_at": "2026-10-13T03:41:12.117821+00:00",
+      "failure": {
+        "code": "1027",
+        "message": "output new_sensitive"
+      },
+      "quota_after": {
+        "checked_at": "2026-10-13T03:41:12.474853+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 100,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791880872403,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "status": "用户授权复试，平台输出审核1027，未返回视频；周额度未见额外扣减"
+    },
+    {
+      "id": "G3A",
+      "title": "商量惊喜与空礼盒",
+      "duration_sec": 15,
+      "status": "第三幕开头正常参考生成亦被输入内容审核1026阻断，未返回视频",
+      "reference_images": [
+        "materials/original/gift/动画参考图/MiniMaxH3第三幕/act3-empty-gift-box.png",
+        "materials/original/gift/illustrations/GIFT-ILL-036.png"
+      ],
+      "lines": [
+        {
+          "id": "GIFT-L046",
+          "speaker": "布鲁伊",
+          "text": "我要送佩奇一个小小的佩奇！",
+          "source": "materials/final/gift/voices/GIFT-L046.wav",
+          "start_sec": 0.4,
+          "duration_sec": 2.705124716553288
+        },
+        {
+          "id": "GIFT-L047",
+          "speaker": "宾果",
+          "text": "开盒子的那一下，肯定最好玩！",
+          "source": "materials/final/gift/voices/GIFT-L047.wav",
+          "start_sec": 3.4,
+          "duration_sec": 2.6354648526077096
+        },
+        {
+          "id": "GIFT-L048",
+          "speaker": "班迪特",
+          "text": "好主意，可别把礼物挤坏了。",
+          "source": "materials/final/gift/voices/GIFT-L048.wav",
+          "start_sec": 6.5,
+          "duration_sec": 3.0650340136054424
+        },
+        {
+          "id": "GIFT-L049",
+          "speaker": "宾果",
+          "text": "我要给它铺个软垫！",
+          "source": "materials/final/gift/voices/GIFT-L049.wav",
+          "start_sec": 10,
+          "duration_sec": 2.391655328798186
+        }
+      ],
+      "act": "bluey",
+      "audio_reference_groups": [
+        {
+          "speaker": "布鲁伊",
+          "line_ids": [
+            "GIFT-L046"
+          ],
+          "duration_sec": 2.705124716553288,
+          "sha256": "8cf7f2356566cbf2dced10d89fe7b5624b149cf7a1a53ed815c654b69c9c07fa",
+          "source_entries": [
+            {
+              "id": "GIFT-L046",
+              "speaker": "布鲁伊",
+              "text": "我要送佩奇一个小小的佩奇！",
+              "source": "materials/final/gift/voices/GIFT-L046.wav",
+              "start_sec": 0,
+              "duration_sec": 2.705124716553288,
+              "source_sha256": "97f65e179228b66b238423d26cf956924fb0aa5c4ef7ca6d4488dd40e40e2411",
+              "gain_db": 9.968
+            }
+          ]
+        },
+        {
+          "speaker": "宾果",
+          "line_ids": [
+            "GIFT-L047",
+            "GIFT-L049"
+          ],
+          "duration_sec": 5.147120181405896,
+          "sha256": "b14633700d6d32a86b5817fd4bf9d4c2b7ce1ce32f59addb595ebcdbef50008b",
+          "source_entries": [
+            {
+              "id": "GIFT-L047",
+              "speaker": "宾果",
+              "text": "开盒子的那一下，肯定最好玩！",
+              "source": "materials/final/gift/voices/GIFT-L047.wav",
+              "start_sec": 0,
+              "duration_sec": 2.6354648526077096,
+              "source_sha256": "570d98c059a360d34cdb368eca679cc1c9f1ff299666ebbb7c049e48a2f5e774",
+              "gain_db": 5.486
+            },
+            {
+              "id": "GIFT-L049",
+              "speaker": "宾果",
+              "text": "我要给它铺个软垫！",
+              "source": "materials/final/gift/voices/GIFT-L049.wav",
+              "start_sec": 2.7554648526077097,
+              "duration_sec": 2.391655328798186,
+              "source_sha256": "bade54a63d02c4649aff93371d64202984cf2359358042223ad093d3576b5152",
+              "gain_db": 8.22
+            }
+          ]
+        },
+        {
+          "speaker": "班迪特",
+          "line_ids": [
+            "GIFT-L048"
+          ],
+          "duration_sec": 3.0650340136054424,
+          "sha256": "7fe320eb5998d833db91bd28f691446ba08255647e32b75ae898dd447b5c1e0e",
+          "source_entries": [
+            {
+              "id": "GIFT-L048",
+              "speaker": "班迪特",
+              "text": "好主意，可别把礼物挤坏了。",
+              "source": "materials/final/gift/voices/GIFT-L048.wav",
+              "start_sec": 0,
+              "duration_sec": 3.0650340136054424,
+              "source_sha256": "c40f0692616f3e6f3aca9ae1a1f06a71190e4c8a51b0ba8f663ecf33d4857ebb",
+              "gain_db": 5.367
+            }
+          ]
+        }
+      ],
+      "prompt_file": "materials/final/gift/待确认成片/MiniMaxH3_第二幕复试与第三幕/prompts/G3A.txt",
+      "prompt_sha256": "dda0bc9c1df542de79b812f1b88c1e69822d86043f2fc1863d2d4c65b6ec5579",
+      "reference_image_sha256": {
+        "materials/original/gift/动画参考图/MiniMaxH3第三幕/act3-empty-gift-box.png": "5edf7faa3d3cbc0af3951d13760f78e2473ae084ab2ebe4833b99c49e4edc05c",
+        "materials/original/gift/illustrations/GIFT-ILL-036.png": "8531498a1503744d46a1d248a02b31ae20b4ca696f26c6f4c319b53d4b018168"
+      },
+      "quota_before": {
+        "checked_at": "2026-10-13T03:48:07.002813+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 100,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791881286899,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "submission": {
+        "state": "submitted",
+        "started_at": "2026-10-13T03:48:07.003048+00:00",
+        "completed_at": "2026-10-13T03:48:07.846895+00:00"
+      },
+      "task_id": "451830428180922",
+      "backend_status": "failed",
+      "last_checked_at": "2026-10-13T03:54:33.980454+00:00",
+      "failure": {
+        "code": "1026",
+        "message": "content blocked by moderation"
+      },
+      "quota_after": {
+        "checked_at": "2026-10-13T03:54:34.414606+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 100,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791881674334,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      }
+    }
+  ],
+  "quota_summary": {
+    "remaining_before_percent": 66,
+    "remaining_after_percent": 66,
+    "five_hour_remaining_after_percent": 100,
+    "failed_jobs": 3,
+    "observed_change_percentage_points": 0,
+    "checked_at": "2026-10-13T03:54:34.414606+00:00",
+    "notice": "失败任务未返回视频，前后快照未观察到额外周额度扣减，不等于平台对所有失败任务的计费承诺。"
+  },
+  "selected_reference_images": [
+    {
+      "file": "materials/original/gift/动画参考图/MiniMaxH3第三幕/act3-empty-gift-box.png",
+      "source": "materials/original/gift/illustrations/GIFT-ILL-034.webp",
+      "purpose": "空礼盒初始状态，仅为第三幕可复用动画参考，原正式图未替换。"
+    }
+  ]
+}
