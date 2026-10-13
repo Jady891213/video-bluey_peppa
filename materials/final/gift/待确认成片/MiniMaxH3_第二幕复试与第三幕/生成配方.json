@@ -895,6 +895,57 @@
       "result_note": "已接受订阅Key提交，随后输入内容审核阻断；无视频文件，未重试或切换付费来源。",
       "id": "P3-Hailuo02",
       "title": "佩奇与乔治画礼物六秒旧模型试片"
+    },
+    {
+      "id": "P4-H3-motion-firstframe",
+      "title": "H3第二幕四秒纯动作首帧小样",
+      "model": "MiniMax-H3",
+      "duration_sec": 4,
+      "resolution": "768P",
+      "ratio": "adaptive",
+      "input_mode": "first_frame",
+      "first_frame": "materials/original/gift/illustrations/GIFT-ILL-021.png",
+      "first_frame_sha256": "695553451a02381ad4c7023e033cc0701d16fd16702d955eab88e9c2c0574c81",
+      "prompt": "保持参考图中的二维平涂风格、人物比例、厨房布局、黄色桌子、蓝色椅子、纸张和蜡笔连续。4秒自然活泼的家庭画画动作：左边红衣人物低头，用手中同一支蓝色蜡笔在白纸上画一小段蓝线；右边蓝衣人物轻轻前倾，拿起桌面右下方的绿色蜡笔；最后两人侧头交换开心的眼神。真实眨眼、转头和手臂动作，镜头固定，不切镜、不跳位。每人两只手、一条尾巴，保留耳旁的小装置，物品不增殖、不变形。人物没有对白，不做说话口型；只需安静的环境声，不要音乐、字幕或额外人物。",
+      "billing": "现有CN MPlan Subscription Key",
+      "quota_before": {
+        "checked_at": "2026-10-13T07:53:02.044044+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791894288107,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "submission": {
+        "state": "submitted",
+        "started_at": "2026-10-13T07:53:02.044279+00:00",
+        "completed_at": "2026-10-13T07:53:02.596515+00:00"
+      },
+      "task_id": "451891454169490",
+      "backend_status": "failed",
+      "last_checked_at": "2026-10-13T07:55:47.914397+00:00",
+      "failure": {
+        "code": "1027",
+        "message": "output new_sensitive"
+      },
+      "quota_after": {
+        "checked_at": "2026-10-13T07:55:48.324292+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791894288107,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "status": "blocked_by_output_review",
+      "result_note": "用户再次明确授权正常图生视频测试；原图首帧、仅描述画画动作、无角色名称及对白。任务进入生成后失败1027/output new_sensitive，无视频，未重试；周额度前后66%。"
     }
   ],
   "quota_summary": {
