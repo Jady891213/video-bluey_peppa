@@ -4,7 +4,7 @@
   "model": "MiniMax-H3",
   "resolution": "768P",
   "ratio": "16:9",
-  "status": "佩奇15秒与4秒复试均1027，第三幕开头15秒1026，三任务均无视频；独立部署路线已核对，等待合适GPU资源",
+  "status": "用户最新反馈先不评估云GPU及重试佩奇；保留已完成布鲁伊104秒第一幕。第三幕含佩奇模型的开场失败，只有制作输入，没有新成片。",
   "quota_policy": "现有订阅Key，未知响应不重提，已有task ID只查状态，不自动切换按量付费Key",
   "music": {
     "bluey": {
@@ -423,7 +423,8 @@
     "official_integrations": "https://github.com/MiniMax-AI/awesome-minimax-h3-integration",
     "mac_engine": "https://github.com/antirez/h3.c",
     "license": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
-    "notice": "模型许可与角色版权分开；官方API和独立部署是不同运行方式。当前本机16GB内存、约12GiB可用磁盘，不下载大权重；如需独立部署，先另评估合适GPU主机及费用。"
+    "notice": "模型许可与角色版权分开；官方API和独立部署是不同运行方式。当前本机16GB内存、约12GiB可用磁盘，不下载大权重；如需独立部署，先另评估合适GPU主机及费用。",
+    "user_direction": "2026-10-13用户随后取消云GPU评估，佩奇自行再看；不创建GPU实例或继续自动重试。"
   },
   "blocked_tests": [
     {
