@@ -25,6 +25,10 @@
 
 ## 工具链与核验
 
+- 2026-10-14通过用户已登录的Tabbit跑通Updream网页图生视频，独立项目“准备礼物 · 佩奇模型测试 20261014”。Wan3.0、Kling3.0、HappyHorse1.1、VIDU Q4 Preview返回佩奇视频；Wan另返回佩奇/布鲁伊递礼物同框。共8条55秒，实扣2550积分、余100；这是当轮账户快照，后续先读取实际余额。H3/Hailuo2.3内容审核失败，Seedance2.0 Fast明确版权限制，Omni1.1 Flash服务不可用；四条失败未见扣费，不把服务失败当内容限制，不自动重试。
+- Updream普通提交明确使用角色名称与现有正式图，不改名隐藏角色绕审核。试片全部未采纳：源片在 `materials/original/gift/动画源片/Updream_佩奇模型对比_20261014`，统一720P/30fps静音预览、对比页与参数费用清单在 `materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014`。不能据基础试片承诺所有剧情、口型或版权授权。
+- Updream通过稳定 `tabbit-cli` 操作，沿用同一任务名和唯一request-id；未知结果先receipt/读取节点，不能再次付费提交。节点创建后等待节点数量及selected状态再改模型；切模型会重置分辨率，提交前核对时长、720P、音频开关和报价。生成面板可用“放大”避开画布外节点；视频成功以节点video资源与完整下载解码为准，费用以积分详情核验。导出用已观察video src和page.fetch；保留用户标签，结束释放任务。运行会话丢失时重新观察/取得标签，不能假定旧page仍有效。
+
 - OiiOii使用明确workspace，费用以每次官方dry-run和余额为准。已有task ID不重复提交；未知结果先查询原任务。凭证不打印、不写仓库。
 - Wan既有逐镜配方可通过 `tools/generate_gift_opening.py --manifest ...`重新下载与组装；默认配方为已采纳开场。无对白镜头firstframe2Video、有对白镜头omni2Video；这是OiiOii约定，不直接当MiniMax API契约。
 - 截至旧平台本轮完成时，视频累计1070盒饭，最后Wan9镜消耗210、余额0，无重试；其中被否决Vidu批次312。此为已核验历史费用，不作当前账户余额承诺。

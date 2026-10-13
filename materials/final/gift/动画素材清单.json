@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "story": "准备礼物",
-  "current_direction": "已采纳A/B与104秒H3第一幕候选保留；佩奇累计六次及第三幕开头一次审核失败，均无新增视频；第三幕100秒完整配方已准备，后续需平台核验或合适独立运行资源",
+  "current_direction": "已采纳A/B及104秒H3第一幕候选保留；Updream已返回8条55秒静音试片，含佩奇及与布鲁伊同框，均待用户确认。MiniMax佩奇/第三幕审核失败记录仍保留，正式第二幕配音口型尚未制作。",
   "accepted_duration_sec": 41.4,
   "accepted": [
     {
@@ -173,7 +173,7 @@
       {
         "id": "act2-opening",
         "title": "佩奇家准备画礼物，前10秒",
-        "status": "佩奇累计六次审核阻断，最新4秒单镜亦1027；图与原配音完整保留，无视频",
+        "status": "MiniMax此前审核失败；Updream已返回同图5秒及10秒静音画画试片，正式对白口型与完整第二幕尚未制作",
         "reference": "materials/original/gift/illustrations/GIFT-ILL-021.png",
         "lines": [
           {
@@ -197,7 +197,8 @@
             "gain_db": 8.716
           }
         ],
-        "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json"
+        "recipe": "materials/final/gift/待确认成片/MiniMaxH3_第一幕与佩奇开场/生成配方.json",
+        "test_recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json"
       },
       {
         "id": "act3",
@@ -214,7 +215,7 @@
     "fps": 30,
     "ratio": "16:9"
   },
-  "notice": "原型为动作参考。采纳状态只由用户确认改变；新H3结果独立保存。生成参考与最终音轨时轴分开维护。完整第一幕28句原声、独立字幕与拼接时轴见本轮配方。",
+  "notice": "原型为动作参考。采纳状态只由用户确认改变；新H3结果独立保存。生成参考与最终音轨时轴分开维护。完整第一幕28句原声、独立字幕与拼接时轴见本轮配方。 Updream模型试片独立列为candidate，采用状态仍由用户确认。",
   "candidate": [
     {
       "id": "act1-h3-preview",
@@ -285,6 +286,118 @@
       "height": 720,
       "fps": "30/1",
       "frames": 396
+    },
+    {
+      "id": "updream-U02",
+      "title": "Wan 3.0｜佩奇与乔治画礼物",
+      "status": "待用户确认，静音模型动作试片，尚未采纳",
+      "file": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/U02_Wan3.0_佩奇画礼物_5秒.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "e44451c96aea50d4499a71241b01ca24566fc6809204779510e7e6a14fe56076",
+      "bytes": 943884,
+      "duration_sec": 5.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "audio_tracks": 0
+    },
+    {
+      "id": "updream-U03",
+      "title": "Kling 3.0｜佩奇与乔治画礼物",
+      "status": "待用户确认，静音模型动作试片，尚未采纳",
+      "file": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/U03_Kling3.0_佩奇画礼物_5秒.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "1fb71034dbe3fb62718f256eaf1badf3784896649cc229ef32787f2354372753",
+      "bytes": 1331246,
+      "duration_sec": 5.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "audio_tracks": 0
+    },
+    {
+      "id": "updream-U05",
+      "title": "HappyHorse 1.1｜佩奇与乔治画礼物",
+      "status": "待用户确认，静音模型动作试片，尚未采纳",
+      "file": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/U05_HappyHorse1.1_佩奇画礼物_5秒.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "4d401710f27c943378e1c732d76c67473d716eae87d0b97771ceb0ff1c7b0371",
+      "bytes": 1122308,
+      "duration_sec": 5.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "audio_tracks": 0
+    },
+    {
+      "id": "updream-U06",
+      "title": "VIDU Q4 Preview｜佩奇与乔治画礼物",
+      "status": "待用户确认，静音模型动作试片，尚未采纳",
+      "file": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/U06_ViduQ4_佩奇画礼物_5秒.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "624bf54fcd58da9c6977ceb8fc092e01da0efb0ef896200212ffb34cb792826e",
+      "bytes": 842114,
+      "duration_sec": 5.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "audio_tracks": 0
+    },
+    {
+      "id": "updream-U09",
+      "title": "Wan 3.0｜厨房画礼物·长镜头道具连续性",
+      "status": "待用户确认，静音模型动作试片，尚未采纳",
+      "file": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/U09_Wan3.0_画礼物连续性_10秒.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "b64580bf2781bab1889f4b20d7373805436ef878d647e8e9387979e69798345b",
+      "bytes": 1857452,
+      "duration_sec": 10.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "audio_tracks": 0
+    },
+    {
+      "id": "updream-U10",
+      "title": "Kling 3.0｜佩奇一家带礼物出门·四角色与道具",
+      "status": "待用户确认，静音模型动作试片，尚未采纳",
+      "file": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/U10_Kling3.0_佩奇一家出门_10秒.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "aee897bc2d82470c87efeb65a4f1b62245dfff1318643d36c40bfcd085d984a6",
+      "bytes": 3684578,
+      "duration_sec": 10.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "audio_tracks": 0
+    },
+    {
+      "id": "updream-U11",
+      "title": "Wan 3.0｜佩奇与布鲁伊同框·递礼物",
+      "status": "待用户确认，静音模型动作试片，尚未采纳",
+      "file": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/U11_Wan3.0_佩奇布鲁伊递礼物_10秒.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "2593f440776764f95523d41aa5c2057ae201eff6b9b33b877f0252d86f86b2c1",
+      "bytes": 1908797,
+      "duration_sec": 10.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "audio_tracks": 0
+    },
+    {
+      "id": "updream-U12",
+      "title": "Wan 3.0｜布鲁伊家·下车迎接",
+      "status": "待用户确认，静音模型动作试片，尚未采纳",
+      "file": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/U12_Wan3.0_布鲁伊家下车迎接_5秒.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "0466445040b8689a8eb8584edd39cd4da3c210cd0afec297420829e46dcb9439",
+      "bytes": 1285068,
+      "duration_sec": 5.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "audio_tracks": 0
     }
   ],
   "generated_sources": [
@@ -371,6 +484,118 @@
       "height": 768,
       "fps": "24/1",
       "frames": 277
+    },
+    {
+      "id": "updream-U02-native",
+      "title": "Wan 3.0｜佩奇与乔治画礼物",
+      "status": "本轮试片原生源文件，模型音频未用于正式配音",
+      "file": "materials/original/gift/动画源片/Updream_佩奇模型对比_20261014/U02_Wan3.0_佩奇画礼物_5秒_原生.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "172b3a75e1b436815f076e1d160bee4ba9476e981dbcbc9f3b2f0f39c3e896ac",
+      "bytes": 2992594,
+      "duration_sec": 5.038005,
+      "width": 1278,
+      "height": 720,
+      "fps": "30/1",
+      "audio_tracks": 1
+    },
+    {
+      "id": "updream-U03-native",
+      "title": "Kling 3.0｜佩奇与乔治画礼物",
+      "status": "本轮试片原生源文件，模型音频未用于正式配音",
+      "file": "materials/original/gift/动画源片/Updream_佩奇模型对比_20261014/U03_Kling3.0_佩奇画礼物_5秒_原生.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "28ca412182624ff40e5a8f9f3157b8d33279c210f080742e5f86f14528422abf",
+      "bytes": 3013081,
+      "duration_sec": 5.041667,
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "audio_tracks": 0
+    },
+    {
+      "id": "updream-U05-native",
+      "title": "HappyHorse 1.1｜佩奇与乔治画礼物",
+      "status": "本轮试片原生源文件，模型音频未用于正式配音",
+      "file": "materials/original/gift/动画源片/Updream_佩奇模型对比_20261014/U05_HappyHorse1.1_佩奇画礼物_5秒_原生.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "4472cd5c6fe243709e8f10b11a49d7fbe84fc63b371733affc0ef72e6fbccf9a",
+      "bytes": 1296185,
+      "duration_sec": 5.162667,
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "audio_tracks": 1
+    },
+    {
+      "id": "updream-U06-native",
+      "title": "VIDU Q4 Preview｜佩奇与乔治画礼物",
+      "status": "本轮试片原生源文件，模型音频未用于正式配音",
+      "file": "materials/original/gift/动画源片/Updream_佩奇模型对比_20261014/U06_ViduQ4_佩奇画礼物_5秒_原生.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "d707b1ef7ca3783dd182d1156ed67415e55124a01417d43f9f44372568ed7a4d",
+      "bytes": 1161459,
+      "duration_sec": 5.041667,
+      "width": 1278,
+      "height": 720,
+      "fps": "24/1",
+      "audio_tracks": 0
+    },
+    {
+      "id": "updream-U09-native",
+      "title": "Wan 3.0｜厨房画礼物·长镜头道具连续性",
+      "status": "本轮试片原生源文件，模型音频未用于正式配音",
+      "file": "materials/original/gift/动画源片/Updream_佩奇模型对比_20261014/U09_Wan3.0_画礼物连续性_10秒_原生.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "86652520b833cfa479158de67f232e59e753a4057e9d0b53e3d068a2712f9e9f",
+      "bytes": 6089406,
+      "duration_sec": 10.030998,
+      "width": 1278,
+      "height": 720,
+      "fps": "30/1",
+      "audio_tracks": 1
+    },
+    {
+      "id": "updream-U10-native",
+      "title": "Kling 3.0｜佩奇一家带礼物出门·四角色与道具",
+      "status": "本轮试片原生源文件，模型音频未用于正式配音",
+      "file": "materials/original/gift/动画源片/Updream_佩奇模型对比_20261014/U10_Kling3.0_佩奇一家出门_10秒_原生.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "53e5812d340cbdf046475cf8c97488ddfdd294e33c9f1b20e90c090800ad35bd",
+      "bytes": 7726702,
+      "duration_sec": 10.041667,
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "audio_tracks": 0
+    },
+    {
+      "id": "updream-U11-native",
+      "title": "Wan 3.0｜佩奇与布鲁伊同框·递礼物",
+      "status": "本轮试片原生源文件，模型音频未用于正式配音",
+      "file": "materials/original/gift/动画源片/Updream_佩奇模型对比_20261014/U11_Wan3.0_佩奇布鲁伊递礼物_10秒_原生.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "797cb1ea83375c6be03832d729548982c8c0e439db53324a74b2c541b0ae3d1e",
+      "bytes": 6141095,
+      "duration_sec": 10.0,
+      "width": 1278,
+      "height": 720,
+      "fps": "30/1",
+      "audio_tracks": 0
+    },
+    {
+      "id": "updream-U12-native",
+      "title": "Wan 3.0｜布鲁伊家·下车迎接",
+      "status": "本轮试片原生源文件，模型音频未用于正式配音",
+      "file": "materials/original/gift/动画源片/Updream_佩奇模型对比_20261014/U12_Wan3.0_布鲁伊家下车迎接_5秒_原生.mp4",
+      "recipe": "materials/final/gift/待确认成片/Updream_佩奇模型对比_20261014/测试清单.json",
+      "sha256": "72980a5db738e7cfe0c6c5832ff74b9d78f76f19c77d9e90872e7b8ce06c6df0",
+      "bytes": 3764482,
+      "duration_sec": 5.0,
+      "width": 1278,
+      "height": 720,
+      "fps": "30/1",
+      "audio_tracks": 0
     }
   ]
 }
