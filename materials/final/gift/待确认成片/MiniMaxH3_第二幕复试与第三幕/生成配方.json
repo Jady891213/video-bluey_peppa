@@ -822,6 +822,79 @@
           }
         ]
       }
+    },
+    {
+      "schema_version": 1,
+      "story": "准备礼物",
+      "act": 2,
+      "model": "MiniMax-Hailuo-02",
+      "duration_sec": 6,
+      "resolution": "768P",
+      "input_mode": "first_frame",
+      "first_frame": "materials/original/gift/illustrations/GIFT-ILL-021.png",
+      "first_frame_sha256": "695553451a02381ad4c7023e033cc0701d16fd16702d955eab88e9c2c0574c81",
+      "prompt": "《准备礼物》第二幕，小猪佩奇 Peppa Pig 和弟弟乔治 George 在自家厨房桌边画一份送朋友的礼物。严格保持首帧的二维平涂动画人物、侧脸比例、红衣佩奇、蓝衣乔治和乔治耳旁的灰色助听器，保持黄色桌子、蓝色椅子、厨房布局、蜡笔和纸张的位置与大小连续。6秒自然活泼的家庭日常：开头两人兴奋的笑容自然收为闭嘴微笑；佩奇低头，用手里同一支蓝色蜡笔在白纸上画一小段蓝线；乔治看着姐姐，身体轻轻前倾，拿起桌面右下方的绿色蜡笔；最后佩奇侧头看乔治，两人开心交换眼神。只有轻微自然的镜头靠近，不换镜、不跳位、不突然出现完整画作。人物真实眨眼、转头、手腕和手臂运动，有儿童的轻快感，避免僵硬滑行。每人两只手、一条卷尾巴，物品不增殖、不变形。两人没有对白，不做说话口型；后期由画外旁白讲述。不要字幕、文字或额外人物。",
+      "prompt_optimizer": false,
+      "billing": "仅使用现有CN MPlan Subscription Key；未切换按量Key或第三方平台",
+      "quota_before": {
+        "checked_at": "2026-10-13T07:25:27.519614+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791894288107,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "lines": [
+        {
+          "id": "GIFT-L027",
+          "speaker": "旁白",
+          "text": "原来，佩奇也在准备一个小惊喜。",
+          "source": "materials/final/gift/voices/GIFT-L027.wav",
+          "start_sec": 0.3
+        }
+      ],
+      "status": "blocked_by_input_review",
+      "submission_started_at": "2026-10-13T07:25:27.519777+00:00",
+      "submission_response": {
+        "task_id": "451884672368915",
+        "base_resp": {
+          "status_code": 0,
+          "status_msg": "success"
+        }
+      },
+      "task_id": "451884672368915",
+      "submission_completed_at": "2026-10-13T07:25:28.053311+00:00",
+      "backend": {
+        "task_id": "451884672368915",
+        "status": "Fail",
+        "file_id": "",
+        "base_resp": {
+          "status_code": 1026,
+          "status_msg": "input new_sensitive, input text sensitive"
+        },
+        "video_width": 0,
+        "video_height": 0
+      },
+      "last_checked_at": "2026-10-13T07:27:08.789056+00:00",
+      "quota_after": {
+        "checked_at": "2026-10-13T07:27:09.177578+00:00",
+        "windows": [
+          {
+            "model_name": "general",
+            "current_interval_remaining_percent": 99,
+            "current_weekly_remaining_percent": 66,
+            "end_time": 1791894288107,
+            "weekly_end_time": 1792433106270
+          }
+        ]
+      },
+      "result_note": "已接受订阅Key提交，随后输入内容审核阻断；无视频文件，未重试或切换付费来源。",
+      "id": "P3-Hailuo02",
+      "title": "佩奇与乔治画礼物六秒旧模型试片"
     }
   ],
   "quota_summary": {
