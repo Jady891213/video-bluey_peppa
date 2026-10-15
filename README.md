@@ -67,6 +67,8 @@ GitHub 是可迁移源码与素材的主库。Sites 官方源码流程目前不�
 
 ## 后续制作素材入口
 
+[SVG＋Remotion 10秒动作小样](materials/final/gift/待确认成片/SVG_Remotion_佩奇画画_20261015/准备礼物_SVG动画小样_播放.html)演示佩奇画画、乔治拿起同一支绿笔、基础口型与眼神互动，使用现有两句完整原速对白。角色、场景及纸上笔迹均为矢量代码，[源码和重建说明](animations/gift-svg/README.md)独立保存；目前待确认，未加入正式剪辑。
+
 先读 [动画素材清单](materials/final/gift/动画素材清单.json)，它分别列出已采纳、待确认、备用及当前剪辑源片的文件、SHA和时长。MiniMax 官方CLI已安装（mmx 1.0.28），认证、额度查询与H3实际生成均已验证；不能把 OiiOii 任务ID当作 MiniMax 任务。
 
 ```text

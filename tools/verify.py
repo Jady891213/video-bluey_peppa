@@ -35,7 +35,7 @@ def inventory(directory, excluded=()):
     errors = []
     for path in sorted(directory.rglob("*")):
         relative = path.relative_to(directory)
-        if ".git" in relative.parts or path in excluded:
+        if ".git" in relative.parts or "node_modules" in relative.parts or path in excluded:
             continue
         if any("TMP to delete" in part for part in relative.parts):
             errors.append(f"残留临时产物：{relative.as_posix()}")

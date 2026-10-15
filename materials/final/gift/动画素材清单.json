@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "story": "准备礼物",
-  "current_direction": "已采纳A/B及104秒H3第一幕候选保留；Updream已返回8条55秒静音试片，含佩奇及与布鲁伊同框，均待用户确认。MiniMax佩奇/第三幕审核失败记录仍保留，正式第二幕配音口型尚未制作。",
+  "current_direction": "已采纳A/B及104秒H3第一幕候选保留；Updream已返回8条55秒静音试片，含佩奇及与布鲁伊同框，均待用户确认。MiniMax佩奇/第三幕审核失败记录仍保留，正式第二幕配音口型尚未制作。；另有SVG＋Remotion独立10秒画画/拿笔候选，使用完整原配音，待确认造型与动作。",
   "accepted_duration_sec": 41.4,
   "accepted": [
     {
@@ -398,6 +398,27 @@
       "height": 720,
       "fps": "30/1",
       "audio_tracks": 0
+    },
+    {
+      "id": "svg-remotion-peppa-drawing-10s",
+      "title": "准备礼物｜佩奇画画与乔治拿笔 SVG动作小样",
+      "status": "待用户确认，独立10秒代码动画小样，未采纳",
+      "recipe": "materials/final/gift/待确认成片/SVG_Remotion_佩奇画画_20261015/制作配方.json",
+      "source_directory": "animations/gift-svg",
+      "review_page": "materials/final/gift/待确认成片/SVG_Remotion_佩奇画画_20261015/准备礼物_SVG动画小样_播放.html",
+      "vector_frame": "materials/final/gift/待确认成片/SVG_Remotion_佩奇画画_20261015/佩奇与乔治_分层矢量预览.svg",
+      "file": "materials/final/gift/待确认成片/SVG_Remotion_佩奇画画_20261015/准备礼物_佩奇画画与乔治拿笔_SVG小样_10秒.mp4",
+      "sha256": "3b4a9dde69a495d34b3923ba22f4d19f6cac22e6673f8d41f076e4440ffc6d20",
+      "bytes": 838280,
+      "duration_sec": 10.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "video_frames": 300,
+      "codec": "h264",
+      "audio_codec": "aac",
+      "audio_hz": 48000,
+      "audio_channels": 2
     }
   ],
   "generated_sources": [

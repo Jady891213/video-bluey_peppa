@@ -1,0 +1,125 @@
+{
+  "story": "准备礼物",
+  "technique": "SVG + Remotion",
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "duration_sec": 10,
+  "frames": 300,
+  "status": "待用户确认，独立动作试片，未加入已采纳或网站",
+  "camera": "固定镜位，分层SVG，头/眼/口/手臂/蜡笔独立驱动",
+  "source_directory": "animations/gift-svg",
+  "lines": [
+    {
+      "line_id": "GIFT-L028",
+      "speaker": "佩奇",
+      "text": "我要画我们四个，一起踢足球！",
+      "source": "materials/final/gift/voices/GIFT-L028.wav",
+      "source_sha256": "35d6c57bbb59f1a29c81f889140e57dc1347efff9e709a35aed5545a631952a2",
+      "start_frame": 20,
+      "start_sec": 0.6666666666666666,
+      "source_duration_sec": 3.4249433106575964,
+      "gain_db": 9.7156,
+      "playback_rate": 1,
+      "trimmed": false
+    },
+    {
+      "line_id": "GIFT-L029",
+      "speaker": "乔治",
+      "text": "我也来画，我要绿色的！",
+      "source": "materials/final/gift/voices/GIFT-L029.wav",
+      "source_sha256": "6b0c33215485ad142e8af8cbeb212f6e9e342413beddc825250d9a4b852ba0a6",
+      "start_frame": 135,
+      "start_sec": 4.5,
+      "source_duration_sec": 3.5294331065759637,
+      "gain_db": 8.1957,
+      "playback_rate": 1,
+      "trimmed": false
+    }
+  ],
+  "music": {
+    "source": "materials/original/gift/music/peppa-lullaby-instrumental-selected.wav",
+    "gain_db": -30,
+    "source_sha256": "f1304bdf8ca90bbb84c97b22bd790520a0f204608f293ccb14f564d774a92a94",
+    "fade_in_sec": 0.5,
+    "fade_out_sec": 0.6
+  },
+  "mouth_method": "同角色完整音轨的短窗RMS控制开合；只在说话时段启用，不声称逐音素精确口型",
+  "actions": [
+    {
+      "time": [
+        1.18,
+        4.55
+      ],
+      "action": "佩奇的蓝色蜡笔沿笔迹路径分段画画，换笔画时抬笔"
+    },
+    {
+      "time": [
+        4.7,
+        5.6
+      ],
+      "action": "乔治手掌伸向桌上的唯一绿色蜡笔"
+    },
+    {
+      "time": [
+        5.6,
+        6.45
+      ],
+      "action": "同一绿色蜡笔从桌面抬起并始终跟随手掌"
+    },
+    {
+      "time": [
+        8.2,
+        9.5
+      ],
+      "action": "佩奇补足球轮廓，乔治在纸右侧添绿色恐龙"
+    },
+    {
+      "time": [
+        9.5,
+        10
+      ],
+      "action": "抬笔、侧目与收尾微笑"
+    }
+  ],
+  "mix": {
+    "frames": 480000,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -4.189
+  },
+  "output": {
+    "file": "materials/final/gift/待确认成片/SVG_Remotion_佩奇画画_20261015/准备礼物_佩奇画画与乔治拿笔_SVG小样_10秒.mp4",
+    "sha256": "3b4a9dde69a495d34b3923ba22f4d19f6cac22e6673f8d41f076e4440ffc6d20",
+    "bytes": 838280,
+    "duration_sec": 10.0,
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "video_frames": 300,
+    "codec": "h264",
+    "audio_codec": "aac",
+    "audio_hz": 48000,
+    "audio_channels": 2
+  },
+  "validation": {
+    "full_decode": "passed",
+    "continuous_frame_pts": "passed",
+    "original_voice_sha256": "passed",
+    "complete_voice_waveform_correlation": {
+      "GIFT-L028": 0.995859,
+      "GIFT-L029": 0.996228
+    },
+    "checked_keyframes": [
+      0,
+      45,
+      90,
+      150,
+      177,
+      206,
+      255,
+      285
+    ],
+    "listening_review": "待用户听审"
+  }
+}
